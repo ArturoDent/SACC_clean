@@ -1,0 +1,19 @@
+{
+  "name": "sacc_clean",
+  "version": "0.0.1",
+  "description": "clean SACC html",
+  "license": "MIT",
+  "author": "ArturoDent",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "jsdom": "^28.1.0"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^28.0.3",
+    "prettier": "^3.8.3"
+  }
+}

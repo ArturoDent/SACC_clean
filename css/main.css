@@ -1,0 +1,119 @@
+body {
+  padding: 0 30px;
+  font-size: 14px;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.banner {
+  text-align: center;
+  color: #990000;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-bottom: 2em;
+}
+
+.banner-title { font-size: 24pt; }
+.banner-subtitle { font-size: 22pt; margin-top: 1em; }
+.banner-meta { margin-top: 1.5em; }
+.banner-logo { margin-top: 1em; }
+
+.saccFooter { margin-top: 1.5em; border-collapse: collapse; }
+.saccFooter td { padding: 2px 0; }
+.saccFooter-nextPart { font-size: 18pt; }
+.saccFooter-date { font-size: 14pt; }
+.saccFooter-counter { font-size: 10pt; text-align: center; }
+.saccFooter-counter img { display: block; margin: 0 auto; }
+.saccFooter-link { font-family: Helvetica, Arial, sans-serif; font-size: 9pt; }
+
+/* just the first immediate child <ul> of #orderPhylogeny */
+#orderPhylogeny>ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* any <ul> at any nested depth */
+#orderPhylogeny ul { list-style: none; }
+
+/* "PALEOGNATHAE", "NEOGNATHAE" */
+.subclass { color: #B2A1C7; }
+
+/* "GALLOANSERES", "NEOAVES" */
+.infraclass { color: #92CDDC; }
+
+.order { color: red;}
+.order span { font-size: 14px; color: black; }
+
+.family { color: blue;}
+.family+.family { margin-top: 1em; }
+.family>span { color: black; }
+/* all species in each family */
+.family>ul { color: black; }
+
+.subfamily { color: #C609FF; }
+.subfamily+.subfamily { margin-top: 1em; }
+.subfamily>ul { color: black; }
+
+.commonName { color: #009900; }
+.commonName.introduced { color: #999999; }
+
+.familySpeciesList .subclass,
+.familySpeciesList .infraclass,
+.familySpeciesList .order
+  {
+    font-size: 18px;
+  }
+
+/* ------------------------------ */
+
+/* reset list defaults inside familySpeciesList */
+.familySpeciesList ul
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* top-level UL (no extra left offset) */
+.familySpeciesList>ul
+{
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* level-N mapping for top-level taxonomy rows */
+.familySpeciesList { --indent-step: 1rem; }
+
+.familySpeciesList>ul>li.level-0 { padding-left: calc(0 * var(--indent-step)); }
+.familySpeciesList>ul>li.level-1 { padding-left: calc(1 * var(--indent-step)); }
+.familySpeciesList>ul>li.level-2 { padding-left: calc(2 * var(--indent-step)); }
+.familySpeciesList>ul>li.level-3 {  padding-left: calc(3 * var(--indent-step)); }
+.familySpeciesList>ul>li.level-4 { padding-left: calc(4 * var(--indent-step)); } 
+
+/* species block under a family: indent once relative to the family header */
+.familySpeciesList>ul>li.family>ul
+{
+  margin-left: calc(1 * var(--indent-step));
+  /* this shifts the whole species/subfamily block */
+  padding-left: 0;
+}
+
+/* subfamily is nested inside that UL; do NOT add extra padding on both subfamily and its UL.
+   Instead, give subfamily a nested-level class (added by JS) to shift it one step deeper than family. */
+.familySpeciesList li.subfamily { padding-left: 0; }
+
+/* nested-level classes applied to subfamily (JS sets nested-level-4 etc.) */
+.familySpeciesList li.subfamily.nested-level-4 { padding-left: calc(1 * var(--indent-step)); }
+.familySpeciesList li.subfamily.nested-level-5 { padding-left: calc(2 * var(--indent-step)); }
+
+/* species inside subfamily: do not add extra padding; they sit inside the family > ul block
+   If you want species indented further under subfamily, indent the subfamily's UL instead: */
+.familySpeciesList li.subfamily>ul
+{
+  margin-left: calc(1 * var(--indent-step));
+  padding-left: 0;
+}
+.familySpeciesList li.subfamily>ul>li { padding-left: 0; }
+
+/* species directly under family (no subfamily) */
+.familySpeciesList>ul>li.family>ul>li { padding-left: 0; }
