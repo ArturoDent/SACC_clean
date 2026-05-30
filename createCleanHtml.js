@@ -8,11 +8,11 @@ const { JSDOM } = jsdom;
 
 // TODO: make this its own module
 const ensureStylesheet = (document) => {
-  if (document.querySelector('link[rel="stylesheet"][href="../css/main.css"]')) return;
+  if (document.querySelector('link[rel="stylesheet"][href="../css/styles.css"]')) return;
 
   const stylesheet = document.createElement("link");
   stylesheet.setAttribute("rel", "stylesheet");
-  stylesheet.setAttribute("href", "../css/main.css");
+  stylesheet.setAttribute("href", "../css/styles.css");
   document.head.appendChild(stylesheet);
 };
 
@@ -34,11 +34,7 @@ export const createCleanHtml = async ({ sourceFile, outputFile, cleanupSteps }) 
 
   const results = [];
 
-  ensureStylesheet(document);
-
-  // for (const cleanupStep of cleanupSteps) {
-  //   results.push(cleanupStep(document));
-  // }
+  // ensureStylesheet(document);
 
   for (const cleanupStep of cleanupSteps) {
     try {

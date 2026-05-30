@@ -7,7 +7,9 @@ import { convertOrderPhylogeny } from "../orderPhylogeny.js";
 import { convertSaccFooter } from "../saccFooter.js";
 import { convertSaccPageLinks } from "../saccPageLinks.js";
 import {
-  removeHeadStyles,
+  replaceHtmlElement,
+  // removeHeadStyle,
+  replaceHeadElement,
   replaceSpacerElements,
   simplifyBanner,
   simplifyLineSeparators,
@@ -15,28 +17,20 @@ import {
   stripWordFormatting,
   stripComments,
   stripSpans,
-  // stripEmptyLines
-  trimParagraphTextNodes,
-  // collapseBlankLinesToString
-  // collapseBlankLinesFromDocumentToString
-  // collapseBlankParagraphsFromDocument
-  // removeWhitespaceBetweenBlocks
+  trimParagraphTextNodes,       // removes empty lines and lines with whitespace only
 } from "../wordCleanup.js";
 
 const sourceFile = process.argv[2] ?? "dirty/dirty1.html";
 const outputFile = process.argv[3] ?? "clean/dirty1_clean.html";
 
 const cleanupSteps = [
-  // fix the <html> attributes
   stripComments,
-  removeHeadStyles,  // remove <meta> and <link> from the <head> that we don't need - just create a new head
+  // removeHeadStyle,  // remove <meta> and <link> from the <head> that we don't need - just create a new head
+  replaceHtmlElement,
+  replaceHeadElement,
   simplifyPageWrapper,
   simplifyBanner,
   simplifyLineSeparators,
-  // convertOrderPhylogeny,
-  // convertFamilySpeciesLists,
-  // convertSaccPageLinks,
-  // convertSaccFooter,
   stripWordFormatting,
   replaceSpacerElements,
   // remove <span> elements, replace with its textContent but not in familySpeciesList

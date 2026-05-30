@@ -129,7 +129,7 @@ export const stripComments = (document) => {
   };
 };
 
-export const removeHeadStyles = (document) => {
+export const removeHeadStyle = (document) => {
   const styles = [...document.head.querySelectorAll("style")];
 
   for (const style of styles) {
@@ -141,6 +141,49 @@ export const removeHeadStyles = (document) => {
     removals: styles.length,
   };
 };
+
+export const replaceHtmlElement = (document) => {
+  const oldHtml = document.documentElement;
+
+  // Create a brand‑new <html> element
+  const newHtml = document.createElement("html");
+
+  // Add whatever attributes you want
+  newHtml.setAttribute("lang", "en");
+
+  // Move <head> and <body> into the new <html>
+  // (These nodes are automatically removed from the old <html>)
+  newHtml.appendChild(document.head);
+  newHtml.appendChild(document.body);
+
+  // Replace the old <html> with the new one
+  oldHtml.parentNode.replaceChild(newHtml, oldHtml);
+
+  return {
+    message: "Replaced <html> element with a modern version.",
+  };
+};
+
+
+export const replaceHeadElement = (document) => {
+  const newHead = document.createElement("head");
+
+  newHead.innerHTML = `
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>South American Classification Committee</title>
+  `;
+
+  // Replace the old <head> with the new one
+  document.documentElement.replaceChild(newHead, document.head);
+
+  return {
+    message: "Replaced entire <head> element.",
+    removals: 1
+  };
+};
+
 
 export const simplifyPageWrapper = (document) => {
   const wrappers = [...document.querySelectorAll("div.WordSection1")];
