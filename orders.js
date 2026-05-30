@@ -32,5 +32,8 @@ export const taxonomyNames = {
   family: new Set(families),
 };
 
+export const subclassNames = sortByLengthDesc(taxonomyNames.subclass);
+export const infraclassNames = sortByLengthDesc(taxonomyNames.infraclass);
+
 export const orderNames = sortByLengthDesc(taxonomyNames.order);
 export const familyNames = sortByLengthDesc(taxonomyNames.family);

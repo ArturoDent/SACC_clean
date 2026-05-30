@@ -35,6 +35,13 @@ body {
 /* any <ul> at any nested depth */
 #orderPhylogeny ul { list-style: none; }
 
+/* level-N mapping for top-level taxonomy rows */
+#orderPhylogeny { --indent-step: 2rem; }
+
+#orderPhylogeny>ul>li.level-0 { padding-left: calc(0 * var(--indent-step)); }
+#orderPhylogeny>ul>li.level-1 { padding-left: calc(1 * var(--indent-step)); }
+#orderPhylogeny>ul>li.level-2 { padding-left: calc(2 * var(--indent-step)); }
+
 /* "PALEOGNATHAE", "NEOGNATHAE" */
 .subclass { color: #B2A1C7; }
 
@@ -87,8 +94,8 @@ body {
 .familySpeciesList>ul>li.level-0 { padding-left: calc(0 * var(--indent-step)); }
 .familySpeciesList>ul>li.level-1 { padding-left: calc(1 * var(--indent-step)); }
 .familySpeciesList>ul>li.level-2 { padding-left: calc(2 * var(--indent-step)); }
-.familySpeciesList>ul>li.level-3 {  padding-left: calc(3 * var(--indent-step)); }
-.familySpeciesList>ul>li.level-4 { padding-left: calc(4 * var(--indent-step)); } 
+.familySpeciesList>ul>li.level-3 { padding-left: calc(3 * var(--indent-step)); }
+.familySpeciesList>ul>li.level-4 { padding-left: calc(4 * var(--indent-step)); }
 
 /* species block under a family: indent once relative to the family header */
 .familySpeciesList>ul>li.family>ul

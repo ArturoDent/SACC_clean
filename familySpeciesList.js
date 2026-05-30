@@ -1,4 +1,4 @@
-import { familyNames, orderNames, taxonomyNames } from "./orders.js";
+import { subclassNames, infraclassNames, familyNames, orderNames, taxonomyNames } from "./orders.js";
 
 const normalizeText = (value) =>
   value
@@ -91,8 +91,16 @@ export const parseTaxonomyRow = (element) => {
   if (!text) return { type: "blank", original: element.outerHTML };
   if (/^_+$/.test(text)) return null;
 
-  if (taxonomyNames.subclass.has(text)) return { type: "subclass", label: text };
-  if (taxonomyNames.infraclass.has(text)) return { type: "infraclass", label: text };
+  // if (taxonomyNames.subclass.has(text)) return { type: "subclass", label: text };
+  // if (taxonomyNames.infraclass.has(text)) return { type: "infraclass", label: text };
+
+  // because subclass, infraclass, order and family might have endnote numbers
+  // which taxonomyNames.subclass.has(text) would not match (startsWith?)
+  const subclass = findPrefixedName(text, subclassNames);
+  if (subclass) return { type: "subclass", label: subclass.name, note: subclass.rest };
+
+  const infraclass = findPrefixedName(text, infraclassNames);
+  if (infraclass) return { type: "infraclass", label: infraclass.name, note: infraclass.rest };
 
   const order = findPrefixedName(text, orderNames);
   if (order) return { type: "order", label: order.name, note: order.rest };

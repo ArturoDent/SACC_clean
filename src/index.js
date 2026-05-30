@@ -33,21 +33,20 @@ const cleanupSteps = [
   simplifyPageWrapper,
   simplifyBanner,
   simplifyLineSeparators,
-  convertOrderPhylogeny,
-  convertFamilySpeciesLists,
-  convertSaccPageLinks,
-  convertSaccFooter,
+  // convertOrderPhylogeny,
+  // convertFamilySpeciesLists,
+  // convertSaccPageLinks,
+  // convertSaccFooter,
   stripWordFormatting,
   replaceSpacerElements,
   // remove <span> elements, replace with its textContent but not in familySpeciesList
   stripSpans,
   // remove empty lines and <br> elements?
-  // stripEmptyLines
   trimParagraphTextNodes,
-  // collapseBlankLinesToString
-  // collapseBlankLinesFromDocumentToString
-  // collapseBlankParagraphsFromDocument
-  // removeWhitespaceBetweenBlocks
+  convertOrderPhylogeny,
+  convertFamilySpeciesLists,
+  convertSaccPageLinks,
+  convertSaccFooter,
 ];
 
 const { results } = await createCleanHtml({
