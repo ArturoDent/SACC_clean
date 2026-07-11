@@ -1,0 +1,19 @@
+# Known intentional differences between dirty/baseline and clean/baseline for this part.
+# Format for text mismatches: uncomment only the first line (the Original) to suppress.
+# Format for color mismatches: uncomment only the first line to suppress.
+# Lines starting with # are comments. Blank lines are ignored.
+
+"Gray" color mismatch: dirty=rgb(0, 128, 0)  clean=rgb(0, 153, 0), rgb(0, 0, 255), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0)
+# dirty L12506  clean L152
+
+"Green" color mismatch: dirty=rgb(0, 128, 0)  clean=rgb(0, 153, 0), rgb(153, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0)
+# dirty L12263  clean L97
+
+# "Gray" color mismatch: dirty=rgb(0, 128, 0)  clean=rgb(0, 153, 0), rgb(0, 0, 255), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0)
+# dirty L12506  clean L152
+
+# "Green" color mismatch: dirty=rgb(0, 128, 0)  clean=rgb(0, 153, 0), rgb(153, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0)
+# dirty L12263  clean L97
+
+# "Suborder PASSERES (OSCINES) (concluded)" should appear with non-black color in clean
+# dirty L?  clean L56

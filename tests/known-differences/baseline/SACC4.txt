@@ -1,0 +1,32 @@
+# Known intentional differences between dirty/baseline and clean/baseline for this part.
+# Format for text mismatches: uncomment only the first line (the Original) to suppress.
+# Format for color mismatches: uncomment only the first line to suppress.
+# Lines starting with # are comments. Blank lines are ignored.
+
+"2." should appear with non-black color in clean
+# dirty L?  clean L?
+
+"American Avocet" color mismatch: dirty=rgb(149, 179, 215)  clean=rgb(146, 205, 220)
+# dirty L14173  clean L765
+
+"formerly" should appear with non-black color in clean
+# dirty L14246  clean L796
+
+"Forster's Tern" color mismatch: dirty=rgb(149, 179, 215)  clean=rgb(146, 205, 220)
+# dirty L16304  clean L1503
+
+"Great Skua" color mismatch: dirty=rgb(0, 153, 153)  clean=rgb(146, 205, 220)
+# dirty L15799  clean L1356
+
+"SPHENISCIDAE (PENGUINS) 1" should appear with non-black color in clean
+# dirty L17394  clean L1905
+
+"Whiskered Tern" color mismatch: dirty=rgb(149, 179, 215)  clean=rgb(146, 205, 220)
+# dirty L16257  clean L1495
+
+"White-winged Tern" color mismatch: dirty=rgb(149, 179, 215)  clean=rgb(146, 205, 220)
+# dirty L16271  clean L1497
+
+Eudyptes moseleyi Tristan Penguin 8, 8a (V)
+# Eudyptes moseleyi Tristan Penguin (V) 8, 8a
+# Rendered line 520  dirty L?  clean L1918

@@ -1,0 +1,57 @@
+# Known intentional differences between dirty/baseline and clean/baseline for this part.
+# Format for text mismatches: uncomment only the first line (the Original) to suppress.
+## [Original] 101a. Genetic data (Chesser 2000) strongly support the monophyly of a core group of Muscisaxicola species, but support for inclusion of the two small species (M. maculirostris and M. fluviatilis) is weak; see also Muscigralla (Note 121c). Fjeldså et al. (2018), however, found support for inclusion of M. maculirostris and M. fluviatilis within Muscisaxicola. Within the core group, Chesser (2000) found support for two monophyletic groups: (1) M. griseus, M. juninensis, M. cinereus, M. albifrons, M. flavinucha, and M. rufivertex , and (2) M. maclovianus, M. albilora, M. alpinus, M. capistratus, and M. frontalis; this finding is consistent with traditional linear sequences. Chesser et al. (2020) found that fluviatilis was more closely related to Satrapa than to Muscisaxicola and named a new genus for it, Syrtidicola. SACC proposal passed to recognize Syrtidicola for fluviatilis. SACC proposal needed on English name.
+## [Cleaned] 101a. Genetic data (Chesser 2000) strongly support the monophyly of a core group of Muscisaxicola species, but support for inclusion of the two small species (M. maculirostris and M. fluviatilis) is weak; see also Muscigralla (Note 121c). Fjeldså et al. (2018), however, found support for inclusion of M. maculirostris and M. fluviatilis within Muscisaxicola. Within the core group, Chesser (2000) found support for two monophyletic groups: (1) M. griseus, M. juninensis, M. cinereus, M. albifrons, M. flavinucha, and M. rufivertex, and (2) M. maclovianus, M. albilora, M. alpinus, M. capistratus, and M. frontalis; this finding is consistent with traditional linear sequences. Chesser et al. (2020) found that fluviatilis was more closely related to Satrapa than to Muscisaxicola and named a new genus for it, Syrtidicola. SACC proposal passed to recognize Syrtidicola for fluviatilis. SACC proposal needed on English name.
+## Rendered line 967  dirty L20242  clean L2764
+# Format for color mismatches: uncomment only the first line to suppress.
+# Lines starting with # are comments. Blank lines are ignored.
+
+"Incertae sedis" color mismatch: dirty=rgb(255, 0, 255)  clean=rgb(198, 9, 255)
+# dirty L16938  clean L1490
+
+"Neopelminae" color mismatch: dirty=rgb(255, 0, 255)  clean=rgb(198, 9, 255)
+# dirty L12102  clean L65
+
+"Northern Bentbill" color mismatch: dirty=rgb(0, 153, 153)  clean=rgb(146, 205, 220)
+# dirty L15292  clean L1124
+
+"pending on species limits" color mismatch: dirty=rgb(252, 0, 242)  clean=rgb(255, 0, 255)
+# dirty L19451  clean L2459
+
+"pending to modify English names of “tody-tyrants” and “pygmy" color mismatch: dirty=rgb(255, 22, 255)  clean=rgb(255, 0, 255)
+# dirty L18978  clean L2272
+
+"pending" color mismatch: dirty=rgb(250, 15, 255)  clean=rgb(255, 0, 255)
+# dirty L17956  clean L1886
+
+"Piprinae" color mismatch: dirty=rgb(255, 0, 255)  clean=rgb(198, 9, 255)
+# dirty L12145  clean L78
+
+"Pipritinae" color mismatch: dirty=rgb(255, 0, 255)  clean=rgb(198, 9, 255)
+# dirty L14939  clean L1037
+
+"Platyrinchinae" color mismatch: dirty=rgb(255, 0, 255)  clean=rgb(198, 9, 255)
+# dirty L14957  clean L1043
+
+"SACC" color mismatch: dirty=rgb(250, 15, 255)  clean=rgb(0, 0, 255), rgb(255, 0, 255)
+# dirty L17006  clean L1520
+
+"SACC" color mismatch: dirty=rgb(252, 0, 242)  clean=rgb(0, 0, 255), rgb(255, 0, 255)
+# dirty L19119  clean L2272
+
+"SACC" color mismatch: dirty=rgb(255, 22, 255)  clean=rgb(0, 0, 255), rgb(255, 0, 255)
+# dirty L18013  clean L1886
+
+"Tyranninae" color mismatch: dirty=rgb(255, 0, 255)  clean=rgb(198, 9, 255)
+# dirty L15005  clean L1056
+
+"V?" color mismatch: dirty=rgb(0, 153, 153)  clean=rgb(146, 205, 220)
+# dirty L?  clean L?
+
+101a. Genetic data (Chesser 2000) strongly support the monophyly of a core group of Muscisaxicola species, but support for inclusion of the two small species (M. maculirostris and M. fluviatilis) is weak; see also Muscigralla (Note 121c). Fjeldså et al. (2018), however, found support for inclusion of M. maculirostris and M. fluviatilis within Muscisaxicola. Within the core group, Chesser (2000) found support for two monophyletic groups: (1) M. griseus, M. juninensis, M. cinereus, M. albifrons, M. flavinucha, and M. rufivertex , and (2) M. maclovianus, M. albilora, M. alpinus, M. capistratus, and M. frontalis; this finding is consistent with traditional linear sequences. Chesser et al. (2020) found that fluviatilis was more closely related to Satrapa than to Muscisaxicola and named a new genus for it, Syrtidicola. SACC proposal passed to recognize Syrtidicola for fluviatilis. SACC proposal needed on English name.
+# 101a. Genetic data (Chesser 2000) strongly support the monophyly of a core group of Muscisaxicola species, but support for inclusion of the two small species (M. maculirostris and M. fluviatilis) is weak; see also Muscigralla (Note 121c). Fjeldså et al. (2018), however, found support for inclusion of M. maculirostris and M. fluviatilis within Muscisaxicola. Within the core group, Chesser (2000) found support for two monophyletic groups: (1) M. griseus, M. juninensis, M. cinereus, M. albifrons, M. flavinucha, and M. rufivertex, and (2) M. maclovianus, M. albilora, M. alpinus, M. capistratus, and M. frontalis; this finding is consistent with traditional linear sequences. Chesser et al. (2020) found that fluviatilis was more closely related to Satrapa than to Muscisaxicola and named a new genus for it, Syrtidicola. SACC proposal passed to recognize Syrtidicola for fluviatilis. SACC proposal needed on English name.
+# Rendered line 967  dirty L20242  clean L2764
+
+3. The species virescens (with urichi), reiseri , and sclateri, were formerly (e.g., Cory & Hellmayr 1927, Zimmer 1941b, Pinto 1944, Phelps & Phelps 1950a, Meyer de Schauensee 1970) placed in the genus Xanthomyias, but this was merged into Phyllomyias by Traylor (1977, 1979a).
+# 3. The species virescens (with urichi), reiseri, and sclateri, were formerly (e.g., Cory & Hellmayr 1927, Zimmer 1941b, Pinto 1944, Phelps & Phelps 1950a, Meyer de Schauensee 1970) placed in the genus Xanthomyias, but this was merged into Phyllomyias by Traylor (1977, 1979a).
+# Rendered line 710  dirty L17088  clean L1557

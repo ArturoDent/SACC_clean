@@ -1,0 +1,70 @@
+1.  <title> for proposals?
+2.  background colors for proposals and baselines, etc. to match?
+
+2a. Part 5: CARIAMIFORMES separated from CARIAMIDAE (SERIEMAS) 1 ?
+
+3.  .htm -> .html
+Why .htm Exists: The .htm extension is a relic from the early days of personal computing. 
+Older operating systems like MS-DOS and Windows 3.x used a restricted "8.3" file naming convention. 
+This limited file extensions to a maximum of three characters, forcing the original .html format 
+to drop its last letter. UNIX-based systems did not have this limitation and kept the full acronym.
+
+4. pt -> px or rem
+Use pt only for print: A point is an absolute physical unit equal 
+to 1\72 of an inch. It is meant for physical documents, books, 
+or W3C print stylesheets. If used on a screen, it scales unpredictably 
+across different devices and high-density monitors.
+
+Instead, modern web standards dictate using rem for typography:
+rem is relative to the root font size: By default, most browsers set the 
+root text size to 16px.1rem equals the default size: If the browser default
+is 16px, then 1rem = 16px, 2rem = 32px, and 0.5rem = 8px.
+Perfect Accessibility: If a user with low vision changes their base browser
+font size to 20px, your rem text will smoothly scale up automatically, 
+whereas px and pt text will stay locked in place.
+
+4. <span class="commonName vagrant">Eurasian Wigeon (V)</span> : '()' the parentheses are the same color as Eurasian Wigeon (V)
+
+5. It wasn't clear to me if there was a pattern as to indentation of the family/species lists
+
+6. It appears that all baseline** text is bold (except for a small number of asides) - is that intentional?
+
+// the following line has a darker blue for the text that doesn't match the link blue.
+7. For lists of species recorded from each country and territory (using SACC classification and criteria) within the SACC region, including downloadable EXCEL file, see SACC Country Lists.
+
+8. Some footnotes on higher levels are subscripts, some are regular text?
+
+9. Some <text..> and <<text...>> are smaller, gray text.  But contra 
+Part 9: <NACC proposal to change to Half-collared did not pass.>, <incorp. Ripley 1952, Goodwin 1957>,
+ <REFs>. See Note 12a. <combine?> 
+
+10.  Part 6: 
+
+PASSERIFORMES 1
+
+Suborder TYRANNI (SUBOSCINES) 2  // s/b indented?
+
+11. smart quotes -> regular ticks?
+
+12.  From Part 5:  the link is under desmurii, not proposal?
+
+<span class="info">SACC proposal to change to <a href="SACCprop767.htm"><i>desmurii</i></a>
+ did not pass</span>.
+
+ Investigation complete. Here's the breakdown of all 19 mismatches (out of 1,311 total .info-wrapped SACCprop links):
+
+8 cases — link text is a species/taxon name (linking the scientific name itself to its proposal, rather than the word "proposal"): saltuarius, remota, primolina, branickii, desmurii (the one we just fixed), albilora, stellaris, Amaurospiza.
+
+9 cases — link text is "passed" (e.g. "...SACC proposal passed to change..." with "passed" as the clickable word instead of "proposal"), spread across SACCBaseline03/04/06/07/11.htm.
+
+1 case — genuinely broken: clean/proposals/SACCprop153.htm:29 —
+<p><span class="info"><a href="SACCprop152.htm"> </a></span></p>
+
+The 17 species-name/"passed" cases aren't bugs — they're just genuine content variation (the original SACC committee authors chose different words to hyperlink). Only the blank-link case looks like an actual defect worth fixing.
+
+13. https://www.museum.lsu.edu/~Remsen/SACCprop900.htm has background: white for the proposal paragraphs.  Is that intended?  Same: https://www.museum.lsu.edu/~Remsen/SACCprop1070.htm, https://www.museum.lsu.edu/~Remsen/SACCprop08.htm
+https://www.museum.lsu.edu/~Remsen/SACCproproster.htm : a few scattered background colors, I assume these are all unintentional.
+
+14.  In https://www.museum.lsu.edu/~Remsen/SACCproproster.htm some links are black, some blue.  Particularly in the "Did Not Pass" section.
+And not all proposals contain a link to its proposal.
+https://www.museum.lsu.edu/~Remsen/SACCproproster.htm

@@ -1,0 +1,33 @@
+{
+  "plansDirectory": ".claude/plans",
+  "permissions": {
+    "allow": [
+      "Bash(node -e ' *)",
+      "Bash(node debug-space2.mjs)",
+      "Bash(node debug-space3.mjs)",
+      "Bash(node -e \"const fs=require\\('fs'\\); const c=fs.readFileSync\\('clean/clean1.html','utf8'\\); console.log\\('cons pecific:', c.includes\\('cons pecific'\\)\\); console.log\\('a nd:', c.includes\\('a nd'\\)\\); console.log\\('Ame rican:', c.includes\\('Ame <i>rican'\\)\\);\")",
+      "Bash(TEST_FILE=SACC2,ACCprop857,SpeciesList1 npx playwright test visual-compare)",
+      "Bash(TEST_FILE=SACC2,ACCprop857,SpeciesList1 npx playwright test visual-compare --reporter=list)",
+      "Bash(node scripts/downloadBaseline.js)",
+      "Bash(node scripts/downloadBaseline.js 6)",
+      "Bash(node scripts/downloadBaseline.js 12)",
+      "Bash(mv SACC1.html SACCBaseline.htm)",
+      "Bash(mv SACC2.html SACCBaseline02.htm)",
+      "Bash(mv SACC3.html SACCBaseline03.htm)",
+      "Bash(mv SACC4.html SACCBaseline04.htm)",
+      "Bash(mv SACC5.html SACCBaseline05.htm)",
+      "Bash(node src/index.js SACC6)",
+      "Bash(node src/index.js SACCCountryLists)",
+      "Bash(TEST_FILE=SACC4,SACC6 npx playwright test parts --reporter=list)",
+      "Bash(TEST_FILE=SACC6,ACCprop857 npx playwright test visual-compare --reporter=list)",
+      "Bash(node tests/screenshot.js \"clean/baseline/SACCBaseline.htm\" \"tests/screenshot.png\")",
+      "Bash(node src/index.js SACC1 SACC2)",
+      "Bash(awk '/class=\"footnotes\"/{found=1} found && /<\\\\/div>/{print; found=0; exit} found{print}' clean/baseline/SACCBaseline.htm)",
+      "Bash(TEST_FILE=SACC1 npx playwright test visual-compare --reporter=list)",
+      "Bash(TEST_FILE=SACC1 npx playwright test \"colored text\" --reporter=list)",
+      "Bash(TEST_FILE=SACC1 npx playwright test visual-compare --reporter=list -g \"colored text\")",
+      "Bash(TEST_FILE=SACC1 npx playwright test visual-compare --reporter=list -g \"identical visible text\")",
+      "Bash(TEST_FILE=SACC4 npx playwright test parts --reporter=list)"
+    ]
+  }
+}

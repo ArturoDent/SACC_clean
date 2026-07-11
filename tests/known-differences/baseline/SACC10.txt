@@ -1,0 +1,16 @@
+# Known intentional differences between dirty/baseline and clean/baseline for this part.
+# Format for text mismatches: uncomment only the first line (the Original) to suppress.
+# Format for color mismatches: uncomment only the first line to suppress.
+# Lines starting with # are comments. Blank lines are ignored.
+
+"Chloris" color mismatch: dirty=rgb(51, 102, 255)  clean=rgb(0, 0, 255)
+# dirty L1591  clean L297
+
+"passed to reinstate" color mismatch: dirty=rgb(51, 102, 255)  clean=rgb(0, 0, 255)
+# dirty L1590  clean L297
+
+"SACC" color mismatch: dirty=rgb(51, 102, 255)  clean=rgb(0, 0, 255)
+# dirty L905  clean L84
+
+# "Suborder PASSERES (OSCINES) (continued)" should appear with non-black color in clean
+# dirty L843  clean L56

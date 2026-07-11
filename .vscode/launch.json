@@ -11,7 +11,26 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
+      "type": "node",
+      "args": [
+        "${input:stemName}"
+      ]
+    },
+    {
+      "name": "Launch Program (all files)",
+      "program": "${workspaceFolder}/src/index.js",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "type": "node"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "stemName",
+      "type": "promptString",
+      "description": "Stem to process (e.g. SACC12, SACCCountryLists)"
     }
   ]
 }

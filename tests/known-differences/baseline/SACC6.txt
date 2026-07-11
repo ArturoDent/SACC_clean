@@ -1,0 +1,16 @@
+# Known intentional differences between dirty/baseline and clean/baseline for this part.
+# Format for text mismatches: uncomment only the first line (the Original) to suppress.
+# Format for color mismatches: uncomment only the first line to suppress.
+# Lines starting with # are comments. Blank lines are ignored.
+
+"Boa Nova Tapaculo" color mismatch: dirty=rgb(0, 128, 0)  clean=rgb(0, 153, 0)
+# dirty L17567  clean L1788
+
+"Common" color mismatch: dirty=rgb(0, 128, 0)  clean=rgb(0, 153, 0)
+# dirty L13474  clean L86
+
+"Mouse" color mismatch: dirty=rgb(0, 128, 0)  clean=rgb(0, 153, 0), rgb(0, 153, 0)
+# dirty L17572  clean L1789
+
+"Xingu" color mismatch: dirty=rgb(0, 128, 0)  clean=rgb(0, 153, 0)
+# dirty L13481  clean L360

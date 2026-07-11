@@ -1,0 +1,26 @@
+# Known intentional differences between dirty/baseline and clean/baseline for this part.
+# Format for text mismatches: uncomment only the first line (the Original) to suppress.
+# Format for color mismatches: uncomment only the first line to suppress.
+# Lines starting with # are comments. Blank lines are ignored.
+
+"Dendrocolaptinae" color mismatch: dirty=rgb(255, 0, 255)  clean=rgb(198, 9, 255)
+# dirty L11903  clean L102
+
+"Furnariinae" color mismatch: dirty=rgb(255, 0, 255)  clean=rgb(198, 9, 255)
+# dirty L12184  clean L170
+
+"pending" color mismatch: dirty=rgb(247, 0, 242)  clean=rgb(255, 0, 255)
+# dirty L15715  clean L1329
+
+"SACC" color mismatch: dirty=rgb(247, 0, 242)  clean=rgb(0, 0, 255), rgb(255, 0, 255)
+# dirty L13387  clean L449
+
+"Sclerurinae" color mismatch: dirty=rgb(255, 0, 255)  clean=rgb(198, 9, 255)
+# dirty L11798  clean L81
+
+"Xenops" color mismatch: dirty=rgb(0, 176, 80)  clean=rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 153, 0), rgb(0, 0, 255)
+# dirty L12189  clean L172
+
+# 19c. Fjeldså (1992) proposed that Leptasthenura platensis and L. aegithaloides were sister species, as reflected in their placement in traditional linear sequences. Genetic data (Derryberry et al. 2011), however, indicates that they are only distantly related, and that and L. aegithaloides is the sister to L. andicola. SACC proposal needed to change linear sequence in Leptasthenura. <<wait Claramunt paper>>
+# 19c. Fjeldså (1992) proposed that Leptasthenura platensis and L. aegithaloides were sister species, as reflected in their placement in traditional linear sequences. Genetic data (Derryberry et al. 2011), however, indicates that they are only distantly related, and that and L. aegithaloides is the sister to L. andicola. SACC proposal needed to change linear sequence in Leptasthenura.<<wait Claramunt paper>>
+# Rendered line 375  dirty L?  clean L741

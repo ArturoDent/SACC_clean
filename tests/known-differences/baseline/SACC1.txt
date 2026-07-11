@@ -1,0 +1,29 @@
+# Known intentional differences between dirty/baseline and clean/baseline for this part.
+# Format for text mismatches: uncomment only the first line (the Original) to suppress.
+# Format for color mismatches: uncomment only the first line to suppress.
+# Lines starting with # are comments. Blank lines are ignored.
+
+"Alan Grenon" color mismatch: dirty=rgb(145, 2, 138)  clean=rgb(153, 0, 153)
+# dirty L?  clean L213
+
+"cons" should appear with non-black color in clean
+# dirty L1054  clean L220
+
+"Craig Caldwell" color mismatch: dirty=rgb(145, 2, 138)  clean=rgb(153, 0, 153)
+# dirty L?  clean L211
+
+"IN" color mismatch: dirty=rgb(166, 166, 166)  clean=rgb(153, 153, 153)
+# dirty L?  clean L?
+
+"Paul Clapham" color mismatch: dirty=rgb(145, 2, 138)  clean=rgb(153, 0, 153)
+# dirty L?  clean L212
+
+"Ring-necked Pheasant" color mismatch: dirty=rgb(166, 166, 166)  clean=rgb(153, 153, 153)
+# dirty L16233  clean L1286
+
+"Silver Pheasant" color mismatch: dirty=rgb(166, 166, 166)  clean=rgb(153, 153, 153)
+# dirty L16244  clean L1287
+
+Mitu mitu Alagoas Curassow 23, 27 (EX)
+# Mitu mitu Alagoas Curassow (EX) 23, 27
+# Rendered line 371  dirty L15425  clean L?

@@ -1,0 +1,13 @@
+# Known intentional differences between dirty/baseline and clean/baseline for this part.
+# Format for text mismatches: uncomment only the first line (the Original) to suppress.
+# Format for color mismatches: uncomment only the first line to suppress.
+# Lines starting with # are comments. Blank lines are ignored.
+
+"Arinae" color mismatch: dirty=rgb(255, 0, 255)  clean=rgb(198, 9, 255)
+# dirty L6544  clean L1965
+
+"Ecuadorian Trogon" color mismatch: dirty=rgb(0, 128, 0)  clean=rgb(0, 153, 0)
+# dirty L1143  clean L64
+
+"Psittaculinae" color mismatch: dirty=rgb(255, 0, 255)  clean=rgb(198, 9, 255)
+# dirty L6527  clean L1955

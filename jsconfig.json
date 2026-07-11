@@ -11,17 +11,18 @@
       "node",
       "jsdom"
     ],
-    "checkJs": true,
+    "moduleResolution": "nodenext",
+    "allowSyntheticDefaultImports": true,
     "noImplicitAny": false,
     "allowJs": true,
     "skipLibCheck": true,
     "noEmit": true
   },
   "include": [
-    "src/**/*",
-    "*.js"
+    "src"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "**/node_modules/**"
   ]
 }

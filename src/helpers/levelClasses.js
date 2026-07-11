@@ -1,3 +1,4 @@
+// @ts-check
 /**
  * Assign hierarchical level-N classes to direct children of .familySpeciesList > ul,
  * then normalize so the first top-level item in each list becomes level-0.
@@ -5,8 +6,8 @@
  * Also add nested-level-(familyLevel+1) to .subfamily elements that are direct children
  * of a family's nested UL so subfamilies are visually one step deeper than their family.
  */
-export async function addTaxonomyLevels(root = document, prefix = "level-", nestedPrefix = "nested-level-") {
-  const rankOrder = { subclass: 0, infraclass: 1, order: 2, family: 3 };
+export async function addTaxonomyLevels(root, prefix = "level-", nestedPrefix = "nested-level-") {
+  const rankOrder = { subclass: 0, infraclass: 1, order: 2, suborder: 3, family: 4, subfamily: 5 };
 
   // 1) Compute raw levels for each top-level list and store them
   const lists = Array.from(root.querySelectorAll(".familySpeciesList > ul"));
@@ -38,14 +39,14 @@ export async function addTaxonomyLevels(root = document, prefix = "level-", nest
   });
 
   // 2) Add nested-level to subfamily children inside each top-level family
-  const familyLis = Array.from(root.querySelectorAll(".familySpeciesList > ul > li.family"));
-  familyLis.forEach(familyLi => {
+  const familyLIs = Array.from(root.querySelectorAll(".familySpeciesList > ul > li.family"));
+  familyLIs.forEach(familyLI => {
     // read normalized family level if present, otherwise default to 3
-    const familyLevelClass = Array.from(familyLi.classList).find(c => c.startsWith(prefix));
+    const familyLevelClass = Array.from(familyLI.classList).find(c => c.startsWith(prefix));
     const familyLevel = familyLevelClass ? parseInt(familyLevelClass.slice(prefix.length), 10) : 3;
     const nestedLevel = familyLevel + 1;
 
-    const nestedUl = familyLi.querySelector(":scope > ul");
+    const nestedUl = familyLI.querySelector(":scope > ul");
     if (!nestedUl) return;
 
     Array.from(nestedUl.children).forEach(childLi => {
@@ -55,4 +56,6 @@ export async function addTaxonomyLevels(root = document, prefix = "level-", nest
       }
     });
   });
+
+  return { message: "Added taxonomy level classes." };
 }

@@ -1,0 +1,76 @@
+-------------------------  Downloads  -------------------------------------------------------------
+
+npm run harvest-proposal-links (only needed as proposals are added)
+
+— scans dirty/SACC*.html plus everything 
+  under dirty/proposals/roster_charts/ (the roster's full categorized index, 
+  any saved tracking charts, handling https://, http://, relative, 
+  and file:/// href styles, normalizing case), dedupes by filename into a 
+  Set/Map, sorts, and writes one URL per line to dirty/proposals/proposalLinks.txt.
+
+npm run download-proposals -- <start> <end> 
+  — just reads that file and downloads the requested range, skipping anything already present.
+
+node scripts/downloadBaseline.js          # all 11 parts → dirty/baseline/
+node scripts/downloadBaseline.js 6        # just part 6
+npm run download-baseline -- 6            # same, via npm
+
+----------------------------------------------------------------------------------------------------
+
+-------------------------  Run the cleaning steps  -------------------------------------------------
+
+node src/proposals.js 
+node src/proposals.js ACCprop857
+node src/proposals.js SACCprop101 SACCprop102
+ 
+node src/index.js                — processes all files in dirty/baseline
+node src/index.js SACC6 SACC7    — processes named files in sequence
+
+node src/index.js SACCCountryLists (falls back to dirty/SACCCountryLists.htm)
+
+----------------------------------------------------------------------------------------------------
+
+
+-----------------------------  Test Reports  ---------------------------------------------------------
+
+// these auto-open the report on completion
+TEST_FILE=SACC2 npx playwright test
+TEST_FILE=SACC3,SACC4 npx playwright test
+
+// --reporter=list only outputs to the terminal, but does create the tests/** for that run
+TEST_FILE=SACC2,ACCprop857,SACCCountryLists npx playwright test visual-compare --reporter=list
+TEST_FILE=SACC2 npx playwright test visual-compare --reporter=list
+TEST_FILE=ACCprop857 npx playwright test visual-compare --reporter=list
+TEST_FILE=SACCCountryLists npx playwright test visual-compare --reporter=list
+
+The --reporter=list flag is optional — it just gives a clean pass/fail summary in the 
+terminal instead of the config's default HTML report (which auto-opens a browser).
+
+Working well — source line numbers appear for most entries. Short strings like "27" (2 chars) fall below the 4-char minimum guard and return ?, which is expected since a 2-char search would be too ambiguous to be useful anyway.
+
+Each failure now shows on two lines:
+
+"A Classification of the Bird Species of South America" should appear with non-black color in clean
+  dirty L11993  clean L7
+The L? cases are either too-short text (below 4 chars) or the cursor advanced past the 
+item's position because a prior mismatch changed the relative ordering between dirty and clean
+ — which itself tells you something useful (the content order shifted).
+
+ ---------------------------------------------------------------------------------------------
+
+
+----------------------  Edit the CSS links  --------------------------------------------------
+
+node scripts/setStylesheetLink.js baseline "../css/styles.css"
+node scripts/setStylesheetLink.js proposals "../css/proposals.css"
+node scripts/setStylesheetLink.js "../css/styles.css"          # clean/ root (SACCCountryLists.htm, etc.)
+
+ ---------------------------------------------------------------------------------------------
+
+node scripts/populateKnownDifferences.js
+node scripts/populateKnownDifferences.js SACC8 SACC9
+npm run populate-known-differences (after added to package.json)
+
+<span class="pendingProposal">[\s\n\S]*?</span>
+
+https://cleaned.potoococha.net

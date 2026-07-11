@@ -1,30 +1,74 @@
 body {
+  /* left/right margins = 30px, top/bottom = 0 */
   padding: 0 30px;
-  font-size: 14px;
+  font-size: 14pt;
   font-family: "Arial", sans-serif;
   font-weight: bold;
   color: black;
 }
 
+hr { border: none; border-top: 2px solid black; }
+
+/* replaces the old per-file <body link="..." vlink="..."> attributes */
+a:link    { color: blue;   }
+a:visited { color: purple; }
+
+.info              { color: blue;    }
+.info a            { color: blue;    }
+.proposalNeeded    { color: red;     }
+.date              { color: red;     }
+.red               { color: red;     }
+.endemic           { color: red;     }
+.endemicBreeder    { color: #C00000; }
+
+.pendingProposal   { color: fuchsia; }
+/* so links match the rest of the text for pending proposals */
+.pendingProposal a { color: fuchsia; }
+
+.version-baseline  { color: fuchsia; font-size: 16pt; }
+ 
+.name              { color: #990099; }
+.introduced        { color: #999999; }
+.nonBreeder        { color: #999900; }
+.vagrant           { color: #92cddc; }
+.extinct           { color: red;     }
+
 .banner {
   text-align: center;
   color: #990000;
   font-family: Helvetica, Arial, sans-serif;
+  margin-top: 2em;
   margin-bottom: 2em;
 }
 
 .banner-title { font-size: 24pt; }
-.banner-subtitle { font-size: 22pt; margin-top: 1em; }
+.banner-subtitle { font-size: 18pt; margin-top: 1em; }
 .banner-meta { margin-top: 1.5em; }
+.version-list { color: red; font-size: 14pt; }
 .banner-logo { margin-top: 1em; }
 
-.saccFooter { margin-top: 1.5em; border-collapse: collapse; }
+#thisPart, #nextPart { font-size: 18pt; }
+
+#saccPageLinkBlock { margin: 20px 0; }
+
+#saccRoster p { margin-left: 2em; }
+#saccRoster p:has(u) { margin-left: 0; }
+
+.statusCodes p { margin-left: 2em; }
+
+/* Hanging indent: footnote number stays flush-left, continuation lines align under the text */
+div.footnotes p { padding-left: 2em; text-indent: -1.5em; }
+
+#auxiliaryLinks { color: blue; font-size: 12pt; }
+#auxiliaryLinks a { color: blue; }
+
+.saccFooter { margin-top: 1.5em; border-collapse: collapse; font-weight: bold; width: 100%; }
 .saccFooter td { padding: 2px 0; }
 .saccFooter-nextPart { font-size: 18pt; }
 .saccFooter-date { font-size: 14pt; }
 .saccFooter-counter { font-size: 10pt; text-align: center; }
 .saccFooter-counter img { display: block; margin: 0 auto; }
-.saccFooter-link { font-family: Helvetica, Arial, sans-serif; font-size: 9pt; }
+.saccFooter-link { font-family: Helvetica, Arial, sans-serif; font-size: 12pt; }
 
 /* just the first immediate child <ul> of #orderPhylogeny */
 #orderPhylogeny>ul {
@@ -38,40 +82,85 @@ body {
 /* level-N mapping for top-level taxonomy rows */
 #orderPhylogeny { --indent-step: 2rem; }
 
+/* override the 18pt class rules so everything inside the phylogeny is 14pt */
+#orderPhylogeny .subclass,
+#orderPhylogeny .infraclass,
+#orderPhylogeny .order { font-size: 14pt; }
+
 #orderPhylogeny>ul>li.level-0 { padding-left: calc(0 * var(--indent-step)); }
 #orderPhylogeny>ul>li.level-1 { padding-left: calc(1 * var(--indent-step)); }
 #orderPhylogeny>ul>li.level-2 { padding-left: calc(2 * var(--indent-step)); }
 
 /* "PALEOGNATHAE", "NEOGNATHAE" */
-.subclass { color: #B2A1C7; }
+.subclass { color: #B2A1C7; font-size: 18pt; }
 
 /* "GALLOANSERES", "NEOAVES" */
-.infraclass { color: #92CDDC; }
+.infraclass { color: #92CDDC; font-size: 18pt; }
 
-.order { color: red;}
-.order span { font-size: 14px; color: black; }
+.order { color: red; font-size: 18pt; }
+/* gap before an order that follows a family block (thus a previous order must have existed) */
+.familySpeciesList li.family + li.order { margin-top: 1em; }
+
+/* TODO: check color of suborders */
+.suborder { color: #006600; font-size: 16pt; }
 
 .family { color: blue;}
+  /* gap between families */
 .family+.family { margin-top: 1em; }
-.family>span { color: black; }
 /* all species in each family */
 .family>ul { color: black; }
 
-.subfamily { color: #C609FF; }
+.subfamily { color: rgb(198, 9, 255); }
+
+/* gap between subfamilies */
 .subfamily+.subfamily { margin-top: 1em; }
+/* all species in each subfamily */
 .subfamily>ul { color: black; }
 
-.commonName { color: #009900; }
-.commonName.introduced { color: #999999; }
+.commonName             { color: #009900; }
+.commonName.introduced  { color: #999999; }
+.commonName.nonBreeder  { color: #999900; }
+.commonName.vagrant     { color: #92CDDC; }
+.commonName.extinct     { color: red;     }
 
-.familySpeciesList .subclass,
-.familySpeciesList .infraclass,
-.familySpeciesList .order
-  {
-    font-size: 18px;
-  }
+/* these target the notes at the end of a phylogeny name in a #orderPhylogeny */
+ /* not necessary for species notes:   they are already black, 14px */
+/* <li>Nothocercus bonapartei <span class="commonName">Highland Tinamou</span> 2a</li>*/
+.subclass>span, .infraclass>span, .order>span, .suborder>span, .family>span, .subfamily>span { font-size: 14pt; color: black; }
 
-/* ------------------------------ */
+/* --------------------------------------------------------------------------- */
+
+#speciesListTable {
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  border-collapse: collapse;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+#speciesListTable td {
+  border: 2px solid black;
+  padding: 7px 10px;
+  vertical-align: top;
+}
+
+/* so that 'Endemic Breeders' column breaks (ala 'Endemic \n Breeders') and isn't so wide */
+#speciesListTable td:nth-child(5) { max-width: 5em; }
+
+
+/* first column = country name, left-aligned; all other columns centred */
+#speciesListTable td + td {
+  text-align: center;
+}
+
+#speciesListTable .country         { color: blue;    }
+#speciesListTable .total           { color: blue;    }
+#speciesListTable .breeder         { color: green;   }
+#speciesListTable .endemic         { color: red;     }
+#speciesListTable .endemicBreeder  { color: #C00000; }
+
+/* --------------------------------------------------------------------------- */
 
 /* reset list defaults inside familySpeciesList */
 .familySpeciesList ul
@@ -89,7 +178,7 @@ body {
 }
 
 /* level-N mapping for top-level taxonomy rows */
-.familySpeciesList { --indent-step: 1rem; }
+.familySpeciesList { --indent-step: 1rem; margin: 30px 0; }
 
 .familySpeciesList>ul>li.level-0 { padding-left: calc(0 * var(--indent-step)); }
 .familySpeciesList>ul>li.level-1 { padding-left: calc(1 * var(--indent-step)); }
@@ -102,16 +191,16 @@ body {
 {
   margin-left: calc(1 * var(--indent-step));
   /* this shifts the whole species/subfamily block */
-  padding-left: 0;
+  padding-left: 7px;
 }
 
-/* subfamily is nested inside that UL; do NOT add extra padding on both subfamily and its UL.
-   Instead, give subfamily a nested-level class (added by JS) to shift it one step deeper than family. */
+/* subfamily is nested inside a <ul>; do NOT add extra padding on both subfamily and its <ul>.
+   Instead, give subfamily a nested-level class - addTaxonomyLevels() - to shift it one step deeper than family. */
 .familySpeciesList li.subfamily { padding-left: 0; }
 
 /* nested-level classes applied to subfamily (JS sets nested-level-4 etc.) */
-.familySpeciesList li.subfamily.nested-level-4 { padding-left: calc(1 * var(--indent-step)); }
-.familySpeciesList li.subfamily.nested-level-5 { padding-left: calc(2 * var(--indent-step)); }
+/* .familySpeciesList li.subfamily.nested-level-4 { padding-left: calc(1 * var(--indent-step)); }
+.familySpeciesList li.subfamily.nested-level-5 { padding-left: calc(2 * var(--indent-step)); } */
 
 /* species inside subfamily: do not add extra padding; they sit inside the family > ul block
    If you want species indented further under subfamily, indent the subfamily's UL instead: */
@@ -124,3 +213,14 @@ body {
 
 /* species directly under family (no subfamily) */
 .familySpeciesList>ul>li.family>ul>li { padding-left: 0; }
+
+
+/* -------------------------- print styles ------------------------------------- */
+
+@page {
+	size: 8.5in 11.0in;
+	margin: 1.0in 1.0in 1.0in 1.0in;
+	/* mso-header-margin:.5in; */
+	/* mso-footer-margin:.5in; */
+	/* mso-paper-source:0; */
+}

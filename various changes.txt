@@ -1,0 +1,88 @@
+1.  Use css files instead of style attributes on every element.
+2.  Add '. Part 1', '. Part 2', etc. to <title> of all baseline documents.
+3.  Add margins - left and right - to all pages.
+4.  Consistent colors throughout: backgroundColors/NB/IN/V/EX   
+
+5. Original: "Mitu mitu Alagoas Curassow 23, 27 (EX)"
+   Cleaned:  "Mitu mitu Alagoas Curassow (EX) 23, 27"
+
+6. Added this : they are single-spaced and a smaller font
+
+   <div id="auxiliaryLinks">
+    <span><a href="SACCHypoList.htm">Hypothetical List</a></span><br>
+    <span><a href="SACCHybridList.htm">Hybrids and Dubious Taxa</a></span><br>
+    <span><a href="SACCBiblio.htm">Literature Cited</a></span>
+  </div>
+
+7. More indentation in cleaned than the original species lists (which are inconsistent)
+
+  PALEOGNATHAE
+    RHEIFORMES 1
+      RHEIDAE (RHEAS)
+        Rhea americana Greater Rhea 2
+        Pterocnemia pennata Lesser Rhea 2, 3, 4
+
+
+8. Could do this:
+
+Rhynchortyx cinctus      Tawny-faced Quail          6, 6a
+Colinus cristatus        Crested Bobwhite           2
+Callipepla californica   California Quail           (IN)
+Odontophorus gujanensis  Marbled Wood-Quail
+Odontophorus capueira    Spot-winged Wood-Quail
+Odontophorus atrifrons   Black-fronted Wood-Quail   3
+Odontophorus erythrops   Rufous-fronted Wood-Quail  4
+
+9. Many underlines of empty spaces have been removed.  A space on a line is no longer to create a linespace.
+
+10. All ine blue: "For lists of species recorded from each country and territory (using SACC classification and criteria) within the SACC region, including downloadable EXCEL file, see SACC Country Lists."
+
+11. Indentation of lines 2+ for "footnotes" is now consistent.
+
+12. All in gray: Graylag Goose (IN) - including the parentheses.
+
+13. Things like below fixed:
+
+STEATORNITHIFORMES 1
+  STEATORNITHIDAE (OILBIRD) 1
+  Steatornis caripensis Oilbird     // s/b indented
+
+NYCTIBIIFORMES 1
+  NYCTIBIIDAE (POTOOS) 2
+  Phyllaemulor bracteatus Rufous Potoo 7       // s/b indented
+  Nyctibius grandis Great Potoo
+  Nyctibius aethereus Long-tailed Potoo 3
+  Nyctibius griseus Common Potoo 4, 5
+  Nyctibius maculosus Andean Potoo 5
+  Nyctibius leucopterus White-winged Potoo 5
+
+STRIGIFORMES 1    // Part 4
+TYTONIDAE (BARN OWLS) 1a    // indent
+  Tyto furcata American Barn Owl 1b, 1c, 1d
+
+14. Part 3 link at bottom of Part went to Part 2, fixed.
+
+15. Ensure linespaces before subsequent subfamilies, contra Part 4 Charadriinae, Gyginae, LARIDAE etc.
+
+16. Suborder PASSERES (OSCINES) is red, but all other suborders are a dark green - #006600
+
+17. Form Part 9 below: note the differences - (1) original: first proposal only "proposal" is blue text, 
+usually the whole sentence is.  Unchanged in clean.
+(2) clean: entire proposal pending sentence is colored same color, including its "proposal" link. See also note 12bb.
+
+7c. Photographed in Ecuador (see Freile et al. 2019).  SACC proposal passed to add Vireo gilvus 
+to the main list.  Chesser et al. (2005) treated Vireo swainsonii as a separate species from 
+Vireo gilvus.  SACC proposal pending to remove Vireo gilvus from main list.
+
+18.  Part 5 for example line rulers were not full page width anymore -> changed to full page width.  
+In Part 6.  some rulers are half- and some full-line -> all full page width.
+
+19.  1. Word's spell-check wrapper splitting a species name (9 of the 11 hits) — e.g. in SACCprop10.htm:
+
+<span class="SpellE"><i>watsoni</i></span> <i><span class="SpellE">watsoni</span></i>
+Word's spell-checker wraps whatever it thinks is a misspelling in <span class="SpellE">, and depending on 
+whether the italic tag or the SpellE tag was applied first, you get <span><i> in one occurrence and <i><span> 
+in the next — same visual result (italic species name), inconsistent nesting. 
+Leucophaeus in SACCBaseline04.htm and Aglaiocercus/mocoa in SACCprop144.htm are the same pattern.
+
+https://www.museum.lsu.edu/~Remsen/SACCprop42.htm "compound compound"

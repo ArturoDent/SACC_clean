@@ -1,0 +1,107 @@
+    // all textContent is in <i> tags
+    <p><i>Most </i> <a href="SACCRecentChanges.htm"><i>recent changes</i></a> <i> to the classification, updated <span
+        class="proposal">27</span></i> <span class="proposal"> <i>February 2026</i> </span></p>
+
+    // all textContent is in a <span class="info">
+  <p><span class="info">For lists of species recorded from each country and territory (using SACC classification and
+      criteria) within the SACC region, including downloadable EXCEL file, see <a href="SACCCountryLists.htm">SACC
+        Country Lists</a></span> <u><span class="info">.</span></u></p>
+
+
+---------------------------------------------------------------------------------------------------------
+
+    <p><a href="SACCListComposite.xlsx">Composite List created by <i>Duncan Ritchie</i></a> (Classification + status
+      only; no footnotes) [continuing the work of <a href="SACC_Sjoerd.html"><span class="info">Sjoerd Maijer, In
+          Memoriam</span></a> <u><span class="info">]</span></u></p>
+
+  --------------------------------------------------------------------------------------------------------
+
+  // <i> </i>
+
+    // <i>Crypturellus</i> a nd <i>Tinamus</i>
+    <p>1a. The Tinamidae was divided into two subfamilies, the Tinaminae ( <i>Tinamus</i>, <i>Nothoprocta</i>, and
+      <i>Crypturellus</i>) and the Nothurinae (all other genera) by Miranda-Ribeiro (1938). The Nothurinae was
+      designated as the Rhynchotinae by Cabot (1992). The subfamily name that has priority, however, is Eudromiinae
+      Bonaparte, 1854. Morphological data (Bertelli et al. 2002, Silveira &amp; Höfling 2007) support the monophyly of
+      the two subfamilies, but combined analyses of morphological and genetic data (Bertelli &amp; Porzecanski 2004) do
+      not, primarily because of conflicting positions of the genus <i>Rhynchotus</i>. Morphological (Bertelli et al.
+      2002) and molecular data generally support the traditional among-genera and among-species relationships implied by
+      traditional linear sequences except that <i> Crypturellus </i> a nd <i>Tinamus</i> are proposed as sister genera.
+      <span class="info">SACC <a href="SACCprop237-238.htm">proposal</a> passed to change linear sequence of some
+        genera</span>. Almeida et al. (2025) proposed major changes to the classification of the family, including
+      addition of subfamilies. <span class="proposal">SACC proposal badly needed</span>.</p>
+
+
+6a. &quot;<i>Crypturellus rubripes,&quot;</i> described from -> " <i>Crypturellus rubripes,"</i>
+
+---------------------------------------------------------------------------------------------------------
+
+  // and<i> N. cinerascen</i>s -> and <i>N. cinerascens</i> to form
+
+    <p class=MsoNormal style='margin-left:31.5pt;text-indent:-13.5pt'><b><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
+color:black'>14. Sibley &amp; Monroe (1990) and Cabot (1992) considered <i>Nothoprocta
+            perdicaria</i>, <i>N. pentlandii</i>, and<i> N. cinerascen</i>s to form a superspecies.
+          Fjeldså &amp; Krabbe (1990), however, considered this group to include <i>N.
+            curvirostris</i> and not <i>N. cinerascen</i>s. Analysis of phenotypic
+          characters indicates that <i>N. perdicaria</i> and <i>N. curvirostris</i> might
+          be sister species<i> </i>(Bertelli et al. 2002).<o:p></o:p></span></b></p>
+
+
+  ---------------------------------------------------------------------------------------------------------
+
+    // space added after cons pecific and cons is black, rest of sentence is blue
+
+    <b><span
+      style='font-family:"Arial",sans-serif;color:blue'>proposal</span></b></a><b><span
+    style='font-family:"Arial",sans-serif;color:blue'> to treat <i>puna</i> as </span></b><b><span
+    style='font-family:"Arial",sans-serif;color:#002060'>cons</span></b><b><span
+    style='font-family:"Arial",sans-serif;color:blue'>pecific with <i>versicolor</i>
+
+    to treat <i>puna</i> as </span> cons <span class="info">pecific with
+        <i>versicolor</i> did not pass</span>
+
+  --------------------------------------------------------------------------------------------------------
+
+
+    <p>
+      &amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;
+    </p>
+
+  alt="owered by Bravenet"
+
+
+----------------------------------------------------------------------------------------------------------------
+
+<button onclick="showHtml()">View HTML</button>
+<button onclick="downloadHtml()">Download HTML</button>
+
+<pre id="htmlOutput" style="white-space: pre-wrap; border:1px solid #ccc; padding:1em; margin-top:1em;"></pre>
+
+<script>
+  // Enable editing if you want
+  document.designMode = "on";
+  document.body.spellcheck = false;
+
+  function getFullHtml() {
+    // This returns the ENTIRE document as a string
+    return '<!DOCTYPE html>\n' + document.documentElement.outerHTML;
+  }
+
+  function showHtml() {
+    const html = getFullHtml();
+    document.getElementById("htmlOutput").textContent = html;
+  }
+
+  function downloadHtml() {
+    const html = getFullHtml();
+    const blob = new Blob([html], { type: "text/html" });
+    const url = URL.createObjectURL(blob);
+
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "edited.html";
+    a.click();
+
+    URL.revokeObjectURL(url);
+  }
+</script>

@@ -1,0 +1,22 @@
+# Known intentional differences between dirty/baseline and clean/baseline for this part.
+# Format for text mismatches: uncomment only the first line (the Original) to suppress.
+# Format for color mismatches: uncomment only the first line to suppress.
+# Lines starting with # are comments. Blank lines are ignored.
+
+")." should appear with non-black color in clean
+# dirty L?  clean L?
+
+"Antillean Nighthawk" color mismatch: dirty=rgb(0, 153, 153)  clean=rgb(146, 205, 220)
+# dirty L3173  clean L735
+
+"Eurasian Collared-Dove" color mismatch: dirty=rgb(152, 153, 153)  clean=rgb(153, 153, 153)
+# dirty L?  clean L74
+
+"Mourning Dove" color mismatch: dirty=rgb(0, 153, 153)  clean=rgb(146, 205, 220)
+# dirty L1176  clean L97
+
+# "track down" should appear with non-black color in clean
+# dirty L4077  clean L995
+
+"White-winged Dove" color mismatch: dirty=rgb(0, 153, 153)  clean=rgb(146, 205, 220)
+# dirty L1146  clean L93
