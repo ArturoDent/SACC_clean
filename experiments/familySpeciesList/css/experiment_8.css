@@ -1,0 +1,4 @@
+/* Configurable via --spacer-height (falls back to 0.4em if unset) — set it */
+/* inline on .familySpeciesList, or per-spacer, to tune the gap without */
+/* touching this rule. */
+.familySpeciesList li.spacer { line-height: var(--spacer-height, 0.5em); }

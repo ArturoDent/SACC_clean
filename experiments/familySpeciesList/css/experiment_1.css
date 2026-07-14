@@ -1,0 +1,3 @@
+/* Column-align commonName under .familySpeciesList without a monospace font: */
+/* give every scientific name a shared minimum width via inline-block. */
+.familySpeciesList li > i:first-child { display: inline-block; min-width: 27ch; }

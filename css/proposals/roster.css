@@ -1,0 +1,13 @@
+@import url("./proposals.css");
+
+/* Unlike individual proposal pages, the roster has no bold/normal contrast
+   to preserve — it's a uniform list, so bold the whole page via CSS instead
+   of thousands of individual <b> tags. */
+body { font-weight: bold; }
+
+/* to reduce blue link color clutter */
+a:link    { color: black; }  
+
+/* a little separation between lines */
+p { margin-bottom: 10px; }
+

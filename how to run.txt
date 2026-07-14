@@ -22,6 +22,8 @@ npm run download-baseline -- 6            # same, via npm
 node src/proposals.js 
 node src/proposals.js ACCprop857
 node src/proposals.js SACCprop101 SACCprop102
+node src/proposals.js roster_charts/SACCproproster
+
  
 node src/index.js                — processes all files in dirty/baseline
 node src/index.js SACC6 SACC7    — processes named files in sequence
@@ -74,3 +76,5 @@ npm run populate-known-differences (after added to package.json)
 <span class="pendingProposal">[\s\n\S]*?</span>
 
 https://cleaned.potoococha.net
+
+https://github.com/ArturoDent/SACC_clean

@@ -24,3 +24,11 @@ across sessions/machines.
 ## VS Code regex's
 
 Remeber that in VS Code to have the match extend across likes that you must include a literal "\n" to span newlines.  "\s" is not sufficient.  So for example "[\s}" should be "[\s\n]".
+
+## Markdown plans and reports
+
+MD031/blanks-around-fences: Fenced code blocks should be surrounded by blank lines
+
+MD040/fenced-code-language: Fenced code blocks should have a language specified
+
+MD032/blanks-around-lists: Lists should be surrounded by blank lines

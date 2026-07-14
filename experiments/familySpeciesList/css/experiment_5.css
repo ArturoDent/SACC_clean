@@ -1,0 +1,3 @@
+/* Static, reusable across every page — the actual width comes from the */
+/* --sci-name-width custom property set inline on each .familySpeciesList. */
+.familySpeciesList li > i:first-child { display: inline-block; min-width: var(--sci-name-width); }

@@ -1,0 +1,124 @@
+Ignore any line that starts with an #.
+
+Modify the output of the .familySpeciesList of clean/baseline/SACCBaseline02.htm.
+
+Put the .htm output in experiments/familySpeciesList/result/** 
+with experiment 1 result in SACCBaseline02_1.htm, experiment 2 in SACCBaseline02_2.htm, etc.
+
+Put the js code in experiments/familySpeciesList/src/** like experiment_1.js.
+
+Put the css code, if any, into experiments/familySpeciesList/css/** like experiment_1.css.
+Update the  <link rel="stylesheet" href="....."> if new css.
+
+Run the code on clean/baseline/SACCBaseline02.htm.
+
+Do not cause any change to the clean/** files.
+
+Create a function/file that can run after completion of index.js - i.e., on clean/** files.
+
+# (the post-index.js integration function) remains explicitly deferred per your earlier agreement. 
+
+Ask questions if you do not fully understand these instructions.
+
+Each experiment is separate from the others: there should be results of each experiment.
+
+Experiments:
+
+1.  Arrange the species (under either .family or .subfamily) into columns such that 
+the common names are indented via spaces into a straight column like this:
+
+    Phyllaemulor bracteatus  Rufous Potoo 7
+    Nyctibius grandis        Great Potoo
+
+  The common names should be vertically aligned for that entire .familySpeciesList
+  such that even if there are multiple families or subfamilies all common names are aligned.
+  Thus, the longest scientific name will have to be determined first.
+
+  There should be at least 5 spaces between the longest scientific name and its common name.
+
+
+2.  Abbreviate subsequent genus names such that a match to the predecessor will loook like:
+
+    <li><i>Phyllaemulor bracteatus</i> <span class="commonName">Rufous Potoo</span> 7</li>
+    <li><i>Nyctibius grandis</i> <span class="commonName">Great Potoo</span></li>
+    <li><i>N. aethereus</i> <span class="commonName">Long-tailed Potoo</span> 3</li>
+
+    Note that N. aethereus is abbreviated because Nyctibius appears above it.
+
+    <li><i>Nyctipolus nigrescens</i> <span class="commonName">Blackish Nightjar</span> 14, 14a</li>
+    <li><i>N. hirundinaceus</i> <span class="commonName">Pygmy Nightjar</span> 14a</li>
+    <li><i>Nyctidromus albicollis</i> <span class="commonName">Common Pauraque</span> 4, 4a, 4b</li>
+    <li><i>N. anthonyi</i> <span class="commonName">Scrub Nightjar</span> 12</li>
+    <li><i>Tepuiornis whitelyi</i> <span class="commonName">Roraiman Nightjar</span> 14, 14a</li>
+    <li><i>Uropsalis segmentata</i> <span class="commonName">Swallow-tailed Nightjar</span> 16, 17</li>
+    <li><i>U. lyra</i> <span class="commonName">Lyre-tailed Nightjar</span></li>
+    <li><i>Quechuavis decussata</i> <span class="commonName">Tschudi’s Nightjar</span> 9a</li>
+    <li><i>Setopagis heterura</i> <span class="commonName">Todd's Nightjar</span> 11, 11a</li>
+    <li><i>S. parvula</i> <span class="commonName">Little Nightjar</span> 11, 12, 12a</li>
+    <li><i>S. maculosa</i> <span class="commonName">Cayenne Nightjar</span> 13</li>
+    <li><i>Hydropsalis maculicaudus</i> <span class="commonName">Spot-tailed Nightjar</span> 10a</li>
+    <li><i>H. forcipata</i> <span class="commonName">Long-trained Nightjar</span> 17, 18</li>
+    <li><i>H. cayennensis</i> <span class="commonName">White-tailed Nightjar</span> 9b, 9c</li>
+    <li><i>H. climacocerca</i> <span class="commonName">Ladder-tailed Nightjar</span> 14b</li>
+    <li><i>H. torquata</i> <span class="commonName">Scissor-tailed Nightjar</span> 14c, 15</li>
+    
+
+
+3.  Combine (1) and (2) above - abbreviate first and then align so that the result would be
+
+    Phyllaemulor bracteatus  Rufous Potoo 7
+    Nyctibius grandis        Great Potoo
+    N. aethereus             Long-tailed Potoo 3
+
+
+4.  Same alignment as (1), but instead of computing the longest name into a
+    generated per-page CSS file (experiment_1.css/experiment_3.css), set it as a
+    CSS custom property inline on each individual .familySpeciesList block, e.g.
+    <div class="familySpeciesList" style="--sci-name-width: 27ch">, referenced by
+    ONE shared, unchanging rule (min-width: var(--sci-name-width)) that could live
+    in the site's real stylesheet. Also scopes the width per-list instead of
+    page-wide, so a list with only short names doesn't get stretched to match the
+    longest name elsewhere on the page.
+
+    Use un-abbreviated scientific names (like Experiment 1).
+    Use a 3 space gap between the longest scientific name and its common name.
+
+
+5.  Combine (3) and (4). 
+
+6.  Using the Experiment 5 result, add a linespace before a new genus.  Example:
+
+    <li><i>Nyctipolus nigrescens</i> <span class="commonName">Blackish Nightjar</span> 14, 14a</li>
+    <li><i>N. hirundinaceus</i> <span class="commonName">Pygmy Nightjar</span> 14a</li>
+
+    <li><i>Nyctidromus albicollis</i> <span class="commonName">Common Pauraque</span> 4, 4a, 4b</li>
+    <li><i>N. anthonyi</i> <span class="commonName">Scrub Nightjar</span> 12</li>
+
+    <li><i>Tepuiornis whitelyi</i> <span class="commonName">Roraiman Nightjar</span> 14, 14a</li>
+
+    <li><i>Uropsalis segmentata</i> <span class="commonName">Swallow-tailed Nightjar</span> 16, 17</li>
+    <li><i>U. lyra</i> <span class="commonName">Lyre-tailed Nightjar</span></li>
+   
+    <li><i>Quechuavis decussata</i> <span class="commonName">Tschudi’s Nightjar</span> 9a</li>
+  
+    <li><i>Setopagis heterura</i> <span class="commonName">Todd's Nightjar</span> 11, 11a</li>
+    <li><i>S. parvula</i> <span class="commonName">Little Nightjar</span> 11, 12, 12a</li>
+    <li><i>S. maculosa</i> <span class="commonName">Cayenne Nightjar</span> 13</li>
+  
+    <li><i>Hydropsalis maculicaudus</i> <span class="commonName">Spot-tailed Nightjar</span> 10a</li>
+    <li><i>H. forcipata</i> <span class="commonName">Long-trained Nightjar</span> 17, 18</li>
+    <li><i>H. cayennensis</i> <span class="commonName">White-tailed Nightjar</span> 9b, 9c</li>
+    <li><i>H. climacocerca</i> <span class="commonName">Ladder-tailed Nightjar</span> 14b</li>
+    <li><i>H. torquata</i> <span class="commonName">Scissor-tailed Nightjar</span> 14c, 15</li>
+    
+    Probably would need to add <li>nbsp;</li> to achieve an empty line space.
+
+
+7.  Using the Experiment 4 result, add the linespace before a new genus like
+    Experiment 6 does. But the scientific names are NOT abbreviated here (that's
+    Experiment 4's whole point), so there's no abbreviation marker to detect a
+    genus change from — compare the actual genus word to the previous entry's
+    genus directly instead.
+
+8. Using Experiment 7's results add a "spacer" class to the <li>&nbsp;</li> so that the amount of 
+space/height is configurable.  And add the corresponding css.

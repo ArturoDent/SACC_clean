@@ -18,6 +18,7 @@ import {
   collapseBlankParagraphs,
   removeDivWrapper,
   reclassifyHyperlinkSpans,
+  removeEmptyBoldTags,
   removeEmptySpans,
   simplifyLineSeparators,
   stripLangAttribute,
@@ -33,15 +34,6 @@ const SOURCE_DIR = "dirty/proposals";
 const OUTPUT_DIR = "clean/proposals";
 const CSS_HREF = "../../css/proposals/proposals.css";
 
-const replaceProposalsHeadElement = (document) =>
-  replaceHeadElement(document, { cssHref: CSS_HREF });
-
-// Unlike the main SACC pages (body is bold throughout, so <b> is redundant Word
-// noise), proposal pages use <b> to mark real section headers ("Principles and
-// Procedures:") against normal-weight body text — keep it instead of unwrapping it.
-const stripProposalsWordFormatting = (document) =>
-  stripWordFormatting(document, { unwrapBold: false });
-
 const argStems = process.argv.slice(2);
 const stems = argStems.length
   ? argStems
@@ -56,32 +48,46 @@ const files = stems.map(s => ({
   outputFile: `${ OUTPUT_DIR }/${ s }.htm`,
 }));
 
-const cleanupSteps = [
-  stripComments,
-  replaceHtmlElement,
-  replaceProposalsHeadElement,
-  convertProposalHeader,
-  simplifyLineSeparators,
-  convertCitedText,
-  stripSpans,
-  unwrapSpellCheckSpans,
-  stripProposalsWordFormatting,
-  trimParagraphTextNodes,
-  reclassifyHyperlinkSpans,
-  stripLangAttribute,
-  unwrapAttributelessSpans,
-  removeEmptySpans,
+for (const { stem, sourceFile, outputFile } of files) {
+  // The roster is a uniform ~1200-entry list with no bold/normal contrast to
+  // preserve (unlike individual proposals, which use <b> for real section
+  // headers) — bold it via CSS instead, same as the baseline pipeline does.
+  const isRoster = stem === "roster_charts/SACCproproster";
 
-  unwrapWhitespaceOnlyFormattingTags,    // post clean-up steps
-  unwrapPunctuationOnlyUnderlineTags,
-  trimFormattingTagWhitespace,
-  combineAbbreviatedItalicNames,
+  const replaceProposalsHeadElement = (document) =>
+    replaceHeadElement(document, {
+      cssHref: isRoster ? "../../../css/proposals/roster.css" : CSS_HREF,
+    });
 
-  collapseBlankParagraphs,
-  removeDivWrapper
-];
+  const stripProposalsWordFormatting = (document) =>
+    stripWordFormatting(document, { unwrapBold: isRoster });
 
-for (const { sourceFile, outputFile } of files) {
+  const cleanupSteps = [
+    stripComments,
+    replaceHtmlElement,
+    replaceProposalsHeadElement,
+    convertProposalHeader,
+    simplifyLineSeparators,
+    convertCitedText,
+    stripSpans,
+    unwrapSpellCheckSpans,
+    stripProposalsWordFormatting,
+    trimParagraphTextNodes,
+    reclassifyHyperlinkSpans,
+    stripLangAttribute,
+    unwrapAttributelessSpans,
+    removeEmptySpans,
+    removeEmptyBoldTags,
+
+    unwrapWhitespaceOnlyFormattingTags,    // post clean-up steps
+    unwrapPunctuationOnlyUnderlineTags,
+    trimFormattingTagWhitespace,
+    combineAbbreviatedItalicNames,
+
+    collapseBlankParagraphs,
+    removeDivWrapper
+  ];
+
   const { results } = await createCleanHtml({ sourceFile, outputFile, cleanupSteps });
   for (const result of results) {
     if (result?.message) console.log(result.message);

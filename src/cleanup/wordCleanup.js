@@ -252,6 +252,33 @@ export const removeEmptySpans = (document) => {
   };
 };
 
+// Same as removeEmptySpans, but for <b> — only relevant where bold is preserved
+// rather than unwrapped (proposals pipeline): a <b> wrapping only Word's <o:p>
+// paragraph-mark placeholder ends up with nothing left inside once that's
+// stripped, since nothing else targets bold tags specifically.
+export const removeEmptyBoldTags = (document) => {
+  const boldElements = [...document.querySelectorAll("b")].filter((b) => b.childElementCount === 0);
+  let removed = 0;
+  let collapsed = 0;
+
+  for (const b of boldElements) {
+    const text = b.textContent ?? "";
+    if (!text) {
+      b.remove();
+      removed++;
+    } else if (!text.trim()) {
+      b.replaceWith(document.createTextNode(text));
+      collapsed++;
+    }
+  }
+
+  return {
+    message: `Removed ${ removed } empty <b> tag${ removed === 1 ? "" : "s" } and collapsed ${ collapsed } whitespace-only <b> tag${ collapsed === 1 ? "" : "s" } to text.`,
+    removed,
+    collapsed,
+  };
+};
+
 export const stripEmptyLines = (document) => {
   const comments = [];
   const walker = document.createTreeWalker(document, document.defaultView?.NodeFilter.SHOW_COMMENT);

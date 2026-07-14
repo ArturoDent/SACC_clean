@@ -1,0 +1,3 @@
+/* Same column-alignment technique as experiment_1.css, applied after */
+/* experiment 2's genus abbreviation shortens some scientific names. */
+.familySpeciesList li > i:first-child { display: inline-block; min-width: 27ch; }
