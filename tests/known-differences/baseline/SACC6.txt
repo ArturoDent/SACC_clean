@@ -14,3 +14,6 @@
 
 "Xingu" color mismatch: dirty=rgb(0, 128, 0)  clean=rgb(0, 153, 0)
 # dirty L13481  clean L360
+
+# "as a separate species. SACC" should appear with non-black color in clean
+# dirty L18108  clean L420

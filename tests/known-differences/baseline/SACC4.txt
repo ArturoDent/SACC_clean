@@ -30,3 +30,9 @@
 Eudyptes moseleyi Tristan Penguin 8, 8a (V)
 # Eudyptes moseleyi Tristan Penguin (V) 8, 8a
 # Rendered line 520  dirty L?  clean L1918
+
+# "as a separate species. SACC" should appear with non-black color in clean
+# dirty L14929  clean L168
+
+# "to add to main list. Proposal" should appear with non-black color in clean
+# dirty L16517  clean L449

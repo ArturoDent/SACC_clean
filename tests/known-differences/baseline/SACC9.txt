@@ -12,3 +12,9 @@
 # 13. Cistothorus platensis (sensu lato), C. meridae, and C. apolinari form a superspecies (Mayr & Short 1970, AOU 1983, Sibley & Monroe 1990). Robbins & Nyári (2014) found that Cistothorus platensis was paraphyletic with respect to the other two, and they proposed recognition of nine species within broadly defined platensis, seven of which are in South America: C. alticola, C. aequatorialis, C. graminicola, C. minimus, C. tucumanus, C. hornensis, and C. platensis; see also Dyer & Howell (2023).. SACC proposal passed to treat South American platensis group as separate species from northern C. stellaris. SACC proposal did not pass to recognize additional species within C. platensis.
 # 13. Cistothorus platensis (sensu lato), C. meridae, and C. apolinari form a superspecies (Mayr & Short 1970, AOU 1983, Sibley & Monroe 1990). Robbins & Nyári (2014) found that Cistothorus platensis was paraphyletic with respect to the other two, and they proposed recognition of nine species within broadly defined platensis, seven of which are in South America: C. alticola, C.aequatorialis, C. graminicola, C. minimus, C. tucumanus, C. hornensis, and C. platensis; see also Dyer & Howell (2023).. SACC proposal passed to treat South American platensis group as separate species from northern C. stellaris. SACC proposal did not pass to recognize additional species within C. platensis.
 # Rendered line 250  dirty L?  clean L?
+
+# "to change to "Sand Martin" did not pass. SACC" should appear with non-black color in clean
+# dirty L12536  clean L623
+
+# "as a separate species. SACC" should appear with non-black color in clean
+# dirty L14597  clean L752

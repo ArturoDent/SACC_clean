@@ -69,6 +69,15 @@ const consolidateInfoRuns = (document, root, className = "info") => {
         continue;
       }
 
+      // Italic bridge (e.g. a species name splitting one sentence into
+      // fragments) — extend speculatively, same as the bare <a> bridge below;
+      // trimmed off again if it doesn't lead to another info node.
+      if (cursor.nodeType === Node.ELEMENT_NODE && cursor.tagName === "I") {
+        run.push(cursor);
+        cursor = cursor.nextSibling;
+        continue;
+      }
+
       // Bare <a> bridge — link text not wrapped in an info span (common for .info class).
       // Extend speculatively; the trim step below drops it if no info node follows.
       if (cursor.nodeType === Node.ELEMENT_NODE && cursor.tagName === "A") {
@@ -113,6 +122,150 @@ const consolidateInfoRuns = (document, root, className = "info") => {
 
     collapseTextNodeWhitespace(document, infoSpan);
   }
+};
+
+const CITATION_LINK_RE = /SACCprop(\d+[A-Za-z]?)\.html?$/i;
+
+// Some span.className runs wrongly glue together two or more distinct SACC
+// proposal citations (e.g. "SACC proposal[566] passed ... SACC proposal[575]
+// ..."). Split each such span right before the token ("SACC", or "Proposal"
+// for the phrasing variant that omits "SACC") that starts each citation after
+// the first. A span with 2+ <a> links to the SAME proposal number (a bonus
+// inline link on a species name, not a new citation) is left untouched.
+const splitMultiCitationInfoSpans = (document, root, className = "info") => {
+  const Node = document.defaultView.Node;
+  let splits = 0;
+
+  for (const span of [...root.querySelectorAll(`span.${ className }`)]) {
+    const allLinks = [...span.querySelectorAll("a")]
+      .filter((a) => CITATION_LINK_RE.test(a.getAttribute("href") ?? ""));
+
+    // Keep only the first <a> per distinct proposal number - later <a>s to
+    // the same number are bonus inline links to the same citation, not a new one.
+    const seen = new Set();
+    const citationLinks = [];
+    for (const a of allLinks) {
+      const number = a.getAttribute("href")?.match(CITATION_LINK_RE)?.[1];
+      if (number && !seen.has(number)) {
+        seen.add(number);
+        citationLinks.push(a);
+      }
+    }
+    if (citationLinks.length < 2) continue;
+
+    for (let i = citationLinks.length - 1; i >= 1; i--) {
+      const prevLink = citationLinks[i - 1];
+      const thisLink = citationLinks[i];
+
+      const range = document.createRange();
+      range.setStartAfter(prevLink);
+      range.setEndBefore(thisLink);
+      const between = range.toString();
+      let tokenIndex = Math.max(between.lastIndexOf("SACC"), between.lastIndexOf("Proposal"));
+      if (tokenIndex === -1) continue; // leave unsplit rather than guess
+
+      // A capitalized adverb directly preceding the token (e.g. "New SACC",
+      // "Subsequently, SACC") belongs to the new citation's sentence, not the
+      // old one - fold it into the split point too. Only capitalized words
+      // qualify: a lowercase conjunction (e.g. "but subsequent SACC") signals
+      // one continuous sentence rather than a fresh one, so it's left as-is.
+      const precedingWord = between.slice(0, tokenIndex).match(/[A-Z][a-zA-Z]*,?\s+$/);
+      if (precedingWord) tokenIndex -= precedingWord[0].length;
+
+      // Walk the whole span to find the text node containing the split point,
+      // counting only text genuinely after prevLink (not prevLink's own inner
+      // text, which "following" alone wouldn't exclude - descendants count as
+      // "following" their ancestor too, hence the extra CONTAINED_BY check).
+      const walker = document.createTreeWalker(span, Node.SHOW_TEXT);
+      let charsSeen = 0;
+      let splitNode = null;
+      let splitOffset = 0;
+      let text;
+      while ((text = walker.nextNode())) {
+        const pos = prevLink.compareDocumentPosition(text);
+        const isAfterPrevLink = (pos & Node.DOCUMENT_POSITION_FOLLOWING) && !(pos & Node.DOCUMENT_POSITION_CONTAINED_BY);
+        if (!isAfterPrevLink) continue;
+        if (thisLink.contains(text)) break;
+
+        const len = (text.nodeValue ?? "").length;
+        if (charsSeen + len > tokenIndex) {
+          splitNode = text;
+          splitOffset = tokenIndex - charsSeen;
+          break;
+        }
+        charsSeen += len;
+      }
+      if (!splitNode) continue;
+
+      const newTextNode = splitNode.splitText(splitOffset);
+      const newSpan = document.createElement("span");
+      newSpan.className = className;
+      span.after(newSpan);
+
+      let node = newTextNode;
+      while (node) {
+        const next = node.nextSibling;
+        newSpan.appendChild(node);
+        node = next;
+      }
+      splits++;
+    }
+  }
+
+  return {
+    message: `Split ${ splits } multi-citation info span${ splits === 1 ? "" : "s" }.`,
+    splits,
+  };
+};
+
+// Matches a citation link in either relative form (baseline, already
+// shortened by shortenSaccPropLinks) or absolute form (proposals, not
+// shortened) - digits-only or a combined-citation range/list ("214-218",
+// "373+374"), .htm or the occasional ".html" typo in the source. Deliberately
+// narrower than CITATION_LINK_RE above (no letter suffix) to match only links
+// shortenSaccPropLinks itself would also normalize.
+const CITED_PROPOSAL_LINK_RE = /(?:^|\/)(SACCprop\d+(?:[-+]\d+)?\.html?)$/i;
+
+// A citation's own <a> is sometimes a preceding sibling of the .info span
+// rather than nested inside it (e.g. "<a href='SACCprop551.htm'>Proposal</a>
+// <span class='info'> passed to change ...</span>"), skipping only
+// whitespace-only text between them.
+const precedingCitationLink = (document, span) => {
+  const Node = document.defaultView.Node;
+  let node = span.previousSibling;
+
+  while (node && node.nodeType === Node.TEXT_NODE && !node.textContent?.trim()) {
+    node = node.previousSibling;
+  }
+
+  return node?.nodeType === Node.ELEMENT_NODE && node.tagName === "A" ? node : null;
+};
+
+// .info is a catch-all for any originally-blue Word text (stripWordFormatting).
+// Spans that specifically cite a single decided proposal page get their own
+// .citedProposal class/style instead, leaving plain .info for anything else
+// that happened to be blue. Runs after splitMultiCitationInfoSpans so every
+// span here already has at most the citation links for ONE proposal.
+const reclassifyCitedProposalSpans = (document, root, className = "info") => {
+  let reclassified = 0;
+
+  for (const span of [...root.querySelectorAll(`span.${ className }`)]) {
+    const nestedLink = [...span.querySelectorAll("a")]
+      .some((a) => CITED_PROPOSAL_LINK_RE.test(a.getAttribute("href") ?? ""));
+    const precedingLink = precedingCitationLink(document, span);
+    const hasCitationLink = nestedLink
+      || (precedingLink && CITED_PROPOSAL_LINK_RE.test(precedingLink.getAttribute("href") ?? ""));
+    if (!hasCitationLink) continue;
+
+    span.classList.remove(className);
+    span.classList.add("citedProposal");
+    reclassified++;
+  }
+
+  return {
+    message: `Reclassified ${ reclassified } cited-proposal span${ reclassified === 1 ? "" : "s" } from .${ className } to .citedProposal.`,
+    reclassified,
+  };
 };
 
 const mergeAdjacentItalicElements = (document, root) => {
@@ -274,6 +427,16 @@ export function collapseInlineParagraphs(document) {
         else if (!text.trim()) span.replaceWith(document.createTextNode(text));
       }
     }
+  }
+
+  // Split any span that ended up citing 2+ distinct proposals (accidental
+  // over-merge) - must run after both consolidateInfoRuns passes above have
+  // finished, so a not-yet-merged fragment can't be mis-split and a split-off
+  // span can't get wrongly re-merged by a later pass.
+  for (const p of paragraphs) {
+    splitMultiCitationInfoSpans(document, p);
+    splitMultiCitationInfoSpans(document, p, "pendingProposal");
+    reclassifyCitedProposalSpans(document, p);
   }
 
   // consolidateInfoRuns above can merge separately-italicized runs into new

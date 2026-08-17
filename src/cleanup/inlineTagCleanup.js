@@ -85,18 +85,20 @@ export const unwrapWhitespaceOnlyFormattingTags = (document) => {
   };
 };
 
-export const unwrapPunctuationOnlyUnderlineTags = (document) => {
+export const unwrapPunctuationOnlyFormattingTags = (document) => {
   let replacements = 0;
 
-  for (const element of [...document.querySelectorAll("u")]) {
-    if (/^[.,]$/.test(element.textContent ?? "")) {
-      element.replaceWith(document.createTextNode(element.textContent ?? ""));
-      replacements++;
+  for (const selector of inlineCleanupTags) {
+    for (const element of [...document.querySelectorAll(selector)]) {
+      if (/^[.,;]$/.test(element.textContent ?? "")) {
+        element.replaceWith(document.createTextNode(element.textContent ?? ""));
+        replacements++;
+      }
     }
   }
 
   return {
-    message: `Replaced ${ replacements } punctuation-only underline tag${ replacements === 1 ? "" : "s" } with text.`,
+    message: `Replaced ${ replacements } punctuation-only formatting tag${ replacements === 1 ? "" : "s" } with text.`,
     replacements,
   };
 };

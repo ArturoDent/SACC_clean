@@ -1,0 +1,34 @@
+@import url("styles.css");
+
+.version { color: red; font-size: 14pt; }
+
+
+#speciesListTable {
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  border-collapse: collapse;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+#speciesListTable td {
+  border: 2px solid black;
+  padding: 7px 10px;
+  vertical-align: top;
+}
+
+/* so that 'Endemic Breeders' column breaks (ala 'Endemic \n Breeders') and isn't so wide */
+#speciesListTable td:nth-child(5) { max-width: 5em; }
+
+
+/* first column = country name, left-aligned; all other columns centred */
+#speciesListTable td + td {
+  text-align: center;
+}
+
+#speciesListTable .country         { color: blue;    }
+#speciesListTable .total           { color: blue;    }
+#speciesListTable .breeder         { color: green;   }
+#speciesListTable .endemic         { color: red;     }
+#speciesListTable .endemicBreeder  { color: #C00000; }

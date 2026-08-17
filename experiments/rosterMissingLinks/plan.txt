@@ -1,0 +1,57 @@
+Ignore any line that starts with an #.
+
+Modify the output of clean/proposals/roster_charts/SACCproproster.htm to add missing links 
+to proposals.
+
+Put the .htm output in experiments/rosterMissingLinks/result/** 
+with experiment 1 result in SACCproproster_1.htm, experiment 2 in SACCproproster_2.htm, etc.
+
+Put the js code in experiments/rosterMissingLinks/src/** like experiment_1.js.
+
+Put the css code, if any, into experiments/rosterMissingLinks/css/** like experiment_1.css.
+Update the  <link rel="stylesheet" href="....."> if new css.
+
+Run the code on clean/proposals/roster_charts/SACCproproster.htm.
+
+Do not cause any change to the clean/** files.
+
+Create a function/file that can run after completion of index.js - i.e., on clean/** files.
+
+# (the post-index.js integration function) remains explicitly deferred per your earlier agreement. 
+
+Ask questions if you do not fully understand these instructions.
+
+Each experiment is separate from the others: there should be results of each experiment.
+
+"Report": .claude\reports\roster-entries-missing-links.md for prior analysis and context.
+
+Links should have one of these forms: 
+  <a href="http://www.museum.lsu.edu/~Remsen/SACCprop313.htm">Tityridae</a>
+  <a href="http://www.museum.lsu.edu/~Remsen/SACCprop316.htm"><i>Dendroplex</i></a>  -> if wrapped text is <i> in original.
+
+What text should be the link will vary by experiment below.
+
+Experiments:
+
+1.  Add missing links - use missingList.txt to see incomplete links.
+
+  The incomplete links look like : "506. Recognize <a href="">Forpus flavicollis</a>. * DID NOT PASS"
+
+  Links with an "*" like "* DID NOT PASS" or "* PASSED (...some date here...)" at the end should be IGNORED. 
+  Their missing link is intentional.
+
+  Each entry is preceeded by its proposal number, i.e., the below should use proposal 1052:
+      `1052A. Maintain broadly defined <a href="">B. virginianus</a> (Lane) DID NOT PASS`
+
+      (a) Verify that there exists a http://www.museum.lsu.edu/~Remsen/SACCprop###.htm for each entry.  
+          Single digit proposals will probably be found as 06, 07, etc.
+
+      (b) Fill in the href attribute. Change the example above to "1052A. Maintain broadly defined <a href="http://www.museum.lsu.edu/~Remsen/SACCprop1052.htm">B. virginianus</a> (Lane) DID NOT PASS"
+
+      (c) Add the new text to experiments/rosterMissingLinks/SACCproproster_1.htm in the propoer location. 
+
+
+
+
+
+

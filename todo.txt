@@ -83,9 +83,25 @@ color: canvastext; (Modern system fallback) or color: #000000; (Explicit fallbac
  
 21. SACCProp626:  <p align="center">======================================================</p>
 
-22. Part 2:  "SACC proposal passed to recognize Coccycua." : no link
-<span class="info">SACC </span>proposal<span class="info"> passed to
-        recognize <i>Coccycua</i>.  :: 2 spans can be combined
+22. 
+
+Part 1:
+    <p>5. Genetic data (mtDNA only; Bulgarella et al. 2014) suggest that <i>Neochen jubatus</i> is the sister species to
+      <i>Chloephaga melanoptera</i>, and thus is likely embedded in <i>Chloephaga</i> as currently circumscribed. <span
+        class="info">SACC <a href="SACCprop637.htm">proposal</a> passed to treat <i>Chloephaga melanoptera</i> and
+      </span><i><span class="info">Neochen jubatus</span></i><span class="info"> as congeners; <i>Oressochen</i>
+        Bannister 1870 becomes the name for these two when treated in a separate genus</span>.</p>
+
+    <p>4b. Bulgarella et al. (2014) found that <i>Neochen jubatus</i> was the sister species to <i>Chloephaga
+    melanoptera</i>; they also found that <i>C. rubidiceps</i> and <i>C. poliocephala</i> were sisters, and that
+  <i>C. picta</i> and <i>C. hybrida</i> were sisters. <span class="proposalNeeded">SACC proposal needed to transfer
+    <i>Chloephaga melanoptera</i> to </span><i><span class="red">Neochen</span>.</i></p>    
+
+Part 2:  
+
+  "SACC proposal passed to recognize Coccycua." : no link
+  <span class="info">SACC </span>proposal<span class="info"> passed to
+          recognize <i>Coccycua</i>.  :: 2 spans can be combined
 
   3e. Traditionally treated in the monotypic genus Podager, but genetic data 
   (Han et al. (2010) indicate that it is embedded in Chordeiles and sister to C. pusillus. 
@@ -94,3 +110,85 @@ color: canvastext; (Modern system fallback) or color: #000000; (Explicit fallbac
   17. Holyoak (2001) merged Uropsalis into Macropsalis, noting that the characters 
   used to distinguish the two genera, mainly tail shape, are not appropriate for 
   generic distinction. SACC proposal for enlarged Hydropsalis did not pass.   -> no link, "proposal" in black.
+
+Part 3:
+
+  <span class="info">SACC <a href="SACCprop756.htm">proposal</a> passed to recognize
+  <i>Campylopterus calcirupicola</i></span><i>.</i> <span class="info">SACC <a href="SACCprop826.htm">proposal</a>
+  passed to establish English name</span>. <span class="info">SACC <a href="SACCprop755.htm">proposal</a> to
+  recognize <i>obscurus</i> as a separate species did not pass</span>. <span class="info">SACC <a
+    href="SACCprop755.htm">proposal</a> to recognize </span><i><span class="info">diamantinensis</span></i><span
+  class="info"> as a separate species passed</span>. <span class="info">SACC <a
+    href="SACCprop859.htm">proposal</a> passed to establish an English name</span>.</p>
+
+
+23. SACCproproster.htm  and proposals: 
+  All links are '<a href="http://www.museum.lsu.edu/~Remsen/SACCprop55.htm">' instead of '<a href="SACCprop55.htm">'
+  Only if to SACCprop\d+.htm
+
+24.  These could be shortened too:     <span>Part 2. <a href="http://www.museum.lsu.edu/~Remsen/SACCBaseline02.htm">Columbiformes to
+        Caprimulgiformes</a></span><br>
+
+25.  <span class="proposal">SACC <a href="SACCprop747.htm">proposal</a> passed to modify English
+        names</span>.
+
+26. SACCprop1044.htm and others:   fuchsia in dirty s/b .proposalNeeded    { color: red;     }
+
+      <p><b>"1c. Areta &amp; Benítez Saldívar (2025) provided vocal evidence for treating South American <i>destructus</i>
+      as separate species. <span class="pendingProposal">SACC proposal needed</span>."</b></p>
+
+27. Part 1:
+  They form a superspecies (Sibley &amp; Monroe 1990), and
+      genetic data (Johnson &amp; Sorenson 1999) confirm that they are sister species. <span class="citedProposal">SACC
+        <a href="SACCprop357.htm">proposal</a> to treat <i>puna</i> as </span>cons<span class="info">pecific with
+        <i>versicolor</i> did not pass</span>. Johnsgard (1965) proposed that these two species were most closely
+      related to African <i>A. hottentota</i>; genetic data (Johnson &amp; Sorenson 1999) suggest that this is correct.
+
+  <span class="citedProposal">SACC <a
+          href="SACCprop345.htm">proposal</a> passed to return <i>roseus</i> to species rank</span>. Torres et al.
+      (2014) found that at the loci sampled, <i>roseus</i> and <i>ruber</i> are as divergent as <i>andinus</i> and
+      <i>jamesi</i>. <span class="citedProposal">SACC <a href="SACCprop644.htm">proposal</a><span class="info"> passed
+          to modify linear sequence</span></span>.</p>
+
+  Part 2:
+
+    <p>2. Sibley &amp; Monroe (1990) and Payne (1997) considered <i>Coccyzus pumilus</i> and <i>C. cinereus</i> to form
+    a superspecies. They were treated in a separate genus, <i>Micrococcyx</i>, by Ridgway (1916) and Pinto (1938).
+    Peters (1945) merged <i>Micrococcyx</i> into <i>Coccyzus</i>, and this has been followed in all subsequent
+    classifications. However, Sorenson &amp; Payne (2005) and Hughes (2006) found that inclusion of these two species
+    in <i>Coccyzus</i> would make that genus paraphyletic with respect to <i>Piaya</i>. Sorenson &amp; Payne (2005)
+    also found strong support for a sister relationship between <i>Piaya minuta</i> and these two species, and
+    treatment of these three in a separate genus, <i>Coccycua</i>, is the only way that <i>Coccyzus</i> and
+    <i>Piaya</i> can remain monophyletic. <span class="info">SACC </span>proposal<span class="info"> passed to
+      recognize <i>Coccycua</i>.</span> Banks et al. (2006) recognized <i>Coccycua</i>.</p>
+
+
+    <p>3e. Traditionally treated in the monotypic genus <i>Podager</i>, but genetic data (Han et al. (2010) indicate
+    that it is embedded in <i>Chordeiles</i> and sister to <i>C. pusillus</i>. <span class="info">SACC
+    </span>proposal<span class="info"> passed to reassign to <i>Chordeiles</i></span>.
+
+    <p>17. Holyoak (2001) merged <i>Uropsalis</i> into <i>Macropsalis</i>, noting that the characters used to
+    distinguish the two genera, mainly tail shape, are not appropriate for generic distinction. <span
+      class="info">SACC </span>proposal<span class="info"> for enlarged <i>Hydropsalis</i> did not pass.</span></p>
+
+Part 4:
+
+ <a href="SACCprop551.htm">Proposal</a><span class="info"> passed to change linear sequence of genera in Charadriidae</span>.</p> 
+there are a few of these <a>Proposal</a><span class="info">...</span> that s/b: <span class="citedProposal"><a>Proposal</a>...</span>
+
+  <p>16e. Published photo from Rio Grande do Sul, Brazil (Aldabe et al. 2010). <span class="info">SACC <a
+        href="SACCprop509.html">proposal</a> passed to move to main list</span>. Published photo from French Guiana
+    (Renaudier &amp; Claessens 2014).</p>
+
+28.  class="grame"  and class="GramE" ??  Word's grammar checker -> removed.
+
+29.  Look for any ".html" instead of ".htm"
+
+
+First line
+    Second line
+    Third line
+        Fourth line
+        Fifth line
+    Sixth line
+Seventh line

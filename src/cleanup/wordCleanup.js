@@ -173,6 +173,23 @@ export const unwrapSpellCheckSpans = (document) => {
   };
 };
 
+export const unwrapGramESpans = (document) => {
+  const spans = [...document.querySelectorAll("span.GramE")];
+
+  for (const span of spans) {
+    const parent = span.parentNode;
+    if (!parent) continue;
+
+    while (span.firstChild) parent.insertBefore(span.firstChild, span);
+    parent.removeChild(span);
+  }
+
+  return {
+    message: `Removed ${ spans.length } GramE span${ spans.length === 1 ? "" : "s" }.`,
+    removals: spans.length,
+  };
+};
+
 // Word's `lang`/`mso-ansi-language` markup only ever fed its own spell-checker —
 // it carries no meaning in the cleaned output. Scoped to <body> so the deliberate
 // <html lang="en"> set by replaceHtmlElement is left alone.
@@ -214,6 +231,29 @@ export const unwrapAttributelessSpans = (document) => {
 // consolidateInfoRuns (src/formatting/inlineParagraphs.js) already merges runs
 // of adjacent .info spans bridged by a bare <a>, so this alone is enough to
 // collapse a phrase split across multiple MsoHyperlink fragments into one span.
+// The live site's own absolute URL and the project's relative form both work,
+// but are used inconsistently in the source - normalize to the short relative
+// form, matching most other SACCprop links already in this document. Scoped
+// to "SACCprop<digits>.htm" and combined-citation forms like "214-218" or
+// "373+374" (no letter suffix, no ".html") to avoid touching forms this
+// pattern can't confirm.
+const SACCPROP_ABSOLUTE_LINK_RE = /^https?:\/\/www\.museum\.lsu\.edu\/(?:~|%7E)Remsen\/(SACCprop\d+(?:[-+]\d+)?\.htm)$/i;
+
+export const shortenSaccPropLinks = (document) => {
+  const links = [...document.querySelectorAll("a[href]")]
+    .filter((a) => SACCPROP_ABSOLUTE_LINK_RE.test(a.getAttribute("href") ?? ""));
+
+  for (const a of links) {
+    const shortHref = a.getAttribute("href")?.match(SACCPROP_ABSOLUTE_LINK_RE)?.[1];
+    if (shortHref) a.setAttribute("href", shortHref);
+  }
+
+  return {
+    message: `Shortened ${ links.length } absolute SACCprop link${ links.length === 1 ? "" : "s" } to relative form.`,
+    count: links.length,
+  };
+};
+
 export const reclassifyHyperlinkSpans = (document) => {
   const spans = [...document.querySelectorAll("span.MsoHyperlink")];
 

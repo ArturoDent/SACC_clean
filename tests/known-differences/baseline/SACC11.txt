@@ -17,3 +17,12 @@
 
 # "Suborder PASSERES (OSCINES) (concluded)" should appear with non-black color in clean
 # dirty L?  clean L56
+
+# "; SACC proposal passed to include" should appear with non-black color in clean
+# dirty L14999  clean L?
+
+# "passed to change to "Canary-winged Finch" but subsequent SAC" should appear with non-black color in clean
+# dirty L18298  clean L2566
+
+# "elsewhere. SACC" should appear with non-black color in clean
+# dirty L21024  clean L2998

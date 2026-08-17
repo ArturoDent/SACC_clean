@@ -5,3 +5,6 @@
 
 # 24. Tachornis squamata was formerly (e.g., Cory 1918, Pinto 1938, Phelps & Phelps 1958a, Meyer de Schauensee 1970) placed in genus Reinarda, sometimes including T. furcata, but Lack (1956) and Brooke (1970) merged Reinarda into Tachornis ,and this has been followed in most subsequent classifications (e.g., Sibley & Monroe 1990, Chantler & Dressens 1995, Chantler 1999, Dickinson & Remsen 2013). Called "Neotropical Palm-Swift" in Hilty (2003) [and elsewhere?]. → 24. Tachornis squamata was formerly (e.g., Cory 1918, Pinto 1938, Phelps & Phelps 1958a, Meyer de Schauensee 1970) placed in genus Reinarda, sometimes including T. furcata, but Lack (1956) and Brooke (1970) merged Reinarda into Tachornis,and this has been followed in most subsequent classifications (e.g., Sibley & Monroe 1990, Chantler & Dressens 1995, Chantler 1999, Dickinson & Remsen 2013). Called "Neotropical Palm-Swift" in Hilty (2003) [and elsewhere?].
 # Changed in dirty, so no longer triggers an error.
+
+# "to species rank and SACC" should appear with non-black color in clean
+# dirty L4615  clean L879

@@ -10,7 +10,7 @@ import { createCleanHtml } from "./pipeline/createCleanHtml.js";
 import {
   combineAbbreviatedItalicNames,
   trimFormattingTagWhitespace,
-  unwrapPunctuationOnlyUnderlineTags,
+  unwrapPunctuationOnlyFormattingTags,
   unwrapWhitespaceOnlyFormattingTags,
 } from "./cleanup/inlineTagCleanup.js";
 import { convertFamilySpeciesLists } from "./sacc/familySpeciesList.js";
@@ -31,6 +31,7 @@ import {
   reclassifyHyperlinkSpans,
   removeDivWrapper,
   removeEmptySpans,
+  shortenSaccPropLinks,
   simplifyBanner,
   simplifyLineSeparators,
   stripLangAttribute,
@@ -39,6 +40,7 @@ import {
   stripSpans,
   trimParagraphTextNodes,       // removes empty lines and lines with whitespace only
   unwrapAttributelessSpans,
+  unwrapGramESpans,
 } from "./cleanup/wordCleanup.js";
 
 const SOURCE_DIR = "dirty/baseline";
@@ -91,8 +93,16 @@ const baselineTitle = (stem) => {
 
 for (const { stem, sourceFile, outputFile } of files) {
   const title = baselineTitle(stem);
+  // "SACCn" stems land two directories deep (clean/baseline/); SACCCountryLists
+  // has its own stylesheet; everything else lands directly under clean/ and
+  // uses replaceHeadElement's default cssHref (../css/styles.css).
+  const cssHref = /^SACC\d+$/i.test(stem)
+    ? "../../css/styles.css"
+    : stem === "SACCCountryLists"
+      ? "../css/countryLists.css"
+      : undefined;
   const replaceBaselineHeadElement = (document) =>
-    replaceHeadElement(document, title ? { title } : undefined);
+    replaceHeadElement(document, { ...(cssHref ? { cssHref } : {}), ...(title ? { title } : {}) });
 
   const steps = [
     stripComments,
@@ -101,6 +111,7 @@ for (const { stem, sourceFile, outputFile } of files) {
     simplifyBanner,
     simplifyLineSeparators,
     stripSpans,
+    unwrapGramESpans,
     stripWordFormatting,
     replaceSpacerElements,
     trimParagraphTextNodes,
@@ -114,8 +125,8 @@ for (const { stem, sourceFile, outputFile } of files) {
     convertSaccAuxLinks,
 
     unwrapWhitespaceOnlyFormattingTags,    // post clean-up steps
-    unwrapPunctuationOnlyUnderlineTags,
     trimFormattingTagWhitespace,
+    unwrapPunctuationOnlyFormattingTags,
     combineAbbreviatedItalicNames,
 
     convertPartHeaders,
@@ -123,9 +134,10 @@ for (const { stem, sourceFile, outputFile } of files) {
     removeDivWrapper,
     addTaxonomyLevels,
 
+    // add these steps if true
     ...(stem === "SACCCountryLists" ? [convertSpeciesListTable, classifySpeciesListColumns, convertStatusCodes] : []),
     ...(stem === "SACC1" ? [convertMembershipSection] : []),
-    ...(/^SACC\d+$/i.test(stem) ? [convertFootnotes] : [])
+    ...(/^SACC\d+$/i.test(stem) ? [convertFootnotes, shortenSaccPropLinks] : [])
   ];
 
   const { results } = await createCleanHtml({ sourceFile, outputFile, cleanupSteps: steps });

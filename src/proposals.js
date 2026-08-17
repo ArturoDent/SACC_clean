@@ -7,7 +7,7 @@ import { createCleanHtml } from "./pipeline/createCleanHtml.js";
 import {
   combineAbbreviatedItalicNames,
   trimFormattingTagWhitespace,
-  unwrapPunctuationOnlyUnderlineTags,
+  unwrapPunctuationOnlyFormattingTags,
   unwrapWhitespaceOnlyFormattingTags,
 } from "./cleanup/inlineTagCleanup.js";
 import { convertProposalHeader } from "./proposals/proposalHeader.js";
@@ -27,6 +27,7 @@ import {
   stripSpans,
   trimParagraphTextNodes,
   unwrapAttributelessSpans,
+  unwrapGramESpans,
   unwrapSpellCheckSpans,
 } from "./cleanup/wordCleanup.js";
 
@@ -71,6 +72,7 @@ for (const { stem, sourceFile, outputFile } of files) {
     convertCitedText,
     stripSpans,
     unwrapSpellCheckSpans,
+    unwrapGramESpans,
     stripProposalsWordFormatting,
     trimParagraphTextNodes,
     reclassifyHyperlinkSpans,
@@ -80,8 +82,8 @@ for (const { stem, sourceFile, outputFile } of files) {
     removeEmptyBoldTags,
 
     unwrapWhitespaceOnlyFormattingTags,    // post clean-up steps
-    unwrapPunctuationOnlyUnderlineTags,
     trimFormattingTagWhitespace,
+    unwrapPunctuationOnlyFormattingTags,
     combineAbbreviatedItalicNames,
 
     collapseBlankParagraphs,

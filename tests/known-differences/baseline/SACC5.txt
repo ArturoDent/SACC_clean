@@ -11,3 +11,9 @@
 
 "Psittaculinae" color mismatch: dirty=rgb(255, 0, 255)  clean=rgb(198, 9, 255)
 # dirty L6527  clean L1955
+
+# "to species rank; SACC" should appear with non-black color in clean
+# dirty L2549  clean L165
+
+# "; SACC" should appear with non-black color in clean
+# dirty L2549  clean L?
