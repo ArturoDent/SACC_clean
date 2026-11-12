@@ -243,7 +243,7 @@ const precedingCitationLink = (document, span) => {
 
 // .info is a catch-all for any originally-blue Word text (stripWordFormatting).
 // Spans that specifically cite a single decided proposal page get their own
-// .citedProposal class/style instead, leaving plain .info for anything else
+// .resolvedProposal class/style instead, leaving plain .info for anything else
 // that happened to be blue. Runs after splitMultiCitationInfoSpans so every
 // span here already has at most the citation links for ONE proposal.
 const reclassifyCitedProposalSpans = (document, root, className = "info") => {
@@ -258,12 +258,12 @@ const reclassifyCitedProposalSpans = (document, root, className = "info") => {
     if (!hasCitationLink) continue;
 
     span.classList.remove(className);
-    span.classList.add("citedProposal");
+    span.classList.add("resolvedProposal");
     reclassified++;
   }
 
   return {
-    message: `Reclassified ${ reclassified } cited-proposal span${ reclassified === 1 ? "" : "s" } from .${ className } to .citedProposal.`,
+    message: `Reclassified ${ reclassified } cited-proposal span${ reclassified === 1 ? "" : "s" } from .${ className } to .resolvedProposal.`,
     reclassified,
   };
 };

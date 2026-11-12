@@ -9,6 +9,7 @@ import fs from "fs/promises";
 import { createCleanHtml } from "./pipeline/createCleanHtml.js";
 import {
   combineAbbreviatedItalicNames,
+  normalizeSpanNestingOrder,
   trimFormattingTagWhitespace,
   unwrapPunctuationOnlyFormattingTags,
   unwrapWhitespaceOnlyFormattingTags,
@@ -41,6 +42,7 @@ import {
   trimParagraphTextNodes,       // removes empty lines and lines with whitespace only
   unwrapAttributelessSpans,
   unwrapGramESpans,
+  unwrapSpeciesnameSpans,
 } from "./cleanup/wordCleanup.js";
 
 const SOURCE_DIR = "dirty/baseline";
@@ -112,6 +114,7 @@ for (const { stem, sourceFile, outputFile } of files) {
     simplifyLineSeparators,
     stripSpans,
     unwrapGramESpans,
+    unwrapSpeciesnameSpans,
     stripWordFormatting,
     replaceSpacerElements,
     trimParagraphTextNodes,
@@ -128,6 +131,7 @@ for (const { stem, sourceFile, outputFile } of files) {
     trimFormattingTagWhitespace,
     unwrapPunctuationOnlyFormattingTags,
     combineAbbreviatedItalicNames,
+    normalizeSpanNestingOrder,
 
     convertPartHeaders,
     convertSaccFooter,
@@ -143,6 +147,9 @@ for (const { stem, sourceFile, outputFile } of files) {
   const { results } = await createCleanHtml({ sourceFile, outputFile, cleanupSteps: steps });
   for (const result of results) {
     if (result?.message) console.log(result.message);
+    if (result?.value?.skipped?.length) {
+      for (const item of result.value.skipped) console.log(`  - needs manual review: <${ item.tag }> ${ item.outerHTML }`);
+    }
   }
   console.log(`Wrote ${ outputFile }.`);
 }

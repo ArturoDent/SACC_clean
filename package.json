@@ -10,7 +10,8 @@
     "populate-known-differences": "node scripts/populateKnownDifferences.js",
     "harvest-proposal-links": "node scripts/harvestProposalLinks.js",
     "download-proposals": "node scripts/downloadProposals.js",
-    "download-baseline": "node scripts/downloadBaseline.js"
+    "download-baseline": "node scripts/downloadBaseline.js",
+    "verify-species-order": "node spreadsheets/scripts/verifySpeciesOrder.js"
   },
   "dependencies": {
     "jsdom": "^28.1.0",

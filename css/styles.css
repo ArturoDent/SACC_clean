@@ -15,8 +15,8 @@ a:visited { color: purple; }
 
 .info              { color: blue;    }
 .info a            { color: blue;    }
-.citedProposal     { color: blue;    }
-.citedProposal a   { color: blue;    }
+.resolvedProposal   { color: blue;    }
+.resolvedProposal a { color: blue;    }
 .proposalNeeded    { color: red;     }
 .date              { color: red;     }
 .red               { color: red;     }

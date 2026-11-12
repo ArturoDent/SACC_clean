@@ -190,6 +190,28 @@ export const unwrapGramESpans = (document) => {
   };
 };
 
+// Word's own leftover markup around genus/species names, present in the dirty
+// source of parts 3 and 4. Carries no CSS rule here or on the live site, and
+// sometimes splits a name mid-word across two spans (e.g. "Leucophaeu"/"s"),
+// which then survives later formatting-tag cleanup as a visible split. Unwrap
+// it unconditionally, same as GramE/SpellE above.
+export const unwrapSpeciesnameSpans = (document) => {
+  const spans = [...document.querySelectorAll("span.speciesname")];
+
+  for (const span of spans) {
+    const parent = span.parentNode;
+    if (!parent) continue;
+
+    while (span.firstChild) parent.insertBefore(span.firstChild, span);
+    parent.removeChild(span);
+  }
+
+  return {
+    message: `Removed ${ spans.length } speciesname span${ spans.length === 1 ? "" : "s" }.`,
+    removals: spans.length,
+  };
+};
+
 // Word's `lang`/`mso-ansi-language` markup only ever fed its own spell-checker —
 // it carries no meaning in the cleaned output. Scoped to <body> so the deliberate
 // <html lang="en"> set by replaceHtmlElement is left alone.
@@ -669,12 +691,69 @@ const isWhitespaceOnlyText = (node, Node) =>
 // style differences we'd rather not silently discard.
 const MERGEABLE_COLORS = new Set(["red", "blue", "fuchsia"]);
 
+// Pure-formatting wrapper tags Word uses around a run without changing its
+// color — safe to "see through" when looking for the true next run of a
+// mergeable-color span. Deliberately excludes <a> (a hyperlink boundary
+// carries its own meaning) and plain <span> (no evidence in the source docs
+// that one is ever used as a transparent wrapper the way b/i/u are here).
+const PEELABLE_WRAPPER_TAGS = new Set(["B", "I", "U"]);
+
+// Mirrors getSoleSpanChild's "ignore whitespace-only text, is there exactly
+// one node left" idiom (src/cleanup/inlineTagCleanup.js), generalized to any
+// node type.
+const getSoleMeaningfulChild = (element, Node) => {
+  const meaningful = [...element.childNodes].filter((n) => !isWhitespaceOnlyText(n, Node));
+  return meaningful.length === 1 ? meaningful[0] : null;
+};
+
+const isSoleMeaningfulChild = (node, Node) => {
+  const parent = node.parentNode;
+  return !!parent && getSoleMeaningfulChild(parent, Node) === node;
+};
+
+// Word sometimes re-wraps only part of a same-color run in its own extra
+// b/i/u shell (e.g. switching italics mid-run re-opens a fresh <b> too), so
+// the true "next run" isn't a sibling of the color span itself but of some
+// ancestor of it. Walk upward through a chain of pure-formatting wrapper
+// elements for as long as `node` is the sole meaningful child of its parent,
+// and return the outermost such ancestor. This naturally stops at the first
+// parent that either isn't a peelable wrapper tag (e.g. <p>) or has other
+// meaningful content, so it can never escape a paragraph or a genuinely
+// different run.
+const getMergeAnchor = (node, Node) => {
+  let anchor = node;
+  while (isSoleMeaningfulChild(anchor, Node) && PEELABLE_WRAPPER_TAGS.has(anchor.parentNode.tagName)) {
+    anchor = anchor.parentNode;
+  }
+  return anchor;
+};
+
+// Descends from `node` through a chain of pure-formatting wrapper elements
+// (mirroring getMergeAnchor's ascent) looking for a single styled span of
+// `color` that is the sole meaningful content all the way down. Bails (returns
+// null) on any other sibling content, a non-peelable tag, or a span/wrapper
+// styled with a different color.
+const findWrappedColorSpan = (node, color, Node) => {
+  let cursor = node;
+  while (true) {
+    if (cursor.nodeType !== Node.ELEMENT_NODE) return null;
+    const cursorColor = getOriginalColor(cursor);
+    if (cursorColor === color) return cursor;
+    if (cursorColor || !PEELABLE_WRAPPER_TAGS.has(cursor.tagName)) return null;
+
+    const child = getSoleMeaningfulChild(cursor, Node);
+    if (!child) return null;
+    cursor = child;
+  }
+};
+
 // Word occasionally splits one visually-styled run into separate sibling
-// <span style="color:..."> elements with only whitespace between them (e.g. a
-// line-wrap artifact in the source: "SACC proposal" / "badly needed" as two
-// spans instead of one). Merge these back together *before* classifying by
-// color, so content-dependent rules (like classifyRedText) see the whole phrase
-// rather than each fragment in isolation.
+// <span style="color:..."> elements with only whitespace (or a chain of pure
+// -formatting wrapper elements, see PEELABLE_WRAPPER_TAGS) between them — e.g.
+// a line-wrap artifact in the source: "SACC proposal" / "badly needed" as two
+// spans instead of one. Merge these back together *before* classifying by
+// color, so content-dependent rules (like classifyRedText) see the whole
+// phrase rather than each fragment in isolation.
 const mergeAdjacentSameColorSpans = (document) => {
   const Node = document.defaultView.Node;
   let merges = 0;
@@ -685,7 +764,9 @@ const mergeAdjacentSameColorSpans = (document) => {
     if (!color || !MERGEABLE_COLORS.has(color)) continue;
 
     while (true) {
-      let separator = element.nextSibling;
+      const anchor = getMergeAnchor(element, Node);
+
+      let separator = anchor.nextSibling;
       let next = separator;
 
       if (isWhitespaceOnlyText(separator, Node)) {
@@ -694,7 +775,16 @@ const mergeAdjacentSameColorSpans = (document) => {
         separator = null;
       }
 
-      if (!next || next.nodeType !== Node.ELEMENT_NODE || getOriginalColor(next) !== color) break;
+      if (!next) break;
+
+      const matched = findWrappedColorSpan(next, color, Node);
+      if (!matched) break;
+
+      // The matched span may be nested several pure-formatting wrappers deep
+      // inside `next` — unwrap only the span itself in place so its
+      // now-redundant style/color is discarded, while any structural wrapper
+      // around it (e.g. the <i> around a taxon name) is preserved.
+      if (matched !== next) matched.replaceWith(...matched.childNodes);
 
       if (separator) element.appendChild(document.createTextNode(" "));
       while (next.firstChild) element.appendChild(next.firstChild);

@@ -3,6 +3,7 @@ import fs from "fs/promises";
 import path from "path";
 import { formatHtmlString } from "../formatting/vscodeHtmlFormatter.js";
 import { collapseInlineParagraphs } from "../formatting/inlineParagraphs.js";
+import { normalizeSpanNestingOrder } from "../cleanup/inlineTagCleanup.js";
 
 import {
   ensureBlankLineAfterBody,
@@ -15,6 +16,13 @@ export async function serializeAndWriteClean(dom, outputPath) {
   // 1. DOM-level normalization BEFORE serialization
   ensureBlankLineAfterBody(document);
   collapseInlineParagraphs(document);
+
+  // 1.5. collapseInlineParagraphs merges adjacent inline runs (e.g. several
+  //      <i> fragments split by a Word artifact), which can both introduce
+  //      new span/i/b/u/a nesting-order violations and re-wrap previously
+  //      correct ones inside a merged wrapper - re-run the normalizer now
+  //      that the paragraph structure is final.
+  const nestingResult = normalizeSpanNestingOrder(document);
 
   // 2. Serialize
   let html = dom.serialize();
@@ -41,6 +49,8 @@ export async function serializeAndWriteClean(dom, outputPath) {
   // 6. Write to disk
   await fs.mkdir(path.dirname(outputPath), { recursive: true });
   await fs.writeFile(outputPath, html, "utf8");
+
+  return { nestingResult };
 }
 
 
@@ -131,10 +141,13 @@ export function stripFormatterSpaces(html) {
     `$1</span>$2`
   );
 
-  // 6: Closing inline tag + whitespace + <sup> (footnote superscript numbers)
-  //    “Classification</u> <sup>1</sup>:” -> “Classification</u><sup>1</sup>:”
+  // 6: Closing inline tag + line-wrapped whitespace + <sup> (footnote superscript numbers)
+  //    “Classification</u>\n  <sup>1</sup>:” -> “Classification</u><sup>1</sup>:”
+  //    Only fires when the gap includes a newline (i.e. the formatter actually
+  //    wrapped the line here) - a same-line single space is legitimate content
+  //    (e.g. a span/b edge-whitespace relocation), not formatter noise.
   html = html.replace(
-    /(<\/(?:a|i|u|em|strong|span)>)\s+(<sup>)/g,
+    /(<\/(?:a|i|u|em|strong|span)>)[ \t]*\n[ \t]*(<sup>)/g,
     `$1$2`
   );
 

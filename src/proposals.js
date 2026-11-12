@@ -6,6 +6,7 @@ import fs from "fs/promises";
 import { createCleanHtml } from "./pipeline/createCleanHtml.js";
 import {
   combineAbbreviatedItalicNames,
+  normalizeSpanNestingOrder,
   trimFormattingTagWhitespace,
   unwrapPunctuationOnlyFormattingTags,
   unwrapWhitespaceOnlyFormattingTags,
@@ -38,10 +39,16 @@ const CSS_HREF = "../../css/proposals/proposals.css";
 const argStems = process.argv.slice(2);
 const stems = argStems.length
   ? argStems
-  : (await fs.readdir(SOURCE_DIR))
-    .filter(f => f.endsWith(".htm"))
-    .map(f => f.replace(/\.htm$/, ""))
-    .sort();
+  // readdir only lists top-level entries, so roster_charts/SACCproproster
+  // (the one file in that subfolder with an established clean/ output -
+  // its 11 siblings are unprocessed raw chart exports, never published)
+  // has to be added explicitly rather than discovered.
+  : [
+    ...(await fs.readdir(SOURCE_DIR))
+      .filter(f => f.endsWith(".htm"))
+      .map(f => f.replace(/\.htm$/, "")),
+    "roster_charts/SACCproproster",
+  ].sort();
 
 const files = stems.map(s => ({
   stem: s,
@@ -85,6 +92,7 @@ for (const { stem, sourceFile, outputFile } of files) {
     trimFormattingTagWhitespace,
     unwrapPunctuationOnlyFormattingTags,
     combineAbbreviatedItalicNames,
+    normalizeSpanNestingOrder,
 
     collapseBlankParagraphs,
     removeDivWrapper
@@ -93,6 +101,9 @@ for (const { stem, sourceFile, outputFile } of files) {
   const { results } = await createCleanHtml({ sourceFile, outputFile, cleanupSteps });
   for (const result of results) {
     if (result?.message) console.log(result.message);
+    if (result?.value?.skipped?.length) {
+      for (const item of result.value.skipped) console.log(`  - needs manual review: <${ item.tag }> ${ item.outerHTML }`);
+    }
   }
   console.log(`Wrote ${ outputFile }.`);
 }

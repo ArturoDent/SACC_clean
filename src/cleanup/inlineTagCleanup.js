@@ -1,5 +1,5 @@
 // @ts-check
-const inlineCleanupTags = ["i", "u"];
+const inlineCleanupTags = ["i", "u", "span", "b"];
 
 const isElementNode = (node, Node) => node?.nodeType === Node.ELEMENT_NODE;
 const isTextNode = (node, Node) => node?.nodeType === Node.TEXT_NODE;
@@ -49,21 +49,22 @@ const trimElementEdgeWhitespace = (document, element) => {
   const hadTrailingWhitespace = /\s$/.test(element.textContent ?? "");
   const textNodes = getTextNodes(document, element);
 
-  textNodes[0].nodeValue = (textNodes[0].nodeValue ?? "").replace(/^\s+/, "");
-  textNodes[textNodes.length - 1].nodeValue = (textNodes[textNodes.length - 1].nodeValue ?? "").replace(/\s+$/, "");
+  const prev = element.previousSibling ?? element.parentNode?.previousSibling;
+  const next = element.nextSibling ?? element.parentNode?.nextSibling;
 
-  if (hadLeadingWhitespace) {
-    const prev = element.previousSibling ?? element.parentNode?.previousSibling;
-    if (prev && !OPEN_PUNCT_RE.test(getNodeText(prev, Node))) {
-      appendSpace(document, prev);
-    }
+  // Only trim an edge's whitespace if it can actually be relocated outward -
+  // otherwise leave it in place rather than deleting content with nowhere to go.
+  const canPushLeading = hadLeadingWhitespace && prev && !OPEN_PUNCT_RE.test(getNodeText(prev, Node));
+  const canPushTrailing = hadTrailingWhitespace && next && !CLOSE_PUNCT_RE.test(getNodeText(next, Node));
+
+  if (canPushLeading) {
+    textNodes[0].nodeValue = (textNodes[0].nodeValue ?? "").replace(/^\s+/, "");
+    appendSpace(document, prev);
   }
 
-  if (hadTrailingWhitespace) {
-    const next = element.nextSibling ?? element.parentNode?.nextSibling;
-    if (next && !CLOSE_PUNCT_RE.test(getNodeText(next, Node))) {
-      prependSpace(document, next);
-    }
+  if (canPushTrailing) {
+    textNodes[textNodes.length - 1].nodeValue = (textNodes[textNodes.length - 1].nodeValue ?? "").replace(/\s+$/, "");
+    prependSpace(document, next);
   }
 };
 
@@ -221,5 +222,69 @@ export const combineAbbreviatedItalicNames = (document) => {
   return {
     message: `Combined ${ merges } abbreviated italic name${ merges === 1 ? "" : "s" } separated by a period.`,
     merges,
+  };
+};
+
+const isWhitespaceOnlyTextNode = (node, Node) =>
+  node.nodeType === Node.TEXT_NODE && !(node.nodeValue ?? "").trim();
+
+// Does `formatter`'s entire substantive content (ignoring whitespace-only
+// text) consist of exactly one <span>? Only these "coincident boundary"
+// pairs can be reordered without changing which text is italicized/bolded/
+// underlined/linked - anything else (a span covering only part of the
+// content, or sharing the wrapper with other siblings) is left alone.
+const getSoleSpanChild = (formatter, Node) => {
+  const substantive = [...formatter.childNodes].filter((n) => !isWhitespaceOnlyTextNode(n, Node));
+  if (substantive.length !== 1) return null;
+
+  const [only] = substantive;
+  return only.nodeType === Node.ELEMENT_NODE && only.tagName === "SPAN" ? only : null;
+};
+
+const hasUnswappableSpanChild = (formatter, Node) =>
+  [...formatter.childNodes].some((n) => n.nodeType === Node.ELEMENT_NODE && n.tagName === "SPAN");
+
+const swapFormatterAndSpan = (formatter, span) => {
+  const innerNodes = [...span.childNodes];
+  span.replaceWith(...innerNodes);
+  formatter.replaceWith(span);
+  span.appendChild(formatter);
+};
+
+const nestingFormatterTags = ["i", "b", "u", "a"];
+
+// The user's convention is <span> always outermost relative to i/b/u/a.
+// Walk every i/b/u/a in POST-order (reverse document order, since
+// querySelectorAll returns ancestors before descendants) so a wrapper is
+// only ever checked after its descendants have already been normalized -
+// this lets multi-level nesting (e.g. <a><i><span>...</span></i></a>)
+// cascade into a fully-normalized <span><a><i>...</i></a></span> in a
+// single pass, since a swap one level down can turn an ancestor into a
+// fresh candidate by the time it's visited.
+export const normalizeSpanNestingOrder = (document) => {
+  const Node = document.defaultView.Node;
+  const formatters = [...document.querySelectorAll(nestingFormatterTags.join(", "))].reverse();
+
+  let swaps = 0;
+  const skipped = [];
+
+  for (const formatter of formatters) {
+    const span = getSoleSpanChild(formatter, Node);
+    if (span) {
+      swapFormatterAndSpan(formatter, span);
+      swaps++;
+      continue;
+    }
+
+    if (hasUnswappableSpanChild(formatter, Node)) {
+      skipped.push({ tag: formatter.tagName.toLowerCase(), outerHTML: formatter.outerHTML });
+    }
+  }
+
+  return {
+    message: `Reordered ${ swaps } <span> nesting${ swaps === 1 ? "" : "s" } to be outermost` +
+      (skipped.length ? `; ${ skipped.length } case${ skipped.length === 1 ? "" : "s" } need manual review.` : "."),
+    swaps,
+    skipped,
   };
 };

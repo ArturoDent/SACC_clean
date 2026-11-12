@@ -11,7 +11,7 @@ for its occurrence in the area is supported by tangible evidence that is availab
       c. 108 vagrants
       d. 17 established, introduced species
 
-      a-d are indented and single-spaced in the original, but not in cleaned.
+      a-d are indented and single-spaced in the original, but not in cleaned.  Add class level-1/2 ?  Change to spans?
 
 4. Editorial Advisors:
 
@@ -28,20 +28,9 @@ V = vagrant
 IN = introduced species*
 EX = extinct (within last 200 years)
 
-6. push out Orders, etc. another em ? to match original in the phylogeny list only
-
-7. pushed species out 10px in familySpeciesLists
-/* species block under a family: indent once relative to the family header */
-.familySpeciesList>ul>li.family>ul
-{
-  margin-left: calc(1 * var(--indent-step));
-  /* this shifts the whole species/subfamily block */
-  padding-left: 7px;
-}
-
 8. Get rid of "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
 
-11.  Link at end of Part 5.
+11. Link at end of Part 5.
 
 12. Part 6.  <li class="order level-0">PASSERIFORMES <span>1</span></li> -> <sup>1</sup>
 
@@ -60,8 +49,9 @@ instead of matching only the exact named color 'fuchsia'.
       SACC <a href="SACCprop1057.htm">proposal</a> pending.</p></span></p>
 
 15. Part 7 : <<wait Claramunt paper>> look for these and add a class .aside ? smaller font size
+    Is there a way to search for "<...>" in the preview or .htm ?  <(?!(\\|span\b)).+> : only works to eliminate span
 
-17.
+17.  These are handled differently in Parts 6-11:
 PASSERIFORMES
   Suborder PASSERES (OSCINES) 1
                                    // just add <li>&npsp;</li>
@@ -86,12 +76,6 @@ color: canvastext; (Modern system fallback) or color: #000000; (Explicit fallbac
 22. 
 
 Part 1:
-    <p>5. Genetic data (mtDNA only; Bulgarella et al. 2014) suggest that <i>Neochen jubatus</i> is the sister species to
-      <i>Chloephaga melanoptera</i>, and thus is likely embedded in <i>Chloephaga</i> as currently circumscribed. <span
-        class="info">SACC <a href="SACCprop637.htm">proposal</a> passed to treat <i>Chloephaga melanoptera</i> and
-      </span><i><span class="info">Neochen jubatus</span></i><span class="info"> as congeners; <i>Oressochen</i>
-        Bannister 1870 becomes the name for these two when treated in a separate genus</span>.</p>
-
     <p>4b. Bulgarella et al. (2014) found that <i>Neochen jubatus</i> was the sister species to <i>Chloephaga
     melanoptera</i>; they also found that <i>C. rubidiceps</i> and <i>C. poliocephala</i> were sisters, and that
   <i>C. picta</i> and <i>C. hybrida</i> were sisters. <span class="proposalNeeded">SACC proposal needed to transfer
@@ -176,19 +160,17 @@ Part 4:
  <a href="SACCprop551.htm">Proposal</a><span class="info"> passed to change linear sequence of genera in Charadriidae</span>.</p> 
 there are a few of these <a>Proposal</a><span class="info">...</span> that s/b: <span class="citedProposal"><a>Proposal</a>...</span>
 
-  <p>16e. Published photo from Rio Grande do Sul, Brazil (Aldabe et al. 2010). <span class="info">SACC <a
-        href="SACCprop509.html">proposal</a> passed to move to main list</span>. Published photo from French Guiana
-    (Renaudier &amp; Claessens 2014).</p>
+<p>16e. Published photo from Rio Grande do Sul, Brazil (Aldabe et al. 2010). <span class="info">SACC <a
+      href="SACCprop509.html">proposal</a> passed to move to main list</span>. Published photo from French Guiana
+  (Renaudier &amp; Claessens 2014).</p>
 
-28.  class="grame"  and class="GramE" ??  Word's grammar checker -> removed.
+28. class="grame"  and class="GramE" ??  Word's grammar checker -> removed.
 
-29.  Look for any ".html" instead of ".htm"
+29. Look for any ".html" instead of ".htm"
 
+30.  "speciesname" ? in dirty/Baseline03/04 only and s atlanticus, <span class="speciesname">Leucophaeu</span>s modestus,</i> and <i><span
+          class="speciesname">Leucophaeu</span>s
 
-First line
-    Second line
-    Third line
-        Fourth line
-        Fifth line
-    Sixth line
-Seventh line
+<p>6c. <i>Larus belcheri, Larus atlanticus, <span class="speciesname">Leucophaeu</span>s modestus,</i> and <i><span
+          class="speciesname">Leucophaeu</span>s fuliginosus</i> were formerly (e.g., Ridgway 1919) treated in a
+      separate genus, <i>Blasipus</i>.</p>

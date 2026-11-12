@@ -74,7 +74,13 @@ export const createCleanHtml = async ({ sourceFile, outputFile, cleanupSteps }) 
     }
   }
 
-  await serializeAndWriteClean(dom, outputFile);
+  const { nestingResult } = await serializeAndWriteClean(dom, outputFile);
+  results.push({
+    name: "normalizeSpanNestingOrder",
+    status: "fulfilled",
+    value: nestingResult,
+    message: `Step normalizeSpanNestingOrder (post-merge) succeeded: ${ nestingResult.message }`
+  });
 
   return {
     outputFile,

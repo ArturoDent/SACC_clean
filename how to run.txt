@@ -80,3 +80,8 @@ https://cleaned.potoococha.net
 https://github.com/ArturoDent/SACC_clean
 
 file:///C:/Users/markm/.claude/CLAUDE.md
+
+
+node src/index.js                    # all 11 baseline parts -> clean/baseline/*.htm
+node src/index.js SACCCountryLists   # excluded from the default run, needs naming explicitly
+node src/proposals.js                # all files in dirty/proposals/, including roster_charts/
