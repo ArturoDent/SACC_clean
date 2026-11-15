@@ -1,12 +1,6 @@
 // @ts-check
-import { pageLinkTextContent, pageLinkHTML } from "../helpers/pageLink.js";
-
-
-const normalizeText = (value) =>
-  value
-    .replace(/\u00a0/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
+import { pageLinkTextContent } from "../helpers/pageLink.js";
+import { normalizeText } from "../helpers/text.js";
 
 const getPartNumber = (element) => {
   const match = normalizeText(element.textContent ?? "").match(/^Part\s+(\d+)\./);

@@ -1,0 +1,6 @@
+# Normalize all text files to LF in the repo and the working tree.
+# The pipeline writes LF; without this, core.autocrlf=true marked every clean/ file
+# as modified after each run even when the content was identical.
+* text=auto eol=lf
+*.png binary
+*.xlsx binary

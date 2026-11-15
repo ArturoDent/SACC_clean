@@ -1,9 +1,5 @@
 // @ts-check
-const normalizeText = (value) =>
-  value
-    .replace(/\u00a0/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
+import { normalizeText } from "../helpers/text.js";
 
 const cloneLinkWithText = (document, link) => {
   const cleanLink = document.createElement("a");

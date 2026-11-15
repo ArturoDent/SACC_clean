@@ -1,5 +1,6 @@
 // @ts-check
 import { isBlankElement, isIgnorableElement } from "../cleanup/wordCleanup.js";
+import { normalizeText } from "../helpers/text.js";
 
 const CITED_COLOR_RE = /color\s*:\s*#0070c0/i;
 
@@ -7,8 +8,6 @@ const CITED_COLOR_RE = /color\s*:\s*#0070c0/i;
 // "(A)" inside an otherwise normal sentence) is noise, not a real quoted block.
 // Real quoted paragraphs have the color applied to nearly all of their text.
 const MIN_COLORED_RATIO = 0.5;
-
-const normalizeText = (value) => value.replace(/\s+/g, " ").trim();
 
 const coloredTextRatio = (element) => {
   const totalText = normalizeText(element.textContent ?? "");

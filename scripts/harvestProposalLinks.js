@@ -1,7 +1,7 @@
 // node scripts/harvestProposalLinks.js
 // npm run harvest-proposal-links
 //
-// Extracts every proposal link referenced anywhere in dirty/SACC*.html and under
+// Extracts every proposal link referenced anywhere in dirty/baseline/*.htm and under
 // dirty/proposals/roster_charts/ (the roster page itself lists every proposal under
 // category headings like "Proposals that have PASSED", plus whatever the saved
 // tracking chart pages add), dedupes them, sorts them, and writes the result to
@@ -11,7 +11,7 @@
 import fs from "fs/promises";
 import path from "path";
 
-const DIRTY_DIR = "dirty";
+const BASELINE_DIR = "dirty/baseline";
 const SAVED_CHARTS_DIR = "dirty/proposals/roster_charts";
 const OUTPUT_FILE = "dirty/proposals/proposalLinks.txt";
 const REMSEN_BASE = "https://www.museum.lsu.edu/~Remsen/";
@@ -68,11 +68,12 @@ const collectFromFile = async (filePath, urls) => {
 
 const urls = new Map();
 
-const saccPageNames = (await fs.readdir(DIRTY_DIR)).filter((f) => /^SACC\d+\.html?$/i.test(f));
-for (const name of saccPageNames) {
-  await collectFromFile(path.join(DIRTY_DIR, name), urls);
+// Part 1 is SACCBaseline.htm (no number); parts 2-11 are SACCBaselineNN.htm.
+const baselineNames = (await fs.readdir(BASELINE_DIR)).filter((f) => /^SACCBaseline\d*\.htm$/i.test(f));
+for (const name of baselineNames) {
+  await collectFromFile(path.join(BASELINE_DIR, name), urls);
 }
-console.log(`After dirty/SACC*.html: ${ urls.size } unique links.`);
+console.log(`After ${ BASELINE_DIR }/SACCBaseline*.htm (${ baselineNames.length } files): ${ urls.size } unique links.`);
 
 if (await fileExists(SAVED_CHARTS_DIR)) {
   const entries = await fs.readdir(SAVED_CHARTS_DIR, { recursive: true, withFileTypes: true });

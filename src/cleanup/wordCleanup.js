@@ -1,9 +1,5 @@
 // @ts-check
-const normalizeText = (value) =>
-  value
-    .replace(/\u00a0/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
+import { normalizeText } from "../helpers/text.js";
 
 export const isBlankElement = (element) => {
   if (!["P", "DIV"].includes(element.tagName)) return false;
@@ -88,6 +84,45 @@ const replaceWithSimpleElement = (document, element, tagName) => {
 const unwrapElement = (element) => {
   element.replaceWith(...element.childNodes);
 };
+
+// Unwraps every element matching `selector` (optionally only those passing
+// `filter`), keeping its children in place. Returns how many were unwrapped.
+const unwrapAll = (document, selector, filter = () => true) => {
+  const elements = [...document.querySelectorAll(selector)].filter(filter);
+  for (const element of elements) unwrapElement(element);
+  return elements.length;
+};
+
+// Removes elements of `tagName` that have no element children and no text at
+// all; ones holding only whitespace are collapsed to that whitespace as plain
+// text, since it may be the sole separator between adjacent inline elements.
+const removeEmptyElements = (document, tagName) => {
+  const elements = [...document.querySelectorAll(tagName)].filter((element) => element.childElementCount === 0);
+  let removed = 0;
+  let collapsed = 0;
+
+  for (const element of elements) {
+    const text = element.textContent ?? "";
+    if (!text) {
+      element.remove();
+      removed++;
+    } else if (!text.trim()) {
+      element.replaceWith(document.createTextNode(text));
+      collapsed++;
+    }
+  }
+
+  return { removed, collapsed };
+};
+
+const plural = (n, noun) => `${ n } ${ noun }${ n === 1 ? "" : "s" }`;
+
+// Word's class names are not consistently cased in the sources (part 4 has
+// class=grame next to class=GramE). The dirty files have no doctype, so jsdom
+// used to parse them in quirks mode, where class selectors happen to match
+// case-insensitively; now that replaceHtmlElement adds a doctype up front we
+// are in standards mode and have to ask for that explicitly.
+const wordClass = (tag, className) => `${ tag }[class~="${ className }" i]`;
 
 const removeEmptyTextSiblingsAfter = (node) => {
   let sibling = node.nextSibling;
@@ -176,37 +211,13 @@ export const stripSpans = (document) => {
 // Word wraps whatever its spell-checker flags in <span class="SpellE">, purely as
 // an editing aid — it carries no styling or meaning in the cleaned output.
 export const unwrapSpellCheckSpans = (document) => {
-  const spans = [...document.querySelectorAll("span.SpellE")];
-
-  for (const span of spans) {
-    const parent = span.parentNode;
-    if (!parent) continue;
-
-    while (span.firstChild) parent.insertBefore(span.firstChild, span);
-    parent.removeChild(span);
-  }
-
-  return {
-    message: `Removed ${ spans.length } SpellE span${ spans.length === 1 ? "" : "s" }.`,
-    removals: spans.length,
-  };
+  const removals = unwrapAll(document, wordClass("span", "SpellE"));
+  return { message: `Removed ${ plural(removals, "SpellE span") }.`, removals };
 };
 
 export const unwrapGramESpans = (document) => {
-  const spans = [...document.querySelectorAll("span.GramE")];
-
-  for (const span of spans) {
-    const parent = span.parentNode;
-    if (!parent) continue;
-
-    while (span.firstChild) parent.insertBefore(span.firstChild, span);
-    parent.removeChild(span);
-  }
-
-  return {
-    message: `Removed ${ spans.length } GramE span${ spans.length === 1 ? "" : "s" }.`,
-    removals: spans.length,
-  };
+  const removals = unwrapAll(document, wordClass("span", "GramE"));
+  return { message: `Removed ${ plural(removals, "GramE span") }.`, removals };
 };
 
 // Word's own leftover markup around genus/species names, present in the dirty
@@ -215,20 +226,8 @@ export const unwrapGramESpans = (document) => {
 // which then survives later formatting-tag cleanup as a visible split. Unwrap
 // it unconditionally, same as GramE/SpellE above.
 export const unwrapSpeciesnameSpans = (document) => {
-  const spans = [...document.querySelectorAll("span.speciesname")];
-
-  for (const span of spans) {
-    const parent = span.parentNode;
-    if (!parent) continue;
-
-    while (span.firstChild) parent.insertBefore(span.firstChild, span);
-    parent.removeChild(span);
-  }
-
-  return {
-    message: `Removed ${ spans.length } speciesname span${ spans.length === 1 ? "" : "s" }.`,
-    removals: spans.length,
-  };
+  const removals = unwrapAll(document, wordClass("span", "speciesname"));
+  return { message: `Removed ${ plural(removals, "speciesname span") }.`, removals };
 };
 
 // Word's `lang`/`mso-ansi-language` markup only ever fed its own spell-checker —
@@ -251,20 +250,8 @@ export const stripLangAttribute = (document) => {
 // stripped — unwrap it globally rather than relying on collapseInlineParagraphs's
 // per-paragraph pass, which skips paragraphs containing block-level children.
 export const unwrapAttributelessSpans = (document) => {
-  const spans = [...document.querySelectorAll("span")].filter((span) => span.attributes.length === 0);
-
-  for (const span of spans) {
-    const parent = span.parentNode;
-    if (!parent) continue;
-
-    while (span.firstChild) parent.insertBefore(span.firstChild, span);
-    parent.removeChild(span);
-  }
-
-  return {
-    message: `Unwrapped ${ spans.length } attribute-less span${ spans.length === 1 ? "" : "s" }.`,
-    removals: spans.length,
-  };
+  const removals = unwrapAll(document, "span", (span) => span.attributes.length === 0);
+  return { message: `Unwrapped ${ plural(removals, "attribute-less span") }.`, removals };
 };
 
 // Word's own hyperlink-styling class carries no CSS rule in this project, so it
@@ -296,7 +283,7 @@ export const shortenSaccPropLinks = (document) => {
 };
 
 export const reclassifyHyperlinkSpans = (document) => {
-  const spans = [...document.querySelectorAll("span.MsoHyperlink")];
+  const spans = [...document.querySelectorAll(wordClass("span", "MsoHyperlink"))];
 
   for (const span of spans) span.className = "info";
 
@@ -311,23 +298,9 @@ export const reclassifyHyperlinkSpans = (document) => {
 // markers. Whitespace-only content is preserved as plain text since it may be the
 // sole separator between adjacent inline elements.
 export const removeEmptySpans = (document) => {
-  const spans = [...document.querySelectorAll("span")].filter((span) => span.childElementCount === 0);
-  let removed = 0;
-  let collapsed = 0;
-
-  for (const span of spans) {
-    const text = span.textContent ?? "";
-    if (!text) {
-      span.remove();
-      removed++;
-    } else if (!text.trim()) {
-      span.replaceWith(document.createTextNode(text));
-      collapsed++;
-    }
-  }
-
+  const { removed, collapsed } = removeEmptyElements(document, "span");
   return {
-    message: `Removed ${ removed } empty span${ removed === 1 ? "" : "s" } and collapsed ${ collapsed } whitespace-only span${ collapsed === 1 ? "" : "s" } to text.`,
+    message: `Removed ${ plural(removed, "empty span") } and collapsed ${ plural(collapsed, "whitespace-only span") } to text.`,
     removed,
     collapsed,
   };
@@ -338,44 +311,11 @@ export const removeEmptySpans = (document) => {
 // paragraph-mark placeholder ends up with nothing left inside once that's
 // stripped, since nothing else targets bold tags specifically.
 export const removeEmptyBoldTags = (document) => {
-  const boldElements = [...document.querySelectorAll("b")].filter((b) => b.childElementCount === 0);
-  let removed = 0;
-  let collapsed = 0;
-
-  for (const b of boldElements) {
-    const text = b.textContent ?? "";
-    if (!text) {
-      b.remove();
-      removed++;
-    } else if (!text.trim()) {
-      b.replaceWith(document.createTextNode(text));
-      collapsed++;
-    }
-  }
-
+  const { removed, collapsed } = removeEmptyElements(document, "b");
   return {
-    message: `Removed ${ removed } empty <b> tag${ removed === 1 ? "" : "s" } and collapsed ${ collapsed } whitespace-only <b> tag${ collapsed === 1 ? "" : "s" } to text.`,
+    message: `Removed ${ plural(removed, "empty <b> tag") } and collapsed ${ plural(collapsed, "whitespace-only <b> tag") } to text.`,
     removed,
     collapsed,
-  };
-};
-
-export const stripEmptyLines = (document) => {
-  const comments = [];
-  const walker = document.createTreeWalker(document, document.defaultView?.NodeFilter.SHOW_COMMENT);
-  // const walker2 = document.createTreeWalker(document, document.defaultView.NodeFilter.);
-
-  while (walker.nextNode()) {
-    comments.push(walker.currentNode);
-  }
-
-  for (const comment of comments) {
-    comment.remove();
-  }
-
-  return {
-    message: `Removed ${ comments.length } comment node${ comments.length === 1 ? "" : "s" }.`,
-    removals: comments.length,
   };
 };
 
@@ -397,118 +337,62 @@ export const stripComments = (document) => {
   };
 };
 
-// export const removeHeadStyle = (document) => {
-//   const styles = [...document.head.querySelectorAll("style")];
-
-//   for (const style of styles) {
-//     style.remove();
-//   }
-
-//   return {
-//     message: `Removed ${ styles.length } head style block${ styles.length === 1 ? "" : "s" }.`,
-//     removals: styles.length,
-//   };
-// };
-
+// Word's export has no doctype, which puts every browser into quirks mode.
+// Mutate the existing <html> in place rather than building a new one and moving
+// <head>/<body> into it: jsdom runs its insertion steps on every descendant of a
+// moved subtree, which cost over two seconds on the largest baseline part.
 export const replaceHtmlElement = (document) => {
-  const oldHtml = document.documentElement;
+  const html = document.documentElement;
 
-  // Create a brand‑new <html> element
-  const newHtml = document.createElement("html");
+  const doctype = document.implementation.createDocumentType("html", "", "");
+  if (document.doctype) document.doctype.replaceWith(doctype);
+  else document.insertBefore(doctype, html);
 
-  // Add whatever attributes you want
-  newHtml.setAttribute("lang", "en");
-
-  // Move <head> and <body> into the new <html>
-  // (These nodes are automatically removed from the old <html>)
-  newHtml.appendChild(document.head);
-  newHtml.appendChild(document.body);
-
-  // Replace the old <html> with the new one
-  oldHtml.parentNode.replaceChild(newHtml, oldHtml);
+  // Drop Word's xmlns:* declarations and anything else; lang="en" is all we keep.
+  for (const { name } of [...html.attributes]) html.removeAttribute(name);
+  html.setAttribute("lang", "en");
 
   // bgcolor/link/vlink are deprecated presentational attributes (CSS handles
   // background-color and a:link/a:visited instead) and lang is redundant now
   // that <html lang="en"> is set above.
-  document.body.removeAttribute("bgcolor");
-  document.body.removeAttribute("lang");
-  document.body.removeAttribute("link");
-  document.body.removeAttribute("vlink");
+  for (const name of ["bgcolor", "lang", "link", "vlink"]) document.body.removeAttribute(name);
 
   return {
-    message: "Replaced <html> element with a modern version. Removed bgcolor/lang/link/vlink from <body>.",
+    message: "Added <!DOCTYPE html>, reset <html> to lang=\"en\". Removed bgcolor/lang/link/vlink from <body>.",
   };
 };
 
-
-// export const replaceHeadElement = (document) => {
-//   const newHead = document.createElement("head");
-
-//   newHead.innerHTML = `
-//     <meta charset="UTF-8">
-//     <meta name="viewport" content="width=device-width, initial-scale=1">
-//     <link rel="stylesheet" href="../css/styles.css">
-//     <title>South American Classification Committee</title>
-//   `;
-
-//   // Replace the old <head> with the new one
-//   document.documentElement.replaceChild(newHead, document.head);
-
-//   return {
-//     message: "Replaced entire <head> element.",
-//     removals: 1
-//   };
-// };
-
+// Same reasoning as replaceHtmlElement: replacing the children of the existing
+// <head> is ~1ms, swapping in a new <head> element was over a second.
 export const replaceHeadElement = (document, { cssHref = "../css/styles.css", title: titleText = "South American Classification Committee" } = {}) => {
-  const newHead = document.createElement("head");
+  const head = document.head;
+  for (const { name } of [...head.attributes]) head.removeAttribute(name);
 
-  // <meta charset="UTF-8">
   const metaCharset = document.createElement("meta");
   metaCharset.setAttribute("charset", "UTF-8");
-  newHead.appendChild(metaCharset);
 
-  // <meta name="viewport" content="width=device-width, initial-scale=1">
   const metaViewport = document.createElement("meta");
   metaViewport.setAttribute("name", "viewport");
   metaViewport.setAttribute("content", "width=device-width, initial-scale=1");
-  newHead.appendChild(metaViewport);
 
-  // <link rel="stylesheet" href="...">
   const link = document.createElement("link");
   link.setAttribute("rel", "stylesheet");
   link.setAttribute("href", cssHref);
-  newHead.appendChild(link);
 
-  // <title>...</title>
   const title = document.createElement("title");
   title.textContent = titleText;
-  newHead.appendChild(title);
 
-  // Replace old head
-  document.documentElement.replaceChild(newHead, document.head);
-
-  // console.log(document.head.outerHTML);
+  head.replaceChildren(metaCharset, metaViewport, link, title);
 
   return {
-    message: "Replaced entire <head> element.",
+    message: "Replaced entire <head> content.",
     removals: 1
   };
 };
 
-
-
 export const removeDivWrapper = (document) => {
-  const wrappers = [...document.querySelectorAll("div.WordSection1")];
-
-  for (const wrapper of wrappers) {
-    wrapper.replaceWith(...wrapper.childNodes);
-  }
-
-  return {
-    message: `Removed ${ wrappers.length } WordSection1 div wrapper${ wrappers.length === 1 ? "" : "s" }.`,
-    wrappers: wrappers.length,
-  };
+  const wrappers = unwrapAll(document, wordClass("div", "WordSection1"));
+  return { message: `Removed ${ plural(wrappers, "WordSection1 div wrapper") }.`, wrappers };
 };
 
 // Rebuilds an element's text from scratch, re-inserting only the formatting that
@@ -621,34 +505,15 @@ export const simplifyLineSeparators = (document) => {
   };
 };
 
-// export const replaceSpacerElements = (document) => {
-//   const spacers = [...document.body.querySelectorAll("p, div")].filter(isBlankElement);
-
-//   for (const spacer of spacers) {
-//     replaceWithSimpleElement(document, spacer, "br");
-//   }
-
-//   return {
-//     message: `Replaced ${ spacers.length } spacer element${ spacers.length === 1 ? "" : "s" } with <br>.`,
-//     replacements: spacers.length,
-//   };
-// };
-
 export const replaceSpacerElements = (document) => {
   const spacers = [...document.body.querySelectorAll("p, div")].filter(isBlankElement);
 
-  for (const spacer of spacers) {
-    removeElement(spacer);
-  }
+  for (const spacer of spacers) spacer.remove();
 
   return {
-    message: `Removed ${ spacers.length } spacer element${ spacers.length === 1 ? "" : "s" }.`,
+    message: `Removed ${ plural(spacers.length, "spacer element") }.`,
     removals: spacers.length,
   };
-};
-
-const removeElement = (element) => {
-  element.remove();
 };
 
 // Word represents a visual gap between paragraphs as one or more empty
@@ -862,10 +727,6 @@ export const stripWordFormatting = (document, { unwrapBold = true } = {}) => {
   }
 
   for (const element of styledElements) {
-
-    // TODO, use this a s a default and don't remove the style attribute?
-    const colorClass = element.style.color;
-
     if (!element.style.color)
       element.removeAttribute("style");
     else {
@@ -894,7 +755,7 @@ export const stripWordFormatting = (document, { unwrapBold = true } = {}) => {
       else if (introducedColors.includes(originalColor)) element.className = 'introduced';
 
       else if (originalColor === '#B2A1C7') element.className = 'subclass';
-      else if (originalColor === '#92CDDC') element.className = 'infraclass';
+      // (no infraclass color: #92CDDC above is vagrant - 81 of its uses are the literal "V")
       else if (originalColor === '#990099' || originalColor === '#91028A') element.className = 'name';
 
       // for SpeciesList1.html :
@@ -996,121 +857,3 @@ export function trimParagraphTextNodes(document) {
 
   return { message: "Trimmed whitespace in <p> elements." };
 }
-
-
-/// <reference types="jsdom" />
-//** @param {Document} document */
-export function removeWhitespaceBetweenBlocks(document) {
-  const w = document.defaultView;
-  if (!w) return { message: "No window on document", removed: 0 };
-
-  let removed = 0;
-  const body = document.body;
-  if (!body) return { message: "No body", removed };
-
-  // Walk a snapshot of body.childNodes because we'll mutate while iterating
-  const nodes = Array.from(body.childNodes);
-  for (let i = 0; i < nodes.length; i++) {
-    const node = nodes[i];
-    // target text nodes that are only whitespace
-    if (node.nodeType === w.Node.TEXT_NODE && (node.nodeValue || "").trim() === "") {
-      const prev = node.previousSibling;
-      const next = node.nextSibling;
-      // remove only when between two element siblings (e.g., </p> [whitespace] <p>)
-      if (prev && next && prev.nodeType === w.Node.ELEMENT_NODE && next.nodeType === w.Node.ELEMENT_NODE) {
-        node.remove();
-        removed++;
-      }
-    }
-  }
-
-  // final normalize to merge any remaining text nodes
-  document.normalize();
-  return { message: "Removed whitespace-only text nodes between block elements.", removed };
-}
-
-
-/// <reference types="jsdom" />
-/**
- * Serialize dom and return cleaned HTML string (no file I/O).
- * @param {import("jsdom").JSDOM} dom
- * @returns {string}
- */
-// export function collapseBlankLinesToString(dom) {
-//   let html = dom.serialize();
-//   html = html.replace(/<\/p>\s*(?:\r?\n[ \t]*)+<p>/g, "</p>\n\n<p>");
-//   html = html.replace(/(\r?\n\s*){3,}/g, "\n\n");
-//   return html;
-// }
-
-// /** @param {Document} document */
-// export function collapseBlankParagraphsFromDocument(document) {
-//   const w = document.defaultView;
-//   if (!w) return { message: "No window on document", removals: 0 };
-
-//   let removals = 0;
-
-//   // 1) Remove whitespace-only text nodes that are between two element siblings
-//   //    (this removes the stray newline/tab lines between </p> and <p>)
-//   // Walk a snapshot of all text nodes under body
-//   const walker = document.createTreeWalker(
-//     document.body || document,
-//     w.NodeFilter.SHOW_TEXT,
-//     null
-//   );
-
-//   const textNodes = [];
-//   while (walker.nextNode()) textNodes.push(walker.currentNode);
-
-//   for (const tn of textNodes) {
-//     if ((tn.nodeValue || "").trim() === "") {
-//       const prev = tn.previousSibling;
-//       const next = tn.nextSibling;
-//       if (prev && next && prev.nodeType === w.Node.ELEMENT_NODE && next.nodeType === w.Node.ELEMENT_NODE) {
-//         tn.remove();
-//         removals++;
-//       }
-//     }
-//   }
-
-//   // 2) Remove truly empty <p> (no meaningful text, only whitespace, &nbsp;, <br>, or empty inline wrappers)
-//   const isMeaningful = (el) => {
-//     const txt = (el.textContent || "").replace(/\u00A0/g, " ").trim();
-//     return txt !== "";
-//   };
-
-//   for (const p of Array.from(document.querySelectorAll("p"))) {
-//     if (!isMeaningful(p)) {
-//       p.remove();
-//       removals++;
-//     }
-//   }
-
-//   // 3) Collapse runs of consecutive blank <p> to a single blank <p>
-//   //    (we treat a paragraph as "blank-like" if it has no meaningful text)
-//   const paragraphs = Array.from(document.querySelectorAll("p"));
-//   let prevWasBlank = false;
-//   for (const p of paragraphs) {
-//     if (!p.parentNode) continue; // may have been removed
-//     const blank = !isMeaningful(p);
-//     if (blank) {
-//       if (prevWasBlank) {
-//         p.remove();
-//         removals++;
-//       } else {
-//         // keep the first blank in a run but normalize it to be empty
-//         for (const n of Array.from(p.childNodes)) {
-//           p.removeChild(n);
-//         }
-//         prevWasBlank = true;
-//       }
-//     } else {
-//       prevWasBlank = false;
-//     }
-//   }
-
-//   // final normalize
-//   document.normalize();
-
-//   return { message: `Collapsed blank paragraphs; removed ${ removals } nodes.`, removals };
-// }

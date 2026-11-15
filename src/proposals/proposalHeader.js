@@ -1,7 +1,6 @@
 // @ts-check
 import { collectLeadingCenteredBlock, fillFormattedItem } from "../cleanup/wordCleanup.js";
-
-const normalizeText = (value) => value.replace(/\s+/g, " ").trim();
+import { normalizeText } from "../helpers/text.js";
 
 /**
  * Converts the leading centered header block of a proposal page —

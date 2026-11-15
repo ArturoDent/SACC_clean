@@ -8,7 +8,8 @@
  *  - unwraps <p> elements inside each <td>, leaving only inline content
  */
 export const convertSpeciesListTable = (document) => {
-  const table = document.querySelector("table.MsoTableGrid");
+  // Case-insensitive: Word's class casing varies between files (see wordClass in wordCleanup.js).
+  const table = document.querySelector('table[class~="MsoTableGrid" i]');
   if (!table) return { message: "No MsoTableGrid table found — skipping.", count: 0 };
 
   table.id = "speciesListTable";

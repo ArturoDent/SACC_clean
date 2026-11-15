@@ -1,9 +1,13 @@
 // @ts-check
-// node src/proposals.js                       — processes all files in dirty/proposals/
+// node src/proposals.js                       — processes all files in dirty/proposals/ (in parallel)
 // node src/proposals.js ACCprop857 SACCprop285 — processes named files in sequence
+//
+// SACC_SERIAL=1 node src/proposals.js — force a single process (profiling)
 
 import fs from "fs/promises";
-import { createCleanHtml } from "./pipeline/createCleanHtml.js";
+import { fileURLToPath } from "node:url";
+import { createCleanHtml, logResults } from "./pipeline/createCleanHtml.js";
+import { runStemsInParallel } from "./pipeline/runParallel.js";
 import {
   combineAbbreviatedItalicNames,
   normalizeSpanNestingOrder,
@@ -50,13 +54,19 @@ const stems = argStems.length
     "roster_charts/SACCproproster",
   ].sort();
 
-const files = stems.map(s => ({
-  stem: s,
-  sourceFile: `${ SOURCE_DIR }/${ s }.htm`,
-  outputFile: `${ OUTPUT_DIR }/${ s }.htm`,
-}));
+// A batch run fans out to one child process per file (see runParallel.js); each
+// child comes back through this same script with a single stem.
+if (stems.length > 1 && !process.env.SACC_SERIAL) {
+  const failures = await runStemsInParallel(fileURLToPath(import.meta.url), stems);
+  if (failures) process.exitCode = 1;
+} else {
+  for (const stem of stems) await cleanProposal(stem);
+}
 
-for (const { stem, sourceFile, outputFile } of files) {
+async function cleanProposal(stem) {
+  const sourceFile = `${ SOURCE_DIR }/${ stem }.htm`;
+  const outputFile = `${ OUTPUT_DIR }/${ stem }.htm`;
+
   // The roster is a uniform ~1200-entry list with no bold/normal contrast to
   // preserve (unlike individual proposals, which use <b> for real section
   // headers) — bold it via CSS instead, same as the baseline pipeline does.
@@ -98,12 +108,12 @@ for (const { stem, sourceFile, outputFile } of files) {
     removeDivWrapper
   ];
 
-  const { results } = await createCleanHtml({ sourceFile, outputFile, cleanupSteps });
-  for (const result of results) {
-    if (result?.message) console.log(result.message);
-    if (result?.value?.skipped?.length) {
-      for (const item of result.value.skipped) console.log(`  - needs manual review: <${ item.tag }> ${ item.outerHTML }`);
-    }
+  try {
+    const { results } = await createCleanHtml({ sourceFile, outputFile, cleanupSteps });
+    logResults(results);
+    console.log(`Wrote ${ outputFile }.`);
+  } catch (err) {
+    console.error(`Failed ${ stem } (${ sourceFile }): ${ err instanceof Error ? err.message : err }`);
+    process.exitCode = 1;
   }
-  console.log(`Wrote ${ outputFile }.`);
 }

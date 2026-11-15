@@ -1,11 +1,6 @@
 // @ts-check
-import { subclassNames, infraclassNames, familyNames, orderNames, suborderNames, taxonomyNames } from "../helpers/orders.js";
-
-const normalizeText = (value) =>
-  value
-    .replace(/\u00a0/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
+import { subclassNames, infraclassNames, familyNames, orderNames, suborderNames } from "../helpers/orders.js";
+import { normalizeText } from "../helpers/text.js";
 
 const escapeHtml = (value) =>
   value

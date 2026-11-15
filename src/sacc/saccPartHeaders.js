@@ -1,7 +1,7 @@
 // @ts-check
+import { normalizeText } from "../helpers/text.js";
 
-const normalizePartText = (p) =>
-  (p.textContent ?? "").replace(/ /g, " ").replace(/\s+/g, " ").trim();
+const normalizePartText = (p) => normalizeText(p.textContent ?? "");
 
 const isPartHeader = (p) =>
   /^Part\s+\d+\./.test(normalizePartText(p));

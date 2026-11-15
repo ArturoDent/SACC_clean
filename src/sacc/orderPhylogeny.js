@@ -8,8 +8,10 @@ const escapeHtml = (value) =>
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;");
 
+// Suborders never appear in the higher-level phylogeny block (they sit inside the
+// family lists), so they are not part of a run here.
 const isOrderPhylogenyRow = (row) =>
-  ["blank", "subclass", "infraclass", "order", "suborder"].includes(row.type);
+  ["blank", "subclass", "infraclass", "order"].includes(row.type);
 
 const buildOrderPhylogeny = (rows) => {
   let classes = "";
@@ -25,11 +27,9 @@ const buildOrderPhylogeny = (rows) => {
       continue;
     }
 
-
     if (row.type === "subclass") classes = "subclass level-0";
     else if (row.type === "infraclass") classes = "infraclass level-1";
     else if (row.type === "order") classes = "order level-2";
-    else if (row.type === "suborder") classes = "order level-3";
 
     html.push(`    <li class="${ classes }">${ escapeHtml(row.label) }</li>`);
   }

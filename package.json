@@ -11,7 +11,11 @@
     "harvest-proposal-links": "node scripts/harvestProposalLinks.js",
     "download-proposals": "node scripts/downloadProposals.js",
     "download-baseline": "node scripts/downloadBaseline.js",
-    "verify-species-order": "node spreadsheets/scripts/verifySpeciesOrder.js"
+    "verify-species-order": "node spreadsheets/scripts/verifySpeciesOrder.js",
+    "clean:baseline": "node src/index.js",
+    "clean:proposals": "node src/proposals.js",
+    "clean": "npm run clean:baseline && npm run clean:proposals",
+    "test": "playwright test"
   },
   "dependencies": {
     "jsdom": "^28.1.0",
@@ -21,8 +25,6 @@
   "devDependencies": {
     "@playwright/test": "^1.60.0",
     "@types/jsdom": "^28.0.3",
-    "@types/node": "^25.9.1",
-    "path": "^0.12.7",
-    "url": "^0.11.4"
+    "@types/node": "^25.9.1"
   }
 }

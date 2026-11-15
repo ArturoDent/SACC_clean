@@ -1,76 +1,37 @@
 // @ts-check
-import { serializeAndWriteClean } from "./writeClean.js";
-
-
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile } from "node:fs/promises";
 import * as jsdom from "jsdom";
+import { serializeAndWriteClean } from "./writeClean.js";
 
 const { JSDOM } = jsdom;
 
-// TODO: make this its own module
-const ensureStylesheet = (document) => {
-  if (document.querySelector('link[rel="stylesheet"][href="../css/styles.css"]')) return;
-
-  const stylesheet = document.createElement("link");
-  stylesheet.setAttribute("rel", "stylesheet");
-  stylesheet.setAttribute("href", "../css/styles.css");
-  document.head.appendChild(stylesheet);
-};
-
-// const createDom = (html) => {
-//   const virtualConsole = new jsdom.VirtualConsole();
-//   virtualConsole.on("jsdomError", (error) => {
-//     // if (error.type !== "css-parsing") console.warn(error.message);
-//     if (error.cause !== "css-parsing") console.warn(error.message);  // TODO: check this
-//   });
-
-//   return new JSDOM(html, { virtualConsole });
-// };
-
 const createDom = (html) => {
   const virtualConsole = new jsdom.VirtualConsole();
+  // Word's embedded stylesheets are full of mso-* rules jsdom cannot parse;
+  // everything else jsdom complains about is worth seeing.
   virtualConsole.on("jsdomError", (/** @type {any} */ error) => {
     if (error.type !== "css-parsing") console.warn(error.message);
   });
 
-  return new JSDOM(html, {
-    virtualConsole,
-    contentType: "text/html"
-  });
+  return new JSDOM(html, { virtualConsole, contentType: "text/html" });
 };
 
-
 export const createCleanHtml = async ({ sourceFile, outputFile, cleanupSteps }) => {
-
   const html = await readFile(sourceFile, "utf8");
   const dom = createDom(html);
   const { document } = dom.window;
 
   const results = [];
 
-  // ensureStylesheet(document);
-
   for (const cleanupStep of cleanupSteps) {
+    const name = cleanupStep.name || "anonymous";
     try {
       const value = await cleanupStep(document);
-      results.push({
-        name: cleanupStep.name || "anonymous",
-        status: "fulfilled",
-        value,
-        message: `Step ${ cleanupStep.name || "anonymous" } succeeded: ${ value.message }`
-      });
+      results.push({ name, status: "fulfilled", value, message: `Step ${ name } succeeded: ${ value.message }` });
     }
     catch (err) {
-      const reason =
-        err instanceof Error ? err.message : typeof err === "string" ? err : JSON.stringify(err);
-      results.push({
-        name: cleanupStep.name || "anonymous",
-        status: "rejected",
-        reason,
-        error: err,
-        message: `Step ${ cleanupStep.name || "anonymous" } failed: ${ reason }`
-      });
-      // optionally: throw err to abort
+      const reason = err instanceof Error ? err.message : typeof err === "string" ? err : JSON.stringify(err);
+      results.push({ name, status: "rejected", reason, error: err, message: `Step ${ name } failed: ${ reason }` });
     }
   }
 
@@ -82,8 +43,22 @@ export const createCleanHtml = async ({ sourceFile, outputFile, cleanupSteps }) 
     message: `Step normalizeSpanNestingOrder (post-merge) succeeded: ${ nestingResult.message }`
   });
 
-  return {
-    outputFile,
-    results,
-  };
+  return { outputFile, results };
+};
+
+// Shared by both pipelines: prints each step's summary, routes failures to
+// stderr, and marks the process as failed so a long batch cannot end green
+// with a broken step buried in the middle of the log.
+export const logResults = (results) => {
+  for (const result of results) {
+    if (result.status === "rejected") {
+      console.error(result.message);
+      process.exitCode = 1;
+      continue;
+    }
+    if (result.message) console.log(result.message);
+    for (const item of result.value?.skipped ?? []) {
+      console.log(`  - needs manual review: <${ item.tag }> ${ item.outerHTML }`);
+    }
+  }
 };

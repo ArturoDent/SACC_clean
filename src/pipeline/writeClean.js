@@ -55,22 +55,6 @@ export async function serializeAndWriteClean(dom, outputPath) {
 
 
 /**
- * Collapse multiple blank lines between paragraphs in an HTML string.
- * Keeps exactly one empty line between </p> and <p>.
- * Also collapses any 3+ blank lines anywhere to two newlines as a conservative fallback.
- *
- * @param {string} html
- * @returns {string}
- */
-// function collapseBlankLinesInHtml(html) {
-//   // collapse whitespace/newlines/tabs between </p> and <p> to exactly one blank line
-//   html = html.replace(/<\/p>\s*(?:\r?\n[ \t]*)+<p>/g, "</p>\n\n<p>");
-//   // global conservative fallback: collapse 3+ blank lines anywhere to two newlines
-//   // html = html.replace(/(\r?\n\s*){3,}/g, "\n\n");
-//   return html;
-// }
-
-/**
  * Remove whitespace that the VS Code HTML formatter injects around inline
  * elements when it wraps long lines.  Those newlines/spaces sit between
  * inline content and render as a visible space in browsers / innerText.
@@ -134,10 +118,11 @@ export function stripFormatterSpaces(html) {
     `$1</span>$2`
   );
 
-  // 5b: Span ending with any straight or curly double/single quote + whitespace + text
-  //     e.g. ‘criterion: “</span> Species’  (“ = left curly quote)
+  // 5b: Span ending with an OPENING quote (straight ", left curly double \u201c,
+  //     left curly single \u2018) + whitespace + text, e.g. 'criterion: "</span> Species'.
+  //     Only opening quotes qualify: after a closing quote the space is real.
   html = html.replace(
-    /(<span\b[^>]*>[^<]*["$1$2"”’])<\/span>\s+([A-Za-z])/g,
+    /(<span\b[^>]*>[^<]*["\u201c\u2018])<\/span>\s+([A-Za-z])/g,
     `$1</span>$2`
   );
 
@@ -168,6 +153,19 @@ export function stripFormatterSpaces(html) {
  * - Keeps exactly one blank line between ANY two block-level elements.
  * - Collapses ANY run of 2+ blank lines anywhere else.
  */
+// A whitespace run containing at least one newline. Written with disjoint
+// pieces instead of `\s*\n+\s*`, whose three overlapping classes made the engine
+// retry every split of a long run (about 370ms on the largest part).
+const NEWLINE_RUN = String.raw`[ \t]*\n(?:[ \t]*\n)*[ \t]*`;
+const BLOCK_TAGS = "div|p|section|article|header|footer|table|thead|tbody|tfoot|tr|ul|ol|li|blockquote|pre";
+
+const BLOCK_GAP_RE = new RegExp(String.raw`(<\/(?:${ BLOCK_TAGS })[^>]*>)${ NEWLINE_RUN }(<(?:${ BLOCK_TAGS })[^>]*>)`, "gi");
+const BEFORE_HR_RE = new RegExp(String.raw`(<\/[^>]+>)${ NEWLINE_RUN }(<hr\b[^>]*>)`, "gi");
+const AFTER_HR_RE = new RegExp(String.raw`(<hr\b[^>]*>)${ NEWLINE_RUN }(<[^/])`, "gi");
+const BEFORE_BR_RE = new RegExp(String.raw`(<\/[^>]+>)${ NEWLINE_RUN }(<br\b[^>]*>)`, "gi");
+const AFTER_BR_RE = new RegExp(String.raw`(<br\b[^>]*>)${ NEWLINE_RUN }(<[^/])`, "gi");
+const LI_GAP_RE = new RegExp(String.raw`<\/li>${ NEWLINE_RUN }<li`, "gi");
+
 export function collapseBlankLinesInHtml(html) {
   // Normalize CRLF → LF
   html = html.replace(/\r\n/g, "\n");
@@ -177,21 +175,18 @@ export function collapseBlankLinesInHtml(html) {
 
   // Preserve exactly one blank line between ANY two block-level tags
   // Example: </div>\n\n\n<div> → </div>\n\n<div>
-  html = html.replace(
-    /(<\/(?:div|p|section|article|header|footer|table|thead|tbody|tfoot|tr|ul|ol|li|blockquote|pre)[^>]*>)\s*\n+\s*(<(?:div|p|section|article|header|footer|table|thead|tbody|tfoot|tr|ul|ol|li|blockquote|pre)[^>]*>)/gi,
-    "$1\n\n$2"
-  );
+  html = html.replace(BLOCK_GAP_RE, "$1\n\n$2");
 
   // Preserve exactly one blank line before <hr> or after <hr>
-  html = html.replace(/(<\/[^>]+>)\s*\n+\s*(<hr\b[^>]*>)/gi, "$1\n\n$2");
-  html = html.replace(/(<hr\b[^>]*>)\s*\n+\s*(<[^/])/gi, "$1\n\n$2");
+  html = html.replace(BEFORE_HR_RE, "$1\n\n$2");
+  html = html.replace(AFTER_HR_RE, "$1\n\n$2");
 
   // Preserve exactly one blank line before <br> or after <br> (proposals gap-marker)
-  html = html.replace(/(<\/[^>]+>)\s*\n+\s*(<br\b[^>]*>)/gi, "$1\n\n$2");
-  html = html.replace(/(<br\b[^>]*>)\s*\n+\s*(<[^/])/gi, "$1\n\n$2");
+  html = html.replace(BEFORE_BR_RE, "$1\n\n$2");
+  html = html.replace(AFTER_BR_RE, "$1\n\n$2");
 
   // Special case: collapse blank lines between <li> siblings
-  html = html.replace(/<\/li>\s*\n+\s*<li/gi, "</li>\n<li");
+  html = html.replace(LI_GAP_RE, "</li>\n<li");
 
   // Global fallback: collapse ANY 3+ blank lines to exactly one
   html = html.replace(/\n{3,}/g, "\n\n");

@@ -322,18 +322,6 @@ const collapseTextNodeWhitespace = (document, root) => {
   root.normalize();
 };
 
-const normalizePunctuationSpacing = (document, root) => {
-  const walker = document.createTreeWalker(root, document.defaultView.NodeFilter.SHOW_TEXT);
-  const textNodes = [];
-
-  while (walker.nextNode()) textNodes.push(walker.currentNode);
-
-  for (const textNode of textNodes) {
-    textNode.nodeValue = (textNode.nodeValue ?? "")
-      .replace(/\s{2,}([.,;:!?)])/g, "$1");
-  }
-};
-
 const trimParagraphEdgeWhitespace = (root) => {
   root.normalize();
 
@@ -414,7 +402,6 @@ export function collapseInlineParagraphs(document) {
     collapseTextNodeWhitespace(document, p);
     consolidateInfoRuns(document, p);
     consolidateInfoRuns(document, p, "pendingProposal");
-    normalizePunctuationSpacing(document, p);
     trimParagraphEdgeWhitespace(p);
 
     // Remove truly empty classified spans (e.g. <span class="proposalNeeded"></span> left after
