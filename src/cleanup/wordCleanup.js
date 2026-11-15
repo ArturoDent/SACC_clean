@@ -14,17 +14,36 @@ export const isBlankElement = (element) => {
   return normalizeText(element.textContent ?? "") === "";
 };
 
+// Word's way of bordering a run of one or more paragraphs: wrap them in a div
+// carrying the real CSS border, while each paragraph itself gets border:none
+// plus an mso-border-*-alt hint that only Word itself honors.
+const isParaBorderDiv = (element) =>
+  element.tagName === "DIV" &&
+  (element.getAttribute("style") ?? "").toLowerCase().includes("mso-element:para-border-div");
+
+// Which edges of a para-border-div actually draw a rule (e.g. "border-bottom:solid windowtext 1.5pt").
+// Word emits "border:none" first and then the one real edge, so only explicit non-none edges count.
+const getBorderedEdges = (element) => {
+  const style = (element.getAttribute("style") ?? "").toLowerCase();
+  const edges = [];
+
+  for (const edge of ["top", "bottom"]) {
+    const match = style.match(new RegExp(`border-${ edge }\\s*:\\s*([^;]+)`));
+    if (match && !/^\s*none\b/.test(match[1])) edges.push(edge);
+  }
+
+  return edges;
+};
+
 const isLineSeparator = (element) => {
   if (!["P", "DIV", "HR"].includes(element.tagName)) return false;
   if (element.tagName === "HR") return true;
   if (element.querySelector("hr")) return true;
 
-  // Word's way of bordering a single (often blank) paragraph: wrap it in a div
-  // carrying the real CSS border, while the paragraph itself gets border:none
-  // plus an mso-border-*-alt hint that only Word itself honors.
-  if (element.tagName === "DIV" && (element.getAttribute("style") ?? "").toLowerCase().includes("mso-element:para-border-div")) {
-    return true;
-  }
+  // Most para-border-divs wrap a single blank paragraph and are purely a rule. One that
+  // wraps real content (text, images, links) is not a separator: simplifyLineSeparators
+  // unwraps it instead, so its content survives, and keeps the rule where the border was.
+  if (isParaBorderDiv(element)) return isBlankElement(element);
 
   return /^_+$/.test(normalizeText(element.textContent ?? ""));
 };
@@ -569,15 +588,36 @@ export const simplifyBanner = (document) => {
 
 export const simplifyLineSeparators = (document) => {
   const container = document.querySelector("body > div") ?? document.body;
-  const separators = [...container.children].filter(isLineSeparator);
+  let replacements = 0;
+  let unwrapped = 0;
 
-  for (const separator of separators) {
-    replaceWithSimpleElement(document, separator, "hr");
+  for (const element of [...container.children]) {
+    if (isLineSeparator(element)) {
+      replaceWithSimpleElement(document, element, "hr");
+      replacements += 1;
+      continue;
+    }
+
+    // A para-border-div with real content: Word drew one rule along the whole group's
+    // edge (border-bottom in every case seen so far). Put an <hr> on that edge and
+    // unwrap the paragraphs so they are processed like any other body content.
+    if (isParaBorderDiv(element)) {
+      const edges = getBorderedEdges(element);
+      if (edges.includes("top")) element.before(document.createElement("hr"));
+      if (edges.includes("bottom")) element.after(document.createElement("hr"));
+      unwrapElement(element);
+      unwrapped += 1;
+    }
   }
 
+  const unwrappedNote = unwrapped
+    ? ` Unwrapped ${ unwrapped } bordered paragraph group${ unwrapped === 1 ? "" : "s" } with content, keeping the rule.`
+    : "";
+
   return {
-    message: `Simplified ${ separators.length } line separator${ separators.length === 1 ? "" : "s" } to <hr>.`,
-    replacements: separators.length,
+    message: `Simplified ${ replacements } line separator${ replacements === 1 ? "" : "s" } to <hr>.${ unwrappedNote }`,
+    replacements,
+    unwrapped,
   };
 };
 

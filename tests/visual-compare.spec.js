@@ -53,17 +53,20 @@ function loadKnownDifferences(testFile) {
 
   const textAllowlist = new Set();
   const colorAllowlist = new Set();
+  const linkAllowlist = new Set();
 
   // Allow the populate script to get ALL failures (including suppressed ones) for
   // location discovery — set IGNORE_KNOWN_DIFFERENCES=1 to bypass loading.
-  if (process.env.IGNORE_KNOWN_DIFFERENCES === "1") return { textAllowlist, colorAllowlist };
+  if (process.env.IGNORE_KNOWN_DIFFERENCES === "1") return { textAllowlist, colorAllowlist, linkAllowlist };
 
   for (const filePath of candidates) {
     if (!fs.existsSync(filePath)) continue;
     for (const raw of fs.readFileSync(filePath, "utf8").split("\n")) {
       const line = raw.trim();
       if (!line || line.startsWith("#")) continue;
-      if (line.includes(" → ")) {
+      if (line.startsWith("Link ")) {
+        linkAllowlist.add(line);       // link failure message (first line only)
+      } else if (line.includes(" → ")) {
         textAllowlist.add(line);       // old format: "Original → Cleaned"
       } else if (line.includes("color mismatch:") || line.includes("should appear with non-black color in clean")) {
         colorAllowlist.add(line);      // color failure message (first line only)
@@ -74,7 +77,7 @@ function loadKnownDifferences(testFile) {
     break; // use the first file found
   }
 
-  return { textAllowlist, colorAllowlist };
+  return { textAllowlist, colorAllowlist, linkAllowlist };
 }
 
 expect.extend({
@@ -199,6 +202,111 @@ async function collectColoredItems(page, inlineOnly = false) {
   }, inlineOnly);
 }
 
+/**
+ * Collect every <a href> as { text, href }.  Uses getAttribute (not a.href) so
+ * the raw source value is compared - under file:// the a.href property resolves
+ * to an absolute local path, hiding live-site vs relative differences.
+ *
+ * @param {import("@playwright/test").Page} page
+ */
+async function collectLinks(page) {
+  return page.evaluate(() =>
+    [...document.querySelectorAll("a[href]")].map((a) => ({
+      text: (a.textContent ?? "").replace(/[\s\xA0]+/g, " ").trim(),
+      href: (a.getAttribute("href") ?? "").trim(),
+      // Image/media links have no text but are still visible.
+      hasMedia: !!a.querySelector("img, svg, object, embed, video"),
+    }))
+  );
+}
+
+// Every id/name in the page - targets for "#fragment" links.
+async function collectAnchorTargets(page) {
+  return page.evaluate(() => [
+    ...[...document.querySelectorAll("[id]")].map((el) => el.id),
+    ...[...document.querySelectorAll("[name]")].map((el) => el.getAttribute("name") ?? ""),
+  ]);
+}
+
+// The live site's own absolute prefix.  shortenSaccPropLinks
+// (src/cleanup/wordCleanup.js) rewrites some of these to the bare relative
+// filename, so strip it here to compare both forms as equal.
+const LSU_PREFIX_RE = /^https?:\/\/www\.museum\.lsu\.edu\/(?:~|%7E)Remsen\//i;
+
+function normalizeHref(href) {
+  return href.replace(LSU_PREFIX_RE, "").replace(/^https?:\/\//i, "//").toLowerCase();
+}
+
+// Links that are checkable offline: fragments and relative paths.
+// Absolute URLs (including the live LSU site) are external and skipped.
+function isLocalHref(href) {
+  return !/^([a-z][a-z0-9+.-]*:|\/\/)/i.test(href);
+}
+
+// Lowercased basename -> path for every .htm/.html file under root.  The live
+// site is flat, so a bare "SACCprop979.htm" link can only be resolved by name
+// against wherever that file sits locally (baseline/, proposals/, ...).
+function indexHtmlFiles(root) {
+  const index = new Map();
+  const walk = (dir) => {
+    if (!fs.existsSync(dir)) return;
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      const full = path.join(dir, entry.name);
+      if (entry.isDirectory()) walk(full);
+      else if (/\.html?$/i.test(entry.name)) index.set(entry.name.toLowerCase(), full);
+    }
+  };
+  walk(root);
+  return index;
+}
+
+// Pairs dirty links with clean links by a longest-common-subsequence over their
+// normalized targets - the same alignment a line diff uses.  Returns, for each
+// dirty index, the matched clean index or -1.  Counting this way means losing
+// one of nine identical "proposal" -> SACCprop979.htm links leaves exactly one
+// dirty link unmatched.
+function alignLinks(dirtyLinks, cleanLinks) {
+  const a = dirtyLinks.map((l) => normalizeHref(l.href));
+  const b = cleanLinks.map((l) => normalizeHref(l.href));
+  const n = a.length, m = b.length;
+  const dp = Array.from({ length: n + 1 }, () => new Int32Array(m + 1));
+  for (let i = n - 1; i >= 0; i--) {
+    for (let j = m - 1; j >= 0; j--) {
+      dp[i][j] = a[i] === b[j] ? dp[i + 1][j + 1] + 1 : Math.max(dp[i + 1][j], dp[i][j + 1]);
+    }
+  }
+
+  const matchOf = new Array(n).fill(-1);
+  let i = 0, j = 0;
+  while (i < n && j < m) {
+    if (a[i] === b[j]) { matchOf[i] = j; i++; j++; }
+    else if (dp[i + 1][j] >= dp[i][j + 1]) i++;
+    else j++;
+  }
+  return matchOf;
+}
+
+// 1-indexed source line of each link, found by scanning forward for its href
+// value in document order.  Link text can't be used - "proposal" is on
+// hundreds of lines - but Word only wraps source lines at spaces, and an href has none.
+// Tracks a character offset (not just a line) so two links on one line both
+// resolve, and repeats of the same href resolve to successive occurrences.
+function hrefSourceLines(rawLines, links) {
+  const raw = rawLines.join("\n");
+  let pos = 0, line = 1;
+  return links.map(({ href }) => {
+    if (!href) return null;
+    const candidates = [`"${ href }"`, `'${ href }'`]
+      .map((q) => raw.indexOf(q, pos))
+      .filter((at) => at !== -1);
+    if (!candidates.length) return null;
+    const at = Math.min(...candidates);
+    for (let k = pos; k < at; k++) if (raw.charCodeAt(k) === 10) line++;
+    pos = at + 1;
+    return line;
+  });
+}
+
 // TEST_FILE names the file stem(s) used for both dirty/ and clean/.
 // Run with:  $env:TEST_FILE="SACC2,SACC3"; npx playwright test   (PowerShell)
 //            TEST_FILE=SACC2,SACC3 npx playwright test           (bash)
@@ -308,6 +416,158 @@ test("dirty and clean contain identical visible text", async ({ page }) => {
       `  Original: "${ d ?? "" }"`,
       `  Cleaned:  "${ c ?? "" }"`,
     ].join("\n"));
+  }
+
+  if (failures.length) {
+    const err = new Error("\n\n" + failures.join("\n\n"));
+    err.stack = `Error: ${ err.message }`;
+    throw err;
+  }
+});
+
+// Rules 1 + 2: every dirty link survives into clean, pointing at the same target.
+// Links are aligned in document order (see alignLinks) rather than looked up by
+// text: most proposal links share the text "proposal", and the same target is
+// often linked many times, so only position distinguishes one copy from another.
+test("dirty links are preserved in clean", async ({ page }) => {
+  const { originalPath, cleanedPath } = resolvePaths(testFile);
+  const dirtyRaw = readRawLines(originalPath);
+  const cleanRaw = readRawLines(cleanedPath);
+  const { linkAllowlist } = loadKnownDifferences(testFile);
+
+  await loadLocalHtml(page, originalPath);
+  const dirtyLinks = await collectLinks(page);
+
+  await loadLocalHtml(page, cleanedPath);
+  const cleanLinks = await collectLinks(page);
+
+  const matchOf = alignLinks(dirtyLinks, cleanLinks);
+  const cleanMatched = new Set(matchOf.filter((j) => j !== -1));
+  const dirtyLines = hrefSourceLines(dirtyRaw, dirtyLinks);
+  const cleanLines = hrefSourceLines(cleanRaw, cleanLinks);
+
+  // A dirty fragment of a hyperlink Word split in two: its neighbor has the same
+  // target and was matched to a clean link whose text is longer and contains both.
+  const isMergedFragment = (i) => [i - 1, i + 1].some((k) => {
+    const j = matchOf[k];
+    if (j === undefined || j === -1) return false;
+    if (normalizeHref(dirtyLinks[k].href) !== normalizeHref(dirtyLinks[i].href)) return false;
+    const merged = cleanLinks[j].text;
+    return merged !== dirtyLinks[k].text && merged.includes(dirtyLinks[i].text);
+  });
+
+  const failures = [];
+  const paired = new Set();
+
+  for (let i = 0; i < dirtyLinks.length; i++) {
+    if (matchOf[i] !== -1 || isMergedFragment(i)) continue;
+    const { text, href, hasMedia } = dirtyLinks[i];
+
+    // Invisible link - Word leaves these wrapped around a bare &nbsp; in
+    // otherwise empty paragraphs, which cleanup rightly removes.
+    if (!text && !hasMedia) continue;
+
+    // Bounds of the clean gap this dirty link fell into.
+    let lo = -1, hi = cleanLinks.length;
+    for (let k = i - 1; k >= 0; k--) if (matchOf[k] !== -1) { lo = matchOf[k]; break; }
+    for (let k = i + 1; k < dirtyLinks.length; k++) if (matchOf[k] !== -1) { hi = matchOf[k]; break; }
+
+    let retargetTo = -1;
+    for (let j = lo + 1; j < hi; j++) {
+      if (!cleanMatched.has(j) && !paired.has(j) && cleanLinks[j].text === text) { retargetTo = j; break; }
+    }
+
+    const label = text ? `"${ text.slice(0, 60) }"` : "(no text)";
+    let firstLine, cLine;
+    if (retargetTo !== -1) {
+      paired.add(retargetTo);
+      firstLine = `Link retargeted: ${ label } dirty=${ href }  clean=${ cleanLinks[retargetTo].href }`;
+      cLine = cleanLines[retargetTo];
+    } else {
+      firstLine = `Link lost: ${ label } -> ${ href }`;
+      cLine = lo === -1 ? null : cleanLines[lo];
+    }
+    if (linkAllowlist.has(firstLine)) continue;
+
+    const cLabel = retargetTo !== -1 ? `clean L${ cLine ?? "?" }` : `clean after L${ cLine ?? "?" }`;
+    failures.push(`${ firstLine }\n  dirty L${ dirtyLines[i] ?? "?" }  ${ cLabel }`);
+  }
+
+  if (failures.length) {
+    const err = new Error("\n\n" + failures.join("\n\n"));
+    err.stack = `Error: ${ err.message }`;
+    throw err;
+  }
+});
+
+// Rule 3: every local link in clean resolves.  "#frag" needs a matching id/name;
+// a bare filename must exist somewhere under clean/.  A target that was
+// downloaded (exists under dirty/) but never cleaned is a failure; one that was
+// never downloaded at all is only listed as an annotation in the report, since
+// proposals are fetched in ranges and most aren't local yet.
+test("clean links resolve", async ({ page }) => {
+  const { cleanedPath } = resolvePaths(testFile);
+  const cleanRaw = readRawLines(cleanedPath);
+  const { linkAllowlist } = loadKnownDifferences(testFile);
+
+  await loadLocalHtml(page, cleanedPath);
+  const cleanLinks = await collectLinks(page);
+  const anchorTargets = new Set(await collectAnchorTargets(page));
+
+  const cleanIndex = indexHtmlFiles(path.join(__dirname, "../clean"));
+  const dirtyIndex = indexHtmlFiles(path.join(__dirname, "../dirty"));
+
+  const failures = [];
+  const notDownloaded = new Set();
+  const seen = new Set();
+  let cleanFromLine = 0;
+
+  for (const { text, href } of cleanLinks) {
+    if (!href || !isLocalHref(href) || seen.has(href)) continue;
+    seen.add(href);
+
+    const [filePart, fragment = ""] = href.split("#");
+    let file = "";
+    try { file = decodeURIComponent(filePart.split("?")[0]); } catch { file = filePart; }
+
+    let problem = "";
+    if (!file) {
+      if (fragment && !anchorTargets.has(fragment)) problem = "no matching id on this page";
+    } else {
+      const targetPath = file.includes("/")
+        ? path.resolve(path.dirname(cleanedPath), file)
+        : cleanIndex.get(file.toLowerCase());
+
+      if (!targetPath || !fs.existsSync(targetPath)) {
+        if (file.includes("/") || dirtyIndex.has(file.toLowerCase())) {
+          problem = file.includes("/") ? "file not found" : "downloaded but not cleaned";
+        } else {
+          notDownloaded.add(href);
+          continue;
+        }
+      } else if (fragment && /\.html?$/i.test(targetPath)) {
+        const targetHtml = fs.readFileSync(targetPath, "utf8");
+        const escaped = fragment.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+        if (!new RegExp(`(id|name)\\s*=\\s*["']?${ escaped }["'\\s>]`, "i").test(targetHtml)) {
+          problem = `no id "${ fragment }" in ${ path.basename(targetPath) }`;
+        }
+      }
+    }
+    if (!problem) continue;
+
+    const firstLine = `Link broken: "${ text.slice(0, 60) }" -> ${ href } (${ problem })`;
+    if (linkAllowlist.has(firstLine)) continue;
+
+    const cLine = findSourceLine(cleanRaw, text, cleanFromLine);
+    if (cLine) cleanFromLine = cLine - 1;
+    failures.push(`${ firstLine }\n  clean L${ cLine ?? "?" }`);
+  }
+
+  if (notDownloaded.size) {
+    test.info().annotations.push({
+      type: `${ notDownloaded.size } link target(s) not downloaded`,
+      description: [...notDownloaded].sort().join(", "),
+    });
   }
 
   if (failures.length) {

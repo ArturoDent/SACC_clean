@@ -25,6 +25,7 @@ const HEADER = [
   "# Known intentional differences between dirty/baseline and clean/baseline for this part.",
   "# Format for text mismatches: uncomment only the first line (the Original) to suppress.",
   "# Format for color mismatches: uncomment only the first line to suppress.",
+  "# Format for link failures (\"Link lost/retargeted/broken: ...\"): uncomment only the first line to suppress.",
   "# Lines starting with # are comments. Blank lines are ignored.",
 ].join("\n");
 
@@ -38,6 +39,17 @@ const parseColorFailures = (msg) => {
     if (firstLine.includes("color mismatch:") || firstLine.includes("should appear with non-black color in clean")) {
       entries.set(firstLine, lines[1]?.trim() ?? "");
     }
+  }
+  return entries;
+};
+
+// Parse link failures (first line starts "Link "). Returns Map<entry, location>.
+const parseLinkFailures = (msg) => {
+  const entries = new Map();
+  for (const block of msg.split("\n\n")) {
+    const lines = block.trim().split("\n");
+    const firstLine = lines[0]?.trim();
+    if (firstLine?.startsWith("Link ")) entries.set(firstLine, lines[1]?.trim() ?? "");
   }
   return entries;
 };
@@ -99,16 +111,17 @@ const parseActiveBlocks = (content) => {
 };
 
 // Rebuild active blocks, augmenting with cleaned+location comments where missing.
-const buildActiveSection = (activeBlocks, colorEntries, textEntries) => {
+const buildActiveSection = (activeBlocks, colorEntries, textEntries, linkEntries) => {
   return activeBlocks.map(({ active, comments }) => {
     const commentSet = new Set(comments.map((c) => c.replace(/^#\s*/, "")));
 
     // Is this a color entry or a text entry?
-    const isColor = active.includes("color mismatch:") || active.includes("should appear with non-black color in clean");
+    const isLink = active.startsWith("Link ");
+    const isColor = isLink || active.includes("color mismatch:") || active.includes("should appear with non-black color in clean");
 
     if (isColor) {
-      // colorEntries maps entry → location string (not an object).
-      const location = colorEntries.get(active) ?? "";
+      // colorEntries/linkEntries map entry -> location string (not an object).
+      const location = (isLink ? linkEntries : colorEntries).get(active) ?? "";
       const out = [active];
       if (location && !commentSet.has(location)) {
         out.push(`# ${ location }`);
@@ -164,6 +177,7 @@ for (const stem of stems) {
 
   const colorEntries = new Map();
   const textEntries  = new Map();
+  const linkEntries  = new Map();
 
   const walkSuite = (s) => {
     for (const spec of (s.specs ?? [])) {
@@ -175,6 +189,8 @@ for (const stem of stems) {
               for (const [e, loc] of parseColorFailures(msg)) colorEntries.set(e, loc);
             } else if (spec.title === "dirty and clean contain identical visible text") {
               for (const [e, info] of parseTextFailures(msg)) textEntries.set(e, info);
+            } else if (spec.title === "dirty links are preserved in clean" || spec.title === "clean links resolve") {
+              for (const [e, loc] of parseLinkFailures(msg)) linkEntries.set(e, loc);
             }
           }
         }
@@ -184,7 +200,7 @@ for (const stem of stems) {
   };
   walkSuite(suite);
 
-  const total = colorEntries.size + textEntries.size;
+  const total = colorEntries.size + textEntries.size + linkEntries.size;
   if (!total) {
     console.log("no parseable failures — file unchanged");
     continue;
@@ -195,7 +211,7 @@ for (const stem of stems) {
   const activeBlocks = parseActiveBlocks(existingContent);
 
   // Build the updated active section (augmenting comments where needed).
-  const activeSections = buildActiveSection(activeBlocks, colorEntries, textEntries);
+  const activeSections = buildActiveSection(activeBlocks, colorEntries, textEntries, linkEntries);
 
   // Build the new commented entries section.
   const commentedEntries = [
@@ -203,6 +219,8 @@ for (const stem of stems) {
       .map(([e, loc]) => formatColorEntry(e, loc)),
     ...[...textEntries.entries()].sort(([a], [b]) => a.localeCompare(b))
       .map(([e, { cleaned, location }]) => formatTextEntry(e, cleaned, location)),
+    ...[...linkEntries.entries()].sort(([a], [b]) => a.localeCompare(b))
+      .map(([e, loc]) => formatColorEntry(e, loc)),
   ];
 
   const parts = [HEADER];
@@ -211,5 +229,5 @@ for (const stem of stems) {
   fs.writeFileSync(filePath, parts.join("\n\n") + "\n");
 
   const preserved = activeBlocks.length;
-  console.log(`wrote ${ total } entr${ total === 1 ? "y" : "ies" } (${ colorEntries.size } color, ${ textEntries.size } text)${ preserved ? `, preserved ${ preserved } active` : "" }`);
+  console.log(`wrote ${ total } entr${ total === 1 ? "y" : "ies" } (${ colorEntries.size } color, ${ textEntries.size } text, ${ linkEntries.size } link)${ preserved ? `, preserved ${ preserved } active` : "" }`);
 }
