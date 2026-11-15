@@ -1,0 +1,2117 @@
+[
+  {
+    "type": "family",
+    "label": "FURNARIIDAE (OVENBIRDS)",
+    "note": "1"
+  },
+  {
+    "type": "subfamily",
+    "label": "Sclerurinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Sclerurus obscurior",
+    "commonName": "South American Leaftosser",
+    "status": [],
+    "note": "1a, 1b, 1c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sclerurus rufigularis",
+    "commonName": "Short-billed Leaftosser",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Sclerurus guatemalensis",
+    "commonName": "Scaly-throated Leaftosser",
+    "status": [],
+    "note": "1d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sclerurus caudacutus",
+    "commonName": "Black-tailed Leaftosser",
+    "status": [],
+    "note": "1d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sclerurus albigularis",
+    "commonName": "Gray-throated Leaftosser",
+    "status": [],
+    "note": "1e, 1f"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sclerurus scansor",
+    "commonName": "Rufous-breasted Leaftosser",
+    "status": [],
+    "note": "1e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Geositta peruviana",
+    "commonName": "Coastal Miner",
+    "status": [],
+    "note": "3b, 3bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Geositta tenuirostris",
+    "commonName": "Slender-billed Miner",
+    "status": [],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Geositta cunicularia",
+    "commonName": "Common Miner",
+    "status": [],
+    "note": "3, 3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Geositta punensis",
+    "commonName": "Puna Miner",
+    "status": [],
+    "note": "3c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Geositta poeciloptera",
+    "commonName": "Campo Miner",
+    "status": [],
+    "note": "1a, 2, 2a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Geositta crassirostris",
+    "commonName": "Thick-billed Miner",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Geositta rufipennis",
+    "commonName": "Rufous-banded Miner",
+    "status": [],
+    "note": "3c, 4a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Geositta maritima",
+    "commonName": "Grayish Miner",
+    "status": [],
+    "note": "3b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Geositta antarctica",
+    "commonName": "Short-billed Miner",
+    "status": [],
+    "note": "3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Geositta saxicolina",
+    "commonName": "Dark-winged Miner",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Geositta isabellina",
+    "commonName": "Creamy-rumped Miner",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "subfamily",
+    "label": "Dendrocolaptinae",
+    "note": "105"
+  },
+  {
+    "type": "species",
+    "scientificName": "Certhiasomus stictolaemus",
+    "commonName": "Spot-throated Woodcreeper",
+    "status": [],
+    "note": "109, 110, 110a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sittasomus griseicapillus",
+    "commonName": "Olivaceous Woodcreeper",
+    "status": [],
+    "note": "111"
+  },
+  {
+    "type": "species",
+    "scientificName": "Deconychura typica",
+    "commonName": "Piping Long-tailed Woodcreeper",
+    "status": [],
+    "note": "109"
+  },
+  {
+    "type": "species",
+    "scientificName": "Deconychura longicauda",
+    "commonName": "Whistling Long-tailed Woodcreeper",
+    "status": [],
+    "note": "109, 110a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Deconychura pallida",
+    "commonName": "Mournful Long-tailed Woodcreeper",
+    "status": [],
+    "note": "109"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dendrocincla tyrannina",
+    "commonName": "Tyrannine Woodcreeper",
+    "status": [],
+    "note": "105a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dendrocincla merula",
+    "commonName": "White-chinned Woodcreeper",
+    "status": [],
+    "note": "108"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dendrocincla homochroa",
+    "commonName": "Ruddy Woodcreeper",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Dendrocincla fuliginosa",
+    "commonName": "Plain-brown Woodcreeper",
+    "status": [],
+    "note": "106, 107"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dendrocincla turdina",
+    "commonName": "Plain-winged Woodcreeper",
+    "status": [],
+    "note": "106, 107"
+  },
+  {
+    "type": "species",
+    "scientificName": "Glyphorynchus spirurus",
+    "commonName": "Wedge-billed Woodcreeper",
+    "status": [],
+    "note": "112, 113, 114"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dendrexetastes rufigula",
+    "commonName": "Cinnamon-throated Woodcreeper",
+    "status": [],
+    "note": "116, 117"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nasica longirostris",
+    "commonName": "Long-billed Woodcreeper",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Dendrocolaptes sanctithomae",
+    "commonName": "Northern Barred-Woodcreeper",
+    "status": [],
+    "note": "123, 124"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dendrocolaptes certhia",
+    "commonName": "Amazonian Barred-Woodcreeper",
+    "status": [],
+    "note": "123, 125, 125a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dendrocolaptes picumnus",
+    "commonName": "Black-banded Woodcreeper",
+    "status": [],
+    "note": "126, 127"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dendrocolaptes hoffmannsi",
+    "commonName": "Hoffmanns's Woodcreeper",
+    "status": [],
+    "note": "126"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dendrocolaptes platyrostris",
+    "commonName": "Planalto Woodcreeper",
+    "status": [],
+    "note": "126, 126a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hylexetastes stresemanni",
+    "commonName": "Bar-bellied Woodcreeper",
+    "status": [],
+    "note": "118"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hylexetastes perrotii",
+    "commonName": "Red-billed Woodcreeper",
+    "status": [],
+    "note": "118"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hylexetastes uniformis",
+    "commonName": "Uniform Woodcreeper",
+    "status": [],
+    "note": "118"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xiphocolaptes promeropirhynchus",
+    "commonName": "Strong-billed Woodcreeper",
+    "status": [],
+    "note": "119, 120"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xiphocolaptes falcirostris",
+    "commonName": "Moustached Woodcreeper",
+    "status": [],
+    "note": "119, 121"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xiphocolaptes albicollis",
+    "commonName": "White-throated Woodcreeper",
+    "status": [],
+    "note": "119, 122"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xiphocolaptes major",
+    "commonName": "Great Rufous Woodcreeper",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Xiphorhynchus obsoletus",
+    "commonName": "Striped Woodcreeper",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Xiphorhynchus atlanticus",
+    "commonName": "Ceara Woodcreeper",
+    "status": [],
+    "note": "131, 131a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xiphorhynchus fuscus",
+    "commonName": "Lesser Woodcreeper",
+    "status": [],
+    "note": "131, 131a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xiphorhynchus pardalotus",
+    "commonName": "Chestnut-rumped Woodcreeper",
+    "status": [],
+    "note": "134"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xiphorhynchus ocellatus",
+    "commonName": "Ocellated Woodcreeper",
+    "status": [],
+    "note": "132, 134"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xiphorhynchus elegans",
+    "commonName": "Elegant Woodcreeper",
+    "status": [],
+    "note": "133, 134"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xiphorhynchus spixii",
+    "commonName": "Spix's Woodcreeper",
+    "status": [],
+    "note": "133, 134"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xiphorhynchus susurrans",
+    "commonName": "Cocoa Woodcreeper",
+    "status": [],
+    "note": "135"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xiphorhynchus guttatus",
+    "commonName": "Buff-throated Woodcreeper",
+    "status": [],
+    "note": "135"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xiphorhynchus lachrymosus",
+    "commonName": "Black-striped Woodcreeper",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Xiphorhynchus erythropygius",
+    "commonName": "Spotted Woodcreeper",
+    "status": [],
+    "note": "136"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xiphorhynchus triangularis",
+    "commonName": "Olive-backed Woodcreeper",
+    "status": [],
+    "note": "136"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dendroplex picus",
+    "commonName": "Straight-billed Woodcreeper",
+    "status": [],
+    "note": "128, 129"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dendroplex kienerii",
+    "commonName": "Zimmer's Woodcreeper",
+    "status": [],
+    "note": "128, 130"
+  },
+  {
+    "type": "species",
+    "scientificName": "Campylorhamphus trochilirostris",
+    "commonName": "Red-billed Scythebill",
+    "status": [],
+    "note": "142, 142a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Campylorhamphus falcularius",
+    "commonName": "Black-billed Scythebill",
+    "status": [],
+    "note": "142"
+  },
+  {
+    "type": "species",
+    "scientificName": "Campylorhamphus procurvoides",
+    "commonName": "Curve-billed Scythebill",
+    "status": [],
+    "note": "143, 143a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Campylorhamphus pusillus",
+    "commonName": "Brown-billed Scythebill",
+    "status": [],
+    "note": "144"
+  },
+  {
+    "type": "species",
+    "scientificName": "Drymotoxeres pucheranii",
+    "commonName": "Greater Scythebill",
+    "status": [],
+    "note": "140, 141"
+  },
+  {
+    "type": "species",
+    "scientificName": "Drymornis bridgesii",
+    "commonName": "Scimitar-billed Woodcreeper",
+    "status": [],
+    "note": "115"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lepidocolaptes souleyetii",
+    "commonName": "Streak-headed Woodcreeper",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Lepidocolaptes angustirostris",
+    "commonName": "Narrow-billed Woodcreeper",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Lepidocolaptes lacrymiger",
+    "commonName": "Montane Woodcreeper",
+    "status": [],
+    "note": "137"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lepidocolaptes squamatus",
+    "commonName": "Scaled Woodcreeper",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Lepidocolaptes falcinellus",
+    "commonName": "Scalloped Woodcreeper",
+    "status": [],
+    "note": "138"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lepidocolaptes duidae",
+    "commonName": "Duida Woodcreeper",
+    "status": [],
+    "note": "139"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lepidocolaptes albolineatus",
+    "commonName": "Guianan Woodcreeper",
+    "status": [],
+    "note": "139"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lepidocolaptes fatimalimae",
+    "commonName": "Inambari Woodcreeper",
+    "status": [],
+    "note": "139"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lepidocolaptes fuscicapillus",
+    "commonName": "Dusky-capped Woodcreeper",
+    "status": [],
+    "note": "139"
+  },
+  {
+    "type": "subfamily",
+    "label": "Furnariinae",
+    "note": "101"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xenops tenuirostris",
+    "commonName": "Slender-billed Xenops",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Xenops mexicanus",
+    "commonName": "Northern Plain-Xenops",
+    "status": [],
+    "note": "102b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xenops genibarbis",
+    "commonName": "Amazonian Plain-Xenops",
+    "status": [],
+    "note": "102b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xenops minutus",
+    "commonName": "Atlantic Plain-Xenops",
+    "status": [],
+    "note": "102b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xenops rutilans",
+    "commonName": "Streaked Xenops",
+    "status": [],
+    "note": "102c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Berlepschia rikeri",
+    "commonName": "Point-tailed Palmcreeper",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Microxenops milleri",
+    "commonName": "Rufous-tailed Xenops",
+    "status": [],
+    "note": "102, 102a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pygarrhichas albogularis",
+    "commonName": "White-throated Treerunner",
+    "status": [],
+    "note": "104"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ochetorhynchus andaecola",
+    "commonName": "Rock Earthcreeper",
+    "status": [],
+    "note": "5a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ochetorhynchus ruficaudus",
+    "commonName": "Straight-billed Earthcreeper",
+    "status": [],
+    "note": "5a, 6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ochetorhynchus phoenicurus",
+    "commonName": "Band-tailed Earthcreeper",
+    "status": [],
+    "note": "5a, 9, 9a, 9b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ochetorhynchus melanurus",
+    "commonName": "Crag Chilia",
+    "status": [],
+    "note": "7, 9, 9c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudocolaptes johnsoni",
+    "commonName": "Pacific Tuftedcheek",
+    "status": [],
+    "note": "78a, 81, 81a, 81b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudocolaptes boissonneautii",
+    "commonName": "Streaked Tuftedcheek",
+    "status": [],
+    "note": "81, 81c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Premnornis guttuliger",
+    "commonName": "Rusty-winged Barbtail",
+    "status": [],
+    "note": "78a, 78b, 78c, 78d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tarphonomus harterti",
+    "commonName": "Bolivian Earthcreeper",
+    "status": [],
+    "note": "7, 8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tarphonomus certhioides",
+    "commonName": "Chaco Earthcreeper",
+    "status": [],
+    "note": "7, 8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Furnarius figulus",
+    "commonName": "Wing-banded Hornero",
+    "status": [],
+    "note": "16, 16a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Furnarius leucopus",
+    "commonName": "Pale-legged Hornero",
+    "status": [],
+    "note": "17, 18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Furnarius torridus",
+    "commonName": "Pale-billed Hornero",
+    "status": [],
+    "note": "18, 18a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Furnarius minor",
+    "commonName": "Lesser Hornero",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Furnarius rufus",
+    "commonName": "Rufous Hornero",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Furnarius cristatus",
+    "commonName": "Crested Hornero",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Lochmias nematura",
+    "commonName": "Sharp-tailed Streamcreeper",
+    "status": [],
+    "note": "100, 100a, 100b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phleocryptes melanops",
+    "commonName": "Wren-like Rushbird",
+    "status": [],
+    "note": "19"
+  },
+  {
+    "type": "species",
+    "scientificName": "Limnornis curvirostris",
+    "commonName": "Curve-billed Reedhaunter",
+    "status": [],
+    "note": "19"
+  },
+  {
+    "type": "species",
+    "scientificName": "Geocerthia serrana",
+    "commonName": "Striated Earthcreeper",
+    "status": [],
+    "note": "5a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Upucerthia saturatior",
+    "commonName": "Patagonian Forest Earthcreeper",
+    "status": [],
+    "note": "4b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Upucerthia dumetaria",
+    "commonName": "Scale-throated Earthcreeper",
+    "status": [],
+    "note": "4b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Upucerthia albigula",
+    "commonName": "White-throated Earthcreeper",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Upucerthia validirostris",
+    "commonName": "Buff-breasted Earthcreeper",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cinclodes pabsti",
+    "commonName": "Long-tailed Cinclodes",
+    "status": [],
+    "note": "13, 13a, 13b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cinclodes fuscus",
+    "commonName": "Buff-winged Cinclodes",
+    "status": [],
+    "note": "12, 13a, 14a, 14b, 14c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cinclodes antarcticus",
+    "commonName": "Blackish Cinclodes",
+    "status": [],
+    "note": "10a, 15b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cinclodes comechingonus",
+    "commonName": "Cordoba Cinclodes",
+    "status": [],
+    "note": "12, 13a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cinclodes albidiventris",
+    "commonName": "Chestnut-winged Cinclodes",
+    "status": [],
+    "note": "12, 13a, 14a, 14b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cinclodes olrogi",
+    "commonName": "Olrog's Cinclodes",
+    "status": [],
+    "note": "14, 14a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cinclodes albiventris",
+    "commonName": "Cream-winged Cinclodes",
+    "status": [],
+    "note": "12, 13a, 14a, 14b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cinclodes oustaleti",
+    "commonName": "Gray-flanked Cinclodes",
+    "status": [],
+    "note": "14a, 14d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cinclodes excelsior",
+    "commonName": "Stout-billed Cinclodes",
+    "status": [],
+    "note": "10, 10a, 10b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cinclodes aricomae",
+    "commonName": "Royal Cinclodes",
+    "status": [],
+    "note": "10a, 10b, 11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cinclodes palliatus",
+    "commonName": "White-bellied Cinclodes",
+    "status": [],
+    "note": "15c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cinclodes atacamensis",
+    "commonName": "White-winged Cinclodes",
+    "status": [],
+    "note": "15c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cinclodes patagonicus",
+    "commonName": "Dark-bellied Cinclodes",
+    "status": [],
+    "note": "15b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cinclodes taczanowskii",
+    "commonName": "Surf Cinclodes",
+    "status": [],
+    "note": "15, 15a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cinclodes nigrofumosus",
+    "commonName": "Seaside Cinclodes",
+    "status": [],
+    "note": "15, 15a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anabazenops dorsalis",
+    "commonName": "Dusky-cheeked Foliage-gleaner",
+    "status": [],
+    "note": "92c, 93, 93a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anabazenops fuscus",
+    "commonName": "White-collared Foliage-gleaner",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Neophilydor fuscipenne",
+    "commonName": "Slaty-winged Foliage-gleaner",
+    "status": [],
+    "note": "90, 91, 90aaa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Neophilydor erythrocercum",
+    "commonName": "Rufous-rumped Foliage-gleaner",
+    "status": [],
+    "note": "90, 90a, 90bbb, 91"
+  },
+  {
+    "type": "species",
+    "scientificName": "Megaxenops parnaguae",
+    "commonName": "Great Xenops",
+    "status": [],
+    "note": "103"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cichlocolaptes leucophrus",
+    "commonName": "Pale-browed Treehunter",
+    "status": [],
+    "note": "93b, 93bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliobletus contaminatus",
+    "commonName": "Sharp-billed Treehunter",
+    "status": [],
+    "note": "101a, 101b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Philydor novaesi",
+    "commonName": "Alagoas Foliage-gleaner",
+    "status": [
+      "EX"
+    ],
+    "note": "90c, 90d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Philydor atricapillus",
+    "commonName": "Black-capped Foliage-gleaner",
+    "status": [],
+    "note": "90d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Philydor pyrrhodes",
+    "commonName": "Cinnamon-rumped Foliage-gleaner",
+    "status": [],
+    "note": "90bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anabacerthia striaticollis",
+    "commonName": "Montane Foliage-gleaner",
+    "status": [],
+    "note": "82a, 82aa, 82b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anabacerthia variegaticeps",
+    "commonName": "Scaly-throated Foliage-gleaner",
+    "status": [],
+    "note": "82, 82a, 82aa, 83, 83a, 85a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anabacerthia ruficaudata",
+    "commonName": "Rufous-tailed Foliage-gleaner",
+    "status": [],
+    "note": "82a, 85a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anabacerthia amaurotis",
+    "commonName": "White-browed Foliage-gleaner",
+    "status": [],
+    "note": "82a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anabacerthia lichtensteini",
+    "commonName": "Ochre-breasted Foliage-gleaner",
+    "status": [],
+    "note": "82a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Syndactyla rufosuperciliata",
+    "commonName": "Buff-browed Foliage-gleaner",
+    "status": [],
+    "note": "90b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Syndactyla dimidiata",
+    "commonName": "Russet-mantled Foliage-gleaner",
+    "status": [],
+    "note": "90, 90bb, 92, 92a, 92b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Syndactyla roraimae",
+    "commonName": "White-throated Foliage-gleaner",
+    "status": [],
+    "note": "97a, 97b, 97c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Syndactyla subalaris",
+    "commonName": "Lineated Foliage-gleaner",
+    "status": [],
+    "note": "85, 85a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Syndactyla ruficollis",
+    "commonName": "Rufous-necked Foliage-gleaner",
+    "status": [],
+    "note": "86"
+  },
+  {
+    "type": "species",
+    "scientificName": "Syndactyla guttulata",
+    "commonName": "Guttulate Foliage-gleaner",
+    "status": [],
+    "note": "84, 85, 85aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Syndactyla ucayalae",
+    "commonName": "Peruvian Recurvebill",
+    "status": [],
+    "note": "87, 87a, 87b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Syndactyla striata",
+    "commonName": "Bolivian Recurvebill",
+    "status": [],
+    "note": "87, 87a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ancistrops strigilatus",
+    "commonName": "Chestnut-winged Hookbill",
+    "status": [],
+    "note": "88"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dendroma rufa",
+    "commonName": "Buff-fronted Foliage-gleaner",
+    "status": [],
+    "note": "88, 90"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dendroma erythroptera",
+    "commonName": "Chestnut-winged Foliage-gleaner",
+    "status": [],
+    "note": "88, 90"
+  },
+  {
+    "type": "species",
+    "scientificName": "Clibanornis rectirostris",
+    "commonName": "Chestnut-capped Foliage-gleaner",
+    "status": [],
+    "note": "98, 99a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Clibanornis dendrocolaptoides",
+    "commonName": "Canebrake Groundcreeper",
+    "status": [],
+    "note": "75, 82"
+  },
+  {
+    "type": "species",
+    "scientificName": "Clibanornis erythrocephalus",
+    "commonName": "Henna-hooded Foliage-gleaner",
+    "status": [],
+    "note": "98"
+  },
+  {
+    "type": "species",
+    "scientificName": "Clibanornis rubiginosus",
+    "commonName": "Ruddy Foliage-gleaner",
+    "status": [],
+    "note": "97d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Clibanornis rufipectus",
+    "commonName": "Santa Marta Foliage-gleaner",
+    "status": [],
+    "note": "97d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thripadectes ignobilis",
+    "commonName": "Uniform Treehunter",
+    "status": [],
+    "note": "85a, 94"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thripadectes flammulatus",
+    "commonName": "Flammulated Treehunter",
+    "status": [],
+    "note": "94a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thripadectes scrutator",
+    "commonName": "Rufous-backed Treehunter",
+    "status": [],
+    "note": "94, 95"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thripadectes holostictus",
+    "commonName": "Striped Treehunter",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Thripadectes virgaticeps",
+    "commonName": "Streak-capped Treehunter",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Thripadectes melanorhynchus",
+    "commonName": "Black-billed Treehunter",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Automolus rufipileatus",
+    "commonName": "Chestnut-crowned Foliage-gleaner",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Automolus melanopezus",
+    "commonName": "Brown-rumped Foliage-gleaner",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Automolus ochrolaemus",
+    "commonName": "Buff-throated Foliage-gleaner",
+    "status": [],
+    "note": "85a, 85c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Automolus subulatus",
+    "commonName": "Striped Woodhaunter",
+    "status": [],
+    "note": "85a, 89, 89a, 89b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Automolus infuscatus",
+    "commonName": "Olive-backed Foliage-gleaner",
+    "status": [],
+    "note": "96, 96a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Automolus paraensis",
+    "commonName": "Para Foliage-gleaner",
+    "status": [],
+    "note": "96, 96a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Automolus lammi",
+    "commonName": "Pernambuco Foliage-gleaner",
+    "status": [],
+    "note": "96a, 96b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Automolus leucophthalmus",
+    "commonName": "White-eyed Foliage-gleaner",
+    "status": [],
+    "note": "96a, 96b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Premnoplex brunnescens",
+    "commonName": "Spotted Barbtail",
+    "status": [],
+    "note": "77, 77a, 78a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Premnoplex tatei",
+    "commonName": "White-throated Barbtail",
+    "status": [],
+    "note": "77, 78a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Margarornis stellatus",
+    "commonName": "Fulvous-dotted Treerunner",
+    "status": [],
+    "note": "79"
+  },
+  {
+    "type": "species",
+    "scientificName": "Margarornis squamiger",
+    "commonName": "Pearled Treerunner",
+    "status": [],
+    "note": "79a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aphrastura spinicauda",
+    "commonName": "Thorn-tailed Rayadito",
+    "status": [],
+    "note": "19a, 19aaa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aphrastura masafuerae",
+    "commonName": "Masafuera Rayadito",
+    "status": [],
+    "note": "19aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sylviorthorhynchus desmursii",
+    "commonName": "Des Murs's Wiretail",
+    "status": [],
+    "note": "22c, 22d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sylviorthorhynchus yanacensis",
+    "commonName": "Tawny Tit-Spinetail",
+    "status": [],
+    "note": "19b, 22c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leptasthenura fuliginiceps",
+    "commonName": "Brown-capped Tit-Spinetail",
+    "status": [],
+    "note": "19a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leptasthenura platensis",
+    "commonName": "Tufted Tit-Spinetail",
+    "status": [],
+    "note": "19b, 19c, 22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leptasthenura aegithaloides",
+    "commonName": "Plain-mantled Tit-Spinetail",
+    "status": [],
+    "note": "19c, 19e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leptasthenura striolata",
+    "commonName": "Striolated Tit-Spinetail",
+    "status": [],
+    "note": "22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leptasthenura pileata",
+    "commonName": "Rusty-crowned Tit-Spinetail",
+    "status": [],
+    "note": "20"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leptasthenura xenothorax",
+    "commonName": "White-browed Tit-Spinetail",
+    "status": [],
+    "note": "20"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leptasthenura striata",
+    "commonName": "Streaked Tit-Spinetail",
+    "status": [],
+    "note": "21, 21a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leptasthenura andicola",
+    "commonName": "Andean Tit-Spinetail",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Leptasthenura setaria",
+    "commonName": "Araucaria Tit-Spinetail",
+    "status": [],
+    "note": "19d, 22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phacellodomus rufifrons",
+    "commonName": "Rufous-fronted Thornbird",
+    "status": [],
+    "note": "72, 72a, 72b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phacellodomus striaticeps",
+    "commonName": "Streak-fronted Thornbird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Phacellodomus sibilatrix",
+    "commonName": "Little Thornbird",
+    "status": [],
+    "note": "72b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phacellodomus dorsalis",
+    "commonName": "Chestnut-backed Thornbird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Phacellodomus maculipectus",
+    "commonName": "Spot-breasted Thornbird",
+    "status": [],
+    "note": "73"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phacellodomus striaticollis",
+    "commonName": "Freckle-breasted Thornbird",
+    "status": [],
+    "note": "73"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phacellodomus ruber",
+    "commonName": "Greater Thornbird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Phacellodomus erythrophthalmus",
+    "commonName": "Orange-eyed Thornbird",
+    "status": [],
+    "note": "74, 74a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phacellodomus ferrugineigula",
+    "commonName": "Orange-breasted Thornbird",
+    "status": [],
+    "note": "74, 74a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hellmayrea gularis",
+    "commonName": "White-browed Spinetail",
+    "status": [],
+    "note": "47"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anumbius annumbi",
+    "commonName": "Firewood-gatherer",
+    "status": [],
+    "note": "74b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Coryphistera alaudina",
+    "commonName": "Lark-like Brushrunner",
+    "status": [],
+    "note": "74b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes dorbignyi",
+    "commonName": "Creamy-breasted Canastero",
+    "status": [],
+    "note": "67, 68"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes berlepschi",
+    "commonName": "Berlepsch's Canastero",
+    "status": [],
+    "note": "67, 69"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes baeri",
+    "commonName": "Short-billed Canastero",
+    "status": [],
+    "note": "66a, 67"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes luizae",
+    "commonName": "Cipo Canastero",
+    "status": [],
+    "note": "71"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes hudsoni",
+    "commonName": "Hudson's Canastero",
+    "status": [],
+    "note": "63"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes anthoides",
+    "commonName": "Austral Canastero",
+    "status": [],
+    "note": "63"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes urubambensis",
+    "commonName": "Line-fronted Canastero",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes flammulata",
+    "commonName": "Many-striped Canastero",
+    "status": [],
+    "note": "65"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes virgata",
+    "commonName": "Junin Canastero",
+    "status": [],
+    "note": "65"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes maculicauda",
+    "commonName": "Scribble-tailed Canastero",
+    "status": [],
+    "note": "65"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes wyatti",
+    "commonName": "Streak-backed Canastero",
+    "status": [],
+    "note": "63"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes sclateri",
+    "commonName": "Puna Canastero",
+    "status": [],
+    "note": "63, 64"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes humilis",
+    "commonName": "Streak-throated Canastero",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes modesta",
+    "commonName": "Cordilleran Canastero",
+    "status": [],
+    "note": "62"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes moreirae",
+    "commonName": "Itatiaia Spinetail",
+    "status": [],
+    "note": "27"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes pyrrholeuca",
+    "commonName": "Sharp-billed Canastero",
+    "status": [],
+    "note": "66, 66a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes harterti",
+    "commonName": "Black-throated Thistletail",
+    "status": [],
+    "note": "24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes helleri",
+    "commonName": "Puna Thistletail",
+    "status": [],
+    "note": "24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes ayacuchensis",
+    "commonName": "Ayacucho Thistletail",
+    "status": [],
+    "note": "24, 26, 26a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes vilcabambae",
+    "commonName": "Vilcabamba Thistletail",
+    "status": [],
+    "note": "24, 26"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes pudibunda",
+    "commonName": "Canyon Canastero",
+    "status": [],
+    "note": "61, 61a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes ottonis",
+    "commonName": "Rusty-fronted Canastero",
+    "status": [],
+    "note": "61a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes heterura",
+    "commonName": "Maquis Canastero",
+    "status": [],
+    "note": "61a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes palpebralis",
+    "commonName": "Eye-ringed Thistletail",
+    "status": [],
+    "note": "24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes coryi",
+    "commonName": "Ochre-browed Thistletail",
+    "status": [],
+    "note": "24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes perijana",
+    "commonName": "Perija Thistletail",
+    "status": [],
+    "note": "23, 24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes fuliginosa",
+    "commonName": "White-chinned Thistletail",
+    "status": [],
+    "note": "24, 25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asthenes griseomurina",
+    "commonName": "Mouse-colored Thistletail",
+    "status": [],
+    "note": "24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Acrobatornis fonsecai",
+    "commonName": "Pink-legged Graveteiro",
+    "status": [],
+    "note": "75a, 76"
+  },
+  {
+    "type": "species",
+    "scientificName": "Metopothrix aurantiaca",
+    "commonName": "Orange-fronted Plushcrown",
+    "status": [],
+    "note": "75a, 75b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xenerpestes minlosi",
+    "commonName": "Double-banded Graytail",
+    "status": [],
+    "note": "75a, 75a, 76b, 76c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xenerpestes singularis",
+    "commonName": "Equatorial Graytail",
+    "status": [],
+    "note": "76b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Siptornis striaticollis",
+    "commonName": "Spectacled Prickletail",
+    "status": [],
+    "note": "74c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Roraimia adusta",
+    "commonName": "Roraiman Barbtail",
+    "status": [],
+    "note": "78d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thripophaga macroura",
+    "commonName": "Striated Softtail",
+    "status": [],
+    "note": "59, 59a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thripophaga cherriei",
+    "commonName": "Orinoco Softtail",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Thripophaga amacurensis",
+    "commonName": "Delta Amacuro Softtail",
+    "status": [],
+    "note": "60"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thripophaga fusciceps",
+    "commonName": "Plain Softtail",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Thripophaga berlepschi",
+    "commonName": "Russet-mantled Softtail",
+    "status": [],
+    "note": "50"
+  },
+  {
+    "type": "species",
+    "scientificName": "Limnoctites rectirostris",
+    "commonName": "Straight-billed Reedhaunter",
+    "status": [],
+    "note": "19"
+  },
+  {
+    "type": "species",
+    "scientificName": "Limnoctites sulphuriferus",
+    "commonName": "Sulphur-bearded Reedhaunter",
+    "status": [],
+    "note": "19"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cranioleuca marcapatae",
+    "commonName": "Marcapata Spinetail",
+    "status": [],
+    "note": "48, 49"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cranioleuca weskei",
+    "commonName": "Vilcabamba Spinetail",
+    "status": [],
+    "note": "49"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cranioleuca albiceps",
+    "commonName": "Light-crowned Spinetail",
+    "status": [],
+    "note": "49"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cranioleuca vulpina",
+    "commonName": "Rusty-backed Spinetail",
+    "status": [],
+    "note": "49b, 50"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cranioleuca vulpecula",
+    "commonName": "Parker's Spinetail",
+    "status": [],
+    "note": "50"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cranioleuca subcristata",
+    "commonName": "Crested Spinetail",
+    "status": [],
+    "note": "54"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cranioleuca pyrrhophia",
+    "commonName": "Stripe-crowned Spinetail",
+    "status": [],
+    "note": "51"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cranioleuca henricae",
+    "commonName": "Bolivian Spinetail",
+    "status": [],
+    "note": "51, 52"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cranioleuca obsoleta",
+    "commonName": "Olive Spinetail",
+    "status": [],
+    "note": "51, 53"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cranioleuca pallida",
+    "commonName": "Pallid Spinetail",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Cranioleuca semicinerea",
+    "commonName": "Gray-headed Spinetail",
+    "status": [],
+    "note": "54"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cranioleuca albicapilla",
+    "commonName": "Creamy-crested Spinetail",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Cranioleuca erythrops",
+    "commonName": "Red-faced Spinetail",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Cranioleuca demissa",
+    "commonName": "Tepui Spinetail",
+    "status": [],
+    "note": "54"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cranioleuca hellmayri",
+    "commonName": "Streak-capped Spinetail",
+    "status": [],
+    "note": "54"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cranioleuca curtata",
+    "commonName": "Ash-browed Spinetail",
+    "status": [],
+    "note": "54a, 55"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cranioleuca antisiensis",
+    "commonName": "Line-cheeked Spinetail",
+    "status": [],
+    "note": "51, 56"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cranioleuca gutturata",
+    "commonName": "Speckled Spinetail",
+    "status": [],
+    "note": "19, 56a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cranioleuca muelleri",
+    "commonName": "Scaled Spinetail",
+    "status": [],
+    "note": "50"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudasthenes humicola",
+    "commonName": "Dusky-tailed Canastero",
+    "status": [],
+    "note": "61, 67"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudasthenes patagonica",
+    "commonName": "Patagonian Canastero",
+    "status": [],
+    "note": "61, 67"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudasthenes steinbachi",
+    "commonName": "Steinbach's Canastero",
+    "status": [],
+    "note": "61, 67, 70"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudasthenes cactorum",
+    "commonName": "Cactus Canastero",
+    "status": [],
+    "note": "61, 62"
+  },
+  {
+    "type": "species",
+    "scientificName": "Spartonoica maluroides",
+    "commonName": "Bay-capped Wren-Spinetail",
+    "status": [],
+    "note": "22a, 22b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudoseisura cristata",
+    "commonName": "Caatinga Cacholote",
+    "status": [],
+    "note": "22a, 80"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudoseisura unirufa",
+    "commonName": "Rufous Cacholote",
+    "status": [],
+    "note": "80"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudoseisura lophotes",
+    "commonName": "Brown Cacholote",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudoseisura gutturalis",
+    "commonName": "White-throated Cacholote",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Certhiaxis cinnamomeus",
+    "commonName": "Yellow-chinned Spinetail",
+    "status": [],
+    "note": "48, 57, 58a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Certhiaxis mustelinus",
+    "commonName": "Red-and-white Spinetail",
+    "status": [],
+    "note": "48, 57"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mazaria propinqua",
+    "commonName": "White-bellied Spinetail",
+    "status": [],
+    "note": "28"
+  },
+  {
+    "type": "species",
+    "scientificName": "Schoeniophylax phryganophilus",
+    "commonName": "Chotoy Spinetail",
+    "status": [],
+    "note": "28, 28b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis scutata",
+    "commonName": "Ochre-cheeked Spinetail",
+    "status": [],
+    "note": "43"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis cinerascens",
+    "commonName": "Gray-bellied Spinetail",
+    "status": [],
+    "note": "43"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis gujanensis",
+    "commonName": "Plain-crowned Spinetail",
+    "status": [],
+    "note": "41"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis albilora",
+    "commonName": "White-lored Spinetail",
+    "status": [],
+    "note": "41, 42"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis maranonica",
+    "commonName": "Marañon Spinetail",
+    "status": [],
+    "note": "41"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis hypochondriaca",
+    "commonName": "Great Spinetail",
+    "status": [],
+    "note": "45, 44"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis stictothorax",
+    "commonName": "Necklaced Spinetail",
+    "status": [],
+    "note": "44, 44a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis chinchipensis",
+    "commonName": "Chinchipe Spinetail",
+    "status": [],
+    "note": "44, 44a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis zimmeri",
+    "commonName": "Russet-bellied Spinetail",
+    "status": [],
+    "note": "44"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis brachyura",
+    "commonName": "Slaty Spinetail",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis subpudica",
+    "commonName": "Silvery-throated Spinetail",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis hellmayri",
+    "commonName": "Red-shouldered Spinetail",
+    "status": [],
+    "note": "46"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis ruficapilla",
+    "commonName": "Rufous-capped Spinetail",
+    "status": [],
+    "note": "29"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis cinerea",
+    "commonName": "Bahia Spinetail",
+    "status": [],
+    "note": "29, 30"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis infuscata",
+    "commonName": "Pinto's Spinetail",
+    "status": [],
+    "note": "29"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis moesta",
+    "commonName": "Dusky Spinetail",
+    "status": [],
+    "note": "39, 38"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis macconnelli",
+    "commonName": "McConnell's Spinetail",
+    "status": [],
+    "note": "39, 40"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis cabanisi",
+    "commonName": "Cabanis's Spinetail",
+    "status": [],
+    "note": "39"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis hypospodia",
+    "commonName": "Cinereous-breasted Spinetail",
+    "status": [],
+    "note": "36"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis spixi",
+    "commonName": "Spix's Spinetail",
+    "status": [],
+    "note": "35"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis albigularis",
+    "commonName": "Dark-breasted Spinetail",
+    "status": [],
+    "note": "34a, 34b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis beverlyae",
+    "commonName": "Rio Orinoco Spinetail",
+    "status": [],
+    "note": "34b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis albescens",
+    "commonName": "Pale-breasted Spinetail",
+    "status": [],
+    "note": "34a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis frontalis",
+    "commonName": "Sooty-fronted Spinetail",
+    "status": [],
+    "note": "32"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis azarae",
+    "commonName": "Azara's Spinetail",
+    "status": [],
+    "note": "33"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis courseni",
+    "commonName": "Apurimac Spinetail",
+    "status": [],
+    "note": "34"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis candei",
+    "commonName": "White-whiskered Spinetail",
+    "status": [],
+    "note": "43"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis kollari",
+    "commonName": "Hoary-throated Spinetail",
+    "status": [],
+    "note": "43"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis tithys",
+    "commonName": "Blackish-headed Spinetail",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis fuscorufa",
+    "commonName": "Rusty-headed Spinetail",
+    "status": [],
+    "note": "37"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis unirufa",
+    "commonName": "Rufous Spinetail",
+    "status": [],
+    "note": "37"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis castanea",
+    "commonName": "Black-throated Spinetail",
+    "status": [],
+    "note": "37"
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis cinnamomea",
+    "commonName": "Stripe-breasted Spinetail",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis rutilans",
+    "commonName": "Ruddy Spinetail",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Synallaxis cherriei",
+    "commonName": "Chestnut-throated Spinetail",
+    "status": [],
+    "note": ""
+  }
+]

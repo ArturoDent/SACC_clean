@@ -1,0 +1,1532 @@
+[
+  {
+    "type": "order",
+    "label": "PASSERIFORMES",
+    "note": ""
+  },
+  {
+    "type": "suborder",
+    "label": "Suborder PASSERES (OSCINES)",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "VIREONIDAE (VIREOS)",
+    "note": "1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyclarhis gujanensis",
+    "commonName": "Rufous-browed Peppershrike",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyclarhis nigrirostris",
+    "commonName": "Black-billed Peppershrike",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hylophilus amaurocephalus",
+    "commonName": "Gray-eyed Greenlet",
+    "status": [],
+    "note": "11, 12, 12bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hylophilus poicilotis",
+    "commonName": "Rufous-crowned Greenlet",
+    "status": [],
+    "note": "11a, 12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hylophilus olivaceus",
+    "commonName": "Olivaceous Greenlet",
+    "status": [],
+    "note": "13a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hylophilus pectoralis",
+    "commonName": "Ashy-headed Greenlet",
+    "status": [],
+    "note": "13a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hylophilus flavipes",
+    "commonName": "Scrub Greenlet",
+    "status": [],
+    "note": "13a, 13b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hylophilus semicinereus",
+    "commonName": "Gray-chested Greenlet",
+    "status": [],
+    "note": "13a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hylophilus brunneiceps",
+    "commonName": "Brown-headed Greenlet",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hylophilus thoracicus",
+    "commonName": "Lemon-chested Greenlet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Vireolanius eximius",
+    "commonName": "Yellow-browed Shrike-Vireo",
+    "status": [],
+    "note": "4, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Vireolanius leucotis",
+    "commonName": "Slaty-capped Shrike-Vireo",
+    "status": [],
+    "note": "4, 5a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tunchiornis ochraceiceps",
+    "commonName": "Ochre-crowned Brownlet",
+    "status": [],
+    "note": "14, 14a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tunchiornis ferrugineifrons",
+    "commonName": "Rufous-fronted Brownlet",
+    "status": [],
+    "note": "14a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tunchiornis luteifrons",
+    "commonName": "Guianan Brownlet",
+    "status": [],
+    "note": "14a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tunchiornis rubrifrons",
+    "commonName": "Para Brownlet",
+    "status": [],
+    "note": "14a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pachysylvia decurtata",
+    "commonName": "Lesser Greenlet",
+    "status": [],
+    "note": "15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pachysylvia hypoxantha",
+    "commonName": "Dusky-capped Greenlet",
+    "status": [],
+    "note": "12b, 13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pachysylvia muscicapina",
+    "commonName": "Buff-cheeked Greenlet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pachysylvia aurantiifrons",
+    "commonName": "Golden-fronted Greenlet",
+    "status": [],
+    "note": "12aa, 12b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pachysylvia semibrunnea",
+    "commonName": "Rufous-naped Greenlet",
+    "status": [],
+    "note": "11, 12aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Vireo griseus",
+    "commonName": "White-eyed Vireo",
+    "status": [
+      "V"
+    ],
+    "note": "6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Vireo flavifrons",
+    "commonName": "Yellow-throated Vireo",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Vireo masteri",
+    "commonName": "Choco Vireo",
+    "status": [],
+    "note": "6, 6b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Vireo sclateri",
+    "commonName": "Tepui Vireo",
+    "status": [],
+    "note": "12a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Vireo philadelphicus",
+    "commonName": "Philadelphia Vireo",
+    "status": [
+      "V"
+    ],
+    "note": "7, 7b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Vireo leucophrys",
+    "commonName": "Brown-capped Vireo",
+    "status": [],
+    "note": "7, 7a, 7aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Vireo olivaceus",
+    "commonName": "Red-eyed Vireo",
+    "status": [
+      "NB"
+    ],
+    "note": "8, 8a, 8b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Vireo chivi",
+    "commonName": "Chivi Vireo",
+    "status": [],
+    "note": "8, 8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Vireo gracilirostris",
+    "commonName": "Noronha Vireo",
+    "status": [],
+    "note": "9, 8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Vireo flavoviridis",
+    "commonName": "Yellow-green Vireo",
+    "status": [
+      "NB"
+    ],
+    "note": "8a, 10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Vireo altiloquus",
+    "commonName": "Black-whiskered Vireo",
+    "status": [],
+    "note": "8a, 8c"
+  },
+  {
+    "type": "family",
+    "label": "CORVIDAE (JAYS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanolyca armillata",
+    "commonName": "Black-collared Jay",
+    "status": [],
+    "note": "2, 3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanolyca viridicyanus",
+    "commonName": "White-collared Jay",
+    "status": [],
+    "note": "2, 4, 4a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanolyca turcosa",
+    "commonName": "Turquoise Jay",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanolyca pulchra",
+    "commonName": "Beautiful Jay",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanocorax violaceus",
+    "commonName": "Violaceous Jay",
+    "status": [],
+    "note": "6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanocorax cyanomelas",
+    "commonName": "Purplish Jay",
+    "status": [],
+    "note": "6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanocorax caeruleus",
+    "commonName": "Azure Jay",
+    "status": [],
+    "note": "6, 6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanocorax cristatellus",
+    "commonName": "Curl-crested Jay",
+    "status": [],
+    "note": "6, 7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanocorax affinis",
+    "commonName": "Black-chested Jay",
+    "status": [],
+    "note": "6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanocorax mystacalis",
+    "commonName": "White-tailed Jay",
+    "status": [],
+    "note": "6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanocorax cayanus",
+    "commonName": "Cayenne Jay",
+    "status": [],
+    "note": "6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanocorax heilprini",
+    "commonName": "Azure-naped Jay",
+    "status": [],
+    "note": "6b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanocorax chrysops",
+    "commonName": "Plush-crested Jay",
+    "status": [],
+    "note": "8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanocorax cyanopogon",
+    "commonName": "White-naped Jay",
+    "status": [],
+    "note": "8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanocorax yncas",
+    "commonName": "Green Jay",
+    "status": [],
+    "note": "9, 10"
+  },
+  {
+    "type": "family",
+    "label": "ALAUDIDAE (LARKS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eremophila alpestris",
+    "commonName": "Horned Lark",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "family",
+    "label": "HIRUNDINIDAE (SWALLOWS)",
+    "note": "1, 1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pygochelidon cyanoleuca",
+    "commonName": "Blue-and-white Swallow",
+    "status": [],
+    "note": "11, 11a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pygochelidon melanoleuca",
+    "commonName": "Black-collared Swallow",
+    "status": [],
+    "note": "11d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Alopochelidon fucata",
+    "commonName": "Tawny-headed Swallow",
+    "status": [],
+    "note": "12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Orochelidon murina",
+    "commonName": "Brown-bellied Swallow",
+    "status": [],
+    "note": "11b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Orochelidon flavipes",
+    "commonName": "Pale-footed Swallow",
+    "status": [],
+    "note": "11c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Orochelidon andecola",
+    "commonName": "Andean Swallow",
+    "status": [],
+    "note": "10, 10a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Atticora fasciata",
+    "commonName": "White-banded Swallow",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Atticora tibialis",
+    "commonName": "White-thighed Swallow",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Stelgidopteryx ruficollis",
+    "commonName": "Southern Rough-winged Swallow",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Progne tapera",
+    "commonName": "Brown-chested Martin",
+    "status": [],
+    "note": "6, 6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Progne subis",
+    "commonName": "Purple Martin",
+    "status": [
+      "NB"
+    ],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Progne dominicensis",
+    "commonName": "Caribbean Martin",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Progne cryptoleuca",
+    "commonName": "Cuban Martin",
+    "status": [
+      "V"
+    ],
+    "note": "7, 8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Progne chalybea",
+    "commonName": "Gray-breasted Martin",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Progne elegans",
+    "commonName": "Southern Martin",
+    "status": [],
+    "note": "7, 9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Progne murphyi",
+    "commonName": "Peruvian Martin",
+    "status": [],
+    "note": "7, 9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Progne modesta",
+    "commonName": "Galapagos Martin",
+    "status": [],
+    "note": "7, 9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tachycineta bicolor",
+    "commonName": "Tree Swallow",
+    "status": [
+      "NB"
+    ],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tachycineta stolzmanni",
+    "commonName": "Tumbes Swallow",
+    "status": [],
+    "note": "3, 3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tachycineta albiventer",
+    "commonName": "White-winged Swallow",
+    "status": [],
+    "note": "3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tachycineta leucorrhoa",
+    "commonName": "White-rumped Swallow",
+    "status": [],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tachycineta leucopyga",
+    "commonName": "Chilean Swallow",
+    "status": [],
+    "note": "4, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Riparia riparia",
+    "commonName": "Bank Swallow",
+    "status": [
+      "NB"
+    ],
+    "note": "14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hirundo rustica",
+    "commonName": "Barn Swallow",
+    "status": [],
+    "note": "15, 15a, 15b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Petrochelidon pyrrhonota",
+    "commonName": "Cliff Swallow",
+    "status": [],
+    "note": "16, 16a, 16b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Petrochelidon fulva",
+    "commonName": "Cave Swallow",
+    "status": [
+      "V"
+    ],
+    "note": "16, 17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Petrochelidon rufocollaris",
+    "commonName": "Chestnut-collared Swallow",
+    "status": [],
+    "note": "16, 18"
+  },
+  {
+    "type": "family",
+    "label": "TROGLODYTIDAE (WRENS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Microcerculus marginatus",
+    "commonName": "Scaly-breasted Wren",
+    "status": [],
+    "note": "2, 3, 4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Microcerculus ustulatus",
+    "commonName": "Flutist Wren",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Microcerculus bambla",
+    "commonName": "Wing-banded Wren",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Odontorchilus branickii",
+    "commonName": "Gray-mantled Wren",
+    "status": [],
+    "note": "2, 5, 6, 6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Odontorchilus cinereus",
+    "commonName": "Tooth-billed Wren",
+    "status": [],
+    "note": "6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Troglodytes musculus",
+    "commonName": "Southern House Wren",
+    "status": [],
+    "note": "7, 8, 9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Troglodytes cobbi",
+    "commonName": "Cobb’s Wren",
+    "status": [],
+    "note": "8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Troglodytes ochraceus",
+    "commonName": "Ochraceous Wren",
+    "status": [],
+    "note": "10,10a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Troglodytes solstitialis",
+    "commonName": "Mountain Wren",
+    "status": [],
+    "note": "10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Troglodytes monticola",
+    "commonName": "Santa Marta Wren",
+    "status": [],
+    "note": "10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Troglodytes rufulus",
+    "commonName": "Tepui Wren",
+    "status": [],
+    "note": "10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cistothorus platensis",
+    "commonName": "Grass Wren",
+    "status": [],
+    "note": "7, 11, 12, 13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cistothorus meridae",
+    "commonName": "Merida Wren",
+    "status": [],
+    "note": "13, 14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cistothorus apolinari",
+    "commonName": "Apolinar's Wren",
+    "status": [],
+    "note": "13, 15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Campylorhynchus albobrunneus",
+    "commonName": "White-headed Wren",
+    "status": [],
+    "note": "16, 17, 18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Campylorhynchus zonatus",
+    "commonName": "Band-backed Wren",
+    "status": [],
+    "note": "17, 18, 18a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Campylorhynchus nuchalis",
+    "commonName": "Stripe-backed Wren",
+    "status": [],
+    "note": "18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Campylorhynchus fasciatus",
+    "commonName": "Fasciated Wren",
+    "status": [],
+    "note": "18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Campylorhynchus griseus",
+    "commonName": "Bicolored Wren",
+    "status": [],
+    "note": "19, 20"
+  },
+  {
+    "type": "species",
+    "scientificName": "Campylorhynchus turdinus",
+    "commonName": "Thrush-like Wren",
+    "status": [],
+    "note": "21, 22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pheugopedius spadix",
+    "commonName": "Sooty-headed Wren",
+    "status": [],
+    "note": "24, 24a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pheugopedius fasciatoventris",
+    "commonName": "Black-bellied Wren",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pheugopedius euophrys",
+    "commonName": "Plain-tailed Wren",
+    "status": [],
+    "note": "25, 26"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pheugopedius eisenmanni",
+    "commonName": "Inca Wren",
+    "status": [],
+    "note": "25, 27"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pheugopedius mystacalis",
+    "commonName": "Whiskered Wren",
+    "status": [],
+    "note": "28"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pheugopedius genibarbis",
+    "commonName": "Moustached Wren",
+    "status": [],
+    "note": "28"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pheugopedius coraya",
+    "commonName": "Coraya Wren",
+    "status": [],
+    "note": "29"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pheugopedius rutilus",
+    "commonName": "Rufous-breasted Wren",
+    "status": [],
+    "note": "30"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pheugopedius sclateri",
+    "commonName": "Speckle-breasted Wren",
+    "status": [],
+    "note": "30"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thryophilus rufalbus",
+    "commonName": "Rufous-and-white Wren",
+    "status": [],
+    "note": "23, 24, 35"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thryophilus sernai",
+    "commonName": "Antioquia Wren",
+    "status": [],
+    "note": "23, 35"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thryophilus nicefori",
+    "commonName": "Niceforo's Wren",
+    "status": [],
+    "note": "35"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cantorchilus leucopogon",
+    "commonName": "Stripe-throated Wren",
+    "status": [],
+    "note": "24, 34"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cantorchilus nigricapillus",
+    "commonName": "Bay Wren",
+    "status": [],
+    "note": "31, 32"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cantorchilus superciliaris",
+    "commonName": "Superciliated Wren",
+    "status": [],
+    "note": "36, 36a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cantorchilus leucotis",
+    "commonName": "Buff-breasted Wren",
+    "status": [],
+    "note": "36, 36aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cantorchilus longirostris",
+    "commonName": "Long-billed Wren",
+    "status": [],
+    "note": "36, 36aa, 36b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cantorchilus guarayanus",
+    "commonName": "Fawn-breasted Wren",
+    "status": [],
+    "note": "36, 36aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cantorchilus griseus",
+    "commonName": "Gray Wren",
+    "status": [],
+    "note": "6a, 37"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cinnycerthia unirufa",
+    "commonName": "Rufous Wren",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Cinnycerthia olivascens",
+    "commonName": "Sharpe's Wren",
+    "status": [],
+    "note": "38, 39"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cinnycerthia peruana",
+    "commonName": "Peruvian Wren",
+    "status": [],
+    "note": "38"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cinnycerthia fulva",
+    "commonName": "Fulvous Wren",
+    "status": [],
+    "note": "38"
+  },
+  {
+    "type": "species",
+    "scientificName": "Henicorhina leucosticta",
+    "commonName": "White-breasted Wood-Wren",
+    "status": [],
+    "note": "40, 43a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Henicorhina leucoptera",
+    "commonName": "Bar-winged Wood-Wren",
+    "status": [],
+    "note": "43, 43a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Henicorhina leucophrys",
+    "commonName": "Gray-breasted Wood-Wren",
+    "status": [],
+    "note": "41, 43a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Henicorhina anachoreta",
+    "commonName": "Hermit Wood-Wren",
+    "status": [],
+    "note": "41"
+  },
+  {
+    "type": "species",
+    "scientificName": "Henicorhina negreti",
+    "commonName": "Munchique Wood-Wren",
+    "status": [],
+    "note": "42"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyphorhinus thoracicus",
+    "commonName": "Chestnut-breasted Wren",
+    "status": [],
+    "note": "44, 45"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyphorhinus phaeocephalus",
+    "commonName": "Song Wren",
+    "status": [],
+    "note": "45"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyphorhinus arada",
+    "commonName": "Musician Wren",
+    "status": [],
+    "note": "45, 46, 47"
+  },
+  {
+    "type": "family",
+    "label": "POLIOPTILIDAE (GNATCATCHERS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Microbates collaris",
+    "commonName": "Collared Gnatwren",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Microbates cinereiventris",
+    "commonName": "Half-collared Gnatwren",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ramphocaenus melanurus",
+    "commonName": "Trilling Gnatwren",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ramphocaenus sticturus",
+    "commonName": "Chattering Gnatwren",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Polioptila plumbea",
+    "commonName": "Tropical Gnatcatcher",
+    "status": [],
+    "note": "4, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Polioptila lactea",
+    "commonName": "Creamy-bellied Gnatcatcher",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Polioptila facilis",
+    "commonName": "Rio Negro Gnatcatcher",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Polioptila guianensis",
+    "commonName": "Guianan Gnatcatcher",
+    "status": [],
+    "note": "6, 7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Polioptila clementsi",
+    "commonName": "Iquitos Gnatcatcher",
+    "status": [],
+    "note": "7, 8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Polioptila paraensis",
+    "commonName": "Klages’s Gnatcatcher",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Polioptila attenboroughi",
+    "commonName": "Inambari Gnatcatcher",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Polioptila schistaceigula",
+    "commonName": "Slate-throated Gnatcatcher",
+    "status": [],
+    "note": "6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Polioptila dumicola",
+    "commonName": "Masked Gnatcatcher",
+    "status": [],
+    "note": "9"
+  },
+  {
+    "type": "family",
+    "label": "DONACOBIIDAE (DONACOBIUS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Donacobius atricapilla",
+    "commonName": "Black-capped Donacobius",
+    "status": [],
+    "note": "2, 3"
+  },
+  {
+    "type": "family",
+    "label": "CINCLIDAE (DIPPERS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cinclus leucocephalus",
+    "commonName": "White-capped Dipper",
+    "status": [],
+    "note": "2, 3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cinclus schulzii",
+    "commonName": "Rufous-throated Dipper",
+    "status": [],
+    "note": "2, 4"
+  },
+  {
+    "type": "family",
+    "label": "BOMBYCILLIDAE (WAXWINGS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Bombycilla cedrorum",
+    "commonName": "Cedar Waxwing",
+    "status": [
+      "V"
+    ],
+    "note": "2"
+  },
+  {
+    "type": "family",
+    "label": "TURDIDAE (THRUSHES)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myadestes coloratus",
+    "commonName": "Varied Solitaire",
+    "status": [],
+    "note": "2, 3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myadestes ralloides",
+    "commonName": "Andean Solitaire",
+    "status": [],
+    "note": "2, 3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Catharus aurantiirostris",
+    "commonName": "Orange-billed Nightingale-Thrush",
+    "status": [],
+    "note": "5, 5c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Catharus fuscater",
+    "commonName": "Slaty-backed Nightingale-Thrush",
+    "status": [],
+    "note": "5c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Catharus maculatus",
+    "commonName": "Speckled Nightingale-Thrush",
+    "status": [],
+    "note": "5c, 5cc"
+  },
+  {
+    "type": "species",
+    "scientificName": "Catharus fuscescens",
+    "commonName": "Veery",
+    "status": [
+      "NB"
+    ],
+    "note": "5a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Catharus minimus",
+    "commonName": "Gray-cheeked Thrush",
+    "status": [
+      "NB"
+    ],
+    "note": "5a, 5c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Catharus ustulatus",
+    "commonName": "Swainson's Thrush",
+    "status": [
+      "NB"
+    ],
+    "note": "5a, 5c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hylocichla mustelina",
+    "commonName": "Wood Thrush",
+    "status": [
+      "V"
+    ],
+    "note": "5a, 5b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Entomodestes coracinus",
+    "commonName": "Black Solitaire",
+    "status": [],
+    "note": "6, 6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Entomodestes leucotis",
+    "commonName": "White-eared Solitaire",
+    "status": [],
+    "note": "6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cichlopsis leucogenys",
+    "commonName": "Rufous-brown Solitaire",
+    "status": [],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus leucops",
+    "commonName": "Pale-eyed Thrush",
+    "status": [],
+    "note": "6b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus falcklandii",
+    "commonName": "Austral Thrush",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus reevei",
+    "commonName": "Plumbeous-backed Thrush",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus flavipes",
+    "commonName": "Yellow-legged Thrush",
+    "status": [],
+    "note": "6b, 6bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus leucomelas",
+    "commonName": "Pale-breasted Thrush",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus fumigatus",
+    "commonName": "Cocoa Thrush",
+    "status": [],
+    "note": "8b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus hauxwelli",
+    "commonName": "Hauxwell's Thrush",
+    "status": [],
+    "note": "8b, 8bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus obsoletus",
+    "commonName": "Pale-vented Thrush",
+    "status": [],
+    "note": "8b, 8c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus rufiventris",
+    "commonName": "Rufous-bellied Thrush",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus grayi",
+    "commonName": "Clay-colored Thrush",
+    "status": [],
+    "note": "8d, 10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus nudigenis",
+    "commonName": "Spectacled Thrush",
+    "status": [],
+    "note": "8c, 8d, 11, 11a, 11b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus maculirostris",
+    "commonName": "Ecuadorian Thrush",
+    "status": [],
+    "note": "11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus sanchezorum",
+    "commonName": "Varzea Thrush",
+    "status": [],
+    "note": "8bb, 8d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus haplochrous",
+    "commonName": "Unicolored Thrush",
+    "status": [],
+    "note": "8d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus lawrencii",
+    "commonName": "Lawrence's Thrush",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus murinus",
+    "commonName": "Pantepui Thrush",
+    "status": [],
+    "note": "8aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus amaurochalinus",
+    "commonName": "Creamy-bellied Thrush",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus ignobilis",
+    "commonName": "Black-billed Thrush",
+    "status": [],
+    "note": "8a, 8aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus arthuri",
+    "commonName": "Campina Thrush",
+    "status": [],
+    "note": "8a, 8aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus maranonicus",
+    "commonName": "Marañon Thrush",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus fulviventris",
+    "commonName": "Chestnut-bellied Thrush",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus olivater",
+    "commonName": "Black-hooded Thrush",
+    "status": [],
+    "note": "8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus nigriceps",
+    "commonName": "Andean Slaty Thrush",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus subalaris",
+    "commonName": "Blacksmith Thrush",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus fuscater",
+    "commonName": "Great Thrush",
+    "status": [],
+    "note": "6c, 6d, 8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus chiguanco",
+    "commonName": "Chiguanco Thrush",
+    "status": [],
+    "note": "6c, 6d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus serranus",
+    "commonName": "Glossy-black Thrush",
+    "status": [],
+    "note": "6e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus daguae",
+    "commonName": "Dagua Thrush",
+    "status": [],
+    "note": "12, 12a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus phaeopygus",
+    "commonName": "Gray-flanked Thrush",
+    "status": [],
+    "note": "12, 12a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Turdus albicollis",
+    "commonName": "Rufous-flanked Thrush",
+    "status": [],
+    "note": "12, 12a, 14, 15"
+  },
+  {
+    "type": "family",
+    "label": "MUSCICAPIDAE (OLD WORLD FLYCATCHERS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oenanthe oenanthe",
+    "commonName": "Northern Wheatear",
+    "status": [
+      "V"
+    ],
+    "note": "2"
+  },
+  {
+    "type": "family",
+    "label": "MIMIDAE (MOCKINGBIRDS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dumetella carolinensis",
+    "commonName": "Gray Catbird",
+    "status": [
+      "V"
+    ],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mimus gilvus",
+    "commonName": "Tropical Mockingbird",
+    "status": [],
+    "note": "3, 3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mimus longicaudatus",
+    "commonName": "Long-tailed Mockingbird",
+    "status": [],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mimus thenca",
+    "commonName": "Chilean Mockingbird",
+    "status": [],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mimus patagonicus",
+    "commonName": "Patagonian Mockingbird",
+    "status": [],
+    "note": "4a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mimus saturninus",
+    "commonName": "Chalk-browed Mockingbird",
+    "status": [],
+    "note": "4a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mimus triurus",
+    "commonName": "White-banded Mockingbird",
+    "status": [],
+    "note": "4b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mimus dorsalis",
+    "commonName": "Brown-backed Mockingbird",
+    "status": [],
+    "note": "4b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mimus parvulus",
+    "commonName": "Galapagos Mockingbird",
+    "status": [],
+    "note": "5, 6, 6d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mimus trifasciatus",
+    "commonName": "Floreana Mockingbird",
+    "status": [],
+    "note": "6, 6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mimus macdonaldi",
+    "commonName": "Española Mockingbird",
+    "status": [],
+    "note": "6, 6b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mimus melanotis",
+    "commonName": "San Cristobal Mockingbird",
+    "status": [],
+    "note": "6, 6c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Toxostoma rufum",
+    "commonName": "Brown Thrasher",
+    "status": [
+      "V"
+    ],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Margarops fuscatus",
+    "commonName": "Pearly-eyed Thrasher",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "family",
+    "label": "STURNIDAE (STARLINGS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Acridotheres cristatellus",
+    "commonName": "Crested Myna",
+    "status": [
+      "IN"
+    ],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sturnus vulgaris",
+    "commonName": "European Starling",
+    "status": [
+      "V",
+      "IN"
+    ],
+    "note": "3"
+  }
+]

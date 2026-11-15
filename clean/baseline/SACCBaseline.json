@@ -1,0 +1,1372 @@
+[
+  {
+    "type": "subclass",
+    "label": "PALEOGNATHAE",
+    "note": ""
+  },
+  {
+    "type": "order",
+    "label": "RHEIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "RHEIDAE (RHEAS)",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhea americana",
+    "commonName": "Greater Rhea",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pterocnemia pennata",
+    "commonName": "Lesser Rhea",
+    "status": [],
+    "note": "2, 3, 4"
+  },
+  {
+    "type": "order",
+    "label": "TINAMIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "TINAMIDAE (TINAMOUS)",
+    "note": "1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nothocercus julius",
+    "commonName": "Tawny-breasted Tinamou",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Nothocercus bonapartei",
+    "commonName": "Highland Tinamou",
+    "status": [],
+    "note": "2a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nothocercus nigrocapillus",
+    "commonName": "Hooded Tinamou",
+    "status": [],
+    "note": "2a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tinamus tao",
+    "commonName": "Gray Tinamou",
+    "status": [],
+    "note": "1c, 1d, 1e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tinamus solitarius",
+    "commonName": "Solitary Tinamou",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tinamus osgoodi",
+    "commonName": "Black Tinamou",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tinamus major",
+    "commonName": "Great Tinamou",
+    "status": [],
+    "note": "1b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tinamus guttatus",
+    "commonName": "White-throated Tinamou",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Crypturellus berlepschi",
+    "commonName": "Berlepsch's Tinamou",
+    "status": [],
+    "note": "1d, 4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Crypturellus cinereus",
+    "commonName": "Cinereous Tinamou",
+    "status": [],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Crypturellus soui",
+    "commonName": "Little Tinamou",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Crypturellus resonans",
+    "commonName": "Slaty-masked Tinamou",
+    "status": [],
+    "note": "1c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Crypturellus ptaritepui",
+    "commonName": "Tepui Tinamou",
+    "status": [],
+    "note": "4a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Crypturellus obsoletus",
+    "commonName": "Brown Tinamou",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Crypturellus undulatus",
+    "commonName": "Undulated Tinamou",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Crypturellus transfasciatus",
+    "commonName": "Pale-browed Tinamou",
+    "status": [],
+    "note": "6, 6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Crypturellus strigulosus",
+    "commonName": "Brazilian Tinamou",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Crypturellus duidae",
+    "commonName": "Gray-legged Tinamou",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Crypturellus erythropus",
+    "commonName": "Red-legged Tinamou",
+    "status": [],
+    "note": "7, 8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Crypturellus noctivagus",
+    "commonName": "Yellow-legged Tinamou",
+    "status": [],
+    "note": "7, 7a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Crypturellus atrocapillus",
+    "commonName": "Black-capped Tinamou",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Crypturellus kerriae",
+    "commonName": "Choco Tinamou",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Crypturellus variegatus",
+    "commonName": "Variegated Tinamou",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Crypturellus brevirostris",
+    "commonName": "Rusty Tinamou",
+    "status": [],
+    "note": "9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Crypturellus bartletti",
+    "commonName": "Bartlett's Tinamou",
+    "status": [],
+    "note": "9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Crypturellus parvirostris",
+    "commonName": "Small-billed Tinamou",
+    "status": [],
+    "note": "10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Crypturellus casiquiare",
+    "commonName": "Barred Tinamou",
+    "status": [],
+    "note": "11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Crypturellus tataupa",
+    "commonName": "Tataupa Tinamou",
+    "status": [],
+    "note": "10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhynchotus rufescens",
+    "commonName": "Red-winged Tinamou",
+    "status": [],
+    "note": "12, 12a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhynchotus maculicollis",
+    "commonName": "Huayco Tinamou",
+    "status": [],
+    "note": "12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nothoprocta taczanowskii",
+    "commonName": "Taczanowski's Tinamou",
+    "status": [],
+    "note": "16a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nothoprocta ornata",
+    "commonName": "Ornate Tinamou",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nothoprocta perdicaria",
+    "commonName": "Chilean Tinamou",
+    "status": [],
+    "note": "14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nothoprocta cinerascens",
+    "commonName": "Brushland Tinamou",
+    "status": [],
+    "note": "14, 12a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nothoprocta pentlandii",
+    "commonName": "Andean Tinamou",
+    "status": [],
+    "note": "14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nothoprocta curvirostris",
+    "commonName": "Curve-billed Tinamou",
+    "status": [],
+    "note": "14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nothura boraquira",
+    "commonName": "White-bellied Nothura",
+    "status": [],
+    "note": "15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nothura minor",
+    "commonName": "Lesser Nothura",
+    "status": [],
+    "note": "15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nothura darwinii",
+    "commonName": "Darwin's Nothura",
+    "status": [],
+    "note": "16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nothura maculosa",
+    "commonName": "Spotted Nothura",
+    "status": [],
+    "note": "16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Taoniscus nanus",
+    "commonName": "Dwarf Tinamou",
+    "status": [],
+    "note": "16a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eudromia elegans",
+    "commonName": "Elegant Crested-Tinamou",
+    "status": [],
+    "note": "17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eudromia formosa",
+    "commonName": "Quebracho Crested-Tinamou",
+    "status": [],
+    "note": "17, 18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tinamotis pentlandii",
+    "commonName": "Puna Tinamou",
+    "status": [],
+    "note": "19"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tinamotis ingoufi",
+    "commonName": "Patagonian Tinamou",
+    "status": [],
+    "note": "19"
+  },
+  {
+    "type": "subclass",
+    "label": "NEOGNATHAE",
+    "note": ""
+  },
+  {
+    "type": "infraclass",
+    "label": "GALLOANSERES",
+    "note": ""
+  },
+  {
+    "type": "order",
+    "label": "ANSERIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "ANHIMIDAE (SCREAMERS)",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Anhima cornuta",
+    "commonName": "Horned Screamer",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Chauna torquata",
+    "commonName": "Southern Screamer",
+    "status": [],
+    "note": "1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chauna chavaria",
+    "commonName": "Northern Screamer",
+    "status": [],
+    "note": "1a"
+  },
+  {
+    "type": "family",
+    "label": "ANATIDAE (DUCKS)",
+    "note": "1b, 2"
+  },
+  {
+    "type": "subfamily",
+    "label": "Dendrocygninae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Dendrocygna bicolor",
+    "commonName": "Fulvous Whistling-Duck",
+    "status": [],
+    "note": "3, 3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dendrocygna viduata",
+    "commonName": "White-faced Whistling-Duck",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dendrocygna autumnalis",
+    "commonName": "Black-bellied Whistling-Duck",
+    "status": [],
+    "note": "3, 3aa"
+  },
+  {
+    "type": "subfamily",
+    "label": "Anatinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Anser anser",
+    "commonName": "Graylag Goose",
+    "status": [
+      "IN"
+    ],
+    "note": "3b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cygnus melancoryphus",
+    "commonName": "Black-necked Swan",
+    "status": [],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Coscoroba coscoroba",
+    "commonName": "Coscoroba Swan",
+    "status": [],
+    "note": "4a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oressochen jubatus",
+    "commonName": "Orinoco Goose",
+    "status": [],
+    "note": "5, 5a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oressochen melanopterus",
+    "commonName": "Andean Goose",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chloephaga picta",
+    "commonName": "Upland Goose",
+    "status": [],
+    "note": "4a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chloephaga hybrida",
+    "commonName": "Kelp Goose",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Chloephaga poliocephala",
+    "commonName": "Ashy-headed Goose",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Chloephaga rubidiceps",
+    "commonName": "Ruddy-headed Goose",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Cairina moschata",
+    "commonName": "Muscovy Duck",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Sarkidiornis sylvicola",
+    "commonName": "Comb Duck",
+    "status": [],
+    "note": "6, 6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Callonetta leucophrys",
+    "commonName": "Ringed Teal",
+    "status": [],
+    "note": "7, 7a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Amazonetta brasiliensis",
+    "commonName": "Brazilian Teal",
+    "status": [],
+    "note": "7a, 8, 8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Merganetta armata",
+    "commonName": "Torrent Duck",
+    "status": [],
+    "note": "8b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tachyeres patachonicus",
+    "commonName": "Flying Steamer-Duck",
+    "status": [],
+    "note": "8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tachyeres pteneres",
+    "commonName": "Flightless Steamer-Duck",
+    "status": [],
+    "note": "9, 10, 10a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tachyeres brachypterus",
+    "commonName": "Falkland Steamer-Duck",
+    "status": [],
+    "note": "9, 9a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tachyeres leucocephalus",
+    "commonName": "White-headed Steamer-Duck",
+    "status": [],
+    "note": "9, 11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lophonetta specularioides",
+    "commonName": "Crested Duck",
+    "status": [],
+    "note": "8, 12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Speculanas specularis",
+    "commonName": "Spectacled Duck",
+    "status": [],
+    "note": "8, 13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Spatula puna",
+    "commonName": "Puna Teal",
+    "status": [],
+    "note": "22, 22b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Spatula versicolor",
+    "commonName": "Silver Teal",
+    "status": [],
+    "note": "22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Spatula platalea",
+    "commonName": "Red Shoveler",
+    "status": [],
+    "note": "22b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Spatula clypeata",
+    "commonName": "Northern Shoveler",
+    "status": [
+      "NB"
+    ],
+    "note": "22b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Spatula discors",
+    "commonName": "Blue-winged Teal",
+    "status": [
+      "NB"
+    ],
+    "note": "22a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Spatula cyanoptera",
+    "commonName": "Cinnamon Teal",
+    "status": [],
+    "note": "22a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mareca penelope",
+    "commonName": "Eurasian Wigeon",
+    "status": [
+      "V"
+    ],
+    "note": "14, 14a, 14b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mareca americana",
+    "commonName": "American Wigeon",
+    "status": [
+      "NB"
+    ],
+    "note": "14, 14a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mareca sibilatrix",
+    "commonName": "Chiloe Wigeon",
+    "status": [],
+    "note": "14, 14a, 15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anas bahamensis",
+    "commonName": "White-cheeked Pintail",
+    "status": [],
+    "note": "19, 21b, 21c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anas acuta",
+    "commonName": "Northern Pintail",
+    "status": [
+      "NB"
+    ],
+    "note": "19, 19a, 20"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anas georgica",
+    "commonName": "Yellow-billed Pintail",
+    "status": [],
+    "note": "19, 19a, 21, 21a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anas crecca",
+    "commonName": "Green-winged Teal",
+    "status": [
+      "V"
+    ],
+    "note": "7a, 16, 17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anas andium",
+    "commonName": "Andean Teal",
+    "status": [],
+    "note": "7a, 16, 18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anas flavirostris",
+    "commonName": "Yellow-billed Teal",
+    "status": [],
+    "note": "7a, 16, 18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Netta erythrophthalma",
+    "commonName": "Southern Pochard",
+    "status": [],
+    "note": "22c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Netta peposaca",
+    "commonName": "Rosy-billed Pochard",
+    "status": [],
+    "note": "22d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aythya collaris",
+    "commonName": "Ring-necked Duck",
+    "status": [
+      "V"
+    ],
+    "note": "23"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aythya affinis",
+    "commonName": "Lesser Scaup",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Mergus octosetaceus",
+    "commonName": "Brazilian Merganser",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Heteronetta atricapilla",
+    "commonName": "Black-headed Duck",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Nomonyx dominicus",
+    "commonName": "Masked Duck",
+    "status": [],
+    "note": "24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oxyura jamaicensis",
+    "commonName": "Ruddy Duck",
+    "status": [],
+    "note": "25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oxyura vittata",
+    "commonName": "Lake Duck",
+    "status": [],
+    "note": "26"
+  },
+  {
+    "type": "order",
+    "label": "GALLIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "CRACIDAE (GUANS)",
+    "note": "1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chamaepetes goudotii",
+    "commonName": "Sickle-winged Guan",
+    "status": [],
+    "note": "21"
+  },
+  {
+    "type": "species",
+    "scientificName": "Penelope argyrotis",
+    "commonName": "Band-tailed Guan",
+    "status": [],
+    "note": "8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Penelope barbata",
+    "commonName": "Bearded Guan",
+    "status": [],
+    "note": "8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Penelope ortoni",
+    "commonName": "Baudo Guan",
+    "status": [],
+    "note": "9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Penelope montagnii",
+    "commonName": "Andean Guan",
+    "status": [],
+    "note": "9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Penelope marail",
+    "commonName": "Marail Guan",
+    "status": [],
+    "note": "10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Penelope superciliaris",
+    "commonName": "Rusty-margined Guan",
+    "status": [],
+    "note": "10, 15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Penelope dabbenei",
+    "commonName": "Red-faced Guan",
+    "status": [],
+    "note": "10a, 10b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Penelope jacquacu",
+    "commonName": "Spix's Guan",
+    "status": [],
+    "note": "11, 12, 12a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Penelope purpurascens",
+    "commonName": "Crested Guan",
+    "status": [],
+    "note": "11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Penelope perspicax",
+    "commonName": "Cauca Guan",
+    "status": [],
+    "note": "11, 13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Penelope albipennis",
+    "commonName": "White-winged Guan",
+    "status": [],
+    "note": "11, 14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Penelope bridgesi",
+    "commonName": "Yungas Guan",
+    "status": [],
+    "note": "11, 14a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Penelope obscura",
+    "commonName": "Dusky-legged Guan",
+    "status": [],
+    "note": "11, 14a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Penelope pileata",
+    "commonName": "White-crested Guan",
+    "status": [],
+    "note": "15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Penelope ochrogaster",
+    "commonName": "Chestnut-bellied Guan",
+    "status": [],
+    "note": "15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Penelope jacucaca",
+    "commonName": "White-browed Guan",
+    "status": [],
+    "note": "15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pipile pipile",
+    "commonName": "Trinidad Piping-Guan",
+    "status": [],
+    "note": "8, 16, 17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pipile cumanensis",
+    "commonName": "Blue-throated Piping-Guan",
+    "status": [],
+    "note": "17, 18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pipile cujubi",
+    "commonName": "Red-throated Piping-Guan",
+    "status": [],
+    "note": "17, 19"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pipile jacutinga",
+    "commonName": "Black-fronted Piping-Guan",
+    "status": [],
+    "note": "17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aburria aburri",
+    "commonName": "Wattled Guan",
+    "status": [],
+    "note": "8, 16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ortalis cinereiceps",
+    "commonName": "Gray-headed Chachalaca",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ortalis garrula",
+    "commonName": "Chestnut-winged Chachalaca",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ortalis ruficauda",
+    "commonName": "Rufous-vented Chachalaca",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ortalis erythroptera",
+    "commonName": "Rufous-headed Chachalaca",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Ortalis canicollis",
+    "commonName": "Chaco Chachalaca",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Ortalis columbiana",
+    "commonName": "Colombian Chachalaca",
+    "status": [],
+    "note": "4, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ortalis guttata",
+    "commonName": "Speckled Chachalaca",
+    "status": [],
+    "note": "4, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ortalis araucuan",
+    "commonName": "East Brazilian Chachalaca",
+    "status": [],
+    "note": "4, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ortalis squamata",
+    "commonName": "Scaled Chachalaca",
+    "status": [],
+    "note": "4, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ortalis motmot",
+    "commonName": "Variable Chachalaca",
+    "status": [],
+    "note": "4, 6, 7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ortalis ruficeps",
+    "commonName": "Chestnut-headed Chachalaca",
+    "status": [],
+    "note": "4, 6, 7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ortalis superciliaris",
+    "commonName": "Buff-browed Chachalaca",
+    "status": [],
+    "note": "4, 4a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nothocrax urumutum",
+    "commonName": "Nocturnal Curassow",
+    "status": [],
+    "note": "22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Crax rubra",
+    "commonName": "Great Curassow",
+    "status": [],
+    "note": "22, 30, 30a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Crax alberti",
+    "commonName": "Blue-billed Curassow",
+    "status": [],
+    "note": "30, 30aa, 30c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Crax daubentoni",
+    "commonName": "Yellow-knobbed Curassow",
+    "status": [],
+    "note": "30, 31"
+  },
+  {
+    "type": "species",
+    "scientificName": "Crax alector",
+    "commonName": "Black Curassow",
+    "status": [],
+    "note": "30, 30b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Crax globulosa",
+    "commonName": "Wattled Curassow",
+    "status": [],
+    "note": "30"
+  },
+  {
+    "type": "species",
+    "scientificName": "Crax fasciolata",
+    "commonName": "Bare-faced Curassow",
+    "status": [],
+    "note": "30, 32"
+  },
+  {
+    "type": "species",
+    "scientificName": "Crax blumenbachii",
+    "commonName": "Red-billed Curassow",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Mitu tomentosum",
+    "commonName": "Crestless Curassow",
+    "status": [],
+    "note": "22 23, 25, 26"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mitu salvini",
+    "commonName": "Salvin's Curassow",
+    "status": [],
+    "note": "23"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mitu tuberosum",
+    "commonName": "Razor-billed Curassow",
+    "status": [],
+    "note": "23, 27"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mitu mitu",
+    "commonName": "Alagoas Curassow",
+    "status": [
+      "EX"
+    ],
+    "note": "23, 27"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pauxi pauxi",
+    "commonName": "Helmeted Curassow",
+    "status": [],
+    "note": "22, 29a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pauxi koepckeae",
+    "commonName": "Sira Curassow",
+    "status": [],
+    "note": "29a, 29b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pauxi unicornis",
+    "commonName": "Horned Curassow",
+    "status": [],
+    "note": "29a, 29b"
+  },
+  {
+    "type": "family",
+    "label": "ODONTOPHORIDAE (NEW WORLD QUAILS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhynchortyx cinctus",
+    "commonName": "Tawny-faced Quail",
+    "status": [],
+    "note": "6, 6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Colinus cristatus",
+    "commonName": "Crested Bobwhite",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Callipepla californica",
+    "commonName": "California Quail",
+    "status": [
+      "IN"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Odontophorus gujanensis",
+    "commonName": "Marbled Wood-Quail",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Odontophorus capueira",
+    "commonName": "Spot-winged Wood-Quail",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Odontophorus atrifrons",
+    "commonName": "Black-fronted Wood-Quail",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Odontophorus erythrops",
+    "commonName": "Rufous-fronted Wood-Quail",
+    "status": [],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Odontophorus hyperythrus",
+    "commonName": "Chestnut Wood-Quail",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Odontophorus melanonotus",
+    "commonName": "Dark-backed Wood-Quail",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Odontophorus speciosus",
+    "commonName": "Rufous-breasted Wood-Quail",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Odontophorus dialeucos",
+    "commonName": "Tacarcuna Wood-Quail",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Odontophorus strophium",
+    "commonName": "Gorgeted Wood-Quail",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Odontophorus columbianus",
+    "commonName": "Venezuelan Wood-Quail",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Odontophorus balliviani",
+    "commonName": "Stripe-faced Wood-Quail",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Odontophorus stellatus",
+    "commonName": "Starred Wood-Quail",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "family",
+    "label": "PHASIANIDAE (PHEASANTS)",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Phasianus colchicus",
+    "commonName": "Ring-necked Pheasant",
+    "status": [
+      "IN"
+    ],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lophura nycthemera",
+    "commonName": "Silver Pheasant",
+    "status": [
+      "IN"
+    ],
+    "note": "8"
+  },
+  {
+    "type": "subclass",
+    "label": "NEOGNATHAE",
+    "note": ""
+  },
+  {
+    "type": "infraclass",
+    "label": "NEOAVES",
+    "note": "1"
+  },
+  {
+    "type": "order",
+    "label": "PHOENICOPTERIFORMES",
+    "note": "1a"
+  },
+  {
+    "type": "family",
+    "label": "PHOENICOPTERIDAE (FLAMINGOS)",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Phoenicopterus chilensis",
+    "commonName": "Chilean Flamingo",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phoenicopterus ruber",
+    "commonName": "American Flamingo",
+    "status": [],
+    "note": "2, 3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phoenicoparrus andinus",
+    "commonName": "Andean Flamingo",
+    "status": [],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phoenicoparrus jamesi",
+    "commonName": "James's Flamingo",
+    "status": [],
+    "note": "4, 5"
+  },
+  {
+    "type": "order",
+    "label": "PODICIPEDIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "PODICIPEDIDAE (GREBES)",
+    "note": "1a, 1b, 1c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rollandia rolland",
+    "commonName": "White-tufted Grebe",
+    "status": [],
+    "note": "2, 3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rollandia microptera",
+    "commonName": "Titicaca Grebe",
+    "status": [],
+    "note": "4, 4a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tachybaptus dominicus",
+    "commonName": "Least Grebe",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Podilymbus podiceps",
+    "commonName": "Pied-billed Grebe",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Podiceps major",
+    "commonName": "Great Grebe",
+    "status": [],
+    "note": "6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Podiceps andinus",
+    "commonName": "Colombian Grebe",
+    "status": [
+      "EX"
+    ],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Podiceps occipitalis",
+    "commonName": "Silvery Grebe",
+    "status": [],
+    "note": "8, 9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Podiceps taczanowskii",
+    "commonName": "Junin Grebe",
+    "status": [],
+    "note": "10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Podiceps gallardoi",
+    "commonName": "Hooded Grebe",
+    "status": [],
+    "note": "11"
+  }
+]

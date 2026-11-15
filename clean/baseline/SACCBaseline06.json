@@ -1,0 +1,2802 @@
+[
+  {
+    "type": "order",
+    "label": "PASSERIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "SAPAYOIDAE (SAPAYOA)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sapayoa aenigma",
+    "commonName": "Sapayoa",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "family",
+    "label": "THAMNOPHILIDAE (ANTBIRDS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Euchrepomis callinota",
+    "commonName": "Rufous-rumped Antwren",
+    "status": [],
+    "note": "39c, 39cc, 39ccc, 39cccc"
+  },
+  {
+    "type": "species",
+    "scientificName": "Euchrepomis humeralis",
+    "commonName": "Chestnut-shouldered Antwren",
+    "status": [],
+    "note": "39cc"
+  },
+  {
+    "type": "species",
+    "scientificName": "Euchrepomis sharpei",
+    "commonName": "Yellow-rumped Antwren",
+    "status": [],
+    "note": "39cc"
+  },
+  {
+    "type": "species",
+    "scientificName": "Euchrepomis spodioptila",
+    "commonName": "Ash-winged Antwren",
+    "status": [],
+    "note": "39cc"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cymbilaimus lineatus",
+    "commonName": "Fasciated Antshrike",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cymbilaimus sanctaemariae",
+    "commonName": "Bamboo Antshrike",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hypoedaleus guttatus",
+    "commonName": "Spot-backed Antshrike",
+    "status": [],
+    "note": "1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Batara cinerea",
+    "commonName": "Giant Antshrike",
+    "status": [],
+    "note": "1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mackenziaena leachii",
+    "commonName": "Large-tailed Antshrike",
+    "status": [],
+    "note": "1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mackenziaena severa",
+    "commonName": "Tufted Antshrike",
+    "status": [],
+    "note": "1a, 2a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Frederickena viridis",
+    "commonName": "Black-throated Antshrike",
+    "status": [],
+    "note": "1a, 2b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Frederickena unduliger",
+    "commonName": "Undulated Antshrike",
+    "status": [],
+    "note": "1a, 2b, 2c, 2d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Frederickena fulva",
+    "commonName": "Fulvous Antshrike",
+    "status": [],
+    "note": "1a, 2b, 2c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Taraba major",
+    "commonName": "Great Antshrike",
+    "status": [],
+    "note": "1a, 2e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sakesphorus canadensis",
+    "commonName": "Black-crested Antshrike",
+    "status": [],
+    "note": "2f, 2g, 2h"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sakesphorus luctuosus",
+    "commonName": "Glossy Antshrike",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Radinopsyche sellowi",
+    "commonName": "Caatinga Antwren",
+    "status": [],
+    "note": "10b, 27a, 27b, 28"
+  },
+  {
+    "type": "species",
+    "scientificName": "Biatas nigropectus",
+    "commonName": "White-bearded Antshrike",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus doliatus",
+    "commonName": "Barred Antshrike",
+    "status": [],
+    "note": "2f, 3, 3a, 3c, 3d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus ruficapillus",
+    "commonName": "Rufous-capped Antshrike",
+    "status": [],
+    "note": "7c, 7f"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus torquatus",
+    "commonName": "Rufous-winged Antshrike",
+    "status": [],
+    "note": "7f"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus zarumae",
+    "commonName": "Chapman's Antshrike",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus multistriatus",
+    "commonName": "Bar-crested Antshrike",
+    "status": [],
+    "note": "3b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus tenuepunctatus",
+    "commonName": "Lined Antshrike",
+    "status": [],
+    "note": "3b, 4, 4a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus palliatus",
+    "commonName": "Chestnut-backed Antshrike",
+    "status": [],
+    "note": "4, 4a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus bernardi",
+    "commonName": "Collared Antshrike",
+    "status": [],
+    "note": "2f, 2g"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus atrinucha",
+    "commonName": "Black-crowned Antshrike",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus schistaceus",
+    "commonName": "Plain-winged Antshrike",
+    "status": [],
+    "note": "6, 6a, 6b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus murinus",
+    "commonName": "Mouse-colored Antshrike",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus nigriceps",
+    "commonName": "Black Antshrike",
+    "status": [],
+    "note": "4b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus praecox",
+    "commonName": "Cocha Antshrike",
+    "status": [],
+    "note": "4b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus cryptoleucus",
+    "commonName": "Castelnau's Antshrike",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus nigrocinereus",
+    "commonName": "Blackish-gray Antshrike",
+    "status": [],
+    "note": "5, 5a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus punctatus",
+    "commonName": "Northern Slaty-Antshrike",
+    "status": [],
+    "note": "7, 8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus stictocephalus",
+    "commonName": "Natterer's Slaty-Antshrike",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus sticturus",
+    "commonName": "Bolivian Slaty-Antshrike",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus pelzelni",
+    "commonName": "Planalto Slaty-Antshrike",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus ambiguus",
+    "commonName": "Sooretama Slaty-Antshrike",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus caerulescens",
+    "commonName": "Variable Antshrike",
+    "status": [],
+    "note": "7b, 7d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus unicolor",
+    "commonName": "Uniform Antshrike",
+    "status": [],
+    "note": "5b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus aethiops",
+    "commonName": "White-shouldered Antshrike",
+    "status": [],
+    "note": "5b, 5c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus aroyae",
+    "commonName": "Upland Antshrike",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus melanonotus",
+    "commonName": "Black-backed Antshrike",
+    "status": [],
+    "note": "2f"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus melanothorax",
+    "commonName": "Band-tailed Antshrike",
+    "status": [],
+    "note": "2f"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus amazonicus",
+    "commonName": "Amazonian Antshrike",
+    "status": [],
+    "note": "7a, 7d, 7e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus insignis",
+    "commonName": "Streak-backed Antshrike",
+    "status": [],
+    "note": "7aaa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnophilus divisorius",
+    "commonName": "Acre Antshrike",
+    "status": [],
+    "note": "7aa, 7aaa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhopias gularis",
+    "commonName": "Star-throated Antwren",
+    "status": [],
+    "note": "23a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Megastictus margaritatus",
+    "commonName": "Pearly Antshrike",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Neoctantes niger",
+    "commonName": "Black Bushbird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Clytoctantes alixii",
+    "commonName": "Recurve-billed Bushbird",
+    "status": [],
+    "note": "8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Clytoctantes atrogularis",
+    "commonName": "Rondonia Bushbird",
+    "status": [],
+    "note": "9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnistes anabatinus",
+    "commonName": "Russet Antshrike",
+    "status": [],
+    "note": "10, 10a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnistes rufescens",
+    "commonName": "Rufescent Antshrike",
+    "status": [],
+    "note": "10, 10a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sakesphoroides cristatus",
+    "commonName": "Silvery-cheeked Antshrike",
+    "status": [],
+    "note": "2g, 2gg, 2ggg"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dysithamnus stictothorax",
+    "commonName": "Spot-breasted Antvireo",
+    "status": [],
+    "note": "10b, 27b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dysithamnus mentalis",
+    "commonName": "Plain Antvireo",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Dysithamnus puncticeps",
+    "commonName": "Spot-crowned Antvireo",
+    "status": [],
+    "note": "10c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dysithamnus xanthopterus",
+    "commonName": "Rufous-backed Antvireo",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Dysithamnus occidentalis",
+    "commonName": "Bicolored Antvireo",
+    "status": [],
+    "note": "11, 11a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dysithamnus leucostictus",
+    "commonName": "White-streaked Antvireo",
+    "status": [],
+    "note": "12, 12a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dysithamnus plumbeus",
+    "commonName": "Plumbeous Antvireo",
+    "status": [],
+    "note": "12, 12a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Herpsilochmus parkeri",
+    "commonName": "Ash-throated Antwren",
+    "status": [],
+    "note": "27a, 30"
+  },
+  {
+    "type": "species",
+    "scientificName": "Herpsilochmus motacilloides",
+    "commonName": "Creamy-bellied Antwren",
+    "status": [],
+    "note": "27a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Herpsilochmus praedictus",
+    "commonName": "Predicted Antwren",
+    "status": [],
+    "note": "27a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Herpsilochmus stotzi",
+    "commonName": "Aripuana Antwren",
+    "status": [],
+    "note": "27a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Herpsilochmus atricapillus",
+    "commonName": "Black-capped Antwren",
+    "status": [],
+    "note": "27a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Herpsilochmus pileatus",
+    "commonName": "Bahia Antwren",
+    "status": [],
+    "note": "27a, 29"
+  },
+  {
+    "type": "species",
+    "scientificName": "Herpsilochmus sticturus",
+    "commonName": "Spot-tailed Antwren",
+    "status": [],
+    "note": "31"
+  },
+  {
+    "type": "species",
+    "scientificName": "Herpsilochmus dugandi",
+    "commonName": "Dugand's Antwren",
+    "status": [],
+    "note": "31"
+  },
+  {
+    "type": "species",
+    "scientificName": "Herpsilochmus stictocephalus",
+    "commonName": "Todd's Antwren",
+    "status": [],
+    "note": "31a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Herpsilochmus gentryi",
+    "commonName": "Ancient Antwren",
+    "status": [],
+    "note": "31a, 31b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Herpsilochmus dorsimaculatus",
+    "commonName": "Spot-backed Antwren",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Herpsilochmus roraimae",
+    "commonName": "Roraiman Antwren",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Herpsilochmus pectoralis",
+    "commonName": "Pectoral Antwren",
+    "status": [],
+    "note": "32"
+  },
+  {
+    "type": "species",
+    "scientificName": "Herpsilochmus longirostris",
+    "commonName": "Large-billed Antwren",
+    "status": [],
+    "note": "32"
+  },
+  {
+    "type": "species",
+    "scientificName": "Herpsilochmus axillaris",
+    "commonName": "Yellow-breasted Antwren",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Herpsilochmus frater",
+    "commonName": "Rusty-winged Antwren",
+    "status": [],
+    "note": "32a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Herpsilochmus rufimarginatus",
+    "commonName": "Rufous-margined Antwren",
+    "status": [],
+    "note": "32a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnomanes ardesiacus",
+    "commonName": "Dusky-throated Antshrike",
+    "status": [],
+    "note": "13, 13a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnomanes saturninus",
+    "commonName": "Saturnine Antshrike",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnomanes caesius",
+    "commonName": "Cinereous Antshrike",
+    "status": [],
+    "note": "14, 14a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thamnomanes schistogynus",
+    "commonName": "Bluish-slate Antshrike",
+    "status": [],
+    "note": "14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xenornis setifrons",
+    "commonName": "Spiny-faced Antshrike",
+    "status": [],
+    "note": "15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Isleria hauxwelli",
+    "commonName": "Plain-throated Antwren",
+    "status": [],
+    "note": "23"
+  },
+  {
+    "type": "species",
+    "scientificName": "Isleria guttata",
+    "commonName": "Rufous-bellied Antwren",
+    "status": [],
+    "note": "23"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pygiptila stellaris",
+    "commonName": "Spot-winged Antshrike",
+    "status": [],
+    "note": "10, 16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Epinecrophylla fulviventris",
+    "commonName": "Checker-throated Stipplethroat",
+    "status": [],
+    "note": "16, 16a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Epinecrophylla ornata",
+    "commonName": "Ornate Stipplethroat",
+    "status": [],
+    "note": "18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Epinecrophylla erythrura",
+    "commonName": "Rufous-tailed Stipplethroat",
+    "status": [],
+    "note": "16d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Epinecrophylla leucophthalma",
+    "commonName": "White-eyed Stipplethroat",
+    "status": [],
+    "note": "16b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Epinecrophylla gutturalis",
+    "commonName": "Brown-bellied Stipplethroat",
+    "status": [],
+    "note": "16d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Epinecrophylla haematonota",
+    "commonName": "Rufous-backed Stipplethroat",
+    "status": [],
+    "note": "16c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Epinecrophylla spodionota",
+    "commonName": "Foothill Stipplethroat",
+    "status": [],
+    "note": "16c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Epinecrophylla amazonica",
+    "commonName": "Rio Madeira Stipplethroat",
+    "status": [],
+    "note": "16c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmotherula brachyura",
+    "commonName": "Pygmy Antwren",
+    "status": [],
+    "note": "19"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmotherula ignota",
+    "commonName": "Moustached Antwren",
+    "status": [],
+    "note": "20"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmotherula ambigua",
+    "commonName": "Yellow-throated Antwren",
+    "status": [],
+    "note": "20a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmotherula sclateri",
+    "commonName": "Sclater's Antwren",
+    "status": [],
+    "note": "20a, 20b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmotherula surinamensis",
+    "commonName": "Guianan Streaked-Antwren",
+    "status": [],
+    "note": "21"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmotherula multostriata",
+    "commonName": "Amazonian Streaked-Antwren",
+    "status": [],
+    "note": "21"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmotherula pacifica",
+    "commonName": "Pacific Antwren",
+    "status": [],
+    "note": "22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmotherula cherriei",
+    "commonName": "Cherrie's Antwren",
+    "status": [],
+    "note": "22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmotherula klagesi",
+    "commonName": "Klages's Antwren",
+    "status": [],
+    "note": "22a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmotherula longicauda",
+    "commonName": "Stripe-chested Antwren",
+    "status": [],
+    "note": "22a, 22b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmotherula axillaris",
+    "commonName": "White-flanked Antwren",
+    "status": [],
+    "note": "23b, 23d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmotherula schisticolor",
+    "commonName": "Slaty Antwren",
+    "status": [],
+    "note": "23c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmotherula sunensis",
+    "commonName": "Rio Suno Antwren",
+    "status": [],
+    "note": "23c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmotherula minor",
+    "commonName": "Salvadori's Antwren",
+    "status": [],
+    "note": "23c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmotherula longipennis",
+    "commonName": "Long-winged Antwren",
+    "status": [],
+    "note": "24, 24a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmotherula urosticta",
+    "commonName": "Band-tailed Antwren",
+    "status": [],
+    "note": "24a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmotherula iheringi",
+    "commonName": "Ihering's Antwren",
+    "status": [],
+    "note": "24b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmotherula fluminensis",
+    "commonName": "Rio de Janeiro Antwren",
+    "status": [],
+    "note": "25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmotherula grisea",
+    "commonName": "Ashy Antwren",
+    "status": [],
+    "note": "24, 26, 26a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmotherula unicolor",
+    "commonName": "Unicolored Antwren",
+    "status": [],
+    "note": "26a, 27"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmotherula snowi",
+    "commonName": "Alagoas Antwren",
+    "status": [],
+    "note": "26a, 27"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmotherula behni",
+    "commonName": "Plain-winged Antwren",
+    "status": [],
+    "note": "26a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmotherula menetriesii",
+    "commonName": "Gray Antwren",
+    "status": [],
+    "note": "26b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmotherula assimilis",
+    "commonName": "Leaden Antwren",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Dichrozona cincta",
+    "commonName": "Banded Antbird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmorchilus strigilatus",
+    "commonName": "Stripe-backed Antbird",
+    "status": [],
+    "note": "32b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Microrhopias quixensis",
+    "commonName": "Dot-winged Antwren",
+    "status": [],
+    "note": "32b, 32bb, 32c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Formicivora iheringi",
+    "commonName": "Narrow-billed Antwren",
+    "status": [],
+    "note": "33, 33a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Formicivora erythronotos",
+    "commonName": "Black-hooded Antwren",
+    "status": [],
+    "note": "34"
+  },
+  {
+    "type": "species",
+    "scientificName": "Formicivora grisea",
+    "commonName": "White-fringed Antwren",
+    "status": [],
+    "note": "34a, 34b, 37"
+  },
+  {
+    "type": "species",
+    "scientificName": "Formicivora serrana",
+    "commonName": "Serra Antwren",
+    "status": [],
+    "note": "35"
+  },
+  {
+    "type": "species",
+    "scientificName": "Formicivora littoralis",
+    "commonName": "Restinga Antwren",
+    "status": [],
+    "note": "35, 36"
+  },
+  {
+    "type": "species",
+    "scientificName": "Formicivora melanogaster",
+    "commonName": "Black-bellied Antwren",
+    "status": [],
+    "note": "35"
+  },
+  {
+    "type": "species",
+    "scientificName": "Formicivora rufa",
+    "commonName": "Rusty-backed Antwren",
+    "status": [],
+    "note": "16, 37"
+  },
+  {
+    "type": "species",
+    "scientificName": "Formicivora grantsaui",
+    "commonName": "Sincora Antwren",
+    "status": [],
+    "note": "34c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Formicivora acutirostris",
+    "commonName": "Marsh Antwren",
+    "status": [],
+    "note": "37, 37a, 37b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Drymophila ferruginea",
+    "commonName": "Ferruginous Antbird",
+    "status": [],
+    "note": "38, 45"
+  },
+  {
+    "type": "species",
+    "scientificName": "Drymophila rubricollis",
+    "commonName": "Bertoni's Antbird",
+    "status": [],
+    "note": "38"
+  },
+  {
+    "type": "species",
+    "scientificName": "Drymophila genei",
+    "commonName": "Rufous-tailed Antbird",
+    "status": [],
+    "note": "38a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Drymophila ochropyga",
+    "commonName": "Ochre-rumped Antbird",
+    "status": [],
+    "note": "38a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Drymophila malura",
+    "commonName": "Dusky-tailed Antbird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Drymophila squamata",
+    "commonName": "Scaled Antbird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Drymophila devillei",
+    "commonName": "Striated Antbird",
+    "status": [],
+    "note": "38b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Drymophila hellmayri",
+    "commonName": "Santa Marta Antbird",
+    "status": [],
+    "note": "38b, 38c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Drymophila klagesi",
+    "commonName": "Klages’s Antbird",
+    "status": [],
+    "note": "38b, 38c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Drymophila caudata",
+    "commonName": "East Andean Antbird",
+    "status": [],
+    "note": "38b, 38c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Drymophila striaticeps",
+    "commonName": "Streak-headed Antbird",
+    "status": [],
+    "note": "38b, 38c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hypocnemis cantator",
+    "commonName": "Guianan Warbling-Antbird",
+    "status": [],
+    "note": "45, 45a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hypocnemis flavescens",
+    "commonName": "Imeri Warbling-Antbird",
+    "status": [],
+    "note": "45a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hypocnemis peruviana",
+    "commonName": "Peruvian Warbling-Antbird",
+    "status": [],
+    "note": "45a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hypocnemis subflava",
+    "commonName": "Yellow-breasted Warbling-Antbird",
+    "status": [],
+    "note": "45a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hypocnemis rondoni",
+    "commonName": "Manicore Warbling-Antbird",
+    "status": [],
+    "note": "45a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hypocnemis ochrogyna",
+    "commonName": "Rondonia Warbling-Antbird",
+    "status": [],
+    "note": "45a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hypocnemis striata",
+    "commonName": "Spix's Warbling-Antbird",
+    "status": [],
+    "note": "45a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hypocnemis hypoxantha",
+    "commonName": "Yellow-browed Antbird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Terenura sicki",
+    "commonName": "Orange-bellied Antwren",
+    "status": [],
+    "note": "39, 39a, 39aa, 39b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Terenura maculata",
+    "commonName": "Streak-capped Antwren",
+    "status": [],
+    "note": "39a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cercomacroides laeta",
+    "commonName": "Willis's Antbird",
+    "status": [],
+    "note": "39f, 39g"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cercomacroides parkeri",
+    "commonName": "Parker's Antbird",
+    "status": [],
+    "note": "39e, 41"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cercomacroides tyrannina",
+    "commonName": "Dusky Antbird",
+    "status": [],
+    "note": "39e, 39g, 39h"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cercomacroides serva",
+    "commonName": "Black Antbird",
+    "status": [],
+    "note": "39e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cercomacroides nigrescens",
+    "commonName": "Blackish Antbird",
+    "status": [],
+    "note": "39e, 41a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cercomacroides fuscicauda",
+    "commonName": "Riparian Antbird",
+    "status": [],
+    "note": "39e, 41a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cercomacra manu",
+    "commonName": "Manu Antbird",
+    "status": [],
+    "note": "42a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cercomacra cinerascens",
+    "commonName": "Gray Antbird",
+    "status": [],
+    "note": "39d, 39e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cercomacra brasiliana",
+    "commonName": "Rio de Janeiro Antbird",
+    "status": [],
+    "note": "39g"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cercomacra melanaria",
+    "commonName": "Mato Grosso Antbird",
+    "status": [],
+    "note": "42"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cercomacra ferdinandi",
+    "commonName": "Bananal Antbird",
+    "status": [],
+    "note": "42"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cercomacra nigricans",
+    "commonName": "Jet Antbird",
+    "status": [],
+    "note": "42"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cercomacra carbonaria",
+    "commonName": "Rio Branco Antbird",
+    "status": [],
+    "note": "42"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyriglena maura",
+    "commonName": "Western Fire-eye",
+    "status": [],
+    "note": "43, 44, 44f"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyriglena similis",
+    "commonName": "Tapajos Fire-eye",
+    "status": [],
+    "note": "43"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyriglena leuconota",
+    "commonName": "East Amazonian Fire-eye",
+    "status": [],
+    "note": "43"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyriglena atra",
+    "commonName": "Fringe-backed Fire-eye",
+    "status": [],
+    "note": "43"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyriglena leucoptera",
+    "commonName": "White-shouldered Fire-eye",
+    "status": [],
+    "note": "43"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhopornis ardesiacus",
+    "commonName": "Slender Antbird",
+    "status": [],
+    "note": "44, 44a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmoborus leucophrys",
+    "commonName": "White-browed Antbird",
+    "status": [],
+    "note": "44b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmoborus lugubris",
+    "commonName": "Ash-breasted Antbird",
+    "status": [],
+    "note": "44bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmoborus myotherinus",
+    "commonName": "Black-faced Antbird",
+    "status": [],
+    "note": "44c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmoborus melanurus",
+    "commonName": "Black-tailed Antbird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmoborus lophotes",
+    "commonName": "White-lined Antbird",
+    "status": [],
+    "note": "49, 49a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hypocnemoides melanopogon",
+    "commonName": "Black-chinned Antbird",
+    "status": [],
+    "note": "44d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hypocnemoides maculicauda",
+    "commonName": "Band-tailed Antbird",
+    "status": [],
+    "note": "46"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmochanes hemileucus",
+    "commonName": "Black-and-white Antbird",
+    "status": [],
+    "note": "16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Gymnocichla nudiceps",
+    "commonName": "Bare-crowned Antbird",
+    "status": [],
+    "note": "44e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sclateria naevia",
+    "commonName": "Silvered Antbird",
+    "status": [],
+    "note": "46b, 44g"
+  },
+  {
+    "type": "species",
+    "scientificName": "Percnostola rufifrons",
+    "commonName": "Black-headed Antbird",
+    "status": [],
+    "note": "47, 48a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Percnostola arenarum",
+    "commonName": "Allpahuayo Antbird",
+    "status": [],
+    "note": "48, 48a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmelastes schistaceus",
+    "commonName": "Slate-colored Antbird",
+    "status": [],
+    "note": "44g, 50, 51"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmelastes saturatus",
+    "commonName": "Roraiman Antbird",
+    "status": [],
+    "note": "50a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmelastes hyperythrus",
+    "commonName": "Plumbeous Antbird",
+    "status": [],
+    "note": "50"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmelastes leucostigma",
+    "commonName": "Spot-winged Antbird",
+    "status": [],
+    "note": "50a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmelastes humaythae",
+    "commonName": "Humaita Antbird",
+    "status": [],
+    "note": "50a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmelastes brunneiceps",
+    "commonName": "Brownish-headed Antbird",
+    "status": [],
+    "note": "50a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmelastes rufifacies",
+    "commonName": "Rufous-faced Antbird",
+    "status": [],
+    "note": "50a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmelastes caurensis",
+    "commonName": "Caura Antbird",
+    "status": [],
+    "note": "50a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmeciza longipes",
+    "commonName": "White-bellied Antbird",
+    "status": [],
+    "note": "51, 51a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poliocrania exsul",
+    "commonName": "Chestnut-backed Antbird",
+    "status": [],
+    "note": "51, 51e, 51ee"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ampelornis griseiceps",
+    "commonName": "Gray-headed Antbird",
+    "status": [],
+    "note": "55c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sipia laemosticta",
+    "commonName": "Dull-mantled Antbird",
+    "status": [
+      "V"
+    ],
+    "note": "51dd"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sipia palliata",
+    "commonName": "Magdalena Antbird",
+    "status": [],
+    "note": "51, 51c, 51d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sipia nigricauda",
+    "commonName": "Esmeraldas Antbird",
+    "status": [],
+    "note": "51, 51c, 52"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sipia berlepschi",
+    "commonName": "Stub-tailed Antbird",
+    "status": [],
+    "note": "52, 52a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sciaphylax hemimelaena",
+    "commonName": "Chestnut-tailed Antbird",
+    "status": [],
+    "note": "51, 52b, 53"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sciaphylax castanea",
+    "commonName": "Zimmer's Antbird",
+    "status": [],
+    "note": "53"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmoderus eowilsoni",
+    "commonName": "Cordillera Azul Antbird",
+    "status": [],
+    "note": "51, 51b, 51bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmoderus ferrugineus",
+    "commonName": "Ferruginous-backed Antbird",
+    "status": [],
+    "note": "51, 51b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmoderus ruficauda",
+    "commonName": "Scalloped Antbird",
+    "status": [],
+    "note": "51, 51b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmoderus loricatus",
+    "commonName": "White-bibbed Antbird",
+    "status": [],
+    "note": "51, 51b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmoderus squamosus",
+    "commonName": "Squamate Antbird",
+    "status": [],
+    "note": "51, 51b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Akletos melanoceps",
+    "commonName": "White-shouldered Antbird",
+    "status": [],
+    "note": "55"
+  },
+  {
+    "type": "species",
+    "scientificName": "Akletos goeldii",
+    "commonName": "Goeldi's Antbird",
+    "status": [],
+    "note": "55"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hafferia fortis",
+    "commonName": "Sooty Antbird",
+    "status": [],
+    "note": "55a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hafferia zeledoni",
+    "commonName": "Zeledon’s Antbird",
+    "status": [],
+    "note": "55a, 55aa, 55aaa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hafferia immaculata",
+    "commonName": "Blue-lored Antbird",
+    "status": [],
+    "note": "55a, 55aa, 55aaa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aprositornis disjuncta",
+    "commonName": "Yapacana Antbird",
+    "status": [],
+    "note": "55b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmophylax atrothorax",
+    "commonName": "Black-throated Antbird",
+    "status": [],
+    "note": "32b, 51, 54, 54b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ammonastes pelzelni",
+    "commonName": "Gray-bellied Antbird",
+    "status": [],
+    "note": "51, 51g"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmornis torquata",
+    "commonName": "Wing-banded Antbird",
+    "status": [],
+    "note": "55d, 55e, 55f"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pithys albifrons",
+    "commonName": "White-plumed Antbird",
+    "status": [],
+    "note": "55g, 56"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pithys castaneus",
+    "commonName": "White-masked Antbird",
+    "status": [],
+    "note": "56, 56b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Gymnopithys bicolor",
+    "commonName": "Bicolored Antbird",
+    "status": [],
+    "note": "55g, 57"
+  },
+  {
+    "type": "species",
+    "scientificName": "Gymnopithys leucaspis",
+    "commonName": "White-cheeked Antbird",
+    "status": [],
+    "note": "55g, 57"
+  },
+  {
+    "type": "species",
+    "scientificName": "Gymnopithys rufigula",
+    "commonName": "Rufous-throated Antbird",
+    "status": [],
+    "note": "57"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oneillornis salvini",
+    "commonName": "White-throated Antbird",
+    "status": [],
+    "note": "57aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oneillornis lunulatus",
+    "commonName": "Lunulated Antbird",
+    "status": [],
+    "note": "57aa, 57b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhegmatorhina gymnops",
+    "commonName": "Bare-eyed Antbird",
+    "status": [],
+    "note": "55g, 58"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhegmatorhina berlepschi",
+    "commonName": "Harlequin Antbird",
+    "status": [],
+    "note": "58"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhegmatorhina hoffmannsi",
+    "commonName": "White-breasted Antbird",
+    "status": [],
+    "note": "58"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhegmatorhina cristata",
+    "commonName": "Chestnut-crested Antbird",
+    "status": [],
+    "note": "58"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhegmatorhina melanosticta",
+    "commonName": "Hairy-crested Antbird",
+    "status": [],
+    "note": "58, 58a, 58b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hylophylax naevioides",
+    "commonName": "Spotted Antbird",
+    "status": [],
+    "note": "44d, 59"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hylophylax naevius",
+    "commonName": "Spot-backed Antbird",
+    "status": [],
+    "note": "59, 59b, 59c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hylophylax punctulatus",
+    "commonName": "Dot-backed Antbird",
+    "status": [],
+    "note": "59b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Willisornis poecilinotus",
+    "commonName": "Common Scale-backed Antbird",
+    "status": [],
+    "note": "55g, 59b, 60, 60a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Willisornis vidua",
+    "commonName": "Xingu Scale-backed Antbird",
+    "status": [],
+    "note": "60, 60a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phlegopsis nigromaculata",
+    "commonName": "Black-spotted Bare-eye",
+    "status": [],
+    "note": "55g, 61"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phlegopsis erythroptera",
+    "commonName": "Reddish-winged Bare-eye",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Phlegopsis borbae",
+    "commonName": "Pale-faced Bare-eye",
+    "status": [],
+    "note": "62, 62a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaenostictus mcleannani",
+    "commonName": "Ocellated Antbird",
+    "status": [],
+    "note": "55g"
+  },
+  {
+    "type": "family",
+    "label": "MELANOPAREIIDAE (CRESCENTCHESTS)",
+    "note": "1, 3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Melanopareia torquata",
+    "commonName": "Collared Crescentchest",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Melanopareia maximiliani",
+    "commonName": "Olive-crowned Crescentchest",
+    "status": [],
+    "note": "2, 4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Melanopareia maranonica",
+    "commonName": "Marañon Crescentchest",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Melanopareia elegans",
+    "commonName": "Elegant Crescentchest",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "family",
+    "label": "CONOPOPHAGIDAE (GNATEATERS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pittasoma michleri",
+    "commonName": "Black-crowned Antpitta",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pittasoma rufopileatum",
+    "commonName": "Rufous-crowned Antpitta",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Conopophaga melanogaster",
+    "commonName": "Black-bellied Gnateater",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Conopophaga melanops",
+    "commonName": "Black-cheeked Gnateater",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Conopophaga aurita",
+    "commonName": "Chestnut-belted Gnateater",
+    "status": [],
+    "note": "2, 3, 4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Conopophaga peruviana",
+    "commonName": "Ash-throated Gnateater",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Conopophaga cearae",
+    "commonName": "Ceara Gnateater",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Conopophaga roberti",
+    "commonName": "Hooded Gnateater",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Conopophaga lineata",
+    "commonName": "Rufous Gnateater",
+    "status": [],
+    "note": "5, 6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Conopophaga castaneiceps",
+    "commonName": "Chestnut-crowned Gnateater",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Conopophaga ardesiaca",
+    "commonName": "Slaty Gnateater",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "family",
+    "label": "GRALLARIIDAE (ANTPITTAS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria squamigera",
+    "commonName": "Undulated Antpitta",
+    "status": [],
+    "note": "4b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria gigantea",
+    "commonName": "Giant Antpitta",
+    "status": [],
+    "note": "4b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria excelsa",
+    "commonName": "Great Antpitta",
+    "status": [],
+    "note": "4b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria varia",
+    "commonName": "Variegated Antpitta",
+    "status": [],
+    "note": "4bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria alleni",
+    "commonName": "Moustached Antpitta",
+    "status": [],
+    "note": "4e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria guatimalensis",
+    "commonName": "Scaled Antpitta",
+    "status": [],
+    "note": "4e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria chthonia",
+    "commonName": "Tachira Antpitta",
+    "status": [],
+    "note": "4c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria haplonota",
+    "commonName": "Plain-backed Antpitta",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria dignissima",
+    "commonName": "Ochre-striped Antpitta",
+    "status": [],
+    "note": "4d, 4f"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria eludens",
+    "commonName": "Elusive Antpitta",
+    "status": [],
+    "note": "4f"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria ruficapilla",
+    "commonName": "Chestnut-crowned Antpitta",
+    "status": [],
+    "note": "6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria watkinsi",
+    "commonName": "Watkins's Antpitta",
+    "status": [],
+    "note": "6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria bangsi",
+    "commonName": "Santa Marta Antpitta",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria kaestneri",
+    "commonName": "Cundinamarca Antpitta",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria andicolus",
+    "commonName": "Stripe-headed Antpitta",
+    "status": [],
+    "note": "8, 8b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria griseonucha",
+    "commonName": "Gray-naped Antpitta",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria ridgelyi",
+    "commonName": "Jocotoco Antpitta",
+    "status": [],
+    "note": "9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria nuchalis",
+    "commonName": "Chestnut-naped Antpitta",
+    "status": [],
+    "note": "9a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria carrikeri",
+    "commonName": "Pale-billed Antpitta",
+    "status": [],
+    "note": "9a, 10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria albigula",
+    "commonName": "White-throated Antpitta",
+    "status": [],
+    "note": "10a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria flavotincta",
+    "commonName": "Yellow-breasted Antpitta",
+    "status": [],
+    "note": "11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria hypoleuca",
+    "commonName": "White-bellied Antpitta",
+    "status": [],
+    "note": "12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria przewalskii",
+    "commonName": "Rusty-tinged Antpitta",
+    "status": [],
+    "note": "12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria capitalis",
+    "commonName": "Bay Antpitta",
+    "status": [],
+    "note": "12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria erythroleuca",
+    "commonName": "Red-and-white Antpitta",
+    "status": [],
+    "note": "8c, 12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria spatiator",
+    "commonName": "Sierra Nevada Antpitta",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria saltuensis",
+    "commonName": "Perija Antpitta",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria rufocinerea",
+    "commonName": "Bicolored Antpitta",
+    "status": [],
+    "note": "8c, 13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria rufula",
+    "commonName": "Muisca Antpitta",
+    "status": [],
+    "note": "13, 14a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria blakei",
+    "commonName": "Chestnut Antpitta",
+    "status": [],
+    "note": "13, 14, 14a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria occabambae",
+    "commonName": "Urubamba Antpitta",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria cochabambae",
+    "commonName": "Bolivian Antpitta",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria alvarezi",
+    "commonName": "Chami Antpitta",
+    "status": [],
+    "note": "13, 14aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria saturata",
+    "commonName": "Equatorial Antpitta",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria cajamarcae",
+    "commonName": "Cajamarca Antpitta",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria gravesi",
+    "commonName": "Graves’s Antpitta",
+    "status": [],
+    "note": "13, 14aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria oneilli",
+    "commonName": "O’Neill’s Antpitta",
+    "status": [],
+    "note": "13, 14aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria obscura",
+    "commonName": "Junin Antpitta",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria centralis",
+    "commonName": "Oxapampa Antpitta",
+    "status": [],
+    "note": "13, 14aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria ayacuchensis",
+    "commonName": "Ayacucho Antpitta",
+    "status": [],
+    "note": "13, 14aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria sinaensis",
+    "commonName": "Puno Antpitta",
+    "status": [],
+    "note": "13, 14aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria quitensis",
+    "commonName": "Tawny Antpitta",
+    "status": [],
+    "note": "14b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria urraoensis",
+    "commonName": "Urrao Antpitta",
+    "status": [],
+    "note": "14c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria milleri",
+    "commonName": "Brown-banded Antpitta",
+    "status": [],
+    "note": "14c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaria erythrotis",
+    "commonName": "Rufous-faced Antpitta",
+    "status": [],
+    "note": "12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cryptopezus nattereri",
+    "commonName": "Speckle-breasted Antpitta",
+    "status": [],
+    "note": "15, 19"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaricula flavirostris",
+    "commonName": "Ochre-breasted Antpitta",
+    "status": [],
+    "note": "20a, 20aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaricula lineifrons",
+    "commonName": "Crescent-faced Antpitta",
+    "status": [],
+    "note": "22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaricula leymebambae",
+    "commonName": "Leymebamba Antpitta",
+    "status": [],
+    "note": "22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaricula loricata",
+    "commonName": "Scallop-breasted Antpitta",
+    "status": [],
+    "note": "20b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaricula cucullata",
+    "commonName": "Hooded Antpitta",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaricula peruviana",
+    "commonName": "Peruvian Antpitta",
+    "status": [],
+    "note": "20c, 20b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaricula ochraceifrons",
+    "commonName": "Ochre-fronted Antpitta",
+    "status": [],
+    "note": "20c, 21"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaricula ferrugineipectus",
+    "commonName": "Rusty-breasted Antpitta",
+    "status": [],
+    "note": "22, 24, 25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaricula nana",
+    "commonName": "Slate-crowned Antpitta",
+    "status": [],
+    "note": "23, 24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Grallaricula cumanensis",
+    "commonName": "Sucre Antpitta",
+    "status": [],
+    "note": "23, 24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hylopezus auricularis",
+    "commonName": "Masked Antpitta",
+    "status": [],
+    "note": "16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hylopezus ochroleucus",
+    "commonName": "White-browed Antpitta",
+    "status": [],
+    "note": "19"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hylopezus perspicillatus",
+    "commonName": "Streak-chested Antpitta",
+    "status": [],
+    "note": "15, 15a, 15b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hylopezus macularius",
+    "commonName": "Spotted Antpitta",
+    "status": [],
+    "note": "16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hylopezus whittakeri",
+    "commonName": "Alta Floresta Antpitta",
+    "status": [],
+    "note": "16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hylopezus paraensis",
+    "commonName": "Snethlage’s Antpitta",
+    "status": [],
+    "note": "16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmothera fulviventris",
+    "commonName": "White-lored Antpitta",
+    "status": [],
+    "note": "15, 17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmothera berlepschi",
+    "commonName": "Amazonian Antpitta",
+    "status": [],
+    "note": "15, 17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmothera dives",
+    "commonName": "Thicket Antpitta",
+    "status": [],
+    "note": "15, 17, 18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmothera campanisona",
+    "commonName": "Thrush-like Antpitta",
+    "status": [],
+    "note": "15, 19a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmothera simplex",
+    "commonName": "Tepui Antpitta",
+    "status": [],
+    "note": "20"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmothera subcanescens",
+    "commonName": "Tapajos Antpitta",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "family",
+    "label": "RHINOCRYPTIDAE (TAPACULOS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Psilorhamphus guttatus",
+    "commonName": "Spotted Bamboowren",
+    "status": [],
+    "note": "4, 4a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Liosceles thoracicus",
+    "commonName": "Rusty-belted Tapaculo",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Acropternis orthonyx",
+    "commonName": "Ocellated Tapaculo",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhinocrypta lanceolata",
+    "commonName": "Crested Gallito",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Teledromas fuscus",
+    "commonName": "Sandy Gallito",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pteroptochos castaneus",
+    "commonName": "Chestnut-throated Huet-huet",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pteroptochos tarnii",
+    "commonName": "Black-throated Huet-huet",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pteroptochos megapodius",
+    "commonName": "Moustached Turca",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Scelorchilus albicollis",
+    "commonName": "White-throated Tapaculo",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Scelorchilus rubecula",
+    "commonName": "Chucao Tapaculo",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Merulaxis ater",
+    "commonName": "Slaty Bristlefront",
+    "status": [],
+    "note": "4b, 4c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Merulaxis stresemanni",
+    "commonName": "Stresemann's Bristlefront",
+    "status": [],
+    "note": "4b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eleoscytalopus psychopompus",
+    "commonName": "Bahia Tapaculo",
+    "status": [],
+    "note": "4c, 26, 26b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eleoscytalopus indigoticus",
+    "commonName": "White-breasted Tapaculo",
+    "status": [],
+    "note": "4c, 25, 26, 26a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eugralla paradoxa",
+    "commonName": "Ochre-flanked Tapaculo",
+    "status": [],
+    "note": "4d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myornis senilis",
+    "commonName": "Ash-colored Tapaculo",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus iraiensis",
+    "commonName": "Marsh Tapaculo",
+    "status": [],
+    "note": "9a, 10, 25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus diamantinensis",
+    "commonName": "Diamantina Tapaculo",
+    "status": [],
+    "note": "9d, 9e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus novacapitalis",
+    "commonName": "Brasilia Tapaculo",
+    "status": [],
+    "note": "25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus petrophilus",
+    "commonName": "Rock Tapaculo",
+    "status": [],
+    "note": "9e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus pachecoi",
+    "commonName": "Planalto Tapaculo",
+    "status": [],
+    "note": "9a, 9b, 9d, 25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus gonzagai",
+    "commonName": "Boa Nova Tapaculo",
+    "status": [],
+    "note": "9a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus speluncae",
+    "commonName": "Mouse-colored Tapaculo",
+    "status": [],
+    "note": "9a, 9b, 9c, 25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus fuscus",
+    "commonName": "Dusky Tapaculo",
+    "status": [],
+    "note": "37"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus magellanicus",
+    "commonName": "Magellanic Tapaculo",
+    "status": [],
+    "note": "27"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus affinis",
+    "commonName": "Ancash Tapaculo",
+    "status": [],
+    "note": "31, 31a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus krabbei",
+    "commonName": "White-winged Tapaculo",
+    "status": [],
+    "note": "31, 31a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus androstictus",
+    "commonName": "Loja Tapaculo",
+    "status": [],
+    "note": "38"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus opacus",
+    "commonName": "Paramo Tapaculo",
+    "status": [],
+    "note": "38"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus canus",
+    "commonName": "Paramillo Tapaculo",
+    "status": [],
+    "note": "38"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus superciliaris",
+    "commonName": "White-browed Tapaculo",
+    "status": [],
+    "note": "36"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus zimmeri",
+    "commonName": "Zimmer's Tapaculo",
+    "status": [],
+    "note": "35"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus simonsi",
+    "commonName": "Puna Tapaculo",
+    "status": [],
+    "note": "34, 34a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus schulenbergi",
+    "commonName": "Diademed Tapaculo",
+    "status": [],
+    "note": "39"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus urubambae",
+    "commonName": "Vilcabamba Tapaculo",
+    "status": [],
+    "note": "33, 33a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus whitneyi",
+    "commonName": "Ampay Tapaculo",
+    "status": [],
+    "note": "33a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus frankeae",
+    "commonName": "Jalca Tapaculo",
+    "status": [],
+    "note": "30, 30a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus altirostris",
+    "commonName": "Neblina Tapaculo",
+    "status": [],
+    "note": "30, 30a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus parvirostris",
+    "commonName": "Trilling Tapaculo",
+    "status": [],
+    "note": "9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus bolivianus",
+    "commonName": "Bolivian Tapaculo",
+    "status": [],
+    "note": "15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus atratus",
+    "commonName": "White-crowned Tapaculo",
+    "status": [],
+    "note": "14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus sanctaemartae",
+    "commonName": "Santa Marta Tapaculo",
+    "status": [],
+    "note": "11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus micropterus",
+    "commonName": "Long-tailed Tapaculo",
+    "status": [],
+    "note": "12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus femoralis",
+    "commonName": "Rufous-vented Tapaculo",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus intermedius",
+    "commonName": "Utcubamba Tapaculo",
+    "status": [],
+    "note": "7a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus macropus",
+    "commonName": "Large-footed Tapaculo",
+    "status": [],
+    "note": "7a, 10b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus gettyae",
+    "commonName": "Junin Tapaculo",
+    "status": [],
+    "note": "7b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus unicolor",
+    "commonName": "Unicolored Tapaculo",
+    "status": [],
+    "note": "8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus acutirostris",
+    "commonName": "Tschudi's Tapaculo",
+    "status": [],
+    "note": "32"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus latrans",
+    "commonName": "Blackish Tapaculo",
+    "status": [],
+    "note": "6, 7, 7a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus vicinior",
+    "commonName": "Nariño Tapaculo",
+    "status": [],
+    "note": "20"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus panamensis",
+    "commonName": "Tacarcuna Tapaculo",
+    "status": [],
+    "note": "16, 16a, 20"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus chocoensis",
+    "commonName": "Choco Tapaculo",
+    "status": [],
+    "note": "17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus rodriguezi",
+    "commonName": "Magdalena Tapaculo",
+    "status": [],
+    "note": "19a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus stilesi",
+    "commonName": "Stiles's Tapaculo",
+    "status": [],
+    "note": "17a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus alvarezlopezi",
+    "commonName": "Tatama Tapaculo",
+    "status": [],
+    "note": "19b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus robbinsi",
+    "commonName": "Ecuadorian Tapaculo",
+    "status": [],
+    "note": "18, 19, 19a, 19b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus caracae",
+    "commonName": "Caracas Tapaculo",
+    "status": [],
+    "note": "22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus griseicollis",
+    "commonName": "Pale-bellied Tapaculo",
+    "status": [],
+    "note": "28, 28a, 28b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus latebricola",
+    "commonName": "Brown-rumped Tapaculo",
+    "status": [],
+    "note": "26a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus perijanus",
+    "commonName": "Perija Tapaculo",
+    "status": [],
+    "note": "21"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus meridanus",
+    "commonName": "Merida Tapaculo",
+    "status": [],
+    "note": "21, 29"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus parkeri",
+    "commonName": "Chusquea Tapaculo",
+    "status": [],
+    "note": "23a, 24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Scytalopus spillmanni",
+    "commonName": "Spillmann's Tapaculo",
+    "status": [],
+    "note": "23, 23a"
+  },
+  {
+    "type": "family",
+    "label": "FORMICARIIDAE (ANTTHRUSHES)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Formicarius colma",
+    "commonName": "Rufous-capped Antthrush",
+    "status": [],
+    "note": "1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Formicarius analis",
+    "commonName": "Black-faced Antthrush",
+    "status": [],
+    "note": "1b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Formicarius rufifrons",
+    "commonName": "Rufous-fronted Antthrush",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Formicarius destructus",
+    "commonName": "Black-hooded Antthrush",
+    "status": [],
+    "note": "1c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Formicarius rufipectus",
+    "commonName": "Rufous-breasted Antthrush",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Chamaeza campanisona",
+    "commonName": "Short-tailed Antthrush",
+    "status": [],
+    "note": "1d, 1e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chamaeza nobilis",
+    "commonName": "Striated Antthrush",
+    "status": [],
+    "note": "2, 2a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chamaeza meruloides",
+    "commonName": "Such's Antthrush",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chamaeza turdina",
+    "commonName": "Schwartz's Antthrush",
+    "status": [],
+    "note": "4, 4a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chamaeza ruficauda",
+    "commonName": "Rufous-tailed Antthrush",
+    "status": [],
+    "note": "4, 4aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chamaeza mollissima",
+    "commonName": "Barred Antthrush",
+    "status": [],
+    "note": ""
+  }
+]

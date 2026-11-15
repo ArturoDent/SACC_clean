@@ -51,7 +51,9 @@ import {
 } from "./cleanup/wordCleanup.js";
 
 const SOURCE_DIR = "dirty/baseline";
-const OUTPUT_DIR = "clean/baseline";
+// SACC_OUTPUT_DIR lets a caller (scripts/diffSpeciesList.js) regenerate into a
+// scratch directory without overwriting clean/.
+const OUTPUT_DIR = process.env.SACC_OUTPUT_DIR ?? "clean/baseline";
 
 // The live site (and our local copies) name part 1 "SACCBaseline.htm" (no number)
 // and parts 2-11 "SACCBaselineNN.htm" (zero-padded). The CLI/test-facing name for
@@ -97,6 +99,20 @@ if (files.length > 1 && !process.env.SACC_SERIAL) {
   if (failures) process.exitCode = 1;
 } else {
   for (const file of files) await cleanBaselineFile(file);
+}
+
+// Writes the taxonomy rows convertFamilySpeciesLists parsed (the records the
+// familySpeciesList markup was built from) as <outputFile>.json next to the
+// HTML. Tracked in git alongside the HTML so a live-site update shows up as a
+// readable data diff ("species X moved to family Y") rather than a diff of
+// thousands of lines of markup. Pages with no taxonomy list get no sidecar.
+async function writeSpeciesListSidecar(results, outputFile) {
+  const rows = results.find((r) => r.name === "convertFamilySpeciesLists")?.value?.rows;
+  if (!rows?.length) return;
+
+  const sidecarFile = outputFile.replace(/\.htm$/i, ".json");
+  await fs.writeFile(sidecarFile, JSON.stringify(rows, null, 2) + "\n", "utf8");
+  console.log(`Wrote ${ sidecarFile } (${ rows.length } rows).`);
 }
 
 async function cleanBaselineFile({ stem, part, sourceFile, outputFile }) {
@@ -158,6 +174,7 @@ async function cleanBaselineFile({ stem, part, sourceFile, outputFile }) {
     const { results } = await createCleanHtml({ sourceFile, outputFile, cleanupSteps: steps });
     logResults(results);
     console.log(`Wrote ${ outputFile }.`);
+    await writeSpeciesListSidecar(results, outputFile);
   } catch (err) {
     console.error(`Failed ${ stem } (${ sourceFile }): ${ err instanceof Error ? err.message : err }`);
     process.exitCode = 1;

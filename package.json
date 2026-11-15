@@ -12,6 +12,7 @@
     "download-proposals": "node scripts/downloadProposals.js",
     "download-baseline": "node scripts/downloadBaseline.js",
     "verify-species-order": "node spreadsheets/scripts/verifySpeciesOrder.js",
+    "diff-species-list": "node scripts/diffSpeciesList.js",
     "clean:baseline": "node src/index.js",
     "clean:proposals": "node src/proposals.js",
     "clean": "npm run clean:baseline && npm run clean:proposals",

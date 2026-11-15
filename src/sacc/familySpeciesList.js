@@ -103,15 +103,33 @@ const splitSpeciesParts = (element) => {
 
   const splitAt = noteMatch?.index ?? -1;
 
-  if (splitAt === -1) {
-    return { scientificName, commonName: rest, note: "" };
-  }
+  const commonName = splitAt === -1 ? rest : normalizeText(rest.slice(0, splitAt));
+  const note = splitAt === -1 ? "" : normalizeText(rest.slice(splitAt));
+
+  // Status codes normally trail the common name ("Corn Crake (V)"), but twice
+  // in the source they follow the footnote numbers instead ("Tristan Penguin
+  // 8, 8a (V)"), so both fields are checked.
+  const name = takeStatus(commonName);
+  const rest2 = takeStatus(note);
 
   return {
     scientificName,
-    commonName: normalizeText(rest.slice(0, splitAt)),
-    note: normalizeText(rest.slice(splitAt)),
+    commonName: name.text,
+    status: [...name.status, ...rest2.status],
+    note: rest2.text,
   };
+};
+
+// Status codes: V vagrant, IN introduced, NB non-breeder, EX extinct; a "?"
+// marks an uncertain one. Several can share one parenthetical: "(V, IN)".
+const STATUS_RE = /\s*\(((?:V|IN|NB|EX)\??(?:,\s*(?:V|IN|NB|EX)\??)*)\)$/;
+
+// Splits a trailing status parenthetical off `text`: "Corn Crake (V)" ->
+// { text: "Corn Crake", status: ["V"] }. Anything else passes through untouched.
+const takeStatus = (text) => {
+  const match = text.match(STATUS_RE);
+  if (!match) return { text, status: [] };
+  return { text: text.slice(0, match.index), status: match[1].split(/,\s*/) };
 };
 
 export const parseTaxonomyRow = (element) => {
@@ -180,52 +198,27 @@ const rowHasListContent = (row) =>
 
 const formatNote = (note) => (note ? ` <span>${ escapeHtml(note) }</span>` : "");
 
-const speciesHtml = ({ scientificName, commonName, note }) => {
-  let classList = "commonName";
+const STATUS_CLASS = { V: "vagrant", IN: "introduced", NB: "nonBreeder", EX: "extinct" };
 
-  if (commonName.endsWith("(IN)")) classList = "commonName introduced";
-  // Sturnus vulgaris European Starling (V, IN) 3 : "V" in vagrant color, all else in IN color
-  else if (commonName.endsWith("(V, IN)")) {
-    classList = "commonName introduced";
-    commonName = commonName.slice(0, -8) + ' (<span class="vagrant">V</span>, IN)';
-  }
-  else if (note.endsWith("(IN)")) {
-    classList = "commonName introduced";
-    commonName = commonName + ' (IN)';
-    note = note.slice(0, -5);  // to remove trailing (IN)
-  }
+// When several codes share one parenthetical, the whole common name takes the
+// color of the highest-priority code and the others are colored individually:
+//   Sturnus vulgaris European Starling (V, IN) 3  - IN color, with "V" in vagrant color
+//   Numenius borealis Eskimo Curlew (NB, EX?) 11a - NB color, with "EX?" in extinct color
+const STATUS_PRIORITY = ["IN", "NB", "V", "EX"];
 
-  else if (commonName.endsWith("(NB)")) classList = "commonName nonBreeder";
-  else if (note.endsWith("(NB)")) {
-    classList = "commonName nonBreeder";
-    commonName = commonName + ' (NB)';
-    note = note.slice(0, -5);  // to remove trailing (NB)
-  }
-  // Eskimo Curlew (NB, EX?) 11a - Curlew is in NBcolor, but EX? is in red/extinct color
-  else if (commonName.endsWith("(NB, EX?)")) {
-    classList = "commonName nonBreeder";
-    commonName = commonName.slice(0, -9) + ' (NB, <span class="extinct">EX?</span>)';
-  }
+const statusCode = (status) => status.replace("?", "");
 
-  // Northern Bentbill: (V?)
-  else if (commonName.endsWith("(V)") || commonName.endsWith("(V?)")) classList = "commonName vagrant";
-  else if (note.endsWith("(V)")) {
-    classList = "commonName vagrant";
-    commonName = commonName + ' (V)';
-    note = note.slice(0, -4);  // to remove trailing (V)
-  }
+const speciesHtml = ({ scientificName, commonName, status = [], note }) => {
+  const primary = STATUS_PRIORITY.find((code) => status.some((s) => statusCode(s) === code));
+  const classList = primary ? `commonName ${ STATUS_CLASS[primary] }` : "commonName";
 
-  else if (commonName.endsWith("(EX)")) classList = "commonName extinct";
-  else if (note.endsWith("(EX)")) {
-    classList = "commonName extinct";
-    commonName = commonName + ' (EX)';
-    note = note.slice(0, -5);  // to remove trailing (EX)
-  }
+  const suffix = status.length
+    ? ` (${ status
+        .map((s) => statusCode(s) === primary ? s : `<span class="${ STATUS_CLASS[statusCode(s)] }">${ s }</span>`)
+        .join(", ") })`
+    : "";
 
-  // If commonName already contains embedded HTML markup (e.g. a nested <span>) use
-  // it directly; otherwise escape so that bare & < > characters are rendered safely.
-  const commonNameHtml = commonName.includes("<") ? commonName : escapeHtml(commonName);
-  return `<li><i>${ escapeHtml(scientificName) }</i> <span class="${ classList }">${ commonNameHtml }</span>${ note ? ` ${ escapeHtml(note) }` : "" }</li>`;
+  return `<li><i>${ escapeHtml(scientificName) }</i> <span class="${ classList }">${ escapeHtml(commonName) }${ suffix }</span>${ note ? ` ${ escapeHtml(note) }` : "" }</li>`;
 };
 
 const buildFamilySpeciesList = (rows) => {
@@ -293,11 +286,20 @@ const buildFamilySpeciesList = (rows) => {
   return html.join("\n");
 };
 
+/**
+ * Replaces each run of taxonomy paragraphs with familySpeciesList markup.
+ *
+ * The parsed rows that fed the markup are also returned (`rows`, in document
+ * order, blanks dropped) so the caller can keep them as a data sidecar - the
+ * same records that build the HTML, without having to re-parse the HTML to get
+ * them back.
+ */
 export const convertFamilySpeciesLists = (document) => {
   const container = document.querySelector("body > div") ?? document.body;
   const children = [...container.children];
   let replacements = 0;
   let currentRun = [];
+  const allRows = [];
 
   const flushRun = () => {
     if (!currentRun.length) return;
@@ -311,7 +313,10 @@ export const convertFamilySpeciesLists = (document) => {
     currentRun[0].element.insertAdjacentHTML("beforebegin", replacementHtml);
     for (const { element } of currentRun) element.remove();
     // if (hasListContent && hasFamilyContent) replacements += 1;
-    if (hasListContent) replacements += 1;
+    if (hasListContent) {
+      replacements += 1;
+      allRows.push(...rows.filter((row) => row.type !== "blank"));
+    }
     currentRun = [];
   };
 
@@ -331,5 +336,6 @@ export const convertFamilySpeciesLists = (document) => {
   return {
     message: `Converted ${ replacements } taxonomy block${ replacements === 1 ? "" : "s" } into familySpeciesList markup.`,
     replacements,
+    rows: allRows,
   };
 };

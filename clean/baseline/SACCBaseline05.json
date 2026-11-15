@@ -1,0 +1,2795 @@
+[
+  {
+    "type": "order",
+    "label": "TROGONIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "TROGONIDAE (TROGONS)",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pharomachrus pavoninus",
+    "commonName": "Pavonine Quetzal",
+    "status": [],
+    "note": "16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pharomachrus auriceps",
+    "commonName": "Golden-headed Quetzal",
+    "status": [],
+    "note": "16, 16b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pharomachrus fulgidus",
+    "commonName": "White-tipped Quetzal",
+    "status": [],
+    "note": "17, 18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pharomachrus antisianus",
+    "commonName": "Crested Quetzal",
+    "status": [],
+    "note": "17, 19"
+  },
+  {
+    "type": "species",
+    "scientificName": "Trogon massena",
+    "commonName": "Slaty-tailed Trogon",
+    "status": [],
+    "note": "11, 12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Trogon comptus",
+    "commonName": "Blue-tailed Trogon",
+    "status": [],
+    "note": "11, 14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Trogon mesurus",
+    "commonName": "Ecuadorian Trogon",
+    "status": [],
+    "note": "11, 13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Trogon melanurus",
+    "commonName": "Black-tailed Trogon",
+    "status": [],
+    "note": "11, 12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Trogon chionurus",
+    "commonName": "White-tailed Trogon",
+    "status": [],
+    "note": "1a, 2, 3, 4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Trogon viridis",
+    "commonName": "Green-backed Trogon",
+    "status": [],
+    "note": "1a, 2, 3, 4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Trogon caligatus",
+    "commonName": "Gartered Violaceous-Trogon",
+    "status": [],
+    "note": "8, 8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Trogon ramonianus",
+    "commonName": "Amazonian Violaceous-Trogon",
+    "status": [],
+    "note": "8, 8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Trogon violaceus",
+    "commonName": "Guianan Violaceous-Trogon",
+    "status": [],
+    "note": "8, 8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Trogon curucui",
+    "commonName": "Blue-crowned Trogon",
+    "status": [],
+    "note": "6, 7, 7a, 7b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Trogon surrucura",
+    "commonName": "Surucua Trogon",
+    "status": [],
+    "note": "5, 6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Trogon tenellus",
+    "commonName": "Graceful Black-throated Trogon",
+    "status": [],
+    "note": "6, 7, 7c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Trogon cupreicauda",
+    "commonName": "Kerr’s Black-throated Trogon",
+    "status": [],
+    "note": "6, 7, 7c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Trogon rufus",
+    "commonName": "Amazonian Black-throated Trogon",
+    "status": [],
+    "note": "6, 7, 7c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Trogon chrysochloros",
+    "commonName": "Atlantic Black-throated Trogon",
+    "status": [],
+    "note": "6, 7, 7c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Trogon collaris",
+    "commonName": "Collared Trogon",
+    "status": [],
+    "note": "6, 7, 9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Trogon personatus",
+    "commonName": "Masked Trogon",
+    "status": [],
+    "note": "6, 10, 10a"
+  },
+  {
+    "type": "order",
+    "label": "CORACIIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "MOMOTIDAE (MOTMOTS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hylomanes momotula",
+    "commonName": "Tody Motmot",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Electron platyrhynchum",
+    "commonName": "Broad-billed Motmot",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Baryphthengus martii",
+    "commonName": "Rufous Motmot",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Baryphthengus ruficapillus",
+    "commonName": "Rufous-capped Motmot",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Momotus subrufescens",
+    "commonName": "Whooping Motmot",
+    "status": [],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Momotus bahamensis",
+    "commonName": "Trinidad Motmot",
+    "status": [],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Momotus momota",
+    "commonName": "Amazonian Motmot",
+    "status": [],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Momotus aequatorialis",
+    "commonName": "Andean Motmot",
+    "status": [],
+    "note": "4"
+  },
+  {
+    "type": "family",
+    "label": "ALCEDINIDAE (KINGFISHERS)",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Megaceryle torquata",
+    "commonName": "Ringed Kingfisher",
+    "status": [],
+    "note": "2, 3, 4, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Megaceryle alcyon",
+    "commonName": "Belted Kingfisher",
+    "status": [
+      "NB"
+    ],
+    "note": "2, 3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chloroceryle amazona",
+    "commonName": "Amazon Kingfisher",
+    "status": [],
+    "note": "6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chloroceryle aenea",
+    "commonName": "American Pygmy Kingfisher",
+    "status": [],
+    "note": "6, 7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chloroceryle americana",
+    "commonName": "Green Kingfisher",
+    "status": [],
+    "note": "6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chloroceryle inda",
+    "commonName": "Green-and-rufous Kingfisher",
+    "status": [],
+    "note": "6"
+  },
+  {
+    "type": "order",
+    "label": "GALBULIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "GALBULIDAE (JACAMARS)",
+    "note": "1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Galbalcyrhynchus leucotis",
+    "commonName": "White-eared Jacamar",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Galbalcyrhynchus purusianus",
+    "commonName": "Purus Jacamar",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Brachygalba albogularis",
+    "commonName": "White-throated Jacamar",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Brachygalba lugubris",
+    "commonName": "Brown Jacamar",
+    "status": [],
+    "note": "3, 4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Brachygalba goeringi",
+    "commonName": "Pale-headed Jacamar",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Brachygalba salmoni",
+    "commonName": "Dusky-backed Jacamar",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Jacamaralcyon tridactyla",
+    "commonName": "Three-toed Jacamar",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Galbula albirostris",
+    "commonName": "Yellow-billed Jacamar",
+    "status": [],
+    "note": "6, 7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Galbula cyanicollis",
+    "commonName": "Blue-cheeked Jacamar",
+    "status": [],
+    "note": "6, 8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Galbula ruficauda",
+    "commonName": "Rufous-tailed Jacamar",
+    "status": [],
+    "note": "9, 10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Galbula galbula",
+    "commonName": "Green-tailed Jacamar",
+    "status": [],
+    "note": "9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Galbula tombacea",
+    "commonName": "White-chinned Jacamar",
+    "status": [],
+    "note": "9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Galbula cyanescens",
+    "commonName": "Bluish-fronted Jacamar",
+    "status": [],
+    "note": "9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Galbula pastazae",
+    "commonName": "Coppery-chested Jacamar",
+    "status": [],
+    "note": "9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Galbula chalcothorax",
+    "commonName": "Purplish Jacamar",
+    "status": [],
+    "note": "11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Galbula leucogastra",
+    "commonName": "Bronzy Jacamar",
+    "status": [],
+    "note": "11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Galbula dea",
+    "commonName": "Paradise Jacamar",
+    "status": [],
+    "note": "11a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Jacamerops aureus",
+    "commonName": "Great Jacamar",
+    "status": [],
+    "note": "12"
+  },
+  {
+    "type": "family",
+    "label": "BUCCONIDAE (PUFFBIRDS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Notharchus hyperrhynchus",
+    "commonName": "White-necked Puffbird",
+    "status": [],
+    "note": "1a, 1b, 1c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Notharchus macrorhynchos",
+    "commonName": "Guianan Puffbird",
+    "status": [],
+    "note": "1b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Notharchus swainsoni",
+    "commonName": "Buff-bellied Puffbird",
+    "status": [],
+    "note": "1b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Notharchus pectoralis",
+    "commonName": "Black-breasted Puffbird",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Notharchus ordii",
+    "commonName": "Brown-banded Puffbird",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Notharchus tectus",
+    "commonName": "Pied Puffbird",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Bucco macrodactylus",
+    "commonName": "Chestnut-capped Puffbird",
+    "status": [],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Bucco tamatia",
+    "commonName": "Spotted Puffbird",
+    "status": [],
+    "note": "5, 5a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Bucco noanamae",
+    "commonName": "Sooty-capped Puffbird",
+    "status": [],
+    "note": "5, 5a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Bucco capensis",
+    "commonName": "Collared Puffbird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Nystalus radiatus",
+    "commonName": "Barred Puffbird",
+    "status": [],
+    "note": "6, 6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nystalus obamai",
+    "commonName": "Western Striolated-Puffbird",
+    "status": [],
+    "note": "6, 6a, 6b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nystalus striolatus",
+    "commonName": "Eastern Striolated-Puffbird",
+    "status": [],
+    "note": "6, 6a, 6b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nystalus chacuru",
+    "commonName": "White-eared Puffbird",
+    "status": [],
+    "note": "6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nystalus maculatus",
+    "commonName": "Spot-backed Puffbird",
+    "status": [],
+    "note": "7, 7a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hypnelus ruficollis",
+    "commonName": "Russet-throated Puffbird",
+    "status": [],
+    "note": "8, 9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Malacoptila fusca",
+    "commonName": "White-chested Puffbird",
+    "status": [],
+    "note": "10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Malacoptila semicincta",
+    "commonName": "Semicollared Puffbird",
+    "status": [],
+    "note": "10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Malacoptila striata",
+    "commonName": "Crescent-chested Puffbird",
+    "status": [],
+    "note": "10, 10a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Malacoptila rufa",
+    "commonName": "Rufous-necked Puffbird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Malacoptila panamensis",
+    "commonName": "White-whiskered Puffbird",
+    "status": [],
+    "note": "11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Malacoptila fulvogularis",
+    "commonName": "Black-streaked Puffbird",
+    "status": [],
+    "note": "11, 11a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Malacoptila mystacalis",
+    "commonName": "Moustached Puffbird",
+    "status": [],
+    "note": "11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Micromonacha lanceolata",
+    "commonName": "Lanceolated Monklet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Nonnula rubecula",
+    "commonName": "Rusty-breasted Nunlet",
+    "status": [],
+    "note": "12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nonnula sclateri",
+    "commonName": "Fulvous-chinned Nunlet",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nonnula brunnea",
+    "commonName": "Brown Nunlet",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nonnula frontalis",
+    "commonName": "Gray-cheeked Nunlet",
+    "status": [],
+    "note": "14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nonnula ruficapilla",
+    "commonName": "Rufous-capped Nunlet",
+    "status": [],
+    "note": "14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nonnula amaurocephala",
+    "commonName": "Chestnut-headed Nunlet",
+    "status": [],
+    "note": "15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hapaloptila castanea",
+    "commonName": "White-faced Nunbird",
+    "status": [],
+    "note": "15a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Monasa atra",
+    "commonName": "Black Nunbird",
+    "status": [],
+    "note": "16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Monasa nigrifrons",
+    "commonName": "Black-fronted Nunbird",
+    "status": [],
+    "note": "16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Monasa morphoeus",
+    "commonName": "White-fronted Nunbird",
+    "status": [],
+    "note": "16, 16a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Monasa flavirostris",
+    "commonName": "Yellow-billed Nunbird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Chelidoptera tenebrosa",
+    "commonName": "Swallow-winged Puffbird",
+    "status": [],
+    "note": "17"
+  },
+  {
+    "type": "order",
+    "label": "PICIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "CAPITONIDAE (NEW WORLD BARBETS)",
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Capito aurovirens",
+    "commonName": "Scarlet-crowned Barbet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Capito dayi",
+    "commonName": "Black-girdled Barbet",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Capito maculicoronatus",
+    "commonName": "Spot-crowned Barbet",
+    "status": [],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Capito squamatus",
+    "commonName": "Orange-fronted Barbet",
+    "status": [],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Capito hypoleucus",
+    "commonName": "White-mantled Barbet",
+    "status": [],
+    "note": "4a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Capito wallacei",
+    "commonName": "Scarlet-banded Barbet",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Capito quinticolor",
+    "commonName": "Five-colored Barbet",
+    "status": [],
+    "note": "4a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Capito brunneipectus",
+    "commonName": "Brown-chested Barbet",
+    "status": [],
+    "note": "6, 7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Capito niger",
+    "commonName": "Black-spotted Barbet",
+    "status": [],
+    "note": "6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Capito auratus",
+    "commonName": "Gilded Barbet",
+    "status": [],
+    "note": "6, 6b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eubucco richardsoni",
+    "commonName": "Lemon-throated Barbet",
+    "status": [],
+    "note": "8, 8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eubucco tucinkae",
+    "commonName": "Scarlet-hooded Barbet",
+    "status": [],
+    "note": "9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eubucco bourcierii",
+    "commonName": "Red-headed Barbet",
+    "status": [],
+    "note": "10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eubucco versicolor",
+    "commonName": "Versicolored Barbet",
+    "status": [],
+    "note": "8a, 10, 11"
+  },
+  {
+    "type": "family",
+    "label": "SEMNORNITHIDAE (TOUCAN-BARBETS)",
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Semnornis ramphastinus",
+    "commonName": "Toucan Barbet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "family",
+    "label": "RAMPHASTIDAE (TOUCANS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ramphastos toco",
+    "commonName": "Toco Toucan",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Ramphastos ambiguus",
+    "commonName": "Yellow-throated Toucan",
+    "status": [],
+    "note": "23, 24, 25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ramphastos tucanus",
+    "commonName": "White-throated Toucan",
+    "status": [],
+    "note": "22, 22a, 22b, 23, 23b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ramphastos sulfuratus",
+    "commonName": "Keel-billed Toucan",
+    "status": [],
+    "note": "18, 21"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ramphastos brevis",
+    "commonName": "Choco Toucan",
+    "status": [],
+    "note": "18, 20"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ramphastos vitellinus",
+    "commonName": "Channel-billed Toucan",
+    "status": [],
+    "note": "18, 19, 19a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ramphastos dicolorus",
+    "commonName": "Red-breasted Toucan",
+    "status": [],
+    "note": "18, 18a, 18b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aulacorhynchus albivitta",
+    "commonName": "Southern Emerald-Toucanet",
+    "status": [],
+    "note": "1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aulacorhynchus sulcatus",
+    "commonName": "Groove-billed Toucanet",
+    "status": [],
+    "note": "2, 3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aulacorhynchus derbianus",
+    "commonName": "Chestnut-tipped Toucanet",
+    "status": [],
+    "note": "3, 3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aulacorhynchus whitelianus",
+    "commonName": "Tepui Toucanet",
+    "status": [],
+    "note": "3, 3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aulacorhynchus haematopygus",
+    "commonName": "Crimson-rumped Toucanet",
+    "status": [],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aulacorhynchus huallagae",
+    "commonName": "Yellow-browed Toucanet",
+    "status": [],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aulacorhynchus coeruleicinctis",
+    "commonName": "Blue-banded Toucanet",
+    "status": [],
+    "note": "4, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Andigena hypoglauca",
+    "commonName": "Gray-breasted Mountain-Toucan",
+    "status": [],
+    "note": "17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Andigena laminirostris",
+    "commonName": "Plate-billed Mountain-Toucan",
+    "status": [],
+    "note": "17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Andigena cucullata",
+    "commonName": "Hooded Mountain-Toucan",
+    "status": [],
+    "note": "17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Andigena nigrirostris",
+    "commonName": "Black-billed Mountain-Toucan",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Selenidera spectabilis",
+    "commonName": "Yellow-eared Toucanet",
+    "status": [],
+    "note": "14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Selenidera piperivora",
+    "commonName": "Guianan Toucanet",
+    "status": [],
+    "note": "14, 14a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Selenidera reinwardtii",
+    "commonName": "Golden-collared Toucanet",
+    "status": [],
+    "note": "14, 15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Selenidera nattereri",
+    "commonName": "Tawny-tufted Toucanet",
+    "status": [],
+    "note": "14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Selenidera gouldii",
+    "commonName": "Gould's Toucanet",
+    "status": [],
+    "note": "14, 16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Selenidera maculirostris",
+    "commonName": "Spot-billed Toucanet",
+    "status": [],
+    "note": "14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pteroglossus bailloni",
+    "commonName": "Saffron Toucanet",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pteroglossus viridis",
+    "commonName": "Green Aracari",
+    "status": [],
+    "note": "6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pteroglossus inscriptus",
+    "commonName": "Lettered Aracari",
+    "status": [],
+    "note": "6, 7a, 7b, 10b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pteroglossus torquatus",
+    "commonName": "Collared Aracari",
+    "status": [],
+    "note": "10a, 11, 11a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pteroglossus aracari",
+    "commonName": "Black-necked Aracari",
+    "status": [],
+    "note": "10, 10c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pteroglossus castanotis",
+    "commonName": "Chestnut-eared Aracari",
+    "status": [],
+    "note": "10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pteroglossus pluricinctus",
+    "commonName": "Many-banded Aracari",
+    "status": [],
+    "note": "10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pteroglossus azara",
+    "commonName": "Ivory-billed Aracari",
+    "status": [],
+    "note": "8, 9, 9a, 10, 10b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pteroglossus beauharnaisii",
+    "commonName": "Curl-crested Aracari",
+    "status": [],
+    "note": "12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pteroglossus bitorquatus",
+    "commonName": "Red-necked Aracari",
+    "status": [],
+    "note": "8, 8a"
+  },
+  {
+    "type": "family",
+    "label": "PICIDAE (WOODPECKERS)",
+    "note": "1"
+  },
+  {
+    "type": "subfamily",
+    "label": "Picumninae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Picumnus aurifrons",
+    "commonName": "Bar-breasted Piculet",
+    "status": [],
+    "note": "2, 3, 4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Picumnus pumilus",
+    "commonName": "Orinoco Piculet",
+    "status": [],
+    "note": "5, 5a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Picumnus lafresnayi",
+    "commonName": "Lafresnaye's Piculet",
+    "status": [],
+    "note": "4, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Picumnus exilis",
+    "commonName": "Golden-spangled Piculet",
+    "status": [],
+    "note": "5b, 6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Picumnus sclateri",
+    "commonName": "Ecuadorian Piculet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Picumnus squamulatus",
+    "commonName": "Scaled Piculet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Picumnus spilogaster",
+    "commonName": "White-bellied Piculet",
+    "status": [],
+    "note": "8, 9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Picumnus limae",
+    "commonName": "Ochraceous Piculet",
+    "status": [],
+    "note": "19, 20"
+  },
+  {
+    "type": "species",
+    "scientificName": "Picumnus minutissimus",
+    "commonName": "Arrowhead Piculet",
+    "status": [],
+    "note": "8, 9, 10, 16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Picumnus pygmaeus",
+    "commonName": "Spotted Piculet",
+    "status": [],
+    "note": "11, 17b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Picumnus steindachneri",
+    "commonName": "Speckle-chested Piculet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Picumnus varzeae",
+    "commonName": "Varzea Piculet",
+    "status": [],
+    "note": "11, 12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Picumnus cirratus",
+    "commonName": "White-barred Piculet",
+    "status": [],
+    "note": "12, 13, 14, 16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Picumnus dorbignyanus",
+    "commonName": "Ocellated Piculet",
+    "status": [],
+    "note": "13, 15, 16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Picumnus temminckii",
+    "commonName": "Ochre-collared Piculet",
+    "status": [],
+    "note": "13, 16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Picumnus albosquamatus",
+    "commonName": "White-wedged Piculet",
+    "status": [],
+    "note": "16, 17, 17b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Picumnus fuscus",
+    "commonName": "Rusty-necked Piculet",
+    "status": [],
+    "note": "18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Picumnus rufiventris",
+    "commonName": "Rufous-breasted Piculet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Picumnus nebulosus",
+    "commonName": "Mottled Piculet",
+    "status": [],
+    "note": "20, 20a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Picumnus castelnau",
+    "commonName": "Plain-breasted Piculet",
+    "status": [],
+    "note": "21"
+  },
+  {
+    "type": "species",
+    "scientificName": "Picumnus subtilis",
+    "commonName": "Fine-barred Piculet",
+    "status": [],
+    "note": "21"
+  },
+  {
+    "type": "species",
+    "scientificName": "Picumnus olivaceus",
+    "commonName": "Olivaceous Piculet",
+    "status": [],
+    "note": "22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Picumnus granadensis",
+    "commonName": "Grayish Piculet",
+    "status": [],
+    "note": "22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Picumnus cinnamomeus",
+    "commonName": "Chestnut Piculet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "subfamily",
+    "label": "Picinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Sphyrapicus varius",
+    "commonName": "Yellow-bellied Sapsucker",
+    "status": [
+      "V"
+    ],
+    "note": "35a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Melanerpes candidus",
+    "commonName": "White Woodpecker",
+    "status": [],
+    "note": "23"
+  },
+  {
+    "type": "species",
+    "scientificName": "Melanerpes formicivorus",
+    "commonName": "Acorn Woodpecker",
+    "status": [],
+    "note": "24, 25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Melanerpes cruentatus",
+    "commonName": "Yellow-tufted Woodpecker",
+    "status": [],
+    "note": "26, 27, 28, 29"
+  },
+  {
+    "type": "species",
+    "scientificName": "Melanerpes flavifrons",
+    "commonName": "Yellow-fronted Woodpecker",
+    "status": [],
+    "note": "26, 27"
+  },
+  {
+    "type": "species",
+    "scientificName": "Melanerpes pulcher",
+    "commonName": "Beautiful Woodpecker",
+    "status": [],
+    "note": "26, 30, 31"
+  },
+  {
+    "type": "species",
+    "scientificName": "Melanerpes pucherani",
+    "commonName": "Black-cheeked Woodpecker",
+    "status": [],
+    "note": "26, 30"
+  },
+  {
+    "type": "species",
+    "scientificName": "Melanerpes cactorum",
+    "commonName": "White-fronted Woodpecker",
+    "status": [],
+    "note": "32"
+  },
+  {
+    "type": "species",
+    "scientificName": "Melanerpes rubricapillus",
+    "commonName": "Red-crowned Woodpecker",
+    "status": [],
+    "note": "33, 34, 35"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dryobates fumigatus",
+    "commonName": "Smoky-brown Woodpecker",
+    "status": [],
+    "note": "41, 41a, 41b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dryobates kirkii",
+    "commonName": "Red-rumped Woodpecker",
+    "status": [],
+    "note": "41, 44"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dryobates cassini",
+    "commonName": "Golden-collared Woodpecker",
+    "status": [],
+    "note": "45"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dryobates spilogaster",
+    "commonName": "White-spotted Woodpecker",
+    "status": [],
+    "note": "42"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dryobates mixtus",
+    "commonName": "Checkered Woodpecker",
+    "status": [],
+    "note": "36, 37, 38"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dryobates lignarius",
+    "commonName": "Striped Woodpecker",
+    "status": [],
+    "note": "36, 37"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dryobates sanguineus",
+    "commonName": "Blood-colored Woodpecker",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Dryobates passerinus",
+    "commonName": "Little Woodpecker",
+    "status": [],
+    "note": "42, 43"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dryobates frontalis",
+    "commonName": "Dot-fronted Woodpecker",
+    "status": [],
+    "note": "42"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dryobates callonotus",
+    "commonName": "Scarlet-backed Woodpecker",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Dryobates dignus",
+    "commonName": "Yellow-vented Woodpecker",
+    "status": [],
+    "note": "39, 40"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dryobates nigriceps",
+    "commonName": "Bar-bellied Woodpecker",
+    "status": [],
+    "note": "40"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dryobates affinis",
+    "commonName": "Red-stained Woodpecker",
+    "status": [],
+    "note": "44, 45, 46"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dryobates chocoensis",
+    "commonName": "Choco Woodpecker",
+    "status": [],
+    "note": "45"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dryobates maculifrons",
+    "commonName": "Yellow-eared Woodpecker",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Campephilus pollens",
+    "commonName": "Powerful Woodpecker",
+    "status": [],
+    "note": "81, 82"
+  },
+  {
+    "type": "species",
+    "scientificName": "Campephilus haematogaster",
+    "commonName": "Crimson-bellied Woodpecker",
+    "status": [],
+    "note": "82, 83, 84"
+  },
+  {
+    "type": "species",
+    "scientificName": "Campephilus rubricollis",
+    "commonName": "Red-necked Woodpecker",
+    "status": [],
+    "note": "81, 85, 85a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Campephilus robustus",
+    "commonName": "Robust Woodpecker",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Campephilus melanoleucos",
+    "commonName": "Crimson-crested Woodpecker",
+    "status": [],
+    "note": "81, 86, 87"
+  },
+  {
+    "type": "species",
+    "scientificName": "Campephilus gayaquilensis",
+    "commonName": "Guayaquil Woodpecker",
+    "status": [],
+    "note": "81, 87"
+  },
+  {
+    "type": "species",
+    "scientificName": "Campephilus leucopogon",
+    "commonName": "Cream-backed Woodpecker",
+    "status": [],
+    "note": "81"
+  },
+  {
+    "type": "species",
+    "scientificName": "Campephilus magellanicus",
+    "commonName": "Magellanic Woodpecker",
+    "status": [],
+    "note": "88"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dryocopus lineatus",
+    "commonName": "Lineated Woodpecker",
+    "status": [],
+    "note": "76a, 77, 78, 79"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dryocopus schulzi",
+    "commonName": "Black-bodied Woodpecker",
+    "status": [],
+    "note": "77, 80, 80a, 80aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Celeus loricatus",
+    "commonName": "Cinnamon Woodpecker",
+    "status": [],
+    "note": "66"
+  },
+  {
+    "type": "species",
+    "scientificName": "Celeus torquatus",
+    "commonName": "Ringed Woodpecker",
+    "status": [],
+    "note": "74, 75"
+  },
+  {
+    "type": "species",
+    "scientificName": "Celeus galeatus",
+    "commonName": "Helmeted Woodpecker",
+    "status": [],
+    "note": "76, 76a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Celeus undatus",
+    "commonName": "Variable Woodpecker",
+    "status": [],
+    "note": "66"
+  },
+  {
+    "type": "species",
+    "scientificName": "Celeus flavus",
+    "commonName": "Cream-colored Woodpecker",
+    "status": [],
+    "note": "72"
+  },
+  {
+    "type": "species",
+    "scientificName": "Celeus spectabilis",
+    "commonName": "Rufous-headed Woodpecker",
+    "status": [],
+    "note": "73"
+  },
+  {
+    "type": "species",
+    "scientificName": "Celeus obrieni",
+    "commonName": "Kaempfer's Woodpecker",
+    "status": [],
+    "note": "73, 73a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Celeus ochraceus",
+    "commonName": "Ochre-backed Woodpecker",
+    "status": [],
+    "note": "69a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Celeus elegans",
+    "commonName": "Chestnut Woodpecker",
+    "status": [],
+    "note": "69, 70, 70a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Celeus lugubris",
+    "commonName": "Pale-crested Woodpecker",
+    "status": [],
+    "note": "69, 70a, 71"
+  },
+  {
+    "type": "species",
+    "scientificName": "Celeus flavescens",
+    "commonName": "Blond-crested Woodpecker",
+    "status": [],
+    "note": "69, 69a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Piculus leucolaemus",
+    "commonName": "White-throated Woodpecker",
+    "status": [],
+    "note": "47, 47a, 48, 49, 35"
+  },
+  {
+    "type": "species",
+    "scientificName": "Piculus litae",
+    "commonName": "Lita Woodpecker",
+    "status": [],
+    "note": "48"
+  },
+  {
+    "type": "species",
+    "scientificName": "Piculus flavigula",
+    "commonName": "Yellow-throated Woodpecker",
+    "status": [],
+    "note": "50"
+  },
+  {
+    "type": "species",
+    "scientificName": "Piculus chrysochloros",
+    "commonName": "Golden-green Woodpecker",
+    "status": [],
+    "note": "51, 52"
+  },
+  {
+    "type": "species",
+    "scientificName": "Piculus aurulentus",
+    "commonName": "White-browed Woodpecker",
+    "status": [],
+    "note": "51"
+  },
+  {
+    "type": "species",
+    "scientificName": "Colaptes rubiginosus",
+    "commonName": "Golden-olive Woodpecker",
+    "status": [],
+    "note": "47, 53, 54, 55"
+  },
+  {
+    "type": "species",
+    "scientificName": "Colaptes rivolii",
+    "commonName": "Crimson-mantled Woodpecker",
+    "status": [],
+    "note": "47, 55, 56, 57"
+  },
+  {
+    "type": "species",
+    "scientificName": "Colaptes atricollis",
+    "commonName": "Black-necked Woodpecker",
+    "status": [],
+    "note": "58, 59, 35"
+  },
+  {
+    "type": "species",
+    "scientificName": "Colaptes punctigula",
+    "commonName": "Spot-breasted Woodpecker",
+    "status": [],
+    "note": "58, 59, 61"
+  },
+  {
+    "type": "species",
+    "scientificName": "Colaptes melanochloros",
+    "commonName": "Green-barred Woodpecker",
+    "status": [],
+    "note": "58, 59, 60, 61"
+  },
+  {
+    "type": "species",
+    "scientificName": "Colaptes pitius",
+    "commonName": "Chilean Flicker",
+    "status": [],
+    "note": "62, 63"
+  },
+  {
+    "type": "species",
+    "scientificName": "Colaptes rupicola",
+    "commonName": "Andean Flicker",
+    "status": [],
+    "note": "62, 63, 64"
+  },
+  {
+    "type": "species",
+    "scientificName": "Colaptes campestris",
+    "commonName": "Campo Flicker",
+    "status": [],
+    "note": "62, 65, 66"
+  },
+  {
+    "type": "order",
+    "label": "CARIAMIFORMES",
+    "note": ""
+  },
+  {
+    "type": "family",
+    "label": "CARIAMIDAE (SERIEMAS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cariama cristata",
+    "commonName": "Red-legged Seriema",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Chunga burmeisteri",
+    "commonName": "Black-legged Seriema",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "order",
+    "label": "FALCONIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "FALCONIDAE (FALCONS)",
+    "note": "1a"
+  },
+  {
+    "type": "subfamily",
+    "label": "Herpetotherinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Herpetotheres cachinnans",
+    "commonName": "Laughing Falcon",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Micrastur ruficollis",
+    "commonName": "Barred Forest-Falcon",
+    "status": [],
+    "note": "8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Micrastur plumbeus",
+    "commonName": "Plumbeous Forest-Falcon",
+    "status": [],
+    "note": "8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Micrastur gilvicollis",
+    "commonName": "Lined Forest-Falcon",
+    "status": [],
+    "note": "8a, 9, 10a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Micrastur mintoni",
+    "commonName": "Cryptic Forest-Falcon",
+    "status": [],
+    "note": "10, 10a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Micrastur mirandollei",
+    "commonName": "Slaty-backed Forest-Falcon",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Micrastur semitorquatus",
+    "commonName": "Collared Forest-Falcon",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Micrastur buckleyi",
+    "commonName": "Buckley's Forest-Falcon",
+    "status": [],
+    "note": "10b"
+  },
+  {
+    "type": "subfamily",
+    "label": "Falconinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Spiziapteryx circumcincta",
+    "commonName": "Spot-winged Falconet",
+    "status": [],
+    "note": "11, 11a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Caracara plancus",
+    "commonName": "Crested Caracara",
+    "status": [],
+    "note": "2, 3b, 6, 7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ibycter americanus",
+    "commonName": "Red-throated Caracara",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phalcoboenus carunculatus",
+    "commonName": "Carunculated Caracara",
+    "status": [],
+    "note": "2, 3, 3a 3b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phalcoboenus megalopterus",
+    "commonName": "Mountain Caracara",
+    "status": [],
+    "note": "3, 3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phalcoboenus albogularis",
+    "commonName": "White-throated Caracara",
+    "status": [],
+    "note": "3, 4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phalcoboenus australis",
+    "commonName": "Striated Caracara",
+    "status": [],
+    "note": "3, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Daptrius ater",
+    "commonName": "Black Caracara",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Milvago chimachima",
+    "commonName": "Yellow-headed Caracara",
+    "status": [],
+    "note": "2, 7b, 7c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Milvago chimango",
+    "commonName": "Chimango Caracara",
+    "status": [],
+    "note": "7b, 7c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Falco tinnunculus",
+    "commonName": "Eurasian Kestrel",
+    "status": [
+      "V"
+    ],
+    "note": "10c, 10d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Falco sparverius",
+    "commonName": "American Kestrel",
+    "status": [],
+    "note": "11b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Falco columbarius",
+    "commonName": "Merlin",
+    "status": [
+      "NB"
+    ],
+    "note": "11c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Falco rufigularis",
+    "commonName": "Bat Falcon",
+    "status": [],
+    "note": "11d, 12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Falco deiroleucus",
+    "commonName": "Orange-breasted Falcon",
+    "status": [],
+    "note": "12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Falco femoralis",
+    "commonName": "Aplomado Falcon",
+    "status": [],
+    "note": "12a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Falco peregrinus",
+    "commonName": "Peregrine Falcon",
+    "status": [],
+    "note": "12, 12b"
+  },
+  {
+    "type": "order",
+    "label": "PSITTACIFORMES",
+    "note": "1, 1a"
+  },
+  {
+    "type": "family",
+    "label": "PSITTACULIDAE (OLD WORLD PARROTS)",
+    "note": ""
+  },
+  {
+    "type": "subfamily",
+    "label": "Psittaculinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Psittacula krameri",
+    "commonName": "Rose-ringed Parakeet",
+    "status": [
+      "IN"
+    ],
+    "note": "1aa"
+  },
+  {
+    "type": "family",
+    "label": "PSITTACIDAE (NEW WORLD AND AFRICAN PARROTS)",
+    "note": ""
+  },
+  {
+    "type": "subfamily",
+    "label": "Arinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Touit batavicus",
+    "commonName": "Lilac-tailed Parrotlet",
+    "status": [],
+    "note": "21e, 25b, 25c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Touit huetii",
+    "commonName": "Scarlet-shouldered Parrotlet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Touit dilectissimus",
+    "commonName": "Blue-fronted Parrotlet",
+    "status": [],
+    "note": "25b, 26, 26a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Touit purpuratus",
+    "commonName": "Sapphire-rumped Parrotlet",
+    "status": [],
+    "note": "25b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Touit melanonotus",
+    "commonName": "Brown-backed Parrotlet",
+    "status": [],
+    "note": "25b, 25d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Touit surdus",
+    "commonName": "Golden-tailed Parrotlet",
+    "status": [],
+    "note": "25b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Touit stictopterus",
+    "commonName": "Spot-winged Parrotlet",
+    "status": [],
+    "note": "25b 25dd"
+  },
+  {
+    "type": "species",
+    "scientificName": "Psilopsiagon aymara",
+    "commonName": "Gray-hooded Parakeet",
+    "status": [],
+    "note": "21c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Psilopsiagon aurifrons",
+    "commonName": "Mountain Parakeet",
+    "status": [],
+    "note": "22, 22a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Bolborhynchus lineola",
+    "commonName": "Barred Parakeet",
+    "status": [],
+    "note": "21e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Bolborhynchus ferrugineifrons",
+    "commonName": "Rufous-fronted Parakeet",
+    "status": [],
+    "note": "22b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Bolborhynchus orbygnesius",
+    "commonName": "Andean Parakeet",
+    "status": [],
+    "note": "22b, 22c, 22cc"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nannopsittaca panychlora",
+    "commonName": "Tepui Parrotlet",
+    "status": [],
+    "note": "21e, 24g"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nannopsittaca dachilleae",
+    "commonName": "Amazonian Parrotlet",
+    "status": [],
+    "note": "24g, 25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiopsitta monachus",
+    "commonName": "Monk Parakeet",
+    "status": [],
+    "note": "21b, 21d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiopsitta luchsi",
+    "commonName": "Cliff Parakeet",
+    "status": [],
+    "note": "21b, 21d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Brotogeris sanctithomae",
+    "commonName": "Tui Parakeet",
+    "status": [],
+    "note": "21d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Brotogeris tirica",
+    "commonName": "Plain Parakeet",
+    "status": [],
+    "note": "21d, 23c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Brotogeris versicolurus",
+    "commonName": "Canary-winged Parakeet",
+    "status": [],
+    "note": "23c, 24, 24a, 24aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Brotogeris chiriri",
+    "commonName": "Yellow-chevroned Parakeet",
+    "status": [],
+    "note": "23c, 24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Brotogeris pyrrhoptera",
+    "commonName": "Gray-cheeked Parakeet",
+    "status": [],
+    "note": "24d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Brotogeris jugularis",
+    "commonName": "Orange-chinned Parakeet",
+    "status": [],
+    "note": "24b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Brotogeris cyanoptera",
+    "commonName": "Cobalt-winged Parakeet",
+    "status": [],
+    "note": "24b, 24c, 24d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Brotogeris chrysoptera",
+    "commonName": "Golden-winged Parakeet",
+    "status": [],
+    "note": "24b, 24e, 24f"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pionopsitta pileata",
+    "commonName": "Pileated Parrot",
+    "status": [],
+    "note": "28, 28aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Triclaria malachitacea",
+    "commonName": "Blue-bellied Parrot",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Hapalopsittaca amazonina",
+    "commonName": "Rusty-faced Parrot",
+    "status": [],
+    "note": "32"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hapalopsittaca fuertesi",
+    "commonName": "Indigo-winged Parrot",
+    "status": [],
+    "note": "32"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hapalopsittaca pyrrhops",
+    "commonName": "Red-faced Parrot",
+    "status": [],
+    "note": "32"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hapalopsittaca melanotis",
+    "commonName": "Black-winged Parrot",
+    "status": [],
+    "note": "31a, 31b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrilia haematotis",
+    "commonName": "Brown-hooded Parrot",
+    "status": [],
+    "note": "28,"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrilia pulchra",
+    "commonName": "Rose-faced Parrot",
+    "status": [],
+    "note": "28, 31"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrilia pyrilia",
+    "commonName": "Saffron-headed Parrot",
+    "status": [],
+    "note": "28"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrilia barrabandi",
+    "commonName": "Orange-cheeked Parrot",
+    "status": [],
+    "note": "28"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrilia caica",
+    "commonName": "Caica Parrot",
+    "status": [],
+    "note": "28"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrilia aurantiocephala",
+    "commonName": "Bald Parrot",
+    "status": [],
+    "note": "28, 30"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrilia vulturina",
+    "commonName": "Vulturine Parrot",
+    "status": [],
+    "note": "28, 29, 30"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pionus fuscus",
+    "commonName": "Dusky Parrot",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pionus sordidus",
+    "commonName": "Red-billed Parrot",
+    "status": [],
+    "note": "32a, 32b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pionus maximiliani",
+    "commonName": "Scaly-headed Parrot",
+    "status": [],
+    "note": "32f"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pionus tumultuosus",
+    "commonName": "Speckle-faced Parrot",
+    "status": [],
+    "note": "33"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pionus menstruus",
+    "commonName": "Blue-headed Parrot",
+    "status": [],
+    "note": "32a, 32aa, 32c, 32d, 32e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pionus chalcopterus",
+    "commonName": "Bronze-winged Parrot",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Graydidascalus brachyurus",
+    "commonName": "Short-tailed Parrot",
+    "status": [],
+    "note": "32d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Alipiopsitta xanthops",
+    "commonName": "Yellow-faced Parrot",
+    "status": [],
+    "note": "36b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Amazona festiva",
+    "commonName": "Festive Amazon",
+    "status": [],
+    "note": "34, 36"
+  },
+  {
+    "type": "species",
+    "scientificName": "Amazona vinacea",
+    "commonName": "Vinaceous-breasted Amazon",
+    "status": [],
+    "note": "34a, 39"
+  },
+  {
+    "type": "species",
+    "scientificName": "Amazona tucumana",
+    "commonName": "Tucuman Amazon",
+    "status": [],
+    "note": "32d, 34, 34a, 34b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Amazona pretrei",
+    "commonName": "Red-spectacled Amazon",
+    "status": [],
+    "note": "34a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Amazona autumnalis",
+    "commonName": "Red-lored Amazon",
+    "status": [],
+    "note": "34c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Amazona dufresniana",
+    "commonName": "Blue-cheeked Amazon",
+    "status": [],
+    "note": "35"
+  },
+  {
+    "type": "species",
+    "scientificName": "Amazona rhodocorytha",
+    "commonName": "Red-browed Amazon",
+    "status": [],
+    "note": "35"
+  },
+  {
+    "type": "species",
+    "scientificName": "Amazona ochrocephala",
+    "commonName": "Yellow-crowned Amazon",
+    "status": [],
+    "note": "37a, 37b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Amazona barbadensis",
+    "commonName": "Yellow-shouldered Amazon",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Amazona aestiva",
+    "commonName": "Turquoise-fronted Amazon",
+    "status": [],
+    "note": "36c, 37, 37a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Amazona farinosa",
+    "commonName": "Mealy Amazon",
+    "status": [],
+    "note": "38b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Amazona kawalli",
+    "commonName": "Kawall's Amazon",
+    "status": [],
+    "note": "38, 38a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Amazona brasiliensis",
+    "commonName": "Red-tailed Amazon",
+    "status": [],
+    "note": "35"
+  },
+  {
+    "type": "species",
+    "scientificName": "Amazona amazonica",
+    "commonName": "Orange-winged Amazon",
+    "status": [],
+    "note": "35"
+  },
+  {
+    "type": "species",
+    "scientificName": "Amazona mercenarius",
+    "commonName": "Scaly-naped Amazon",
+    "status": [],
+    "note": "35a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Forpus modestus",
+    "commonName": "Dusky-billed Parrotlet",
+    "status": [],
+    "note": "23a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Forpus crassirostris",
+    "commonName": "Riparian Parrotlet",
+    "status": [],
+    "note": "22d, 22g, 23, 23aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Forpus conspicillatus",
+    "commonName": "Spectacled Parrotlet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Forpus coelestis",
+    "commonName": "Pacific Parrotlet",
+    "status": [],
+    "note": "23b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Forpus xanthops",
+    "commonName": "Yellow-faced Parrotlet",
+    "status": [],
+    "note": "23b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Forpus xanthopterygius",
+    "commonName": "Cobalt-rumped Parrotlet",
+    "status": [],
+    "note": "22d, 23aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Forpus passerinus",
+    "commonName": "Green-rumped Parrotlet",
+    "status": [],
+    "note": "22d, 22f, 22h"
+  },
+  {
+    "type": "species",
+    "scientificName": "Forpus spengeli",
+    "commonName": "Turquoise-winged Parrotlet",
+    "status": [],
+    "note": "23d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pionites melanocephalus",
+    "commonName": "Black-headed Parrot",
+    "status": [],
+    "note": "27, 27b, 41"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pionites leucogaster",
+    "commonName": "White-bellied Parrot",
+    "status": [],
+    "note": "27, 27b, 27c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Deroptyus accipitrinus",
+    "commonName": "Red-fan Parrot",
+    "status": [],
+    "note": "32c, 40"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrrhura cruentata",
+    "commonName": "Ochre-marked Parakeet",
+    "status": [],
+    "note": "5b, 10a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrrhura devillei",
+    "commonName": "Blaze-winged Parakeet",
+    "status": [],
+    "note": "11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrrhura frontalis",
+    "commonName": "Maroon-bellied Parakeet",
+    "status": [],
+    "note": "11, 11a, 11b, 11c, 11d, 11e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrrhura lepida",
+    "commonName": "Pearly Parakeet",
+    "status": [],
+    "note": "12a, 12b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrrhura perlata",
+    "commonName": "Crimson-bellied Parakeet",
+    "status": [],
+    "note": "12a, 12b, 12bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrrhura molinae",
+    "commonName": "Green-cheeked Parakeet",
+    "status": [],
+    "note": "12c, 12d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrrhura pfrimeri",
+    "commonName": "Pfrimer's Parakeet",
+    "status": [],
+    "note": "14, 14a, 14aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrrhura griseipectus",
+    "commonName": "Gray-breasted Parakeet",
+    "status": [],
+    "note": "14, 14a, 14b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrrhura leucotis",
+    "commonName": "Maroon-faced Parakeet",
+    "status": [],
+    "note": "14, 14a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrrhura picta",
+    "commonName": "Painted Parakeet",
+    "status": [],
+    "note": "14a, 15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrrhura amazonum",
+    "commonName": "Santarem Parakeet",
+    "status": [],
+    "note": "15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrrhura lucianii",
+    "commonName": "Bonaparte's Parakeet",
+    "status": [],
+    "note": "15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrrhura roseifrons",
+    "commonName": "Rose-fronted Parakeet",
+    "status": [],
+    "note": "15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrrhura viridicata",
+    "commonName": "Santa Marta Parakeet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrrhura egregia",
+    "commonName": "Fiery-shouldered Parakeet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrrhura melanura",
+    "commonName": "Maroon-tailed Parakeet",
+    "status": [],
+    "note": "14a, 16, 16a, 17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrrhura orcesi",
+    "commonName": "El Oro Parakeet",
+    "status": [],
+    "note": "17, 18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrrhura rupicola",
+    "commonName": "Black-capped Parakeet",
+    "status": [],
+    "note": "19"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrrhura albipectus",
+    "commonName": "White-necked Parakeet",
+    "status": [],
+    "note": "20, 20a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrrhura calliptera",
+    "commonName": "Brown-breasted Parakeet",
+    "status": [],
+    "note": "21"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrrhura hoematotis",
+    "commonName": "Red-eared Parakeet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrrhura rhodocephala",
+    "commonName": "Rose-headed Parakeet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Enicognathus ferrugineus",
+    "commonName": "Austral Parakeet",
+    "status": [],
+    "note": "5b, 21a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Enicognathus leptorhynchus",
+    "commonName": "Slender-billed Parakeet",
+    "status": [],
+    "note": "21aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanoliseus patagonus",
+    "commonName": "Burrowing Parakeet",
+    "status": [],
+    "note": "21aa, 21aaa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anodorhynchus hyacinthinus",
+    "commonName": "Hyacinth Macaw",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Anodorhynchus glaucus",
+    "commonName": "Glaucous Macaw",
+    "status": [],
+    "note": "1b, 1c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anodorhynchus leari",
+    "commonName": "Indigo Macaw",
+    "status": [],
+    "note": "1b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eupsittula aurea",
+    "commonName": "Peach-fronted Parakeet",
+    "status": [],
+    "note": "6c, 9c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eupsittula pertinax",
+    "commonName": "Brown-throated Parakeet",
+    "status": [],
+    "note": "6c, 9e, 9ee"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eupsittula cactorum",
+    "commonName": "Cactus Parakeet",
+    "status": [],
+    "note": "9e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aratinga weddellii",
+    "commonName": "Dusky-headed Parakeet",
+    "status": [],
+    "note": "6c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aratinga nenday",
+    "commonName": "Nanday Parakeet",
+    "status": [],
+    "note": "5b, 9f, 9ff"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aratinga solstitialis",
+    "commonName": "Sun Parakeet",
+    "status": [],
+    "note": "9a, 10, 6c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aratinga maculata",
+    "commonName": "Sulphur-breasted Parakeet",
+    "status": [],
+    "note": "10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aratinga jandaya",
+    "commonName": "Jandaya Parakeet",
+    "status": [],
+    "note": "9a, 6c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aratinga auricapillus",
+    "commonName": "Golden-capped Parakeet",
+    "status": [],
+    "note": "9a, 9b, 6c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanopsitta spixii",
+    "commonName": "Spix's Macaw",
+    "status": [],
+    "note": "1d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Orthopsittaca manilatus",
+    "commonName": "Red-bellied Macaw",
+    "status": [],
+    "note": "3, 3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Primolius maracana",
+    "commonName": "Blue-winged Macaw",
+    "status": [],
+    "note": "4, 4a, 4b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Primolius couloni",
+    "commonName": "Blue-headed Macaw",
+    "status": [],
+    "note": "4, 4a, 4b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Primolius auricollis",
+    "commonName": "Yellow-collared Macaw",
+    "status": [],
+    "note": "4, 4a, 4b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ara ararauna",
+    "commonName": "Blue-and-yellow Macaw",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ara glaucogularis",
+    "commonName": "Blue-throated Macaw",
+    "status": [],
+    "note": "2b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ara severus",
+    "commonName": "Chestnut-fronted Macaw",
+    "status": [],
+    "note": "2a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ara rubrogenys",
+    "commonName": "Red-fronted Macaw",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Ara militaris",
+    "commonName": "Military Macaw",
+    "status": [],
+    "note": "2bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ara ambiguus",
+    "commonName": "Great Green Macaw",
+    "status": [],
+    "note": "2a, 2bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ara macao",
+    "commonName": "Scarlet Macaw",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Ara chloropterus",
+    "commonName": "Red-and-green Macaw",
+    "status": [],
+    "note": "2a, 2c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leptosittaca branickii",
+    "commonName": "Golden-plumed Parakeet",
+    "status": [],
+    "note": "5b, 9g"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ognorhynchus icterotis",
+    "commonName": "Yellow-eared Parrot",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Guaruba guarouba",
+    "commonName": "Golden Parakeet",
+    "status": [],
+    "note": "5b, 6, 6c, 6cc"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thectocercus acuticaudatus",
+    "commonName": "Blue-crowned Parakeet",
+    "status": [],
+    "note": "5b, 5bb, 6a, 6b, 6d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Diopsittaca nobilis",
+    "commonName": "Red-shouldered Macaw",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Psittacara frontatus",
+    "commonName": "Cordilleran Parakeet",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Psittacara mitratus",
+    "commonName": "Mitred Parakeet",
+    "status": [],
+    "note": "7, 7a, 7b, 8, 8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Psittacara wagleri",
+    "commonName": "Scarlet-fronted Parakeet",
+    "status": [],
+    "note": "7, 7a, 7b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Psittacara erythrogenys",
+    "commonName": "Red-masked Parakeet",
+    "status": [],
+    "note": "8b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Psittacara leucophthalmus",
+    "commonName": "White-eyed Parakeet",
+    "status": [],
+    "note": "8c, 9b, 6d"
+  }
+]

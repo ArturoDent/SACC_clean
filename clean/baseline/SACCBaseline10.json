@@ -1,0 +1,900 @@
+[
+  {
+    "type": "order",
+    "label": "PASSERIFORMES",
+    "note": ""
+  },
+  {
+    "type": "suborder",
+    "label": "Suborder PASSERES (OSCINES) (continued)",
+    "note": "1a"
+  },
+  {
+    "type": "family",
+    "label": "PLOCEIDAE (WEAVERS)",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Ploceus cucullatus",
+    "commonName": "Village Weaver",
+    "status": [
+      "IN"
+    ],
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ploceus velatus",
+    "commonName": "African Masked Weaver",
+    "status": [
+      "IN"
+    ],
+    "note": "2"
+  },
+  {
+    "type": "family",
+    "label": "ESTRILDIDAE (ESTRILDIDS)",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Estrilda astrild",
+    "commonName": "Common Waxbill",
+    "status": [
+      "IN"
+    ],
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lonchura malacca",
+    "commonName": "Tricolored Munia",
+    "status": [
+      "IN"
+    ],
+    "note": "2, 3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lonchura oryzivora",
+    "commonName": "Java Sparrow",
+    "status": [
+      "IN"
+    ],
+    "note": "4, 5"
+  },
+  {
+    "type": "family",
+    "label": "PASSERIDAE (OLD WORLD SPARROWS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Passer domesticus",
+    "commonName": "House Sparrow",
+    "status": [
+      "IN"
+    ],
+    "note": ""
+  },
+  {
+    "type": "family",
+    "label": "MOTACILLIDAE (PIPITS AND WAGTAILS)",
+    "note": "1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Motacilla alba",
+    "commonName": "White Wagtail",
+    "status": [
+      "V"
+    ],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anthus cervinus",
+    "commonName": "Red-throated Pipit",
+    "status": [
+      "V"
+    ],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anthus chii",
+    "commonName": "Yellowish Pipit",
+    "status": [],
+    "note": "4, 5, 6, 7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anthus furcatus",
+    "commonName": "Short-billed Pipit",
+    "status": [],
+    "note": "8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anthus peruvianus",
+    "commonName": "Peruvian Pipit",
+    "status": [],
+    "note": "4, 7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anthus chacoensis",
+    "commonName": "Pampas Pipit",
+    "status": [],
+    "note": "9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anthus correndera",
+    "commonName": "Correndera Pipit",
+    "status": [],
+    "note": "10, 11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anthus nattereri",
+    "commonName": "Ochre-breasted Pipit",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Anthus hellmayri",
+    "commonName": "Hellmayr's Pipit",
+    "status": [],
+    "note": "10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anthus bogotensis",
+    "commonName": "Paramo Pipit",
+    "status": [],
+    "note": "12"
+  },
+  {
+    "type": "family",
+    "label": "FRINGILLIDAE (FINCHES)",
+    "note": "1"
+  },
+  {
+    "type": "subfamily",
+    "label": "Fringillinae",
+    "note": "1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chloris chloris",
+    "commonName": "European Greenfinch",
+    "status": [
+      "IN"
+    ],
+    "note": "2, 2a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Carduelis carduelis",
+    "commonName": "European Goldfinch",
+    "status": [
+      "IN"
+    ],
+    "note": "2b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Spinus spinescens",
+    "commonName": "Andean Siskin",
+    "status": [],
+    "note": "3, 3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Spinus yarrellii",
+    "commonName": "Yellow-faced Siskin",
+    "status": [],
+    "note": "3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Spinus cucullatus",
+    "commonName": "Red Siskin",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Spinus crassirostris",
+    "commonName": "Thick-billed Siskin",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Spinus magellanicus",
+    "commonName": "Hooded Siskin",
+    "status": [],
+    "note": "3b, 3d, 4, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Spinus siemiradzkii",
+    "commonName": "Saffron Siskin",
+    "status": [],
+    "note": "3b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Spinus olivaceus",
+    "commonName": "Olivaceous Siskin",
+    "status": [],
+    "note": "3b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Spinus xanthogastrus",
+    "commonName": "Yellow-bellied Siskin",
+    "status": [],
+    "note": "5, 5a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Spinus atratus",
+    "commonName": "Black Siskin",
+    "status": [],
+    "note": "5, 5a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Spinus uropygialis",
+    "commonName": "Yellow-rumped Siskin",
+    "status": [],
+    "note": "3d, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Spinus barbatus",
+    "commonName": "Black-chinned Siskin",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Spinus psaltria",
+    "commonName": "Lesser Goldfinch",
+    "status": [],
+    "note": "3, 6"
+  },
+  {
+    "type": "subfamily",
+    "label": "Euphoniinae",
+    "note": "1, 6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorophonia cyanocephala",
+    "commonName": "Golden-rumped Euphonia",
+    "status": [],
+    "note": "6a, 10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorophonia cyanea",
+    "commonName": "Blue-naped Chlorophonia",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorophonia pyrrhophrys",
+    "commonName": "Chestnut-breasted Chlorophonia",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorophonia flavirostris",
+    "commonName": "Yellow-collared Chlorophonia",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Euphonia saturata",
+    "commonName": "Orange-crowned Euphonia",
+    "status": [],
+    "note": "6a, 7b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Euphonia plumbea",
+    "commonName": "Plumbeous Euphonia",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Euphonia chlorotica",
+    "commonName": "Purple-throated Euphonia",
+    "status": [],
+    "note": "7a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Euphonia finschi",
+    "commonName": "Finsch's Euphonia",
+    "status": [],
+    "note": "7b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Euphonia concinna",
+    "commonName": "Velvet-fronted Euphonia",
+    "status": [],
+    "note": "7b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Euphonia trinitatis",
+    "commonName": "Trinidad Euphonia",
+    "status": [],
+    "note": "7a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Euphonia chrysopasta",
+    "commonName": "Golden-bellied Euphonia",
+    "status": [],
+    "note": "11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Euphonia minuta",
+    "commonName": "White-vented Euphonia",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Euphonia chalybea",
+    "commonName": "Green-throated Euphonia",
+    "status": [],
+    "note": "9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Euphonia violacea",
+    "commonName": "Violaceous Euphonia",
+    "status": [],
+    "note": "8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Euphonia laniirostris",
+    "commonName": "Thick-billed Euphonia",
+    "status": [],
+    "note": "8, 8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Euphonia fulvicrissa",
+    "commonName": "Fulvous-vented Euphonia",
+    "status": [],
+    "note": "10a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Euphonia anneae",
+    "commonName": "Tawny-capped Euphonia",
+    "status": [],
+    "note": "12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Euphonia xanthogaster",
+    "commonName": "Orange-bellied Euphonia",
+    "status": [],
+    "note": "12, 12a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Euphonia mesochrysa",
+    "commonName": "Bronze-green Euphonia",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Euphonia cayennensis",
+    "commonName": "Golden-sided Euphonia",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Euphonia rufiventris",
+    "commonName": "Rufous-bellied Euphonia",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Euphonia pectoralis",
+    "commonName": "Chestnut-bellied Euphonia",
+    "status": [],
+    "note": "12a, 13"
+  },
+  {
+    "type": "family",
+    "label": "RHODINOCICHLIDAE (THRUSH-TANAGER)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhodinocichla rosea",
+    "commonName": "Rosy Thrush-Tanager",
+    "status": [],
+    "note": "1, 1a"
+  },
+  {
+    "type": "family",
+    "label": "PASSERELLIDAE (SPARROWS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oreothraupis arremonops",
+    "commonName": "Tanager Finch",
+    "status": [],
+    "note": "49"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorospingus flavigularis",
+    "commonName": "Yellow-throated Chlorospingus",
+    "status": [],
+    "note": "66"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorospingus parvirostris",
+    "commonName": "Short-billed Chlorospingus",
+    "status": [],
+    "note": "66, 67"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorospingus canigularis",
+    "commonName": "Ashy-throated Chlorospingus",
+    "status": [],
+    "note": "68"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorospingus flavopectus",
+    "commonName": "Common Chlorospingus",
+    "status": [],
+    "note": "64, 65, 65a, 69"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorospingus tacarcunae",
+    "commonName": "Tacarcuna Chlorospingus",
+    "status": [],
+    "note": "69"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorospingus semifuscus",
+    "commonName": "Dusky Chlorospingus",
+    "status": [],
+    "note": "70"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhynchospiza stolzmanni",
+    "commonName": "Tumbes Sparrow",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhynchospiza dabbenei",
+    "commonName": "Yungas Sparrow",
+    "status": [],
+    "note": "3, 3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhynchospiza strigiceps",
+    "commonName": "Chaco Sparrow",
+    "status": [],
+    "note": "3, 3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ammodramus savannarum",
+    "commonName": "Grasshopper Sparrow",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ammodramus humeralis",
+    "commonName": "Grassland Sparrow",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ammodramus aurifrons",
+    "commonName": "Yellow-browed Sparrow",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Arremonops conirostris",
+    "commonName": "Black-striped Sparrow",
+    "status": [],
+    "note": "44b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Arremonops tocuyensis",
+    "commonName": "Tocuyo Sparrow",
+    "status": [],
+    "note": "44, 44a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Arremon basilicus",
+    "commonName": "Sierra Nevada Brushfinch",
+    "status": [],
+    "note": "47, 47a, 48, 48a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Arremon perijanus",
+    "commonName": "Perija Brushfinch",
+    "status": [],
+    "note": "47, 48"
+  },
+  {
+    "type": "species",
+    "scientificName": "Arremon atricapillus",
+    "commonName": "Black-headed Brushfinch",
+    "status": [],
+    "note": "47, 48"
+  },
+  {
+    "type": "species",
+    "scientificName": "Arremon phaeopleurus",
+    "commonName": "Caracas Brushfinch",
+    "status": [],
+    "note": "47, 48"
+  },
+  {
+    "type": "species",
+    "scientificName": "Arremon phygas",
+    "commonName": "Paria Brushfinch",
+    "status": [],
+    "note": "47, 48"
+  },
+  {
+    "type": "species",
+    "scientificName": "Arremon assimilis",
+    "commonName": "Gray-browed Brushfinch",
+    "status": [],
+    "note": "47, 48"
+  },
+  {
+    "type": "species",
+    "scientificName": "Arremon torquatus",
+    "commonName": "White-browed Brushfinch",
+    "status": [],
+    "note": "47, 48"
+  },
+  {
+    "type": "species",
+    "scientificName": "Arremon aurantiirostris",
+    "commonName": "Orange-billed Sparrow",
+    "status": [],
+    "note": "45a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Arremon abeillei",
+    "commonName": "Black-capped Sparrow",
+    "status": [],
+    "note": "45a, 45c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Arremon schlegeli",
+    "commonName": "Golden-winged Sparrow",
+    "status": [],
+    "note": "45a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Arremon axillaris",
+    "commonName": "Yellow-mandibled Sparrow",
+    "status": [],
+    "note": "45, 45b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Arremon taciturnus",
+    "commonName": "Pectoral Sparrow",
+    "status": [],
+    "note": "45, 45a, 45b, 47"
+  },
+  {
+    "type": "species",
+    "scientificName": "Arremon franciscanus",
+    "commonName": "São Francisco Sparrow",
+    "status": [],
+    "note": "45a, 46"
+  },
+  {
+    "type": "species",
+    "scientificName": "Arremon semitorquatus",
+    "commonName": "Half-collared Sparrow",
+    "status": [],
+    "note": "45"
+  },
+  {
+    "type": "species",
+    "scientificName": "Arremon dorbignii",
+    "commonName": "Moss-backed Sparrow",
+    "status": [],
+    "note": "45a, 45d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Arremon flavirostris",
+    "commonName": "Saffron-billed Sparrow",
+    "status": [],
+    "note": "45a, 45d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Arremon brunneinucha",
+    "commonName": "Chestnut-capped Brushfinch",
+    "status": [],
+    "note": "47"
+  },
+  {
+    "type": "species",
+    "scientificName": "Arremon crassirostris",
+    "commonName": "Sooty-faced Finch",
+    "status": [],
+    "note": "48b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Arremon castaneiceps",
+    "commonName": "Olive Finch",
+    "status": [],
+    "note": "47, 49a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Spizella pallida",
+    "commonName": "Clay-colored Sparrow",
+    "status": [
+      "V"
+    ],
+    "note": "1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Zonotrichia capensis",
+    "commonName": "Rufous-collared Sparrow",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Melospiza lincolnii",
+    "commonName": "Lincoln's Sparrow",
+    "status": [
+      "V"
+    ],
+    "note": "1b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes albinucha",
+    "commonName": "White-naped Brushfinch",
+    "status": [],
+    "note": "47a, 50a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes albofrenatus",
+    "commonName": "Moustached Brushfinch",
+    "status": [],
+    "note": "50"
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes personatus",
+    "commonName": "Tepui Brushfinch",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes melanocephalus",
+    "commonName": "Santa Marta Brushfinch",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes semirufus",
+    "commonName": "Ochre-breasted Brushfinch",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes flaviceps",
+    "commonName": "Yellow-headed Brushfinch",
+    "status": [],
+    "note": "51"
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes fuscoolivaceus",
+    "commonName": "Dusky-headed Brushfinch",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes leucopis",
+    "commonName": "White-rimmed Brushfinch",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes albiceps",
+    "commonName": "White-headed Brushfinch",
+    "status": [],
+    "note": "54c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes rufigenis",
+    "commonName": "Rufous-eared Brushfinch",
+    "status": [],
+    "note": "53"
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes tricolor",
+    "commonName": "Tricolored Brushfinch",
+    "status": [],
+    "note": "51a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes schistaceus",
+    "commonName": "Slaty Brushfinch",
+    "status": [],
+    "note": "54a, 55a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes pallidinucha",
+    "commonName": "Pale-naped Brushfinch",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes blancae",
+    "commonName": "Antioquia Brushfinch",
+    "status": [],
+    "note": "52c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes latinuchus",
+    "commonName": "Yellow-breasted Brushfinch",
+    "status": [],
+    "note": "52, 52a, 52b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes leucopterus",
+    "commonName": "White-winged Brushfinch",
+    "status": [],
+    "note": "54b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes pallidiceps",
+    "commonName": "Pale-headed Brushfinch",
+    "status": [],
+    "note": "54c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes seebohmi",
+    "commonName": "Bay-crowned Brushfinch",
+    "status": [],
+    "note": "55, 55a, 55b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes nationi",
+    "commonName": "Rusty-bellied Brushfinch",
+    "status": [],
+    "note": "55, 55a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes forbesi",
+    "commonName": "Apurimac Brushfinch",
+    "status": [],
+    "note": "53"
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes melanopsis",
+    "commonName": "Black-spectacled Brushfinch",
+    "status": [],
+    "note": "54"
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes terborghi",
+    "commonName": "Vilcabamba Brushfinch",
+    "status": [],
+    "note": "57, 52"
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes canigenis",
+    "commonName": "Cuzco Brushfinch",
+    "status": [],
+    "note": "56, 54a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes melanolaemus",
+    "commonName": "Black-faced Brushfinch",
+    "status": [],
+    "note": "58, 58a, 52"
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes rufinucha",
+    "commonName": "Bolivian Brushfinch",
+    "status": [],
+    "note": "52, 52aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes fulviceps",
+    "commonName": "Fulvous-headed Brushfinch",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Atlapetes citrinellus",
+    "commonName": "Yellow-striped Brushfinch",
+    "status": [],
+    "note": ""
+  }
+]

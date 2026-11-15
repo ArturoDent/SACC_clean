@@ -1,0 +1,3821 @@
+[
+  {
+    "type": "order",
+    "label": "PASSERIFORMES",
+    "note": ""
+  },
+  {
+    "type": "suborder",
+    "label": "Suborder PASSERES (OSCINES) (concluded)",
+    "note": ""
+  },
+  {
+    "type": "family",
+    "label": "ICTERIDAE (BLACKBIRDS)",
+    "note": "1"
+  },
+  {
+    "type": "subfamily",
+    "label": "Xanthocephalinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Xanthocephalus xanthocephalus",
+    "commonName": "Yellow-headed Blackbird",
+    "status": [
+      "V"
+    ],
+    "note": "1a"
+  },
+  {
+    "type": "subfamily",
+    "label": "Dolichonychinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Dolichonyx oryzivorus",
+    "commonName": "Bobolink",
+    "status": [
+      "NB"
+    ],
+    "note": "41"
+  },
+  {
+    "type": "subfamily",
+    "label": "Sturnellinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Sturnella magna",
+    "commonName": "Eastern Meadowlark",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Leistes militaris",
+    "commonName": "Red-breasted Meadowlark",
+    "status": [],
+    "note": "35, 35a, 36"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leistes superciliaris",
+    "commonName": "White-browed Meadowlark",
+    "status": [],
+    "note": "35, 35a, 36"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leistes bellicosus",
+    "commonName": "Peruvian Meadowlark",
+    "status": [],
+    "note": "36, 38, 39"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leistes defilippii",
+    "commonName": "Pampas Meadowlark",
+    "status": [],
+    "note": "37, 38"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leistes loyca",
+    "commonName": "Long-tailed Meadowlark",
+    "status": [],
+    "note": "40"
+  },
+  {
+    "type": "subfamily",
+    "label": "Amblycercinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Amblycercus holosericeus",
+    "commonName": "Yellow-billed Cacique",
+    "status": [],
+    "note": "17"
+  },
+  {
+    "type": "subfamily",
+    "label": "Cacicinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Psarocolius angustifrons",
+    "commonName": "Russet-backed Oropendola",
+    "status": [],
+    "note": "2, 3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Psarocolius atrovirens",
+    "commonName": "Dusky-green Oropendola",
+    "status": [],
+    "note": "2, 4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Psarocolius viridis",
+    "commonName": "Green Oropendola",
+    "status": [],
+    "note": "2, 2a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Psarocolius wagleri",
+    "commonName": "Chestnut-headed Oropendola",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Psarocolius decumanus",
+    "commonName": "Crested Oropendola",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Psarocolius guatimozinus",
+    "commonName": "Black Oropendola",
+    "status": [],
+    "note": "2, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Psarocolius cassini",
+    "commonName": "Baudo Oropendola",
+    "status": [],
+    "note": "2, 5, 6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Psarocolius bifasciatus",
+    "commonName": "Olive Oropendola",
+    "status": [],
+    "note": "2, 5, 7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cacicus solitarius",
+    "commonName": "Solitary Black Cacique",
+    "status": [],
+    "note": "12a, 13, 14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cacicus chrysopterus",
+    "commonName": "Golden-winged Cacique",
+    "status": [],
+    "note": "12, 12a, 12b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cacicus sclateri",
+    "commonName": "Ecuadorian Cacique",
+    "status": [],
+    "note": "10, 11, 12a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cacicus koepckeae",
+    "commonName": "Selva Cacique",
+    "status": [],
+    "note": "10, 12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cacicus uropygialis",
+    "commonName": "Scarlet-rumped Cacique",
+    "status": [],
+    "note": "16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cacicus cela",
+    "commonName": "Yellow-rumped Cacique",
+    "status": [],
+    "note": "15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cacicus chrysonotus",
+    "commonName": "Mountain Cacique",
+    "status": [],
+    "note": "9, 12a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cacicus latirostris",
+    "commonName": "Band-tailed Cacique",
+    "status": [],
+    "note": "2, 8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cacicus haemorrhous",
+    "commonName": "Red-rumped Cacique",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Cacicus oseryi",
+    "commonName": "Casqued Cacique",
+    "status": [],
+    "note": "2, 8"
+  },
+  {
+    "type": "subfamily",
+    "label": "Icterinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Icterus icterus",
+    "commonName": "Venezuelan Troupial",
+    "status": [],
+    "note": "18, 19"
+  },
+  {
+    "type": "species",
+    "scientificName": "Icterus croconotus",
+    "commonName": "Orange-backed Troupial",
+    "status": [],
+    "note": "19"
+  },
+  {
+    "type": "species",
+    "scientificName": "Icterus jamacaii",
+    "commonName": "Campo Troupial",
+    "status": [],
+    "note": "19"
+  },
+  {
+    "type": "species",
+    "scientificName": "Icterus graceannae",
+    "commonName": "White-edged Oriole",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Icterus mesomelas",
+    "commonName": "Yellow-tailed Oriole",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Icterus cayanensis",
+    "commonName": "Epaulet Oriole",
+    "status": [],
+    "note": "20, 20a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Icterus pyrrhopterus",
+    "commonName": "Variable Oriole",
+    "status": [],
+    "note": "20"
+  },
+  {
+    "type": "species",
+    "scientificName": "Icterus spurius",
+    "commonName": "Orchard Oriole",
+    "status": [
+      "NB"
+    ],
+    "note": "20a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Icterus auricapillus",
+    "commonName": "Orange-crowned Oriole",
+    "status": [],
+    "note": "21"
+  },
+  {
+    "type": "species",
+    "scientificName": "Icterus chrysater",
+    "commonName": "Yellow-backed Oriole",
+    "status": [],
+    "note": "21a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Icterus galbula",
+    "commonName": "Baltimore Oriole",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Icterus nigrogularis",
+    "commonName": "Yellow Oriole",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "subfamily",
+    "label": "Agelaiinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Agelaius phoeniceus",
+    "commonName": "Red-winged Blackbird",
+    "status": [
+      "V"
+    ],
+    "note": "29a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Molothrus rufoaxillaris",
+    "commonName": "Screaming Cowbird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Molothrus oryzivorus",
+    "commonName": "Giant Cowbird",
+    "status": [],
+    "note": "31"
+  },
+  {
+    "type": "species",
+    "scientificName": "Molothrus aeneus",
+    "commonName": "Bronzed Cowbird",
+    "status": [],
+    "note": "32, 32a, 32b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Molothrus bonariensis",
+    "commonName": "Shiny Cowbird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Dives warczewiczi",
+    "commonName": "Scrub Blackbird",
+    "status": [],
+    "note": "22, 22a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Quiscalus lugubris",
+    "commonName": "Carib Grackle",
+    "status": [],
+    "note": "33"
+  },
+  {
+    "type": "species",
+    "scientificName": "Quiscalus mexicanus",
+    "commonName": "Great-tailed Grackle",
+    "status": [],
+    "note": "34"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lampropsar tanagrinus",
+    "commonName": "Velvet-fronted Grackle",
+    "status": [],
+    "note": "24a, 24b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hypopyrrhus pyrohypogaster",
+    "commonName": "Red-bellied Grackle",
+    "status": [],
+    "note": "24a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Gymnomystax mexicanus",
+    "commonName": "Oriole Blackbird",
+    "status": [],
+    "note": "24a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Macroagelaius subalaris",
+    "commonName": "Mountain Grackle",
+    "status": [],
+    "note": "23, 24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Macroagelaius imthurni",
+    "commonName": "Golden-tufted Grackle",
+    "status": [],
+    "note": "23, 25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Amblyramphus holosericeus",
+    "commonName": "Scarlet-headed Blackbird",
+    "status": [],
+    "note": "25c, 26"
+  },
+  {
+    "type": "species",
+    "scientificName": "Curaeus curaeus",
+    "commonName": "Austral Blackbird",
+    "status": [],
+    "note": "25a, 25c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anumara forbesi",
+    "commonName": "Forbes's Blackbird",
+    "status": [],
+    "note": "25b, 25c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Gnorimopsar chopi",
+    "commonName": "Chopi Blackbird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Agelaioides badius",
+    "commonName": "Grayish Baywing",
+    "status": [],
+    "note": "29, 30, 30a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Agelaioides fringillarius",
+    "commonName": "Pale Baywing",
+    "status": [],
+    "note": "29, 30, 30a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oreopsar bolivianus",
+    "commonName": "Bolivian Blackbird",
+    "status": [],
+    "note": "29"
+  },
+  {
+    "type": "species",
+    "scientificName": "Agelasticus xanthophthalmus",
+    "commonName": "Pale-eyed Blackbird",
+    "status": [],
+    "note": "27"
+  },
+  {
+    "type": "species",
+    "scientificName": "Agelasticus cyanopus",
+    "commonName": "Unicolored Blackbird",
+    "status": [],
+    "note": "27, 27a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Agelasticus thilius",
+    "commonName": "Yellow-winged Blackbird",
+    "status": [],
+    "note": "27"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chrysomus ruficapillus",
+    "commonName": "Chestnut-capped Blackbird",
+    "status": [],
+    "note": "27"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chrysomus icterocephalus",
+    "commonName": "Yellow-hooded Blackbird",
+    "status": [],
+    "note": "27"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xanthopsar flavus",
+    "commonName": "Saffron-cowled Blackbird",
+    "status": [],
+    "note": "28, 28a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudoleistes guirahuro",
+    "commonName": "Yellow-rumped Marshbird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudoleistes virescens",
+    "commonName": "Brown-and-yellow Marshbird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "family",
+    "label": "PARULIDAE (WOOD-WARBLERS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Seiurus aurocapilla",
+    "commonName": "Ovenbird",
+    "status": [
+      "NB"
+    ],
+    "note": "1, 11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Helmitheros vermivorum",
+    "commonName": "Worm-eating Warbler",
+    "status": [
+      "V"
+    ],
+    "note": "1, 10, 10b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Parkesia noveboracensis",
+    "commonName": "Northern Waterthrush",
+    "status": [
+      "NB"
+    ],
+    "note": "12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Parkesia motacilla",
+    "commonName": "Louisiana Waterthrush",
+    "status": [
+      "NB"
+    ],
+    "note": "12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Vermivora chrysoptera",
+    "commonName": "Golden-winged Warbler",
+    "status": [
+      "NB"
+    ],
+    "note": "1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Vermivora cyanoptera",
+    "commonName": "Blue-winged Warbler",
+    "status": [
+      "NB"
+    ],
+    "note": "1b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mniotilta varia",
+    "commonName": "Black-and-white Warbler",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Protonotaria citrea",
+    "commonName": "Prothonotary Warbler",
+    "status": [
+      "NB"
+    ],
+    "note": "1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leiothlypis peregrina",
+    "commonName": "Tennessee Warbler",
+    "status": [
+      "NB"
+    ],
+    "note": "1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oporornis agilis",
+    "commonName": "Connecticut Warbler",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Geothlypis aequinoctialis",
+    "commonName": "Masked Yellowthroat",
+    "status": [],
+    "note": "14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Geothlypis philadelphia",
+    "commonName": "Mourning Warbler",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Geothlypis formosa",
+    "commonName": "Kentucky Warbler",
+    "status": [
+      "NB"
+    ],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Geothlypis semiflava",
+    "commonName": "Olive-crowned Yellowthroat",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Geothlypis trichas",
+    "commonName": "Common Yellowthroat",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Setophaga citrina",
+    "commonName": "Hooded Warbler",
+    "status": [
+      "NB"
+    ],
+    "note": "15, 15a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Setophaga ruticilla",
+    "commonName": "American Redstart",
+    "status": [
+      "NB"
+    ],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Setophaga tigrina",
+    "commonName": "Cape May Warbler",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Setophaga cerulea",
+    "commonName": "Cerulean Warbler",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Setophaga americana",
+    "commonName": "Northern Parula",
+    "status": [
+      "NB"
+    ],
+    "note": "2, 2a, 2c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Setophaga pitiayumi",
+    "commonName": "Tropical Parula",
+    "status": [],
+    "note": "2, 2a, 2d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Setophaga magnolia",
+    "commonName": "Magnolia Warbler",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Setophaga castanea",
+    "commonName": "Bay-breasted Warbler",
+    "status": [
+      "NB"
+    ],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Setophaga fusca",
+    "commonName": "Blackburnian Warbler",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Setophaga petechia",
+    "commonName": "Yellow Warbler",
+    "status": [],
+    "note": "4a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Setophaga pensylvanica",
+    "commonName": "Chestnut-sided Warbler",
+    "status": [
+      "NB"
+    ],
+    "note": "2, 3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Setophaga striata",
+    "commonName": "Blackpoll Warbler",
+    "status": [
+      "NB"
+    ],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Setophaga caerulescens",
+    "commonName": "Black-throated Blue Warbler",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Setophaga palmarum",
+    "commonName": "Palm Warbler",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Setophaga coronata",
+    "commonName": "Yellow-rumped Warbler",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Setophaga dominica",
+    "commonName": "Yellow-throated Warbler",
+    "status": [
+      "V"
+    ],
+    "note": "8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Setophaga discolor",
+    "commonName": "Prairie Warbler",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Setophaga townsendi",
+    "commonName": "Townsend's Warbler",
+    "status": [
+      "V"
+    ],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Setophaga virens",
+    "commonName": "Black-throated Green Warbler",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiothlypis luteoviridis",
+    "commonName": "Citrine Warbler",
+    "status": [],
+    "note": "22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiothlypis basilica",
+    "commonName": "Santa Marta Warbler",
+    "status": [],
+    "note": "22b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiothlypis leucophrys",
+    "commonName": "White-striped Warbler",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiothlypis flaveola",
+    "commonName": "Flavescent Warbler",
+    "status": [],
+    "note": "22a, 28"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiothlypis leucoblephara",
+    "commonName": "White-browed Warbler",
+    "status": [],
+    "note": "29, 29a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiothlypis nigrocristata",
+    "commonName": "Black-crested Warbler",
+    "status": [],
+    "note": "22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiothlypis signata",
+    "commonName": "Pale-legged Warbler",
+    "status": [],
+    "note": "22, 22a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiothlypis fulvicauda",
+    "commonName": "Buff-rumped Warbler",
+    "status": [],
+    "note": "30, 31"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiothlypis rivularis",
+    "commonName": "Riverbank Warbler",
+    "status": [],
+    "note": "30, 31, 32"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiothlypis bivittata",
+    "commonName": "Two-banded Warbler",
+    "status": [],
+    "note": "21c, 21e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiothlypis chrysogaster",
+    "commonName": "Golden-bellied Warbler",
+    "status": [],
+    "note": "21d, 21e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiothlypis conspicillata",
+    "commonName": "White-lored Warbler",
+    "status": [],
+    "note": "23"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiothlypis cinereicollis",
+    "commonName": "Gray-throated Warbler",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiothlypis fraseri",
+    "commonName": "Gray-and-gold Warbler",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiothlypis coronata",
+    "commonName": "Russet-crowned Warbler",
+    "status": [],
+    "note": "23a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Basileuterus delattrii",
+    "commonName": "Chestnut-capped Warbler",
+    "status": [],
+    "note": "26"
+  },
+  {
+    "type": "species",
+    "scientificName": "Basileuterus culicivorus",
+    "commonName": "Golden-crowned Warbler",
+    "status": [],
+    "note": "25, 25a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Basileuterus ignotus",
+    "commonName": "Pirre Warbler",
+    "status": [],
+    "note": "27"
+  },
+  {
+    "type": "species",
+    "scientificName": "Basileuterus tristriatus",
+    "commonName": "Three-striped Warbler",
+    "status": [],
+    "note": "27, 27a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Basileuterus trifasciatus",
+    "commonName": "Three-banded Warbler",
+    "status": [],
+    "note": "24, 27a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Basileuterus griseiceps",
+    "commonName": "Gray-headed Warbler",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Cardellina canadensis",
+    "commonName": "Canada Warbler",
+    "status": [
+      "NB"
+    ],
+    "note": "15, 15a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cardellina pusilla",
+    "commonName": "Wilson's Warbler",
+    "status": [
+      "V"
+    ],
+    "note": "15, 15a, 15b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myioborus miniatus",
+    "commonName": "Slate-throated Whitestart",
+    "status": [],
+    "note": "16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myioborus brunniceps",
+    "commonName": "Brown-capped Whitestart",
+    "status": [],
+    "note": "17, 18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myioborus flavivertex",
+    "commonName": "Yellow-crowned Whitestart",
+    "status": [],
+    "note": "21, 21f"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myioborus albifrons",
+    "commonName": "White-fronted Whitestart",
+    "status": [],
+    "note": "21, 21b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myioborus ornatus",
+    "commonName": "Golden-fronted Whitestart",
+    "status": [],
+    "note": "21, 21a, 21b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myioborus melanocephalus",
+    "commonName": "Spectacled Whitestart",
+    "status": [],
+    "note": "21a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myioborus pariae",
+    "commonName": "Paria Whitestart",
+    "status": [],
+    "note": "18, 18b, 18c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myioborus albifacies",
+    "commonName": "White-faced Whitestart",
+    "status": [],
+    "note": "18, 18a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myioborus cardonai",
+    "commonName": "Saffron-breasted Whitestart",
+    "status": [],
+    "note": "18, 18a, 19"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myioborus castaneocapilla",
+    "commonName": "Tepui Whitestart",
+    "status": [],
+    "note": "17, 17a, 18, 18a"
+  },
+  {
+    "type": "family",
+    "label": "MITROSPINGIDAE (MITROSPINGIDS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mitrospingus cassinii",
+    "commonName": "Dusky-faced Tanager",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Mitrospingus oleagineus",
+    "commonName": "Olive-backed Tanager",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Lamprospiza melanoleuca",
+    "commonName": "Red-billed Pied Tanager",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Orthogonys chloricterus",
+    "commonName": "Olive-green Tanager",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "family",
+    "label": "CARDINALIDAE (CARDINAL GROSBEAKS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Piranga flava",
+    "commonName": "Hepatic Tanager",
+    "status": [],
+    "note": "2, 3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Piranga rubra",
+    "commonName": "Summer Tanager",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Piranga olivacea",
+    "commonName": "Scarlet Tanager",
+    "status": [
+      "NB"
+    ],
+    "note": "3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Piranga ludoviciana",
+    "commonName": "Western Tanager",
+    "status": [
+      "V"
+    ],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Piranga rubriceps",
+    "commonName": "Red-hooded Tanager",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Piranga leucoptera",
+    "commonName": "White-winged Tanager",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Driophlox fuscicauda",
+    "commonName": "Red-throated Ant-Tanager",
+    "status": [],
+    "note": "7, 8, 9a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Driophlox gutturalis",
+    "commonName": "Sooty Ant-Tanager",
+    "status": [],
+    "note": "7, 9a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Driophlox cristata",
+    "commonName": "Crested Ant-Tanager",
+    "status": [],
+    "note": "9a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Habia rubica",
+    "commonName": "Red-crowned Ant-Tanager",
+    "status": [],
+    "note": "6, 9, 9a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorothraupis stolzmanni",
+    "commonName": "Ochre-breasted Tanager",
+    "status": [],
+    "note": "9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorothraupis carmioli",
+    "commonName": "Carmiol's Tanager",
+    "status": [],
+    "note": "10, 11, 12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorothraupis olivacea",
+    "commonName": "Lemon-spectacled Tanager",
+    "status": [],
+    "note": "12, 13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorothraupis frenata",
+    "commonName": "Yellow-lored Tanager",
+    "status": [],
+    "note": "10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pheucticus chrysogaster",
+    "commonName": "Golden Grosbeak",
+    "status": [],
+    "note": "14, 15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pheucticus aureoventris",
+    "commonName": "Black-backed Grosbeak",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pheucticus ludovicianus",
+    "commonName": "Rose-breasted Grosbeak",
+    "status": [
+      "NB"
+    ],
+    "note": "16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Granatellus pelzelni",
+    "commonName": "Rose-breasted Chat",
+    "status": [],
+    "note": "33, 34, 34a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cardinalis phoeniceus",
+    "commonName": "Vermilion Cardinal",
+    "status": [],
+    "note": "18, 19"
+  },
+  {
+    "type": "species",
+    "scientificName": "Periporphyrus erythromelas",
+    "commonName": "Red-and-black Grosbeak",
+    "status": [],
+    "note": "22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Caryothraustes canadensis",
+    "commonName": "Yellow-green Grosbeak",
+    "status": [],
+    "note": "20, 21, 22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Amaurospiza aequatorialis",
+    "commonName": "Ecuadorian Seedeater",
+    "status": [],
+    "note": "37, 37a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Amaurospiza carrizalensis",
+    "commonName": "Carrizal Seedeater",
+    "status": [],
+    "note": "37, 37b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Amaurospiza moesta",
+    "commonName": "Blackish-blue Seedeater",
+    "status": [],
+    "note": "37"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanoloxia glaucocaerulea",
+    "commonName": "Glaucous-blue Grosbeak",
+    "status": [],
+    "note": "23, 24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanoloxia cyanoides",
+    "commonName": "Blue-black Grosbeak",
+    "status": [],
+    "note": "24, 25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanoloxia rothschildii",
+    "commonName": "Amazonian Grosbeak",
+    "status": [],
+    "note": "24, 25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanoloxia brissonii",
+    "commonName": "Ultramarine Grosbeak",
+    "status": [],
+    "note": "24, 25, 26"
+  },
+  {
+    "type": "species",
+    "scientificName": "Passerina caerulea",
+    "commonName": "Blue Grosbeak",
+    "status": [
+      "V"
+    ],
+    "note": "24, 27, 27a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Passerina cyanea",
+    "commonName": "Indigo Bunting",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Spiza americana",
+    "commonName": "Dickcissel",
+    "status": [
+      "NB"
+    ],
+    "note": "28"
+  },
+  {
+    "type": "family",
+    "label": "THRAUPIDAE (TANAGERS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanicterus cyanicterus",
+    "commonName": "Blue-backed Tanager",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Nemosia pileata",
+    "commonName": "Hooded Tanager",
+    "status": [],
+    "note": "3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nemosia rourei",
+    "commonName": "Cherry-throated Tanager",
+    "status": [],
+    "note": "3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Compsothraupis loricata",
+    "commonName": "Scarlet-throated Tanager",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sericossypha albocristata",
+    "commonName": "White-capped Tanager",
+    "status": [],
+    "note": "3, 3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Orchesticus abeillei",
+    "commonName": "Brown Tanager",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Parkerthraustes humeralis",
+    "commonName": "Yellow-shouldered Grosbeak",
+    "status": [],
+    "note": "162"
+  },
+  {
+    "type": "species",
+    "scientificName": "Catamblyrhynchus diadema",
+    "commonName": "Plushcap",
+    "status": [],
+    "note": "58, 58a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorophanes spiza",
+    "commonName": "Green Honeycreeper",
+    "status": [],
+    "note": "42, 42a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Iridophanes pulcherrimus",
+    "commonName": "Golden-collared Honeycreeper",
+    "status": [],
+    "note": "43, 43b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chrysothlypis chrysomelas",
+    "commonName": "Black-and-yellow Tanager",
+    "status": [],
+    "note": "43d, 45"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chrysothlypis salmoni",
+    "commonName": "Scarlet-and-white Tanager",
+    "status": [],
+    "note": "46"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heterospingus xanthopygius",
+    "commonName": "Scarlet-browed Tanager",
+    "status": [],
+    "note": "43c, 43d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hemithraupis guira",
+    "commonName": "Guira Tanager",
+    "status": [],
+    "note": "44, 43d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hemithraupis ruficapilla",
+    "commonName": "Rufous-headed Tanager",
+    "status": [],
+    "note": "44"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hemithraupis flavicollis",
+    "commonName": "Yellow-backed Tanager",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Conirostrum bicolor",
+    "commonName": "Bicolored Conebill",
+    "status": [],
+    "note": "48"
+  },
+  {
+    "type": "species",
+    "scientificName": "Conirostrum margaritae",
+    "commonName": "Pearly-breasted Conebill",
+    "status": [],
+    "note": "48"
+  },
+  {
+    "type": "species",
+    "scientificName": "Conirostrum speciosum",
+    "commonName": "Chestnut-vented Conebill",
+    "status": [],
+    "note": "47, 48"
+  },
+  {
+    "type": "species",
+    "scientificName": "Conirostrum leucogenys",
+    "commonName": "White-eared Conebill",
+    "status": [],
+    "note": "48"
+  },
+  {
+    "type": "species",
+    "scientificName": "Conirostrum binghami",
+    "commonName": "Giant Conebill",
+    "status": [],
+    "note": "50"
+  },
+  {
+    "type": "species",
+    "scientificName": "Conirostrum ferrugineiventre",
+    "commonName": "White-browed Conebill",
+    "status": [],
+    "note": "50"
+  },
+  {
+    "type": "species",
+    "scientificName": "Conirostrum sitticolor",
+    "commonName": "Blue-backed Conebill",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Conirostrum albifrons",
+    "commonName": "Capped Conebill",
+    "status": [],
+    "note": "48c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Conirostrum tamarugense",
+    "commonName": "Tamarugo Conebill",
+    "status": [],
+    "note": "49"
+  },
+  {
+    "type": "species",
+    "scientificName": "Conirostrum rufum",
+    "commonName": "Rufous-browed Conebill",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Conirostrum cinereum",
+    "commonName": "Cinereous Conebill",
+    "status": [],
+    "note": "48b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sicalis citrina",
+    "commonName": "Stripe-tailed Yellow-Finch",
+    "status": [],
+    "note": "93"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sicalis lutea",
+    "commonName": "Puna Yellow-Finch",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Sicalis uropygialis",
+    "commonName": "Bright-rumped Yellow-Finch",
+    "status": [],
+    "note": "93b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sicalis luteocephala",
+    "commonName": "Citron-headed Yellow-Finch",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Sicalis auriventris",
+    "commonName": "Greater Yellow-Finch",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Sicalis olivascens",
+    "commonName": "Greenish Yellow-Finch",
+    "status": [],
+    "note": "94, 94a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sicalis mendozae",
+    "commonName": "Monte Yellow-Finch",
+    "status": [],
+    "note": "94, 94a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sicalis lebruni",
+    "commonName": "Patagonian Yellow-Finch",
+    "status": [],
+    "note": "94, 94b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sicalis columbiana",
+    "commonName": "Orange-fronted Yellow-Finch",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Sicalis flaveola",
+    "commonName": "Saffron Finch",
+    "status": [],
+    "note": "95, 96"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sicalis luteola",
+    "commonName": "Grassland Yellow-Finch",
+    "status": [],
+    "note": "97, 97a, 98"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sicalis raimondii",
+    "commonName": "Raimondi's Yellow-Finch",
+    "status": [],
+    "note": "98"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sicalis taczanowskii",
+    "commonName": "Sulphur-throated Finch",
+    "status": [],
+    "note": "99"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phrygilus atriceps",
+    "commonName": "Black-hooded Sierra Finch",
+    "status": [],
+    "note": "68, 68a, 69, 70, 71"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phrygilus punensis",
+    "commonName": "Peruvian Sierra Finch",
+    "status": [],
+    "note": "69, 70"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phrygilus gayi",
+    "commonName": "Gray-hooded Sierra Finch",
+    "status": [],
+    "note": "69, 70"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phrygilus patagonicus",
+    "commonName": "Patagonian Sierra Finch",
+    "status": [],
+    "note": "70"
+  },
+  {
+    "type": "species",
+    "scientificName": "Geospizopsis unicolor",
+    "commonName": "Plumbeous Sierra Finch",
+    "status": [],
+    "note": "68a, 71"
+  },
+  {
+    "type": "species",
+    "scientificName": "Geospizopsis plebejus",
+    "commonName": "Ash-breasted Sierra Finch",
+    "status": [],
+    "note": "71"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhopospina fruticeti",
+    "commonName": "Mourning Sierra Finch",
+    "status": [],
+    "note": "68a, 71"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhopospina alaudina",
+    "commonName": "Band-tailed Sierra Finch",
+    "status": [],
+    "note": "71"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhopospina carbonaria",
+    "commonName": "Carbonated Sierra Finch",
+    "status": [],
+    "note": "73"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhopospina caerulescens",
+    "commonName": "Blue Finch",
+    "status": [],
+    "note": "67"
+  },
+  {
+    "type": "species",
+    "scientificName": "Idiopsar dorsalis",
+    "commonName": "Red-backed Sierra Finch",
+    "status": [],
+    "note": "68a, 72, 74"
+  },
+  {
+    "type": "species",
+    "scientificName": "Idiopsar erythronotus",
+    "commonName": "White-throated Sierra Finch",
+    "status": [],
+    "note": "72, 74"
+  },
+  {
+    "type": "species",
+    "scientificName": "Idiopsar speculifer",
+    "commonName": "Glacier Finch",
+    "status": [],
+    "note": "75, 76, 76a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Idiopsar brachyurus",
+    "commonName": "Boulder Finch",
+    "status": [],
+    "note": "74, 75, 75a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Melanodera melanodera",
+    "commonName": "White-bridled Finch",
+    "status": [],
+    "note": "77, 78"
+  },
+  {
+    "type": "species",
+    "scientificName": "Melanodera xanthogramma",
+    "commonName": "Yellow-bridled Finch",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Catamenia analis",
+    "commonName": "Band-tailed Seedeater",
+    "status": [],
+    "note": "138, 93"
+  },
+  {
+    "type": "species",
+    "scientificName": "Catamenia inornata",
+    "commonName": "Plain-colored Seedeater",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Catamenia homochroa",
+    "commonName": "Paramo Seedeater",
+    "status": [],
+    "note": "139"
+  },
+  {
+    "type": "species",
+    "scientificName": "Diglossa gloriosissima",
+    "commonName": "Chestnut-bellied Flowerpiercer",
+    "status": [],
+    "note": "54"
+  },
+  {
+    "type": "species",
+    "scientificName": "Diglossa lafresnayii",
+    "commonName": "Glossy Flowerpiercer",
+    "status": [],
+    "note": "54"
+  },
+  {
+    "type": "species",
+    "scientificName": "Diglossa mystacalis",
+    "commonName": "Moustached Flowerpiercer",
+    "status": [],
+    "note": "54"
+  },
+  {
+    "type": "species",
+    "scientificName": "Diglossa gloriosa",
+    "commonName": "Merida Flowerpiercer",
+    "status": [],
+    "note": "55"
+  },
+  {
+    "type": "species",
+    "scientificName": "Diglossa humeralis",
+    "commonName": "Black Flowerpiercer",
+    "status": [],
+    "note": "55"
+  },
+  {
+    "type": "species",
+    "scientificName": "Diglossa brunneiventris",
+    "commonName": "Black-throated Flowerpiercer",
+    "status": [],
+    "note": "55"
+  },
+  {
+    "type": "species",
+    "scientificName": "Diglossa carbonaria",
+    "commonName": "Gray-bellied Flowerpiercer",
+    "status": [],
+    "note": "55"
+  },
+  {
+    "type": "species",
+    "scientificName": "Diglossa venezuelensis",
+    "commonName": "Venezuelan Flowerpiercer",
+    "status": [],
+    "note": "56"
+  },
+  {
+    "type": "species",
+    "scientificName": "Diglossa albilatera",
+    "commonName": "White-sided Flowerpiercer",
+    "status": [],
+    "note": "56"
+  },
+  {
+    "type": "species",
+    "scientificName": "Diglossa duidae",
+    "commonName": "Scaled Flowerpiercer",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Diglossa major",
+    "commonName": "Greater Flowerpiercer",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Diglossa indigotica",
+    "commonName": "Indigo Flowerpiercer",
+    "status": [],
+    "note": "57"
+  },
+  {
+    "type": "species",
+    "scientificName": "Diglossa sittoides",
+    "commonName": "Rusty Flowerpiercer",
+    "status": [],
+    "note": "52, 52a, 53"
+  },
+  {
+    "type": "species",
+    "scientificName": "Diglossa glauca",
+    "commonName": "Deep-blue Flowerpiercer",
+    "status": [],
+    "note": "57, 57a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Diglossa caerulescens",
+    "commonName": "Bluish Flowerpiercer",
+    "status": [],
+    "note": "55, 57"
+  },
+  {
+    "type": "species",
+    "scientificName": "Diglossa cyanea",
+    "commonName": "Warbling Masked-Flowerpiercer",
+    "status": [],
+    "note": "55, 57, 57b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Diglossa melanopis",
+    "commonName": "Whistling Masked-Flowerpiercer",
+    "status": [],
+    "note": "55, 57, 57b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xenodacnis parina",
+    "commonName": "Tit-like Dacnis",
+    "status": [],
+    "note": "51, 51a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Haplospiza rustica",
+    "commonName": "Slaty Finch",
+    "status": [],
+    "note": "79"
+  },
+  {
+    "type": "species",
+    "scientificName": "Haplospiza unicolor",
+    "commonName": "Uniform Finch",
+    "status": [],
+    "note": "79, 80"
+  },
+  {
+    "type": "species",
+    "scientificName": "Volatinia jacarina",
+    "commonName": "Blue-black Grassquit",
+    "status": [],
+    "note": "106, 107, 93"
+  },
+  {
+    "type": "species",
+    "scientificName": "Conothraupis speculigera",
+    "commonName": "Black-and-white Tanager",
+    "status": [],
+    "note": "1c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Conothraupis mesoleuca",
+    "commonName": "Cone-billed Tanager",
+    "status": [],
+    "note": "1c, 1cc"
+  },
+  {
+    "type": "species",
+    "scientificName": "Creurgops verticalis",
+    "commonName": "Rufous-crested Tanager",
+    "status": [],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Creurgops dentatus",
+    "commonName": "Slaty Tanager",
+    "status": [],
+    "note": "4, 4a, 4b, 4c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Loriotus cristatus",
+    "commonName": "Flame-crested Tanager",
+    "status": [],
+    "note": "14, 14a, 14aa, 14b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Loriotus rufiventer",
+    "commonName": "Yellow-crested Tanager",
+    "status": [],
+    "note": "14c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Loriotus luctuosus",
+    "commonName": "White-shouldered Tanager",
+    "status": [],
+    "note": "14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tachyphonus surinamus",
+    "commonName": "Fulvous-crested Tanager",
+    "status": [],
+    "note": "14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tachyphonus delatrii",
+    "commonName": "Tawny-crested Tanager",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Tachyphonus coronatus",
+    "commonName": "Ruby-crowned Tanager",
+    "status": [],
+    "note": "14, 14d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tachyphonus rufus",
+    "commonName": "White-lined Tanager",
+    "status": [],
+    "note": "14d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tachyphonus phoenicius",
+    "commonName": "Red-shouldered Tanager",
+    "status": [],
+    "note": "14d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eucometis penicillata",
+    "commonName": "Gray-headed Tanager",
+    "status": [],
+    "note": "14, 14e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Trichothraupis melanops",
+    "commonName": "Black-goggled Tanager",
+    "status": [],
+    "note": "14, 14e, 14f"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliothraupis oneilli",
+    "commonName": "Inti Tanager",
+    "status": [],
+    "note": "14e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Coryphospingus pileatus",
+    "commonName": "Pileated Finch",
+    "status": [],
+    "note": "141, 142, 143"
+  },
+  {
+    "type": "species",
+    "scientificName": "Coryphospingus cucullatus",
+    "commonName": "Red-crested Finch",
+    "status": [],
+    "note": "142, 144"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ramphocelus nigrogularis",
+    "commonName": "Masked Crimson Tanager",
+    "status": [],
+    "note": "14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ramphocelus dimidiatus",
+    "commonName": "Crimson-backed Tanager",
+    "status": [],
+    "note": "16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ramphocelus melanogaster",
+    "commonName": "Black-bellied Tanager",
+    "status": [],
+    "note": "16, 16a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ramphocelus carbo",
+    "commonName": "Silver-beaked Tanager",
+    "status": [],
+    "note": "16, 16b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ramphocelus bresilius",
+    "commonName": "Brazilian Tanager",
+    "status": [],
+    "note": "16, 16c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ramphocelus flammigerus",
+    "commonName": "Flame-rumped Tanager",
+    "status": [],
+    "note": "17, 17a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lanio fulvus",
+    "commonName": "Fulvous Shrike-Tanager",
+    "status": [],
+    "note": "14, 15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lanio versicolor",
+    "commonName": "White-winged Shrike-Tanager",
+    "status": [],
+    "note": "15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhodospingus cruentus",
+    "commonName": "Crimson-breasted Finch",
+    "status": [],
+    "note": "145"
+  },
+  {
+    "type": "species",
+    "scientificName": "Charitospiza eucosma",
+    "commonName": "Coal-crested Finch",
+    "status": [],
+    "note": "107, 140"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanerpes nitidus",
+    "commonName": "Short-billed Honeycreeper",
+    "status": [],
+    "note": "39"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanerpes lucidus",
+    "commonName": "Shining Honeycreeper",
+    "status": [],
+    "note": "41a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanerpes caeruleus",
+    "commonName": "Purple Honeycreeper",
+    "status": [],
+    "note": "41a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cyanerpes cyaneus",
+    "commonName": "Red-legged Honeycreeper",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Tersina viridis",
+    "commonName": "Swallow Tanager",
+    "status": [],
+    "note": "38"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dacnis albiventris",
+    "commonName": "White-bellied Dacnis",
+    "status": [],
+    "note": "39"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dacnis egregia",
+    "commonName": "Yellow-tufted Dacnis",
+    "status": [],
+    "note": "40"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dacnis lineata",
+    "commonName": "Black-faced Dacnis",
+    "status": [],
+    "note": "40"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dacnis flaviventer",
+    "commonName": "Yellow-bellied Dacnis",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Dacnis hartlaubi",
+    "commonName": "Turquoise Dacnis",
+    "status": [],
+    "note": "41"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dacnis nigripes",
+    "commonName": "Black-legged Dacnis",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Dacnis venusta",
+    "commonName": "Scarlet-thighed Dacnis",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Dacnis cayana",
+    "commonName": "Blue Dacnis",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Dacnis viguieri",
+    "commonName": "Viridian Dacnis",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Dacnis berlepschi",
+    "commonName": "Scarlet-breasted Dacnis",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila bouvronides",
+    "commonName": "Lesson's Seedeater",
+    "status": [],
+    "note": "115"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila lineola",
+    "commonName": "Lined Seedeater",
+    "status": [],
+    "note": "115"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila leucoptera",
+    "commonName": "White-bellied Seedeater",
+    "status": [],
+    "note": "119"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila peruviana",
+    "commonName": "Parrot-billed Seedeater",
+    "status": [],
+    "note": "120"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila telasco",
+    "commonName": "Chestnut-throated Seedeater",
+    "status": [],
+    "note": "122"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila simplex",
+    "commonName": "Drab Seedeater",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila castaneiventris",
+    "commonName": "Chestnut-bellied Seedeater",
+    "status": [],
+    "note": "118"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila minuta",
+    "commonName": "Ruddy-breasted Seedeater",
+    "status": [],
+    "note": "118, 122, 123"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila nigrorufa",
+    "commonName": "Black-and-tawny Seedeater",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila bouvreuil",
+    "commonName": "Copper Seedeater",
+    "status": [],
+    "note": "118, 121"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila pileata",
+    "commonName": "Pearly-bellied Seedeater",
+    "status": [],
+    "note": "118, 121"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila hypoxantha",
+    "commonName": "Tawny-bellied Seedeater",
+    "status": [],
+    "note": "118, 123"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila iberaensis",
+    "commonName": "Ibera Seedeater",
+    "status": [],
+    "note": "118a, 123a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila ruficollis",
+    "commonName": "Dark-throated Seedeater",
+    "status": [],
+    "note": "118, 124, 125"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila palustris",
+    "commonName": "Marsh Seedeater",
+    "status": [],
+    "note": "118, 125"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila hypochroma",
+    "commonName": "Rufous-rumped Seedeater",
+    "status": [],
+    "note": "118, 126"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila cinnamomea",
+    "commonName": "Chestnut Seedeater",
+    "status": [],
+    "note": "118, 126, 127"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila melanogaster",
+    "commonName": "Black-bellied Seedeater",
+    "status": [],
+    "note": "118"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila funerea",
+    "commonName": "Thick-billed Seed-Finch",
+    "status": [],
+    "note": "107, 109, 128, 129, 93"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila angolensis",
+    "commonName": "Chestnut-bellied Seed-Finch",
+    "status": [],
+    "note": "129"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila maximiliani",
+    "commonName": "Great-billed Seed-Finch",
+    "status": [],
+    "note": "130, 132"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila crassirostris",
+    "commonName": "Large-billed Seed-Finch",
+    "status": [],
+    "note": "130, 131"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila atrirostris",
+    "commonName": "Black-billed Seed-Finch",
+    "status": [],
+    "note": "130"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila corvina",
+    "commonName": "Variable Seedeater",
+    "status": [],
+    "note": "113, 114"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila intermedia",
+    "commonName": "Gray Seedeater",
+    "status": [],
+    "note": "112"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila americana",
+    "commonName": "Wing-barred Seedeater",
+    "status": [],
+    "note": "113"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila fringilloides",
+    "commonName": "White-naped Seedeater",
+    "status": [],
+    "note": "107, 37b, 93"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila luctuosa",
+    "commonName": "Black-and-white Seedeater",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila nigricollis",
+    "commonName": "Yellow-bellied Seedeater",
+    "status": [],
+    "note": "116"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila ardesiaca",
+    "commonName": "Dubois's Seedeater",
+    "status": [],
+    "note": "117"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila caerulescens",
+    "commonName": "Double-collared Seedeater",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila schistacea",
+    "commonName": "Slate-colored Seedeater",
+    "status": [],
+    "note": "111"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila falcirostris",
+    "commonName": "Temminck's Seedeater",
+    "status": [],
+    "note": "111"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila frontalis",
+    "commonName": "Buffy-fronted Seedeater",
+    "status": [],
+    "note": "107, 108, 109, 110, 93"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila plumbea",
+    "commonName": "Plumbeous Seedeater",
+    "status": [],
+    "note": "111a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila beltoni",
+    "commonName": "Tropeiro Seedeater",
+    "status": [],
+    "note": "111a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila collaris",
+    "commonName": "Rusty-collared Seedeater",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporophila albogularis",
+    "commonName": "White-throated Seedeater",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Saltatricula multicolor",
+    "commonName": "Many-colored Chaco Finch",
+    "status": [],
+    "note": "164, 172"
+  },
+  {
+    "type": "species",
+    "scientificName": "Saltatricula atricollis",
+    "commonName": "Black-throated Saltator",
+    "status": [],
+    "note": "164, 171, 172"
+  },
+  {
+    "type": "species",
+    "scientificName": "Saltator maximus",
+    "commonName": "Buff-throated Saltator",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Saltator atripennis",
+    "commonName": "Black-winged Saltator",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Saltator orenocensis",
+    "commonName": "Orinocan Saltator",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Saltator olivascens",
+    "commonName": "Olive-gray Saltator",
+    "status": [],
+    "note": "166, 167"
+  },
+  {
+    "type": "species",
+    "scientificName": "Saltator coerulescens",
+    "commonName": "Bluish-gray Saltator",
+    "status": [],
+    "note": "166, 167"
+  },
+  {
+    "type": "species",
+    "scientificName": "Saltator striatipectus",
+    "commonName": "Streaked Saltator",
+    "status": [],
+    "note": "170"
+  },
+  {
+    "type": "species",
+    "scientificName": "Saltator similis",
+    "commonName": "Green-winged Saltator",
+    "status": [],
+    "note": "166"
+  },
+  {
+    "type": "species",
+    "scientificName": "Saltator nigriceps",
+    "commonName": "Black-cowled Saltator",
+    "status": [],
+    "note": "169"
+  },
+  {
+    "type": "species",
+    "scientificName": "Saltator maxillosus",
+    "commonName": "Thick-billed Saltator",
+    "status": [],
+    "note": "166, 168"
+  },
+  {
+    "type": "species",
+    "scientificName": "Saltator aurantiirostris",
+    "commonName": "Golden-billed Saltator",
+    "status": [],
+    "note": "169"
+  },
+  {
+    "type": "species",
+    "scientificName": "Saltator cinctus",
+    "commonName": "Masked Saltator",
+    "status": [],
+    "note": "171"
+  },
+  {
+    "type": "species",
+    "scientificName": "Saltator grossus",
+    "commonName": "Slate-colored Grosbeak",
+    "status": [],
+    "note": "163, 165"
+  },
+  {
+    "type": "species",
+    "scientificName": "Saltator fuliginosus",
+    "commonName": "Black-throated Grosbeak",
+    "status": [],
+    "note": "163"
+  },
+  {
+    "type": "species",
+    "scientificName": "Coryphaspiza melanotis",
+    "commonName": "Black-masked Finch",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Embernagra platensis",
+    "commonName": "Great Pampa-Finch",
+    "status": [],
+    "note": "102, 103, 104, 93"
+  },
+  {
+    "type": "species",
+    "scientificName": "Embernagra longicauda",
+    "commonName": "Pale-throated Pampa-Finch",
+    "status": [],
+    "note": "103, 105"
+  },
+  {
+    "type": "species",
+    "scientificName": "Emberizoides herbicola",
+    "commonName": "Wedge-tailed Grass-Finch",
+    "status": [],
+    "note": "100, 102, 93"
+  },
+  {
+    "type": "species",
+    "scientificName": "Emberizoides duidae",
+    "commonName": "Duida Grass-Finch",
+    "status": [],
+    "note": "100"
+  },
+  {
+    "type": "species",
+    "scientificName": "Emberizoides ypiranganus",
+    "commonName": "Lesser Grass-Finch",
+    "status": [],
+    "note": "101"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xenospingus concolor",
+    "commonName": "Slender-billed Finch",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Piezorina cinerea",
+    "commonName": "Cinereous Finch",
+    "status": [],
+    "note": "93, 93a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudospingus verticalis",
+    "commonName": "Black-headed Hemispingus",
+    "status": [],
+    "note": "5, 5a, 12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudospingus xanthophthalmus",
+    "commonName": "Drab Hemispingus",
+    "status": [],
+    "note": "5, 5a, 12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cnemoscopus rubrirostris",
+    "commonName": "Pink-billed Cnemoscopus",
+    "status": [],
+    "note": "12b, 12c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cnemoscopus chrysogaster",
+    "commonName": "Black-billed Cnemoscopus",
+    "status": [],
+    "note": "12b, 12c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Castanozoster thoracicus",
+    "commonName": "Bay-chested Warbling Finch",
+    "status": [],
+    "note": "5a, 84"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poospiza goeringi",
+    "commonName": "Slaty-backed Hemispingus",
+    "status": [],
+    "note": "5, 84"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poospiza rufosuperciliaris",
+    "commonName": "Rufous-browed Hemispingus",
+    "status": [],
+    "note": "5, 11, 84"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poospiza boliviana",
+    "commonName": "Bolivian Warbling Finch",
+    "status": [],
+    "note": "5a, 84"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poospiza ornata",
+    "commonName": "Cinnamon Warbling Finch",
+    "status": [],
+    "note": "84, 85"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poospiza whitii",
+    "commonName": "Black-and-chestnut Warbling Finch",
+    "status": [],
+    "note": "84, 86"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poospiza nigrorufa",
+    "commonName": "Black-and-rufous Warbling Finch",
+    "status": [],
+    "note": "84, 86"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poospiza rubecula",
+    "commonName": "Rufous-breasted Warbling Finch",
+    "status": [],
+    "note": "84, 85, 92"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poospiza hispaniolensis",
+    "commonName": "Collared Warbling Finch",
+    "status": [],
+    "note": "84, 88"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poospiza garleppi",
+    "commonName": "Cochabamba Mountain Finch",
+    "status": [],
+    "note": "84, 84b, 91, 92"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poospiza baeri",
+    "commonName": "Tucuman Mountain Finch",
+    "status": [],
+    "note": "84, 91, 92"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poospizopsis caesar",
+    "commonName": "Chestnut-breasted Mountain Finch",
+    "status": [],
+    "note": "84b, 88, 92"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poospizopsis hypochondria",
+    "commonName": "Rufous-sided Warbling Finch",
+    "status": [],
+    "note": "5a, 84, 84a, 88"
+  },
+  {
+    "type": "species",
+    "scientificName": "Kleinothraupis reyi",
+    "commonName": "Gray-capped Hemispingus",
+    "status": [],
+    "note": "5a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Kleinothraupis atropileus",
+    "commonName": "Black-capped Hemispingus",
+    "status": [],
+    "note": "5, 5a, 6, 6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Kleinothraupis parodii",
+    "commonName": "Parodi's Hemispingus",
+    "status": [],
+    "note": "5, 5a, 7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Kleinothraupis calophrys",
+    "commonName": "Orange-browed Hemispingus",
+    "status": [],
+    "note": "5, 5a, 6,"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sphenopsis frontalis",
+    "commonName": "Oleaginous Hemispingus",
+    "status": [],
+    "note": "5, 5a, 9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sphenopsis melanotis",
+    "commonName": "Black-eared Hemispingus",
+    "status": [],
+    "note": "5, 5a, 10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thlypopsis sordida",
+    "commonName": "Orange-headed Tanager",
+    "status": [],
+    "note": "12e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thlypopsis inornata",
+    "commonName": "Buff-bellied Tanager",
+    "status": [],
+    "note": "12e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thlypopsis fulviceps",
+    "commonName": "Fulvous-headed Tanager",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Thlypopsis pyrrhocoma",
+    "commonName": "Chestnut-headed Tanager",
+    "status": [],
+    "note": "12f"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thlypopsis ruficeps",
+    "commonName": "Rust-and-yellow Tanager",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Thlypopsis superciliaris",
+    "commonName": "Superciliaried Hemispingus",
+    "status": [],
+    "note": "5, 5a, 8, 8a, 8b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thlypopsis ornata",
+    "commonName": "Rufous-chested Tanager",
+    "status": [],
+    "note": "12d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thlypopsis pectoralis",
+    "commonName": "Brown-flanked Tanager",
+    "status": [],
+    "note": "12d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Microspingus alticola",
+    "commonName": "Plain-tailed Warbling Finch",
+    "status": [],
+    "note": "5a, 12a, 84"
+  },
+  {
+    "type": "species",
+    "scientificName": "Microspingus erythrophrys",
+    "commonName": "Rusty-browed Warbling Finch",
+    "status": [],
+    "note": "12a, 84, 85"
+  },
+  {
+    "type": "species",
+    "scientificName": "Microspingus lateralis",
+    "commonName": "Buff-throated Warbling Finch",
+    "status": [],
+    "note": "12a, 84, 87"
+  },
+  {
+    "type": "species",
+    "scientificName": "Microspingus cabanisi",
+    "commonName": "Gray-throated Warbling Finch",
+    "status": [],
+    "note": "12a, 84, 87"
+  },
+  {
+    "type": "species",
+    "scientificName": "Microspingus torquatus",
+    "commonName": "Ringed Warbling Finch",
+    "status": [],
+    "note": "12a, 84, 88, 89"
+  },
+  {
+    "type": "species",
+    "scientificName": "Microspingus melanoleucus",
+    "commonName": "Black-capped Warbling Finch",
+    "status": [],
+    "note": "12a, 84, 90"
+  },
+  {
+    "type": "species",
+    "scientificName": "Microspingus cinereus",
+    "commonName": "Cinereous Warbling Finch",
+    "status": [],
+    "note": "12a, 84, 90"
+  },
+  {
+    "type": "species",
+    "scientificName": "Microspingus trifasciatus",
+    "commonName": "Three-striped Hemispingus",
+    "status": [],
+    "note": "12a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nephelornis oneilli",
+    "commonName": "Pardusco",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Urothraupis stolzmanni",
+    "commonName": "Black-backed Bush Tanager",
+    "status": [],
+    "note": "59"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cypsnagra hirundinacea",
+    "commonName": "White-rumped Tanager",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Donacospiza albifrons",
+    "commonName": "Long-tailed Reed Finch",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Incaspiza pulchra",
+    "commonName": "Great Inca-Finch",
+    "status": [],
+    "note": "83"
+  },
+  {
+    "type": "species",
+    "scientificName": "Incaspiza personata",
+    "commonName": "Rufous-backed Inca-Finch",
+    "status": [],
+    "note": "83"
+  },
+  {
+    "type": "species",
+    "scientificName": "Incaspiza ortizi",
+    "commonName": "Gray-winged Inca-Finch",
+    "status": [],
+    "note": "83"
+  },
+  {
+    "type": "species",
+    "scientificName": "Incaspiza laeta",
+    "commonName": "Buff-bridled Inca-Finch",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Incaspiza watkinsi",
+    "commonName": "Little Inca-Finch",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Coereba flaveola",
+    "commonName": "Bananaquit",
+    "status": [],
+    "note": "147"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tiaris olivaceus",
+    "commonName": "Yellow-faced Grassquit",
+    "status": [],
+    "note": "148, 149"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asemospiza obscura",
+    "commonName": "Dull-colored Grassquit",
+    "status": [],
+    "note": "150"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asemospiza fuliginosa",
+    "commonName": "Sooty Grassquit",
+    "status": [],
+    "note": "150"
+  },
+  {
+    "type": "species",
+    "scientificName": "Melanospiza bicolor",
+    "commonName": "Black-faced Grassquit",
+    "status": [],
+    "note": "151"
+  },
+  {
+    "type": "species",
+    "scientificName": "Certhidea olivacea",
+    "commonName": "Green Warbler-Finch",
+    "status": [],
+    "note": "152, 153, 154, 155"
+  },
+  {
+    "type": "species",
+    "scientificName": "Certhidea fusca",
+    "commonName": "Gray Warbler-Finch",
+    "status": [],
+    "note": "154"
+  },
+  {
+    "type": "species",
+    "scientificName": "Platyspiza crassirostris",
+    "commonName": "Vegetarian Finch",
+    "status": [],
+    "note": "152"
+  },
+  {
+    "type": "species",
+    "scientificName": "Camarhynchus pallidus",
+    "commonName": "Woodpecker Finch",
+    "status": [],
+    "note": "156, 156a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Camarhynchus psittacula",
+    "commonName": "Large Tree-Finch",
+    "status": [],
+    "note": "157"
+  },
+  {
+    "type": "species",
+    "scientificName": "Camarhynchus pauper",
+    "commonName": "Medium Tree-Finch",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Camarhynchus parvulus",
+    "commonName": "Small Tree-Finch",
+    "status": [],
+    "note": "155"
+  },
+  {
+    "type": "species",
+    "scientificName": "Camarhynchus heliobates",
+    "commonName": "Mangrove Finch",
+    "status": [],
+    "note": "156"
+  },
+  {
+    "type": "species",
+    "scientificName": "Geospiza difficilis",
+    "commonName": "Sharp-beaked Ground-Finch",
+    "status": [],
+    "note": "158, 159"
+  },
+  {
+    "type": "species",
+    "scientificName": "Geospiza septentrionalis",
+    "commonName": "Vampire Ground-Finch",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Geospiza fuliginosa",
+    "commonName": "Small Ground-Finch",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Geospiza fortis",
+    "commonName": "Medium Ground-Finch",
+    "status": [],
+    "note": "160"
+  },
+  {
+    "type": "species",
+    "scientificName": "Geospiza acutirostris",
+    "commonName": "Genovesa Ground-Finch",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Geospiza scandens",
+    "commonName": "Common Cactus-Finch",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Geospiza propinqua",
+    "commonName": "Genovesa Cactus-Finch",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Geospiza magnirostris",
+    "commonName": "Large Ground-Finch",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Geospiza conirostris",
+    "commonName": "Española Ground-Finch",
+    "status": [],
+    "note": "161"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorochrysa phoenicotis",
+    "commonName": "Glistening-green Tanager",
+    "status": [],
+    "note": "27a, 28"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorochrysa calliparaea",
+    "commonName": "Orange-eared Tanager",
+    "status": [],
+    "note": "28"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorochrysa nitidissima",
+    "commonName": "Multicolored Tanager",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Lophospingus pusillus",
+    "commonName": "Black-crested Finch",
+    "status": [],
+    "note": "81, 82, 58c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lophospingus griseocristatus",
+    "commonName": "Gray-crested Finch",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Neothraupis fasciata",
+    "commonName": "White-banded Tanager",
+    "status": [],
+    "note": "1a, 1aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Diuca diuca",
+    "commonName": "Diuca Finch",
+    "status": [],
+    "note": "76, 76a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Gubernatrix cristata",
+    "commonName": "Yellow Cardinal",
+    "status": [],
+    "note": "146"
+  },
+  {
+    "type": "species",
+    "scientificName": "Paroaria coronata",
+    "commonName": "Red-crested Cardinal",
+    "status": [],
+    "note": "64, 65, 66b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Paroaria dominicana",
+    "commonName": "Red-cowled Cardinal",
+    "status": [],
+    "note": "65, 65a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Paroaria nigrogenis",
+    "commonName": "Masked Cardinal",
+    "status": [],
+    "note": "66"
+  },
+  {
+    "type": "species",
+    "scientificName": "Paroaria gularis",
+    "commonName": "Red-capped Cardinal",
+    "status": [],
+    "note": "66"
+  },
+  {
+    "type": "species",
+    "scientificName": "Paroaria baeri",
+    "commonName": "Crimson-fronted Cardinal",
+    "status": [],
+    "note": "66"
+  },
+  {
+    "type": "species",
+    "scientificName": "Paroaria capitata",
+    "commonName": "Yellow-billed Cardinal",
+    "status": [],
+    "note": "66"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stephanophorus diadematus",
+    "commonName": "Diademed Tanager",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Schistochlamys melanopis",
+    "commonName": "Black-faced Tanager",
+    "status": [],
+    "note": "1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Schistochlamys ruficapillus",
+    "commonName": "Cinnamon Tanager",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Cissopis leverianus",
+    "commonName": "Magpie Tanager",
+    "status": [],
+    "note": "1a, 1b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Calochaetes coccineus",
+    "commonName": "Vermilion Tanager",
+    "status": [],
+    "note": "24b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Iridosornis porphyrocephalus",
+    "commonName": "Purplish-mantled Tanager",
+    "status": [],
+    "note": "26, 26b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Iridosornis analis",
+    "commonName": "Yellow-throated Tanager",
+    "status": [],
+    "note": "26"
+  },
+  {
+    "type": "species",
+    "scientificName": "Iridosornis jelskii",
+    "commonName": "Golden-collared Tanager",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Iridosornis rufivertex",
+    "commonName": "Golden-crowned Tanager",
+    "status": [],
+    "note": "27"
+  },
+  {
+    "type": "species",
+    "scientificName": "Iridosornis reinhardti",
+    "commonName": "Yellow-scarfed Tanager",
+    "status": [],
+    "note": "27"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pipraeidea melanonota",
+    "commonName": "Fawn-breasted Tanager",
+    "status": [],
+    "note": "17b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rauenia bonariensis",
+    "commonName": "Blue-and-yellow Tanager",
+    "status": [],
+    "note": "19b, 19bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudosaltator rufiventris",
+    "commonName": "Rufous-bellied Mountain Tanager",
+    "status": [],
+    "note": "24c, 25b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dubusia carrikeri",
+    "commonName": "Carriker’s Mountain Tanager",
+    "status": [],
+    "note": "24b, 24c, 25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dubusia taeniata",
+    "commonName": "Buff-banded Mountain Tanager",
+    "status": [],
+    "note": "24b, 24c, 25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dubusia stictocephala",
+    "commonName": "Streak-crowned Mountain Tanager",
+    "status": [],
+    "note": "24b, 24c, 25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dubusia castaneoventris",
+    "commonName": "Chestnut-bellied Mountain Tanager",
+    "status": [],
+    "note": "24b, 25a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anisognathus melanogenys",
+    "commonName": "Black-cheeked Mountain Tanager",
+    "status": [],
+    "note": "23, 23a, 23b, 24b, 24c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anisognathus lacrymosus",
+    "commonName": "Lacrimose Mountain Tanager",
+    "status": [],
+    "note": "23a, 23b, 23c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anisognathus igniventris",
+    "commonName": "Scarlet-bellied Mountain Tanager",
+    "status": [],
+    "note": "23b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anisognathus somptuosus",
+    "commonName": "Blue-winged Mountain Tanager",
+    "status": [],
+    "note": "24, 24a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anisognathus notabilis",
+    "commonName": "Black-chinned Mountain Tanager",
+    "status": [],
+    "note": "24a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Buthraupis montana",
+    "commonName": "Hooded Mountain Tanager",
+    "status": [],
+    "note": "24b, 24c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tephrophilus wetmorei",
+    "commonName": "Masked Mountain Tanager",
+    "status": [],
+    "note": "22a, 24c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sporathraupis cyanocephala",
+    "commonName": "Blue-capped Tanager",
+    "status": [],
+    "note": "19a, 19aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorornis riefferii",
+    "commonName": "Grass-green Tanager",
+    "status": [],
+    "note": "24b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cnemathraupis eximia",
+    "commonName": "Black-chested Mountain Tanager",
+    "status": [],
+    "note": "21a, 24c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cnemathraupis aureodorsalis",
+    "commonName": "Golden-backed Mountain Tanager",
+    "status": [],
+    "note": "21a, 22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Wetmorethraupis sterrhopteron",
+    "commonName": "Orange-throated Tanager",
+    "status": [],
+    "note": "21"
+  },
+  {
+    "type": "species",
+    "scientificName": "Bangsia arcaei",
+    "commonName": "Blue-and-gold Tanager",
+    "status": [],
+    "note": "20a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Bangsia melanochlamys",
+    "commonName": "Black-and-gold Tanager",
+    "status": [],
+    "note": "20"
+  },
+  {
+    "type": "species",
+    "scientificName": "Bangsia rothschildi",
+    "commonName": "Golden-chested Tanager",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Bangsia edwardsi",
+    "commonName": "Moss-backed Tanager",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Bangsia aureocincta",
+    "commonName": "Gold-ringed Tanager",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Bangsia flavovirens",
+    "commonName": "Yellow-green Tanager",
+    "status": [],
+    "note": "20b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chalcothraupis ruficervix",
+    "commonName": "Golden-naped Tanager",
+    "status": [],
+    "note": "30b, 30c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poecilostreptus palmeri",
+    "commonName": "Gray-and-gold Tanager",
+    "status": [],
+    "note": "28ab"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stilpnia cyanoptera",
+    "commonName": "Black-headed Tanager",
+    "status": [],
+    "note": "36, 36a, 36aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stilpnia whitelyi",
+    "commonName": "Black-hooded Tanager",
+    "status": [],
+    "note": "36, 36a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stilpnia viridicollis",
+    "commonName": "Silvery Tanager",
+    "status": [],
+    "note": "33, 34"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stilpnia heinei",
+    "commonName": "Black-capped Tanager",
+    "status": [],
+    "note": "33"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stilpnia argyrofenges",
+    "commonName": "Green-throated Tanager",
+    "status": [],
+    "note": "33, 35"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stilpnia phillipsi",
+    "commonName": "Sira Tanager",
+    "status": [],
+    "note": "32, 33"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stilpnia peruviana",
+    "commonName": "Black-backed Tanager",
+    "status": [],
+    "note": "29, 30a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stilpnia preciosa",
+    "commonName": "Chestnut-backed Tanager",
+    "status": [],
+    "note": "29, 29a, 30a, 30aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stilpnia meyerdeschauenseei",
+    "commonName": "Green-capped Tanager",
+    "status": [],
+    "note": "30, 30a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stilpnia cayana",
+    "commonName": "Burnished-buff Tanager",
+    "status": [],
+    "note": "30a, 30aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stilpnia vitriolina",
+    "commonName": "Scrub Tanager",
+    "status": [],
+    "note": "29b, 30a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stilpnia nigrocincta",
+    "commonName": "Masked Tanager",
+    "status": [],
+    "note": "31"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stilpnia larvata",
+    "commonName": "Golden-hooded Tanager",
+    "status": [],
+    "note": "31, 31a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stilpnia cyanicollis",
+    "commonName": "Blue-necked Tanager",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Tangara vassorii",
+    "commonName": "Blue-and-black Tanager",
+    "status": [],
+    "note": "32a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tangara nigroviridis",
+    "commonName": "Beryl-spangled Tanager",
+    "status": [],
+    "note": "32a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tangara labradorides",
+    "commonName": "Metallic-green Tanager",
+    "status": [],
+    "note": "30c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tangara cyanotis",
+    "commonName": "Blue-browed Tanager",
+    "status": [],
+    "note": "30c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tangara inornata",
+    "commonName": "Plain-colored Tanager",
+    "status": [],
+    "note": "28a, 28aa, 28aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tangara mexicana",
+    "commonName": "Turquoise Tanager",
+    "status": [],
+    "note": "28aa, 28f"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tangara chilensis",
+    "commonName": "Paradise Tanager",
+    "status": [],
+    "note": "28bb, 37a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tangara velia",
+    "commonName": "Opal-rumped Tanager",
+    "status": [],
+    "note": "37, 37a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tangara callophrys",
+    "commonName": "Opal-crowned Tanager",
+    "status": [],
+    "note": "37a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tangara seledon",
+    "commonName": "Green-headed Tanager",
+    "status": [],
+    "note": "28b, 28bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tangara fastuosa",
+    "commonName": "Seven-colored Tanager",
+    "status": [],
+    "note": "28b, 28bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tangara cyanocephala",
+    "commonName": "Red-necked Tanager",
+    "status": [],
+    "note": "28b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tangara desmaresti",
+    "commonName": "Brassy-breasted Tanager",
+    "status": [],
+    "note": "28b, 28bbbb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tangara cyanoventris",
+    "commonName": "Gilt-edged Tanager",
+    "status": [],
+    "note": "28b, 28bbbb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tangara lavinia",
+    "commonName": "Rufous-winged Tanager",
+    "status": [],
+    "note": "28d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tangara gyrola",
+    "commonName": "Bay-headed Tanager",
+    "status": [],
+    "note": "28d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tangara rufigenis",
+    "commonName": "Rufous-cheeked Tanager",
+    "status": [],
+    "note": "28d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tangara chrysotis",
+    "commonName": "Golden-eared Tanager",
+    "status": [],
+    "note": "28bbb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tangara xanthocephala",
+    "commonName": "Saffron-crowned Tanager",
+    "status": [],
+    "note": "28bbb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tangara parzudakii",
+    "commonName": "Flame-faced Tanager",
+    "status": [],
+    "note": "28bbb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tangara schrankii",
+    "commonName": "Green-and-gold Tanager",
+    "status": [],
+    "note": "28bbb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tangara johannae",
+    "commonName": "Blue-whiskered Tanager",
+    "status": [],
+    "note": "28bbb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tangara arthus",
+    "commonName": "Golden Tanager",
+    "status": [],
+    "note": "28bbb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tangara florida",
+    "commonName": "Emerald Tanager",
+    "status": [],
+    "note": "28bbb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tangara icterocephala",
+    "commonName": "Silver-throated Tanager",
+    "status": [],
+    "note": "28bbb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thraupis episcopus",
+    "commonName": "Blue-gray Tanager",
+    "status": [],
+    "note": "17b, 17c, 28a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thraupis sayaca",
+    "commonName": "Sayaca Tanager",
+    "status": [],
+    "note": "18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thraupis glaucocolpa",
+    "commonName": "Glaucous Tanager",
+    "status": [],
+    "note": "19"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thraupis cyanoptera",
+    "commonName": "Azure-shouldered Tanager",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Thraupis ornata",
+    "commonName": "Golden-chevroned Tanager",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Thraupis palmarum",
+    "commonName": "Palm Tanager",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Ixothraupis varia",
+    "commonName": "Dotted Tanager",
+    "status": [],
+    "note": "28cc"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ixothraupis rufigula",
+    "commonName": "Rufous-throated Tanager",
+    "status": [],
+    "note": "28cc"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ixothraupis guttata",
+    "commonName": "Speckled Tanager",
+    "status": [],
+    "note": "28cc, 28e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ixothraupis xanthogastra",
+    "commonName": "Yellow-bellied Tanager",
+    "status": [],
+    "note": "28c, 28cc"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ixothraupis punctata",
+    "commonName": "Spotted Tanager",
+    "status": [],
+    "note": "28cc, 28ccc"
+  }
+]

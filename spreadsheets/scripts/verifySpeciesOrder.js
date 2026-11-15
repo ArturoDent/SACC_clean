@@ -1,7 +1,9 @@
 // node spreadsheets/scripts/verifySpeciesOrder.js [path/to/file.xlsx] [--strict]
 //
 // Verifies that the species in the SACCListByCountry spreadsheet appear in the
-// same order as the .familySpeciesList entries in clean/baseline/*.htm.
+// same order as the species rows in the clean/baseline/*.json sidecars (the
+// parsed taxonomy rows the familySpeciesList markup is generated from; see
+// src/sacc/familySpeciesList.js). Report locations still link to the .htm.
 //
 // With no argument it uses the most recent .xlsx in spreadsheets/. Prints a
 // summary to the console and writes the full findings to
@@ -30,7 +32,6 @@
 import fs from "node:fs";
 import path from "node:path";
 import {fileURLToPath, pathToFileURL} from "node:url";
-import {JSDOM} from "jsdom";
 import {readSheetRows} from "./readXlsx.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
@@ -62,14 +63,43 @@ const foldPunctuation = (value) =>
     .replace(/[\u201c\u201d]/g, '"')
     .replace(/[\u2010-\u2015]/g, "-");
 
-// Status codes live in their own spreadsheet columns, but are appended to the
-// common name in the HTML, e.g. "Alder Flycatcher (NB)".
-const STATUS_SUFFIX = /\s*\((?:V\??|IN|NB|EX\??)(?:\s*,\s*(?:V\??|IN|NB|EX\??))*\)\s*$/i;
-
-const englishKey = (value) =>
-  normalizeText(foldPunctuation(value).replace(STATUS_SUFFIX, "")).toLowerCase();
+// Status codes live in their own spreadsheet columns and in the sidecar's own
+// "status" field, so neither side's common name carries a "(NB)" suffix.
+const englishKey = (value) => normalizeText(foldPunctuation(value)).toLowerCase();
 
 const scientificKey = (value) => normalizeText(foldPunctuation(value)).toLowerCase();
+
+// ---------------------------------------------------------------- status
+
+// The baseline tags a species once for the whole region ("(V)" = vagrant to
+// South America); the spreadsheet tags it per country (X resident, V, NB, IN,
+// EX, U unconfirmed, with (e)/(eb) variants of X and EX). The regional tag
+// should follow from the country codes: vagrant only if it is V everywhere it
+// occurs, non-breeder if only NB/V, introduced if only IN/V, extinct if only
+// EX, and no tag at all if it is resident anywhere. U does not count.
+//
+// Returns "" for "resident, no tag expected", a code, or null when the row has
+// nothing confirmed or mixes codes in a way the rule does not cover.
+const deriveRegionalStatus = (countryCodes) => {
+  const codes = new Set(countryCodes
+    .map((code) => code.replace(/\(.*\)$/, "").replace(/\?$/, "").toUpperCase())
+    .filter((code) => !["U", "UN", "?"].includes(code)));
+  const only = (...allowed) => [...codes].every((code) => allowed.includes(code));
+
+  if (!codes.size) return null;
+  if (codes.has("X")) return "";
+  if (only("V")) return "V";
+  if (codes.has("NB") && only("NB", "V")) return "NB";
+  if (codes.has("IN") && only("IN", "V")) return "IN";
+  if (codes.has("EX") && only("EX", "V", "NB")) return "EX";
+  return null;
+};
+
+// Headers of the count columns that follow the per-country ones in the sheet.
+const SUMMARY_HEADERS = new Set(["X", "NB", "V", "IN", "total"]);
+const NAME_COLUMNS = new Set(["A", "B", "C", "D", "E", "F"]);
+
+const statusText = (status) => status.length ? `(${status.join(", ")})` : "none";
 
 // ---------------------------------------------------------------- extraction
 
@@ -97,13 +127,25 @@ const readSpreadsheetSpecies = (xlsxPath) => {
   const rows = readSheetRows(xlsxPath);
   const species = [];
 
+  // Country columns are found by header (the row above the first data row)
+  // rather than fixed letters, so a country added to the sheet is picked up.
+  const header = rows.get(FIRST_DATA_ROW - 1) ?? {};
+  const countryColumns = Object.entries(header)
+    .map(([column, name]) => [column, normalizeText(String(name ?? ""))])
+    .filter(([column, name]) => name && !NAME_COLUMNS.has(column) && !SUMMARY_HEADERS.has(name));
+
   for (const rowNumber of [...rows.keys()].sort((a, b) => a - b)) {
     if (rowNumber < FIRST_DATA_ROW) continue;
     const cells = rows.get(rowNumber);
     const scientific = normalizeText(cells[SCIENTIFIC_COLUMN] ?? "");
     const english = normalizeText(cells[ENGLISH_COLUMN] ?? "");
     if (!scientific || !english) continue;
-    species.push({index: species.length, row: rowNumber, scientific, english});
+
+    const countries = countryColumns
+      .map(([column, name]) => ({name, code: normalizeText(String(cells[column] ?? ""))}))
+      .filter(({code}) => code);
+
+    species.push({index: species.length, row: rowNumber, scientific, english, countries});
   }
 
   return species;
@@ -123,26 +165,24 @@ const lineNumberAt = (lineStarts, offset) => {
 const escapeHtml = (value) =>
   value.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
 
+// Species come from the JSON sidecar the pipeline writes next to each part; the
+// .htm is read only to find each species' line so the report can link to it.
 const readBaselineSpecies = () => {
   const species = [];
 
   for (const file of BASELINE_FILES) {
-    const filePath = path.join(BASELINE_DIR, file);
-    const source = fs.readFileSync(filePath, "utf8");
+    const source = fs.readFileSync(path.join(BASELINE_DIR, file), "utf8");
     const lineStarts = [0];
     for (let i = 0; i < source.length; i++) if (source[i] === "\n") lineStarts.push(i + 1);
 
-    const {document} = new JSDOM(source).window;
-    // A species row is the only kind of list item with a direct-child <i>;
-    // order/family/subfamily rows carry a class instead.
+    const rows = JSON.parse(fs.readFileSync(path.join(BASELINE_DIR, file.replace(/\.htm$/i, ".json")), "utf8"));
     let searchFrom = 0;
 
-    for (const li of document.querySelectorAll(".familySpeciesList li")) {
-      const italic = li.querySelector(":scope > i");
-      if (!italic) continue;
+    for (const row of rows) {
+      if (row.type !== "species") continue;
 
-      const scientific = normalizeText(italic.textContent ?? "");
-      const english = normalizeText(li.querySelector(":scope > span.commonName")?.textContent ?? "");
+      const scientific = normalizeText(row.scientificName);
+      const english = normalizeText(row.commonName);
 
       // Locate the source line. The generator emits "<li><i>Name</i>" intact on
       // one line; scanning forward keeps repeated fragments in document order.
@@ -156,6 +196,7 @@ const readBaselineSpecies = () => {
         line: found === -1 ? null : lineNumberAt(lineStarts, found),
         scientific,
         english,
+        status: row.status,
       });
     }
   }
@@ -278,6 +319,18 @@ export const compare = (spreadsheet, baseline) => {
   };
 };
 
+// Matched pairs whose baseline status does not follow from the spreadsheet's
+// per-country codes (see deriveRegionalStatus). A two-code tag such as
+// "(NB, EX?)" is accepted when the countries support either code.
+export const statusInconsistencies = (pairs) => pairs
+  .filter(({spreadsheet, baseline}) => spreadsheet.countries && baseline.status)
+  .map((pair) => ({...pair, derived: deriveRegionalStatus(pair.spreadsheet.countries.map((c) => c.code))}))
+  .filter(({baseline, derived}) => {
+    if (derived === null) return false;
+    const codes = baseline.status.map((s) => s.replace("?", ""));
+    return derived === "" ? codes.length > 0 : !codes.includes(derived);
+  });
+
 // Consecutive displaced species are one disturbance, not several. Group
 // findings that sit within a couple of positions of each other so a swap
 // reads as a single region.
@@ -299,13 +352,13 @@ const baselineLink = ({file, line}) =>
     : `[${file}:${line}](../clean/baseline/${file}#L${line})`;
 
 const buildReport = (result, context) => {
-  const {pairs, outOfOrder, englishMismatches, spellingDifferences, onlyInBaseline, onlyInSpreadsheet} = result;
+  const {pairs, outOfOrder, englishMismatches, spellingDifferences, onlyInBaseline, onlyInSpreadsheet, statusFindings} = result;
   const lines = [];
 
   lines.push("# Species order: spreadsheet vs. clean baseline", "");
   lines.push(`Generated by \`node spreadsheets/scripts/verifySpeciesOrder.js\` on ${context.generatedAt}.`, "");
   lines.push(`- Spreadsheet: \`${context.spreadsheetName}\` - **${context.spreadsheetCount}** species`);
-  lines.push("- Baseline: `clean/baseline/SACCBaseline*.htm` - "
+  lines.push("- Baseline: `clean/baseline/SACCBaseline*.json` (locations link to the .htm) - "
     + `**${context.baselineCount}** species`);
   lines.push(`- Matched by scientific name: **${pairs.length}**`, "");
 
@@ -317,12 +370,13 @@ const buildReport = (result, context) => {
   lines.push(`| Scientific name spelling differences | ${spellingDifferences.length} |`);
   lines.push(`| Only in spreadsheet | ${onlyInSpreadsheet.length} |`);
   lines.push(`| Only in baseline | ${onlyInBaseline.length} |`);
+  lines.push(`| Status inconsistencies | ${statusFindings.length} |`);
   lines.push("");
 
   const total = outOfOrder.length + englishMismatches.length + spellingDifferences.length
-    + onlyInSpreadsheet.length + onlyInBaseline.length;
+    + onlyInSpreadsheet.length + onlyInBaseline.length + statusFindings.length;
   if (total === 0) {
-    lines.push("The two lists are in the same order and carry the same names.", "");
+    lines.push("The two lists are in the same order, carry the same names, and agree on status.", "");
     return `${lines.join("\n")}\n`;
   }
 
@@ -355,8 +409,8 @@ const buildReport = (result, context) => {
 
   if (englishMismatches.length) {
     lines.push("## English name mismatches", "");
-    lines.push("Same scientific name, different common name. Status suffixes such as `(NB)` "
-      + "and typographic punctuation are ignored when comparing.", "");
+    lines.push("Same scientific name, different common name. Status codes are kept out of "
+      + "the compared names and typographic punctuation is ignored.", "");
     lines.push("| Species | Spreadsheet | Baseline | Sheet row | Location |");
     lines.push("| --- | --- | --- | --- | --- |");
     for (const pair of englishMismatches) {
@@ -399,6 +453,25 @@ const buildReport = (result, context) => {
     lines.push("");
   }
 
+  if (statusFindings.length) {
+    lines.push("## Status inconsistencies", "");
+    lines.push("The baseline tags a species once for the whole region; the spreadsheet tags it "
+      + "per country. Listed here are species whose regional tag does not follow from the "
+      + "country codes: `(V)` should be V everywhere it occurs, `(NB)` only NB/V, `(IN)` only "
+      + "IN/V, `(EX)` only EX, and an untagged species should be resident (X) somewhere. "
+      + "Unconfirmed (U) records are ignored. Some of these may be deliberate judgments - "
+      + "a species vagrant to the region overall can still be a regular non-breeder in one country.", "");
+    lines.push("| Species | Common name | Baseline | Countries imply | Country codes | Sheet row | Location |");
+    lines.push("| --- | --- | --- | --- | --- | --- | --- |");
+    for (const pair of statusFindings) {
+      const codes = pair.spreadsheet.countries.map(({name, code}) => `${name} ${code}`).join(", ");
+      lines.push(`| *${pair.baseline.scientific}* | ${pair.baseline.english} | ${statusText(pair.baseline.status)} `
+        + `| ${pair.derived === "" ? "none (resident)" : `(${pair.derived})`} | ${codes} `
+        + `| ${pair.spreadsheet.row} | ${baselineLink(pair.baseline)} |`);
+    }
+    lines.push("");
+  }
+
   return `${lines.join("\n")}\n`;
 };
 
@@ -418,9 +491,10 @@ const main = () => {
   const spreadsheet = readSpreadsheetSpecies(xlsxPath);
   const baseline = readBaselineSpecies();
   const result = compare(spreadsheet, baseline);
+  result.statusFindings = statusInconsistencies(result.pairs);
 
   console.log(`Spreadsheet: ${path.relative(ROOT, xlsxPath)} - ${spreadsheet.length} species`);
-  console.log(`Baseline:    clean/baseline/SACCBaseline*.htm - ${baseline.length} species`);
+  console.log(`Baseline:    clean/baseline/SACCBaseline*.json - ${baseline.length} species`);
   console.log(`Matched by scientific name: ${result.pairs.length}`);
 
   printSection("Species out of order", result.outOfOrder, (pair) =>
@@ -441,8 +515,14 @@ const main = () => {
   printSection("Only in the baseline", result.onlyInBaseline, (entry) =>
     `${entry.scientific} (${entry.english}) - ${entry.file}:${entry.line}`);
 
+  printSection("Status inconsistencies", result.statusFindings, (pair) =>
+    `${pair.baseline.scientific} - baseline ${statusText(pair.baseline.status)} vs countries `
+    + `${pair.derived === "" ? "resident" : `(${pair.derived})`}: `
+    + pair.spreadsheet.countries.map(({name, code}) => `${name} ${code}`).join(", "));
+
   const findingCount = result.outOfOrder.length + result.englishMismatches.length
-    + result.spellingDifferences.length + result.onlyInSpreadsheet.length + result.onlyInBaseline.length;
+    + result.spellingDifferences.length + result.onlyInSpreadsheet.length + result.onlyInBaseline.length
+    + result.statusFindings.length;
 
   fs.writeFileSync(REPORT_PATH, buildReport(result, {
     generatedAt: new Date().toISOString().slice(0, 10),

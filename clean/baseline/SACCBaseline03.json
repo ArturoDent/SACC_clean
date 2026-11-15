@@ -1,0 +1,2089 @@
+[
+  {
+    "type": "order",
+    "label": "APODIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "APODIDAE (SWIFTS)",
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cypseloides cherriei",
+    "commonName": "Spot-fronted Swift",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Cypseloides cryptus",
+    "commonName": "White-chinned Swift",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cypseloides niger",
+    "commonName": "Black Swift",
+    "status": [
+      "NB"
+    ],
+    "note": "4, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cypseloides lemosi",
+    "commonName": "White-chested Swift",
+    "status": [],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cypseloides rothschildi",
+    "commonName": "Rothschild's Swift",
+    "status": [],
+    "note": "3, 4, 7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cypseloides fumigatus",
+    "commonName": "Sooty Swift",
+    "status": [],
+    "note": "3, 4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cypseloides senex",
+    "commonName": "Great Dusky Swift",
+    "status": [],
+    "note": "6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Streptoprocne rutila",
+    "commonName": "Chestnut-collared Swift",
+    "status": [],
+    "note": "8, 9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Streptoprocne phelpsi",
+    "commonName": "Tepui Swift",
+    "status": [],
+    "note": "8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Streptoprocne zonaris",
+    "commonName": "White-collared Swift",
+    "status": [],
+    "note": "10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Streptoprocne biscutata",
+    "commonName": "Biscutate Swift",
+    "status": [],
+    "note": "10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chaetura cinereiventris",
+    "commonName": "Gray-rumped Swift",
+    "status": [],
+    "note": "14, 15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chaetura spinicaudus",
+    "commonName": "Band-rumped Swift",
+    "status": [],
+    "note": "11, 12, 13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chaetura egregia",
+    "commonName": "Pale-rumped Swift",
+    "status": [],
+    "note": "15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chaetura pelagica",
+    "commonName": "Chimney Swift",
+    "status": [
+      "NB"
+    ],
+    "note": "17, 19"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chaetura vauxi",
+    "commonName": "Vaux's Swift",
+    "status": [],
+    "note": "16, 17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chaetura chapmani",
+    "commonName": "Chapman's Swift",
+    "status": [],
+    "note": "17, 18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chaetura andrei",
+    "commonName": "Ashy-tailed Swift",
+    "status": [],
+    "note": "19, 20"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chaetura meridionalis",
+    "commonName": "Sick's Swift",
+    "status": [],
+    "note": "19"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chaetura brachyura",
+    "commonName": "Short-tailed Swift",
+    "status": [],
+    "note": "21"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aeronautes montivagus",
+    "commonName": "White-tipped Swift",
+    "status": [],
+    "note": "22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aeronautes andecolus",
+    "commonName": "Andean Swift",
+    "status": [],
+    "note": "22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tachornis furcata",
+    "commonName": "Pygmy Palm Swift",
+    "status": [],
+    "note": "23, 24, 25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tachornis squamata",
+    "commonName": "Fork-tailed Palm Swift",
+    "status": [],
+    "note": "23, 24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Panyptila cayennensis",
+    "commonName": "Lesser Swallow-tailed Swift",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Apus apus",
+    "commonName": "Common Swift",
+    "status": [
+      "V"
+    ],
+    "note": "26"
+  },
+  {
+    "type": "family",
+    "label": "TROCHILIDAE (HUMMINGBIRDS)",
+    "note": "1"
+  },
+  {
+    "type": "subfamily",
+    "label": "Florisuginae",
+    "note": "1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Topaza pella",
+    "commonName": "Crimson Topaz",
+    "status": [],
+    "note": "25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Topaza pyra",
+    "commonName": "Fiery Topaz",
+    "status": [],
+    "note": "25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Florisuga mellivora",
+    "commonName": "White-necked Jacobin",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Florisuga fusca",
+    "commonName": "Black Jacobin",
+    "status": [],
+    "note": "22"
+  },
+  {
+    "type": "subfamily",
+    "label": "Phaethornithinae",
+    "note": "1, 2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eutoxeres aquila",
+    "commonName": "White-tipped Sicklebill",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Eutoxeres condamini",
+    "commonName": "Buff-tailed Sicklebill",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Ramphodon naevius",
+    "commonName": "Saw-billed Hermit",
+    "status": [],
+    "note": "2a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Glaucis dohrnii",
+    "commonName": "Hook-billed Hermit",
+    "status": [],
+    "note": "3, 3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Glaucis aeneus",
+    "commonName": "Bronzy Hermit",
+    "status": [],
+    "note": "4, 4b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Glaucis hirsutus",
+    "commonName": "Rufous-breasted Hermit",
+    "status": [],
+    "note": "4, 4b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Threnetes ruckeri",
+    "commonName": "Band-tailed Barbthroat",
+    "status": [],
+    "note": "3a, 6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Threnetes leucurus",
+    "commonName": "Pale-tailed Barbthroat",
+    "status": [],
+    "note": "6, 7, 7a, 7b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Threnetes niger",
+    "commonName": "Sooty Barbthroat",
+    "status": [],
+    "note": "5, 6, 7, 7c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anopetia gounellei",
+    "commonName": "Broad-tipped Hermit",
+    "status": [],
+    "note": "8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis squalidus",
+    "commonName": "Dusky-throated Hermit",
+    "status": [],
+    "note": "8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis rupurumii",
+    "commonName": "Streak-throated Hermit",
+    "status": [],
+    "note": "9, 9a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis longuemareus",
+    "commonName": "Little Hermit",
+    "status": [],
+    "note": "9, 9b, 9bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis aethopygus",
+    "commonName": "Tapajos Hermit",
+    "status": [],
+    "note": "9bb, 9bbb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis idaliae",
+    "commonName": "Minute Hermit",
+    "status": [],
+    "note": "9b, 9c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis nattereri",
+    "commonName": "Cinnamon-throated Hermit",
+    "status": [],
+    "note": "9c, 10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis atrimentalis",
+    "commonName": "Black-throated Hermit",
+    "status": [],
+    "note": "11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis striigularis",
+    "commonName": "Stripe-throated Hermit",
+    "status": [],
+    "note": "12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis griseogularis",
+    "commonName": "Gray-chinned Hermit",
+    "status": [],
+    "note": "12a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis ruber",
+    "commonName": "Reddish Hermit",
+    "status": [],
+    "note": "9c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis stuarti",
+    "commonName": "White-browed Hermit",
+    "status": [],
+    "note": "12b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis subochraceus",
+    "commonName": "Buff-bellied Hermit",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis augusti",
+    "commonName": "Sooty-capped Hermit",
+    "status": [],
+    "note": "13, 13c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis pretrei",
+    "commonName": "Planalto Hermit",
+    "status": [],
+    "note": "13, 13a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis eurynome",
+    "commonName": "Scale-throated Hermit",
+    "status": [],
+    "note": "13b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis anthophilus",
+    "commonName": "Pale-bellied Hermit",
+    "status": [],
+    "note": "13d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis hispidus",
+    "commonName": "White-bearded Hermit",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis yaruqui",
+    "commonName": "White-whiskered Hermit",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis guy",
+    "commonName": "Green Hermit",
+    "status": [],
+    "note": "13c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis syrmatophorus",
+    "commonName": "Tawny-bellied Hermit",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis koepckeae",
+    "commonName": "Koepcke's Hermit",
+    "status": [],
+    "note": "14, 14a, 15a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis philippii",
+    "commonName": "Needle-billed Hermit",
+    "status": [],
+    "note": "14a, 15, 15a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis bourcieri",
+    "commonName": "Straight-billed Hermit",
+    "status": [],
+    "note": "15a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis longirostris",
+    "commonName": "Long-billed Hermit",
+    "status": [],
+    "note": "16, 16a, 17a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis superciliosus",
+    "commonName": "Long-tailed Hermit",
+    "status": [],
+    "note": "16, 16a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethornis malaris",
+    "commonName": "Great-billed Hermit",
+    "status": [],
+    "note": "16, 17b"
+  },
+  {
+    "type": "subfamily",
+    "label": "Trochilinae",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Doryfera ludovicae",
+    "commonName": "Green-fronted Lancebill",
+    "status": [],
+    "note": "18, 18a, 18b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Doryfera johannae",
+    "commonName": "Blue-fronted Lancebill",
+    "status": [],
+    "note": "18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Schistes albogularis",
+    "commonName": "White-throated Daggerbill",
+    "status": [],
+    "note": "18, 69, 69a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Schistes geoffroyi",
+    "commonName": "Geoffroy’s Daggerbill",
+    "status": [],
+    "note": "18, 69, 69a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Augastes scutatus",
+    "commonName": "Hyacinth Visorbearer",
+    "status": [],
+    "note": "68, 68a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Augastes lumachella",
+    "commonName": "Hooded Visorbearer",
+    "status": [],
+    "note": "68"
+  },
+  {
+    "type": "species",
+    "scientificName": "Colibri delphinae",
+    "commonName": "Brown Violetear",
+    "status": [],
+    "note": "22c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Colibri cyanotus",
+    "commonName": "Lesser Violetear",
+    "status": [],
+    "note": "22a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Colibri coruscans",
+    "commonName": "Sparkling Violetear",
+    "status": [],
+    "note": "22b, 22d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Colibri serrirostris",
+    "commonName": "White-vented Violetear",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Androdon aequatorialis",
+    "commonName": "Tooth-billed Hummingbird",
+    "status": [],
+    "note": "17c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliactin bilophus",
+    "commonName": "Horned Sungem",
+    "status": [],
+    "note": "18, 71d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliothryx barroti",
+    "commonName": "Purple-crowned Fairy",
+    "status": [],
+    "note": "18, 70"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliothryx auritus",
+    "commonName": "Black-eared Fairy",
+    "status": [],
+    "note": "70, 70b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Polytmus guainumbi",
+    "commonName": "White-tailed Goldenthroat",
+    "status": [],
+    "note": "37f"
+  },
+  {
+    "type": "species",
+    "scientificName": "Polytmus milleri",
+    "commonName": "Tepui Goldenthroat",
+    "status": [],
+    "note": "37ff, 42a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Polytmus theresiae",
+    "commonName": "Green-tailed Goldenthroat",
+    "status": [],
+    "note": "37g"
+  },
+  {
+    "type": "species",
+    "scientificName": "Avocettula recurvirostris",
+    "commonName": "Fiery-tailed Awlbill",
+    "status": [],
+    "note": "24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chrysolampis mosquitus",
+    "commonName": "Ruby-topaz Hummingbird",
+    "status": [],
+    "note": "26, 26a, 26b, 26c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anthracothorax viridigula",
+    "commonName": "Green-throated Mango",
+    "status": [],
+    "note": "23"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anthracothorax prevostii",
+    "commonName": "Green-breasted Mango",
+    "status": [],
+    "note": "23a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anthracothorax nigricollis",
+    "commonName": "Black-throated Mango",
+    "status": [],
+    "note": "23a, 23b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliangelus mavors",
+    "commonName": "Orange-throated Sunangel",
+    "status": [],
+    "note": "55"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliangelus amethysticollis",
+    "commonName": "Amethyst-throated Sunangel",
+    "status": [],
+    "note": "55a, 55b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliangelus strophianus",
+    "commonName": "Gorgeted Sunangel",
+    "status": [],
+    "note": "55c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliangelus exortis",
+    "commonName": "Tourmaline Sunangel",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliangelus micraster",
+    "commonName": "Little Sunangel",
+    "status": [],
+    "note": "56, 56a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliangelus viola",
+    "commonName": "Purple-throated Sunangel",
+    "status": [],
+    "note": "56b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliangelus zusii",
+    "commonName": "Bogota Sunangel",
+    "status": [],
+    "note": "57"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliangelus regalis",
+    "commonName": "Royal Sunangel",
+    "status": [],
+    "note": "58"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sephanoides sephaniodes",
+    "commonName": "Green-backed Firecrown",
+    "status": [],
+    "note": "54c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sephanoides fernandensis",
+    "commonName": "Juan Fernandez Firecrown",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Discosura conversii",
+    "commonName": "Green Thorntail",
+    "status": [],
+    "note": "29"
+  },
+  {
+    "type": "species",
+    "scientificName": "Discosura popelairii",
+    "commonName": "Wire-crested Thorntail",
+    "status": [],
+    "note": "29"
+  },
+  {
+    "type": "species",
+    "scientificName": "Discosura langsdorffi",
+    "commonName": "Black-bellied Thorntail",
+    "status": [],
+    "note": "29, 29a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Discosura letitiae",
+    "commonName": "Coppery Thorntail",
+    "status": [],
+    "note": "29, 30"
+  },
+  {
+    "type": "species",
+    "scientificName": "Discosura longicaudus",
+    "commonName": "Racket-tipped Thorntail",
+    "status": [],
+    "note": "31, 31a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lophornis ornatus",
+    "commonName": "Tufted Coquette",
+    "status": [],
+    "note": "28"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lophornis gouldii",
+    "commonName": "Dot-eared Coquette",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Lophornis magnificus",
+    "commonName": "Frilled Coquette",
+    "status": [],
+    "note": "28"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lophornis delattrei",
+    "commonName": "Rufous-crested Coquette",
+    "status": [],
+    "note": "28a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lophornis stictolophus",
+    "commonName": "Spangled Coquette",
+    "status": [],
+    "note": "28, 28b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lophornis verreauxii",
+    "commonName": "Butterfly Coquette",
+    "status": [],
+    "note": "27b, 28aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lophornis chalybeus",
+    "commonName": "Festive Coquette",
+    "status": [],
+    "note": "27b, 28, 28aa, 28b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lophornis pavoninus",
+    "commonName": "Peacock Coquette",
+    "status": [],
+    "note": "28, 28aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phlogophilus hemileucurus",
+    "commonName": "Ecuadorian Piedtail",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Phlogophilus harterti",
+    "commonName": "Peruvian Piedtail",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Adelomyia melanogenys",
+    "commonName": "Speckled Hummingbird",
+    "status": [],
+    "note": "47f"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aglaiocercus kingii",
+    "commonName": "Long-tailed Sylph",
+    "status": [],
+    "note": "62cc, 66a, 67, 67a, 67b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aglaiocercus coelestis",
+    "commonName": "Violet-tailed Sylph",
+    "status": [],
+    "note": "67a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aglaiocercus berlepschi",
+    "commonName": "Venezuelan Sylph",
+    "status": [],
+    "note": "67a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sappho sparganurus",
+    "commonName": "Red-tailed Comet",
+    "status": [],
+    "note": "62e, 62f, 62ff, 66a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Polyonymus caroli",
+    "commonName": "Bronze-tailed Comet",
+    "status": [],
+    "note": "66a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Taphrolesbia griseiventris",
+    "commonName": "Gray-bellied Comet",
+    "status": [],
+    "note": "66, 66a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oreotrochilus estella",
+    "commonName": "Andean Hillstar",
+    "status": [],
+    "note": "51, 51a, 51b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oreotrochilus leucopleurus",
+    "commonName": "White-sided Hillstar",
+    "status": [],
+    "note": "51b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oreotrochilus chimborazo",
+    "commonName": "Ecuadorian Hillstar",
+    "status": [],
+    "note": "50"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oreotrochilus cyanolaemus",
+    "commonName": "Blue-throated Hillstar",
+    "status": [],
+    "note": "51bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oreotrochilus stolzmanni",
+    "commonName": "Green-headed Hillstar",
+    "status": [],
+    "note": "51, 51bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oreotrochilus melanogaster",
+    "commonName": "Black-breasted Hillstar",
+    "status": [],
+    "note": "51a, 51b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oreotrochilus adela",
+    "commonName": "Wedge-tailed Hillstar",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Opisthoprora euryptera",
+    "commonName": "Mountain Avocetbill",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Lesbia victoriae",
+    "commonName": "Black-tailed Trainbearer",
+    "status": [],
+    "note": "62b, 62c, 62cc, 66a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lesbia nuna",
+    "commonName": "Green-tailed Trainbearer",
+    "status": [],
+    "note": "62c, 62d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ramphomicron dorsale",
+    "commonName": "Black-backed Thornbill",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Ramphomicron microrhynchum",
+    "commonName": "Purple-backed Thornbill",
+    "status": [],
+    "note": "62cc"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oreonympha nobilis",
+    "commonName": "Bearded Mountaineer",
+    "status": [],
+    "note": "62g, 63"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oxypogon stuebelii",
+    "commonName": "Buffy Helmetcrest",
+    "status": [],
+    "note": "62g, 62 gg, 62h, 63"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oxypogon cyanolaemus",
+    "commonName": "Blue-bearded Helmetcrest",
+    "status": [],
+    "note": "62g, 62h, 63"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oxypogon lindenii",
+    "commonName": "White-bearded Helmetcrest",
+    "status": [],
+    "note": "62g, 62h, 63"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oxypogon guerinii",
+    "commonName": "Green-bearded Helmetcrest",
+    "status": [],
+    "note": "62g, 62h, 63"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chalcostigma ruficeps",
+    "commonName": "Rufous-capped Thornbill",
+    "status": [],
+    "note": "62g, 63, 64c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chalcostigma olivaceum",
+    "commonName": "Olivaceous Thornbill",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Chalcostigma stanleyi",
+    "commonName": "Blue-mantled Thornbill",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Chalcostigma heteropogon",
+    "commonName": "Bronze-tailed Thornbill",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Chalcostigma herrani",
+    "commonName": "Rainbow-bearded Thornbill",
+    "status": [],
+    "note": "62cc"
+  },
+  {
+    "type": "species",
+    "scientificName": "Metallura tyrianthina",
+    "commonName": "Tyrian Metaltail",
+    "status": [],
+    "note": "63, 63a, 63b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Metallura iracunda",
+    "commonName": "Perija Metaltail",
+    "status": [],
+    "note": "63, 63a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Metallura williami",
+    "commonName": "Viridian Metaltail",
+    "status": [],
+    "note": "63, 64, 64a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Metallura baroni",
+    "commonName": "Violet-throated Metaltail",
+    "status": [],
+    "note": "64"
+  },
+  {
+    "type": "species",
+    "scientificName": "Metallura odomae",
+    "commonName": "Neblina Metaltail",
+    "status": [],
+    "note": "64, 65"
+  },
+  {
+    "type": "species",
+    "scientificName": "Metallura theresiae",
+    "commonName": "Coppery Metaltail",
+    "status": [],
+    "note": "64, 64bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Metallura eupogon",
+    "commonName": "Fire-throated Metaltail",
+    "status": [],
+    "note": "64"
+  },
+  {
+    "type": "species",
+    "scientificName": "Metallura aeneocauda",
+    "commonName": "Scaled Metaltail",
+    "status": [],
+    "note": "64, 64b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Metallura phoebe",
+    "commonName": "Black Metaltail",
+    "status": [],
+    "note": "64"
+  },
+  {
+    "type": "species",
+    "scientificName": "Haplophaedia aureliae",
+    "commonName": "Greenish Puffleg",
+    "status": [],
+    "note": "60, 60c, 61a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Haplophaedia assimilis",
+    "commonName": "Buff-thighed Puffleg",
+    "status": [],
+    "note": "61"
+  },
+  {
+    "type": "species",
+    "scientificName": "Haplophaedia lugens",
+    "commonName": "Hoary Puffleg",
+    "status": [],
+    "note": "61a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eriocnemis nigrivestis",
+    "commonName": "Black-breasted Puffleg",
+    "status": [],
+    "note": "58a, 58e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eriocnemis isabellae",
+    "commonName": "Gorgeted Puffleg",
+    "status": [],
+    "note": "58c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eriocnemis vestita",
+    "commonName": "Glowing Puffleg",
+    "status": [],
+    "note": "58b, 58d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eriocnemis derbyi",
+    "commonName": "Black-thighed Puffleg",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Eriocnemis godini",
+    "commonName": "Turquoise-throated Puffleg",
+    "status": [],
+    "note": "59"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eriocnemis cupreoventris",
+    "commonName": "Coppery-bellied Puffleg",
+    "status": [],
+    "note": "58d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eriocnemis luciani",
+    "commonName": "Sapphire-vented Puffleg",
+    "status": [],
+    "note": "58e, 60d, 60b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eriocnemis mosquera",
+    "commonName": "Golden-breasted Puffleg",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Eriocnemis glaucopoides",
+    "commonName": "Blue-capped Puffleg",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Eriocnemis mirabilis",
+    "commonName": "Colorful Puffleg",
+    "status": [],
+    "note": "60a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eriocnemis aline",
+    "commonName": "Emerald-bellied Puffleg",
+    "status": [],
+    "note": "60a, 60aaa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Loddigesia mirabilis",
+    "commonName": "Marvelous Spatuletail",
+    "status": [],
+    "note": "70c, 70d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aglaeactis cupripennis",
+    "commonName": "Shining Sunbeam",
+    "status": [],
+    "note": "49aaa, 49b, 49c, 49d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aglaeactis castelnaudii",
+    "commonName": "White-tufted Sunbeam",
+    "status": [],
+    "note": "49b, 49d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aglaeactis aliciae",
+    "commonName": "Purple-backed Sunbeam",
+    "status": [],
+    "note": "49d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aglaeactis pamela",
+    "commonName": "Black-hooded Sunbeam",
+    "status": [],
+    "note": "49d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Coeligena coeligena",
+    "commonName": "Bronzy Inca",
+    "status": [],
+    "note": "53a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Coeligena wilsoni",
+    "commonName": "Brown Inca",
+    "status": [],
+    "note": "53a, 53f"
+  },
+  {
+    "type": "species",
+    "scientificName": "Coeligena prunellei",
+    "commonName": "Black Inca",
+    "status": [],
+    "note": "53a, 53f, 53ff"
+  },
+  {
+    "type": "species",
+    "scientificName": "Coeligena torquata",
+    "commonName": "Collared Inca",
+    "status": [],
+    "note": "52, 52a, 53a, 53b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Coeligena violifer",
+    "commonName": "Violet-throated Starfrontlet",
+    "status": [],
+    "note": "53a, 53c, 53d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Coeligena iris",
+    "commonName": "Rainbow Starfrontlet",
+    "status": [],
+    "note": "53a, 53e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Coeligena phalerata",
+    "commonName": "White-tailed Starfrontlet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Coeligena orina",
+    "commonName": "Dusky Starfrontlet",
+    "status": [],
+    "note": "53a, 54"
+  },
+  {
+    "type": "species",
+    "scientificName": "Coeligena lutetiae",
+    "commonName": "Buff-winged Starfrontlet",
+    "status": [],
+    "note": "52a, 53a, 53d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Coeligena bonapartei",
+    "commonName": "Golden-bellied Starfrontlet",
+    "status": [],
+    "note": "53, 53a, 54"
+  },
+  {
+    "type": "species",
+    "scientificName": "Coeligena helianthea",
+    "commonName": "Blue-throated Starfrontlet",
+    "status": [],
+    "note": "53a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lafresnaya lafresnayi",
+    "commonName": "Mountain Velvetbreast",
+    "status": [],
+    "note": "51c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ensifera ensifera",
+    "commonName": "Sword-billed Hummingbird",
+    "status": [],
+    "note": "53g"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pterophanes cyanopterus",
+    "commonName": "Great Sapphirewing",
+    "status": [],
+    "note": "54a, 54b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Boissonneaua flavescens",
+    "commonName": "Buff-tailed Coronet",
+    "status": [],
+    "note": "49aaa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Boissonneaua matthewsii",
+    "commonName": "Chestnut-breasted Coronet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Boissonneaua jardini",
+    "commonName": "Velvet-purple Coronet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Ocreatus underwoodii",
+    "commonName": "Booted Racket-tail",
+    "status": [],
+    "note": "62a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Urochroa bougueri",
+    "commonName": "Rufous-gaped Hillstar",
+    "status": [],
+    "note": "49aa, 49aaa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Urochroa leucura",
+    "commonName": "Green-backed Hillstar",
+    "status": [],
+    "note": "49aa, 49aaa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Urosticte benjamini",
+    "commonName": "Purple-bibbed Whitetip",
+    "status": [],
+    "note": "62"
+  },
+  {
+    "type": "species",
+    "scientificName": "Urosticte ruficrissa",
+    "commonName": "Rufous-vented Whitetip",
+    "status": [],
+    "note": "62"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliodoxa xanthogonys",
+    "commonName": "Velvet-browed Brilliant",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliodoxa gularis",
+    "commonName": "Pink-throated Brilliant",
+    "status": [],
+    "note": "48a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliodoxa branickii",
+    "commonName": "Rufous-webbed Brilliant",
+    "status": [],
+    "note": "48b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliodoxa schreibersii",
+    "commonName": "Black-throated Brilliant",
+    "status": [],
+    "note": "48c, 48cc"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliodoxa aurescens",
+    "commonName": "Gould's Jewelfront",
+    "status": [],
+    "note": "49"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliodoxa rubinoides",
+    "commonName": "Fawn-breasted Brilliant",
+    "status": [],
+    "note": "49a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliodoxa jacula",
+    "commonName": "Green-crowned Brilliant",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliodoxa imperatrix",
+    "commonName": "Empress Brilliant",
+    "status": [],
+    "note": "48d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliodoxa leadbeateri",
+    "commonName": "Violet-fronted Brilliant",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliodoxa rubricauda",
+    "commonName": "Brazilian Ruby",
+    "status": [],
+    "note": "48"
+  },
+  {
+    "type": "species",
+    "scientificName": "Patagona peruviana",
+    "commonName": "Northern Giant-Hummingbird",
+    "status": [],
+    "note": "48f, 48g"
+  },
+  {
+    "type": "species",
+    "scientificName": "Patagona gigas",
+    "commonName": "Southern Giant-Hummingbird",
+    "status": [],
+    "note": "48f, 48g"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sternoclyta cyanopectus",
+    "commonName": "Violet-chested Hummingbird",
+    "status": [],
+    "note": "71"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hylonympha macrocerca",
+    "commonName": "Scissor-tailed Hummingbird",
+    "status": [],
+    "note": "71"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliomaster longirostris",
+    "commonName": "Long-billed Starthroat",
+    "status": [],
+    "note": "71, 71a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliomaster squamosus",
+    "commonName": "Stripe-breasted Starthroat",
+    "status": [],
+    "note": "71b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliomaster furcifer",
+    "commonName": "Blue-tufted Starthroat",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrtis fanny",
+    "commonName": "Purple-collared Woodstar",
+    "status": [],
+    "note": "71e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eulidia yarrellii",
+    "commonName": "Chilean Woodstar",
+    "status": [],
+    "note": "73"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhodopis vesper",
+    "commonName": "Oasis Hummingbird",
+    "status": [],
+    "note": "71c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thaumastura cora",
+    "commonName": "Peruvian Sheartail",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Chaetocercus mulsant",
+    "commonName": "White-bellied Woodstar",
+    "status": [],
+    "note": "74, 75, 75b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chaetocercus bombus",
+    "commonName": "Little Woodstar",
+    "status": [],
+    "note": "74"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chaetocercus heliodor",
+    "commonName": "Gorgeted Woodstar",
+    "status": [],
+    "note": "74, 75b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chaetocercus astreans",
+    "commonName": "Santa Marta Woodstar",
+    "status": [],
+    "note": "74, 76"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chaetocercus berlepschi",
+    "commonName": "Esmeraldas Woodstar",
+    "status": [],
+    "note": "74"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chaetocercus jourdanii",
+    "commonName": "Rufous-shafted Woodstar",
+    "status": [],
+    "note": "77"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myrmia micrura",
+    "commonName": "Short-tailed Woodstar",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Microstilbon burmeisteri",
+    "commonName": "Slender-tailed Woodstar",
+    "status": [],
+    "note": "72a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Calliphlox amethystina",
+    "commonName": "Amethyst Woodstar",
+    "status": [],
+    "note": "34b, 36aaaa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Philodice mitchellii",
+    "commonName": "Purple-throated Woodstar",
+    "status": [],
+    "note": "72"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorostilbon melanorhynchus",
+    "commonName": "Western Emerald",
+    "status": [],
+    "note": "33, 34"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorostilbon gibsoni",
+    "commonName": "Red-billed Emerald",
+    "status": [],
+    "note": "33, 33a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorostilbon mellisugus",
+    "commonName": "Blue-tailed Emerald",
+    "status": [],
+    "note": "33, 33b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorostilbon olivaresi",
+    "commonName": "Chiribiquete Emerald",
+    "status": [],
+    "note": "34a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorostilbon lucidus",
+    "commonName": "Glittering-bellied Emerald",
+    "status": [],
+    "note": "34b, 34bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorostilbon russatus",
+    "commonName": "Coppery Emerald",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorostilbon stenurus",
+    "commonName": "Narrow-tailed Emerald",
+    "status": [],
+    "note": "35, 35a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorostilbon alice",
+    "commonName": "Green-tailed Emerald",
+    "status": [],
+    "note": "36, 36a, 36aaaa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorostilbon poortmani",
+    "commonName": "Short-tailed Emerald",
+    "status": [],
+    "note": "35a, 36aa, 36aaa, 36aaaa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Klais guimeti",
+    "commonName": "Violet-headed Hummingbird",
+    "status": [],
+    "note": "19d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stephanoxis lalandi",
+    "commonName": "Green-crowned Plovercrest",
+    "status": [],
+    "note": "19d, 27, 27a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stephanoxis loddigesii",
+    "commonName": "Purple-crowned Plovercrest",
+    "status": [],
+    "note": "19d, 27, 27a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anthocephala floriceps",
+    "commonName": "Santa Marta Blossomcrown",
+    "status": [],
+    "note": "19d, 47c, 47cc"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anthocephala berlepschi",
+    "commonName": "Tolima Blossomcrown",
+    "status": [],
+    "note": "19d, 47c, 47cc"
+  },
+  {
+    "type": "species",
+    "scientificName": "Campylopterus largipennis",
+    "commonName": "Gray-breasted Sabrewing",
+    "status": [],
+    "note": "19a, 19b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Campylopterus calcirupicola",
+    "commonName": "Outcrop Sabrewing",
+    "status": [],
+    "note": "19b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Campylopterus diamantinensis",
+    "commonName": "Diamantina Sabrewing",
+    "status": [],
+    "note": "19b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Campylopterus hyperythrus",
+    "commonName": "Rufous-breasted Sabrewing",
+    "status": [],
+    "note": "19c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Campylopterus ensipennis",
+    "commonName": "White-tailed Sabrewing",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Campylopterus falcatus",
+    "commonName": "Lazuline Sabrewing",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Campylopterus phainopeplus",
+    "commonName": "Santa Marta Sabrewing",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Campylopterus villaviscensio",
+    "commonName": "Napo Sabrewing",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Campylopterus duidae",
+    "commonName": "Buff-breasted Sabrewing",
+    "status": [],
+    "note": "19c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chalybura buffonii",
+    "commonName": "White-vented Plumeleteer",
+    "status": [],
+    "note": "47d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chalybura urochrysia",
+    "commonName": "Bronze-tailed Plumeleteer",
+    "status": [],
+    "note": "47d, 47e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thalurania colombica",
+    "commonName": "Crowned Woodnymph",
+    "status": [],
+    "note": "37, 37aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thalurania furcata",
+    "commonName": "Fork-tailed Woodnymph",
+    "status": [],
+    "note": "32b, 37b, 37bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thalurania watertonii",
+    "commonName": "Long-tailed Woodnymph",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Thalurania glaucopis",
+    "commonName": "Violet-capped Woodnymph",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Goldmania bella",
+    "commonName": "Pirre Hummingbird",
+    "status": [],
+    "note": "47g, 47gg"
+  },
+  {
+    "type": "species",
+    "scientificName": "Goldmania violiceps",
+    "commonName": "Violet-capped Hummingbird",
+    "status": [],
+    "note": "47gg"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaeochroa cuvierii",
+    "commonName": "Scaly-breasted Hummingbird",
+    "status": [],
+    "note": "19"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leucippus fallax",
+    "commonName": "Buffy Hummingbird",
+    "status": [],
+    "note": "19"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thaumasius baeri",
+    "commonName": "Tumbes Hummingbird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Thaumasius taczanowskii",
+    "commonName": "Spot-throated Hummingbird",
+    "status": [],
+    "note": "37h"
+  },
+  {
+    "type": "species",
+    "scientificName": "Taphrospilus hypostictus",
+    "commonName": "Many-spotted Hummingbird",
+    "status": [],
+    "note": "38"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eupetomena macroura",
+    "commonName": "Swallow-tailed Hummingbird",
+    "status": [],
+    "note": "20"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eupetomena cirrochloris",
+    "commonName": "Sombre Hummingbird",
+    "status": [],
+    "note": "21, 21a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Talaphorus chlorocercus",
+    "commonName": "Olive-spotted Hummingbird",
+    "status": [],
+    "note": "37i"
+  },
+  {
+    "type": "species",
+    "scientificName": "Saucerottia edward",
+    "commonName": "Snowy-bellied Hummingbird",
+    "status": [],
+    "note": "39, 47, 47a, 47aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Saucerottia saucerottei",
+    "commonName": "Steely-vented Hummingbird",
+    "status": [],
+    "note": "47, 47aaa, 47aaaa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Saucerottia cyanifrons",
+    "commonName": "Indigo-capped Hummingbird",
+    "status": [],
+    "note": "47"
+  },
+  {
+    "type": "species",
+    "scientificName": "Saucerottia castaneiventris",
+    "commonName": "Chestnut-bellied Hummingbird",
+    "status": [],
+    "note": "40a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Saucerottia viridigaster",
+    "commonName": "Green-bellied Hummingbird",
+    "status": [],
+    "note": "40, 47, 47b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Saucerottia tobaci",
+    "commonName": "Copper-rumped Hummingbird",
+    "status": [],
+    "note": "47"
+  },
+  {
+    "type": "species",
+    "scientificName": "Amazilia tzacatl",
+    "commonName": "Rufous-tailed Hummingbird",
+    "status": [],
+    "note": "39, 40a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Amazilis amazilia",
+    "commonName": "Amazilia Hummingbird",
+    "status": [],
+    "note": "41"
+  },
+  {
+    "type": "species",
+    "scientificName": "Uranomitra franciae",
+    "commonName": "Andean Emerald",
+    "status": [],
+    "note": "39, 42, 43b, 43c, 43d, 43f, 43g"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chrysuronia versicolor",
+    "commonName": "Versicolored Emerald",
+    "status": [],
+    "note": "39, 42, 42a, 43, 43a, 44a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chrysuronia goudoti",
+    "commonName": "Shining-green Hummingbird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Chrysuronia oenone",
+    "commonName": "Golden-tailed Sapphire",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Chrysuronia coeruleogularis",
+    "commonName": "Sapphire-throated Hummingbird",
+    "status": [],
+    "note": "36c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chrysuronia lilliae",
+    "commonName": "Sapphire-bellied Hummingbird",
+    "status": [],
+    "note": "37e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chrysuronia humboldtii",
+    "commonName": "Humboldt's Sapphire",
+    "status": [],
+    "note": "37d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chrysuronia grayi",
+    "commonName": "Blue-headed Sapphire",
+    "status": [],
+    "note": "37d, 37dd"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chrysuronia brevirostris",
+    "commonName": "White-chested Emerald",
+    "status": [],
+    "note": "42, 42a, 44, 44a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chrysuronia leucogaster",
+    "commonName": "Plain-bellied Emerald",
+    "status": [],
+    "note": "42, 42a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leucochloris albicollis",
+    "commonName": "White-throated Hummingbird",
+    "status": [],
+    "note": "38a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chionomesa fimbriata",
+    "commonName": "Glittering-throated Emerald",
+    "status": [],
+    "note": "39. 42a, 45, 46, 46a, 46aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chionomesa lactea",
+    "commonName": "Sapphire-spangled Emerald",
+    "status": [],
+    "note": "42a, 45, 45a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hylocharis sapphirina",
+    "commonName": "Rufous-throated Sapphire",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Hylocharis chrysura",
+    "commonName": "Gilded Hummingbird",
+    "status": [],
+    "note": "37j, 37k"
+  },
+  {
+    "type": "species",
+    "scientificName": "Elliotomyia chionogaster",
+    "commonName": "White-bellied Hummingbird",
+    "status": [],
+    "note": "39, 39a, 39aa, 39b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Elliotomyia viridicauda",
+    "commonName": "Green-and-white Hummingbird",
+    "status": [],
+    "note": "39a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Polyerata rosenbergi",
+    "commonName": "Purple-chested Hummingbird",
+    "status": [],
+    "note": "39, 45"
+  },
+  {
+    "type": "species",
+    "scientificName": "Polyerata amabilis",
+    "commonName": "Blue-chested Hummingbird",
+    "status": [],
+    "note": "45, 45b, 46aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorestes eliciae",
+    "commonName": "Blue-throated Goldentail",
+    "status": [],
+    "note": "32, 36bbbb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorestes cyanus",
+    "commonName": "White-chinned Sapphire",
+    "status": [],
+    "note": "32, 32b, 37c, 37cc"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorestes julie",
+    "commonName": "Violet-bellied Hummingbird",
+    "status": [],
+    "note": "32, 36b, 36bb, 36bbb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlorestes notata",
+    "commonName": "Blue-chinned Sapphire",
+    "status": [],
+    "note": "32, 32a, 32b"
+  }
+]

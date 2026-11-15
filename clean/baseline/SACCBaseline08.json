@@ -1,0 +1,3825 @@
+[
+  {
+    "type": "order",
+    "label": "PASSERIFORMES",
+    "note": ""
+  },
+  {
+    "type": "suborder",
+    "label": "Suborder TYRANNI (SUBOSCINES) (concluded)",
+    "note": ""
+  },
+  {
+    "type": "family",
+    "label": "PIPRIDAE (MANAKINS)",
+    "note": "1"
+  },
+  {
+    "type": "subfamily",
+    "label": "Neopelminae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Protopelma chrysolophum",
+    "commonName": "Serra do Mar Tyrant-Manakin",
+    "status": [],
+    "note": "2a, 2b, 2c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tyranneutes stolzmanni",
+    "commonName": "Dwarf Tyrant-Manakin",
+    "status": [],
+    "note": "2, 3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tyranneutes virescens",
+    "commonName": "Tiny Tyrant-Manakin",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Neopelma pallescens",
+    "commonName": "Pale-bellied Tyrant-Manakin",
+    "status": [],
+    "note": "2, 2a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Neopelma chrysocephalum",
+    "commonName": "Saffron-crested Tyrant-Manakin",
+    "status": [],
+    "note": "2a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Neopelma aurifrons",
+    "commonName": "Wied's Tyrant-Manakin",
+    "status": [],
+    "note": "2a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Neopelma sulphureiventer",
+    "commonName": "Sulphur-bellied Tyrant-Manakin",
+    "status": [],
+    "note": "2a, 2d"
+  },
+  {
+    "type": "subfamily",
+    "label": "Piprinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Chloropipo flavicapilla",
+    "commonName": "Yellow-headed Manakin",
+    "status": [],
+    "note": "16, 16a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chloropipo unicolor",
+    "commonName": "Jet Manakin",
+    "status": [],
+    "note": "16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chiroxiphia boliviana",
+    "commonName": "Yungas Manakin",
+    "status": [],
+    "note": "14a, 15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chiroxiphia pareola",
+    "commonName": "Blue-backed Manakin",
+    "status": [],
+    "note": "14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chiroxiphia lanceolata",
+    "commonName": "Lance-tailed Manakin",
+    "status": [],
+    "note": "14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chiroxiphia caudata",
+    "commonName": "Swallow-tailed Manakin",
+    "status": [],
+    "note": "14, 14b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chiroxiphia bokermanni",
+    "commonName": "Araripe Manakin",
+    "status": [],
+    "note": "13, 13a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chiroxiphia galeata",
+    "commonName": "Helmeted Manakin",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ilicura militaris",
+    "commonName": "Pin-tailed Manakin",
+    "status": [],
+    "note": "3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Masius chrysopterus",
+    "commonName": "Golden-winged Manakin",
+    "status": [],
+    "note": "3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Corapipo altera",
+    "commonName": "White-ruffed Manakin",
+    "status": [],
+    "note": "3a, 4, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Corapipo leucorrhoa",
+    "commonName": "White-bibbed Manakin",
+    "status": [],
+    "note": "4, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Corapipo gutturalis",
+    "commonName": "White-throated Manakin",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xenopipo uniformis",
+    "commonName": "Olive Manakin",
+    "status": [],
+    "note": "16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xenopipo atronitens",
+    "commonName": "Black Manakin",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Cryptopipo holochlora",
+    "commonName": "Green Manakin",
+    "status": [],
+    "note": "16, 16b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lepidothrix velutina",
+    "commonName": "Velvety Manakin",
+    "status": [],
+    "note": "7, 7a, 8, 8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lepidothrix coronata",
+    "commonName": "Blue-capped Manakin",
+    "status": [],
+    "note": "7, 7a, 8, 8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lepidothrix nattereri",
+    "commonName": "Snow-capped Manakin",
+    "status": [],
+    "note": "8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lepidothrix vilasboasi",
+    "commonName": "Golden-crowned Manakin",
+    "status": [],
+    "note": "8, 9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lepidothrix iris",
+    "commonName": "Opal-crowned Manakin",
+    "status": [],
+    "note": "8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lepidothrix suavissima",
+    "commonName": "Orange-bellied Manakin",
+    "status": [],
+    "note": "8, 10, 10a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lepidothrix serena",
+    "commonName": "White-fronted Manakin",
+    "status": [],
+    "note": "8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lepidothrix isidorei",
+    "commonName": "Blue-rumped Manakin",
+    "status": [],
+    "note": "11, 11a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lepidothrix coeruleocapilla",
+    "commonName": "Cerulean-capped Manakin",
+    "status": [],
+    "note": "11, 11b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heterocercus aurantiivertex",
+    "commonName": "Orange-crowned Manakin",
+    "status": [],
+    "note": "17, 17a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heterocercus flavivertex",
+    "commonName": "Yellow-crowned Manakin",
+    "status": [],
+    "note": "17, 18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heterocercus linteatus",
+    "commonName": "Flame-crowned Manakin",
+    "status": [],
+    "note": "17, 19, 21a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Manacus manacus",
+    "commonName": "White-bearded Manakin",
+    "status": [],
+    "note": "12, 12a, 12b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pipra aureola",
+    "commonName": "Crimson-hooded Manakin",
+    "status": [],
+    "note": "22, 23"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pipra filicauda",
+    "commonName": "Wire-tailed Manakin",
+    "status": [],
+    "note": "21, 22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pipra fasciicauda",
+    "commonName": "Band-tailed Manakin",
+    "status": [],
+    "note": "21, 22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Machaeropterus deliciosus",
+    "commonName": "Club-winged Manakin",
+    "status": [],
+    "note": "6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Machaeropterus striolatus",
+    "commonName": "Striolated Manakin",
+    "status": [],
+    "note": "6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Machaeropterus eckelberryi",
+    "commonName": "Painted Manakin",
+    "status": [],
+    "note": "6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Machaeropterus regulus",
+    "commonName": "Kinglet Manakin",
+    "status": [],
+    "note": "6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Machaeropterus pyrocephalus",
+    "commonName": "Fiery-capped Manakin",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudopipra pipra",
+    "commonName": "White-crowned Manakin",
+    "status": [],
+    "note": "20, 20a, 20b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ceratopipra cornuta",
+    "commonName": "Scarlet-horned Manakin",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Ceratopipra mentalis",
+    "commonName": "Red-capped Manakin",
+    "status": [],
+    "note": "24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ceratopipra erythrocephala",
+    "commonName": "Golden-headed Manakin",
+    "status": [],
+    "note": "12a, 24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ceratopipra rubrocapilla",
+    "commonName": "Red-headed Manakin",
+    "status": [],
+    "note": "24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ceratopipra chloromeros",
+    "commonName": "Round-tailed Manakin",
+    "status": [],
+    "note": "24"
+  },
+  {
+    "type": "family",
+    "label": "COTINGIDAE (COTINGAS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Carpornis cucullata",
+    "commonName": "Hooded Berryeater",
+    "status": [],
+    "note": "19, 19a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Carpornis melanocephala",
+    "commonName": "Black-headed Berryeater",
+    "status": [],
+    "note": "19, 19a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pipreola riefferii",
+    "commonName": "Green-and-black Fruiteater",
+    "status": [],
+    "note": "19b, 19c, 19d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pipreola intermedia",
+    "commonName": "Band-tailed Fruiteater",
+    "status": [],
+    "note": "19c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pipreola arcuata",
+    "commonName": "Barred Fruiteater",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pipreola aureopectus",
+    "commonName": "Golden-breasted Fruiteater",
+    "status": [],
+    "note": "20"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pipreola jucunda",
+    "commonName": "Orange-breasted Fruiteater",
+    "status": [],
+    "note": "20"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pipreola lubomirskii",
+    "commonName": "Black-chested Fruiteater",
+    "status": [],
+    "note": "20"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pipreola pulchra",
+    "commonName": "Masked Fruiteater",
+    "status": [],
+    "note": "20"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pipreola frontalis",
+    "commonName": "Scarlet-breasted Fruiteater",
+    "status": [],
+    "note": "20b, 20c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pipreola chlorolepidota",
+    "commonName": "Fiery-throated Fruiteater",
+    "status": [],
+    "note": "20c, 20d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pipreola formosa",
+    "commonName": "Handsome Fruiteater",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pipreola whitelyi",
+    "commonName": "Red-banded Fruiteater",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Ampelioides tschudii",
+    "commonName": "Scaled Fruiteater",
+    "status": [],
+    "note": "21"
+  },
+  {
+    "type": "species",
+    "scientificName": "Zaratornis stresemanni",
+    "commonName": "White-cheeked Cotinga",
+    "status": [],
+    "note": "13, 17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phytotoma raimondii",
+    "commonName": "Peruvian Plantcutter",
+    "status": [],
+    "note": "17, 18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phytotoma rutila",
+    "commonName": "White-tipped Plantcutter",
+    "status": [],
+    "note": "18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phytotoma rara",
+    "commonName": "Rufous-tailed Plantcutter",
+    "status": [],
+    "note": "18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phibalura flavirostris",
+    "commonName": "Swallow-tailed Cotinga",
+    "status": [],
+    "note": "11b, 11c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Doliornis remseni",
+    "commonName": "Chestnut-bellied Cotinga",
+    "status": [],
+    "note": "14, 15, 16, 17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Doliornis sclateri",
+    "commonName": "Bay-vented Cotinga",
+    "status": [],
+    "note": "14, 16, 17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ampelion rubrocristatus",
+    "commonName": "Red-crested Cotinga",
+    "status": [],
+    "note": "12, 12a, 17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ampelion rufaxilla",
+    "commonName": "Chestnut-crested Cotinga",
+    "status": [],
+    "note": "12, 12a, 13, 17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phoenicircus carnifex",
+    "commonName": "Guianan Red-Cotinga",
+    "status": [],
+    "note": "24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phoenicircus nigricollis",
+    "commonName": "Black-necked Red-Cotinga",
+    "status": [],
+    "note": "24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rupicola rupicola",
+    "commonName": "Guianan Cock-of-the-rock",
+    "status": [],
+    "note": "22, 22a, 23"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rupicola peruvianus",
+    "commonName": "Andean Cock-of-the-rock",
+    "status": [],
+    "note": "22, 22a, 23"
+  },
+  {
+    "type": "species",
+    "scientificName": "Snowornis subalaris",
+    "commonName": "Gray-tailed Piha",
+    "status": [],
+    "note": "32"
+  },
+  {
+    "type": "species",
+    "scientificName": "Snowornis cryptolophus",
+    "commonName": "Olivaceous Piha",
+    "status": [],
+    "note": "32"
+  },
+  {
+    "type": "species",
+    "scientificName": "Haematoderus militaris",
+    "commonName": "Crimson Fruitcrow",
+    "status": [],
+    "note": "35"
+  },
+  {
+    "type": "species",
+    "scientificName": "Querula purpurata",
+    "commonName": "Purple-throated Fruitcrow",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyroderus scutatus",
+    "commonName": "Red-ruffed Fruitcrow",
+    "status": [],
+    "note": "35"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cephalopterus ornatus",
+    "commonName": "Amazonian Umbrellabird",
+    "status": [],
+    "note": "34, 35"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cephalopterus penduliger",
+    "commonName": "Long-wattled Umbrellabird",
+    "status": [],
+    "note": "34"
+  },
+  {
+    "type": "species",
+    "scientificName": "Perissocephalus tricolor",
+    "commonName": "Capuchinbird",
+    "status": [],
+    "note": "35"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cotinga nattererii",
+    "commonName": "Blue Cotinga",
+    "status": [],
+    "note": "25, 25a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cotinga maynana",
+    "commonName": "Plum-throated Cotinga",
+    "status": [],
+    "note": "25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cotinga cotinga",
+    "commonName": "Purple-breasted Cotinga",
+    "status": [],
+    "note": "25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cotinga maculata",
+    "commonName": "Banded Cotinga",
+    "status": [],
+    "note": "25, 25b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cotinga cayana",
+    "commonName": "Spangled Cotinga",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Lipaugus unirufus",
+    "commonName": "Rufous Piha",
+    "status": [],
+    "note": "31a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lipaugus streptophorus",
+    "commonName": "Rose-collared Piha",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Lipaugus vociferans",
+    "commonName": "Screaming Piha",
+    "status": [],
+    "note": "31a, 31b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lipaugus lanioides",
+    "commonName": "Cinnamon-vented Piha",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Lipaugus ater",
+    "commonName": "Black-and-gold Cotinga",
+    "status": [],
+    "note": "28"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lipaugus conditus",
+    "commonName": "Gray-winged Cotinga",
+    "status": [],
+    "note": "28a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lipaugus weberi",
+    "commonName": "Chestnut-capped Piha",
+    "status": [],
+    "note": "28, 29, 29a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lipaugus fuscocinereus",
+    "commonName": "Dusky Piha",
+    "status": [],
+    "note": "30"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lipaugus uropygialis",
+    "commonName": "Scimitar-winged Piha",
+    "status": [],
+    "note": "30, 31"
+  },
+  {
+    "type": "species",
+    "scientificName": "Procnias albus",
+    "commonName": "White Bellbird",
+    "status": [],
+    "note": "26, 27, 27a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Procnias averano",
+    "commonName": "Bearded Bellbird",
+    "status": [],
+    "note": "26"
+  },
+  {
+    "type": "species",
+    "scientificName": "Procnias nudicollis",
+    "commonName": "Bare-throated Bellbird",
+    "status": [],
+    "note": "26"
+  },
+  {
+    "type": "species",
+    "scientificName": "Porphyrolaema porphyrolaema",
+    "commonName": "Purple-throated Cotinga",
+    "status": [],
+    "note": "27a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Carpodectes hopkei",
+    "commonName": "Black-tipped Cotinga",
+    "status": [],
+    "note": "32a, 33a, 33b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xipholena punicea",
+    "commonName": "Pompadour Cotinga",
+    "status": [],
+    "note": "33"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xipholena lamellipennis",
+    "commonName": "White-tailed Cotinga",
+    "status": [],
+    "note": "33"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xipholena atropurpurea",
+    "commonName": "White-winged Cotinga",
+    "status": [],
+    "note": "33"
+  },
+  {
+    "type": "species",
+    "scientificName": "Gymnoderus foetidus",
+    "commonName": "Bare-necked Fruitcrow",
+    "status": [],
+    "note": "32a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Conioptilon mcilhennyi",
+    "commonName": "Black-faced Cotinga",
+    "status": [],
+    "note": "32a"
+  },
+  {
+    "type": "family",
+    "label": "TITYRIDAE (TITYRAS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tityra leucura",
+    "commonName": "White-tailed Tityra",
+    "status": [],
+    "note": "2, 2a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tityra inquisitor",
+    "commonName": "Black-crowned Tityra",
+    "status": [],
+    "note": "2a, 2b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tityra cayana",
+    "commonName": "Black-tailed Tityra",
+    "status": [],
+    "note": "2bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tityra semifasciata",
+    "commonName": "Masked Tityra",
+    "status": [],
+    "note": "2bbb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Schiffornis major",
+    "commonName": "Varzea Schiffornis",
+    "status": [],
+    "note": "2c, 2cc, 2d, 2e, 4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Schiffornis veraepacis",
+    "commonName": "Northern Schiffornis",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Schiffornis aenea",
+    "commonName": "Foothill Schiffornis",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Schiffornis olivacea",
+    "commonName": "Olivaceous Schiffornis",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Schiffornis stenorhyncha",
+    "commonName": "Russet-winged Schiffornis",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Schiffornis turdina",
+    "commonName": "Brown-winged Schiffornis",
+    "status": [],
+    "note": "3, 5, 5a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Schiffornis virescens",
+    "commonName": "Greenish Schiffornis",
+    "status": [],
+    "note": "5, 5b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Laniocera rufescens",
+    "commonName": "Speckled Mourner",
+    "status": [],
+    "note": "6, 6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Laniocera hypopyrra",
+    "commonName": "Cinereous Mourner",
+    "status": [],
+    "note": "6, 6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Iodopleura isabellae",
+    "commonName": "White-browed Purpletuft",
+    "status": [],
+    "note": "6b, 6c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Iodopleura fusca",
+    "commonName": "Dusky Purpletuft",
+    "status": [],
+    "note": "6b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Iodopleura pipra",
+    "commonName": "Buff-throated Purpletuft",
+    "status": [],
+    "note": "6b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Laniisoma elegans",
+    "commonName": "Shrike-like Cotinga",
+    "status": [],
+    "note": "6d, 7, 7a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xenopsaris albinucha",
+    "commonName": "White-naped Xenopsaris",
+    "status": [],
+    "note": "7b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pachyramphus viridis",
+    "commonName": "Green-backed Becard",
+    "status": [],
+    "note": "8, 8a, 8b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pachyramphus versicolor",
+    "commonName": "Barred Becard",
+    "status": [],
+    "note": "8b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pachyramphus spodiurus",
+    "commonName": "Slaty Becard",
+    "status": [],
+    "note": "8b, 9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pachyramphus rufus",
+    "commonName": "Cinereous Becard",
+    "status": [],
+    "note": "8b, 9, 9a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pachyramphus cinnamomeus",
+    "commonName": "Cinnamon Becard",
+    "status": [],
+    "note": "9aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pachyramphus castaneus",
+    "commonName": "Chestnut-crowned Becard",
+    "status": [],
+    "note": "9aa, 9c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pachyramphus salvini",
+    "commonName": "Cryptic Becard",
+    "status": [],
+    "note": "9d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pachyramphus polychopterus",
+    "commonName": "White-winged Becard",
+    "status": [],
+    "note": "9b, 9bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pachyramphus albogriseus",
+    "commonName": "Black-and-white Becard",
+    "status": [],
+    "note": "9b, 9d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pachyramphus marginatus",
+    "commonName": "Black-capped Becard",
+    "status": [],
+    "note": "9b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pachyramphus surinamus",
+    "commonName": "Glossy-backed Becard",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pachyramphus homochrous",
+    "commonName": "One-colored Becard",
+    "status": [],
+    "note": "10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pachyramphus minor",
+    "commonName": "Pink-throated Becard",
+    "status": [],
+    "note": "10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pachyramphus validus",
+    "commonName": "Crested Becard",
+    "status": [],
+    "note": "10, 11, 11a"
+  },
+  {
+    "type": "family",
+    "label": "OXYRUNCIDAE (SHARPBILL)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oxyruncus cristatus",
+    "commonName": "Sharpbill",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "family",
+    "label": "ONYCHORHYNCHIDAE (ROYAL FLYCATCHERS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Onychorhynchus coronatus",
+    "commonName": "Tropical Royal-Flycatcher",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Onychorhynchus swainsoni",
+    "commonName": "Atlantic Royal-Flycatcher",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Terenotriccus erythrurus",
+    "commonName": "Ruddy-tailed Flycatcher",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiobius villosus",
+    "commonName": "Tawny-breasted Flycatcher",
+    "status": [],
+    "note": "3, 4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiobius barbatus",
+    "commonName": "Sulphur-rumped Flycatcher",
+    "status": [],
+    "note": "5, 6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiobius atricaudus",
+    "commonName": "Black-tailed Flycatcher",
+    "status": [],
+    "note": "6, 7"
+  },
+  {
+    "type": "family",
+    "label": "TYRANNIDAE (TYRANT FLYCATCHERS)",
+    "note": "1"
+  },
+  {
+    "type": "subfamily",
+    "label": "Pipritinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Piprites chloris",
+    "commonName": "Wing-barred Piprites",
+    "status": [],
+    "note": "148, 149, 150"
+  },
+  {
+    "type": "species",
+    "scientificName": "Piprites pileata",
+    "commonName": "Black-capped Piprites",
+    "status": [],
+    "note": "148, 149, 151, 152"
+  },
+  {
+    "type": "subfamily",
+    "label": "Platyrinchinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Calyptura cristata",
+    "commonName": "Kinglet Calyptura",
+    "status": [],
+    "note": "146"
+  },
+  {
+    "type": "species",
+    "scientificName": "Neopipo cinnamomea",
+    "commonName": "Cinnamon Manakin-Tyrant",
+    "status": [],
+    "note": "83, 83a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Platyrinchus saturatus",
+    "commonName": "Cinnamon-crested Spadebill",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Platyrinchus mystaceus",
+    "commonName": "White-throated Spadebill",
+    "status": [],
+    "note": "78, 78a, 78aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Platyrinchus coronatus",
+    "commonName": "Golden-crowned Spadebill",
+    "status": [],
+    "note": "78b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Platyrinchus flavigularis",
+    "commonName": "Yellow-throated Spadebill",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Platyrinchus platyrhynchos",
+    "commonName": "White-crested Spadebill",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Platyrinchus leucoryphus",
+    "commonName": "Russet-winged Spadebill",
+    "status": [],
+    "note": "79"
+  },
+  {
+    "type": "subfamily",
+    "label": "Tyranninae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudotriccus pelzelni",
+    "commonName": "Bronze-olive Pygmy-Tyrant",
+    "status": [],
+    "note": "22b, 22c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudotriccus simplex",
+    "commonName": "Hazel-fronted Pygmy-Tyrant",
+    "status": [],
+    "note": "22b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudotriccus ruficeps",
+    "commonName": "Rufous-headed Pygmy-Tyrant",
+    "status": [],
+    "note": "22d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Corythopis torquatus",
+    "commonName": "Ringed Antpipit",
+    "status": [],
+    "note": "23, 23a, 24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Corythopis delalandi",
+    "commonName": "Southern Antpipit",
+    "status": [],
+    "note": "23, 23a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pogonotriccus difficilis",
+    "commonName": "Serra do Mar Bristle-Tyrant",
+    "status": [],
+    "note": "31"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pogonotriccus eximius",
+    "commonName": "Southern Bristle-Tyrant",
+    "status": [],
+    "note": "31"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pogonotriccus lanyoni",
+    "commonName": "Antioquia Bristle-Tyrant",
+    "status": [],
+    "note": "32, 31b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pogonotriccus ophthalmicus",
+    "commonName": "Marble-faced Bristle-Tyrant",
+    "status": [],
+    "note": "31, 31a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pogonotriccus paulista",
+    "commonName": "São Paulo Bristle-Tyrant",
+    "status": [],
+    "note": "31, 38"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pogonotriccus poecilotis",
+    "commonName": "Variegated Bristle-Tyrant",
+    "status": [],
+    "note": "31"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pogonotriccus venezuelanus",
+    "commonName": "Venezuelan Bristle-Tyrant",
+    "status": [],
+    "note": "31"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pogonotriccus orbitalis",
+    "commonName": "Spectacled Bristle-Tyrant",
+    "status": [],
+    "note": "31, 31b, 31c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pogonotriccus chapmani",
+    "commonName": "Chapman's Bristle-Tyrant",
+    "status": [],
+    "note": "31"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phylloscartes ventralis",
+    "commonName": "Mottle-cheeked Tyrannulet",
+    "status": [],
+    "note": "32a, 32b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phylloscartes kronei",
+    "commonName": "Restinga Tyrannulet",
+    "status": [],
+    "note": "34, 32a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phylloscartes beckeri",
+    "commonName": "Bahia Tyrannulet",
+    "status": [],
+    "note": "35, 32a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phylloscartes virescens",
+    "commonName": "Olive-green Tyrannulet",
+    "status": [],
+    "note": "32a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phylloscartes gualaquizae",
+    "commonName": "Ecuadorian Tyrannulet",
+    "status": [],
+    "note": "31cc"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phylloscartes nigrifrons",
+    "commonName": "Black-fronted Tyrannulet",
+    "status": [],
+    "note": "31d, 31dd"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phylloscartes superciliaris",
+    "commonName": "Rufous-browed Tyrannulet",
+    "status": [],
+    "note": "31e, 36b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phylloscartes ceciliae",
+    "commonName": "Alagoas Tyrannulet",
+    "status": [],
+    "note": "33, 36b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phylloscartes flaviventris",
+    "commonName": "Rufous-lored Tyrannulet",
+    "status": [],
+    "note": "31, 36, 36a, 36b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phylloscartes parkeri",
+    "commonName": "Cinnamon-faced Tyrannulet",
+    "status": [],
+    "note": "37, 36a, 36b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phylloscartes roquettei",
+    "commonName": "Minas Gerais Tyrannulet",
+    "status": [],
+    "note": "36b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phylloscartes oustaleti",
+    "commonName": "Oustalet's Tyrannulet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Phylloscartes sylviolus",
+    "commonName": "Bay-ringed Tyrannulet",
+    "status": [],
+    "note": "36b, 39"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mionectes striaticollis",
+    "commonName": "Streak-necked Flycatcher",
+    "status": [],
+    "note": "36c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mionectes olivaceus",
+    "commonName": "Olive-striped Flycatcher",
+    "status": [],
+    "note": "36cc"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mionectes oleagineus",
+    "commonName": "Ochre-bellied Flycatcher",
+    "status": [],
+    "note": "40, 40a, 40b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mionectes macconnelli",
+    "commonName": "McConnell's Flycatcher",
+    "status": [],
+    "note": "40, 40c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mionectes roraimae",
+    "commonName": "Sierra de Lema Flycatcher",
+    "status": [],
+    "note": "40, 40d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mionectes rufiventris",
+    "commonName": "Gray-hooded Flycatcher",
+    "status": [],
+    "note": "40"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leptopogon amaurocephalus",
+    "commonName": "Sepia-capped Flycatcher",
+    "status": [],
+    "note": "41, 41a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leptopogon superciliaris",
+    "commonName": "Slaty-capped Flycatcher",
+    "status": [],
+    "note": "41d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leptopogon rufipectus",
+    "commonName": "Rufous-breasted Flycatcher",
+    "status": [],
+    "note": "41a, 41b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leptopogon taczanowskii",
+    "commonName": "Inca Flycatcher",
+    "status": [],
+    "note": "41aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Taeniotriccus andrei",
+    "commonName": "Black-chested Tyrant",
+    "status": [],
+    "note": "68"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cnipodectes subbrunneus",
+    "commonName": "Brownish Twistwing",
+    "status": [],
+    "note": "72, 72a, 72aa, 72b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cnipodectes superrufus",
+    "commonName": "Rufous Twistwing",
+    "status": [],
+    "note": "72d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhynchocyclus olivaceus",
+    "commonName": "Olivaceous Flatbill",
+    "status": [],
+    "note": "72b, 72c, 72d, 73a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhynchocyclus brevirostris",
+    "commonName": "Eye-ringed Flatbill",
+    "status": [],
+    "note": "73b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhynchocyclus pacificus",
+    "commonName": "Pacific Flatbill",
+    "status": [],
+    "note": "73b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhynchocyclus fulvipectus",
+    "commonName": "Fulvous-breasted Flatbill",
+    "status": [],
+    "note": "73a, 73b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tolmomyias flavotectus",
+    "commonName": "Yellow-winged Flatbill",
+    "status": [],
+    "note": "72b, 74, 74a. 76"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tolmomyias poliocephalus",
+    "commonName": "Gray-crowned Flatbill",
+    "status": [],
+    "note": "74, 74b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tolmomyias assimilis",
+    "commonName": "Yellow-margined Flatbill",
+    "status": [],
+    "note": "74, 76, 76a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tolmomyias traylori",
+    "commonName": "Orange-eyed Flatbill",
+    "status": [],
+    "note": "74, 75"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tolmomyias flaviventris",
+    "commonName": "Yellow-breasted Flatbill",
+    "status": [],
+    "note": "74, 77"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tolmomyias viridiceps",
+    "commonName": "Olive-faced Flatbill",
+    "status": [],
+    "note": "74, 77"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tolmomyias sulphurescens",
+    "commonName": "Yellow-olive Flatbill",
+    "status": [],
+    "note": "72b, 74, 74a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiornis auricularis",
+    "commonName": "Eared Pygmy-Tyrant",
+    "status": [],
+    "note": "22cc, 45, 45a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiornis albiventris",
+    "commonName": "White-bellied Pygmy-Tyrant",
+    "status": [],
+    "note": "45a, 45b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiornis atricapillus",
+    "commonName": "Black-capped Pygmy-Tyrant",
+    "status": [],
+    "note": "46"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiornis ecaudatus",
+    "commonName": "Short-tailed Pygmy-Tyrant",
+    "status": [],
+    "note": "46, 46a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oncostoma cinereigulare",
+    "commonName": "Northern Bentbill",
+    "status": [
+      "V?"
+    ],
+    "note": "45, 46b, 47"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oncostoma olivaceum",
+    "commonName": "Southern Bentbill",
+    "status": [],
+    "note": "47"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lophotriccus pileatus",
+    "commonName": "Scale-crested Pygmy-Tyrant",
+    "status": [],
+    "note": "22cc, 45, 47c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lophotriccus vitiosus",
+    "commonName": "Double-banded Pygmy-Tyrant",
+    "status": [],
+    "note": "47a, 47b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lophotriccus eulophotes",
+    "commonName": "Long-crested Pygmy-Tyrant",
+    "status": [],
+    "note": "47a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lophotriccus galeatus",
+    "commonName": "Helmeted Pygmy-Tyrant",
+    "status": [],
+    "note": "48"
+  },
+  {
+    "type": "species",
+    "scientificName": "Atalotriccus pilaris",
+    "commonName": "Pale-eyed Pygmy-Tyrant",
+    "status": [],
+    "note": "45, 49, 49a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hemitriccus minor",
+    "commonName": "Snethlage's Tody-Tyrant",
+    "status": [],
+    "note": "45, 50, 50a, 50b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hemitriccus cohnhafti",
+    "commonName": "Acre Tody-Tyrant",
+    "status": [],
+    "note": "50a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hemitriccus spodiops",
+    "commonName": "Yungas Tody-Tyrant",
+    "status": [],
+    "note": "50a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hemitriccus flammulatus",
+    "commonName": "Flammulated Pygmy-Tyrant",
+    "status": [],
+    "note": "22cc, 53, 53a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hemitriccus diops",
+    "commonName": "Drab-breasted Pygmy-Tyrant",
+    "status": [],
+    "note": "53, 53a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hemitriccus obsoletus",
+    "commonName": "Brown-breasted Pygmy-Tyrant",
+    "status": [],
+    "note": "53, 53a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hemitriccus josephinae",
+    "commonName": "Boat-billed Tody-Tyrant",
+    "status": [],
+    "note": "54"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hemitriccus zosterops",
+    "commonName": "White-eyed Tody-Tyrant",
+    "status": [],
+    "note": "51, 55, 63d, 63e, 63ee"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hemitriccus griseipectus",
+    "commonName": "White-bellied Tody-Tyrant",
+    "status": [],
+    "note": "51, 55, 63d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hemitriccus orbitatus",
+    "commonName": "Eye-ringed Tody-Tyrant",
+    "status": [],
+    "note": "51, 63d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hemitriccus iohannis",
+    "commonName": "Johannes's Tody-Tyrant",
+    "status": [],
+    "note": "51, 56, 63d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hemitriccus striaticollis",
+    "commonName": "Stripe-necked Tody-Tyrant",
+    "status": [],
+    "note": "51, 63d, 63e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hemitriccus nidipendulus",
+    "commonName": "Hangnest Tody-Tyrant",
+    "status": [],
+    "note": "51, 63d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hemitriccus margaritaceiventer",
+    "commonName": "Pearly-vented Tody-Tyrant",
+    "status": [],
+    "note": "51, 51a, 63d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hemitriccus inornatus",
+    "commonName": "Pelzeln's Tody-Tyrant",
+    "status": [],
+    "note": "57, 63d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hemitriccus minimus",
+    "commonName": "Zimmer's Tody-Tyrant",
+    "status": [],
+    "note": "51, 58"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hemitriccus granadensis",
+    "commonName": "Black-throated Tody-Tyrant",
+    "status": [],
+    "note": "51, 63c, 63d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hemitriccus cinnamomeipectus",
+    "commonName": "Cinnamon-breasted Tody-Tyrant",
+    "status": [],
+    "note": "59, 60, 60a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hemitriccus mirandae",
+    "commonName": "Buff-breasted Tody-Tyrant",
+    "status": [],
+    "note": "51, 51b, 60, 60a, 60b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hemitriccus kaempferi",
+    "commonName": "Kaempfer's Tody-Tyrant",
+    "status": [],
+    "note": "60, 60a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hemitriccus rufigularis",
+    "commonName": "Buff-throated Tody-Tyrant",
+    "status": [],
+    "note": "51, 63d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hemitriccus furcatus",
+    "commonName": "Fork-tailed Pygmy-Tyrant",
+    "status": [],
+    "note": "61"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poecilotriccus ruficeps",
+    "commonName": "Rufous-crowned Tody-Flycatcher",
+    "status": [],
+    "note": "62, 62a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poecilotriccus luluae",
+    "commonName": "Johnson's Tody-Flycatcher",
+    "status": [],
+    "note": "62, 62b, 62c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poecilotriccus albifacies",
+    "commonName": "White-cheeked Tody-Flycatcher",
+    "status": [],
+    "note": "63, 64a, 64b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poecilotriccus capitalis",
+    "commonName": "Black-and-white Tody-Flycatcher",
+    "status": [],
+    "note": "63, 64, 64a, 64b, 65"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poecilotriccus senex",
+    "commonName": "Buff-cheeked Tody-Flycatcher",
+    "status": [],
+    "note": "63, 66"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poecilotriccus russatus",
+    "commonName": "Ruddy Tody-Flycatcher",
+    "status": [],
+    "note": "63, 63b, 63d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poecilotriccus plumbeiceps",
+    "commonName": "Ochre-faced Tody-Flycatcher",
+    "status": [],
+    "note": "63, 63b, 63d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poecilotriccus fumifrons",
+    "commonName": "Smoky-fronted Tody-Flycatcher",
+    "status": [],
+    "note": "63, 63c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poecilotriccus latirostris",
+    "commonName": "Rusty-fronted Tody-Flycatcher",
+    "status": [],
+    "note": "63, 63c, 63dd"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poecilotriccus sylvia",
+    "commonName": "Slate-headed Tody-Flycatcher",
+    "status": [],
+    "note": "63, 63a, 63aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poecilotriccus calopterus",
+    "commonName": "Golden-winged Tody-Flycatcher",
+    "status": [],
+    "note": "63, 67"
+  },
+  {
+    "type": "species",
+    "scientificName": "Poecilotriccus pulchellus",
+    "commonName": "Black-backed Tody-Flycatcher",
+    "status": [],
+    "note": "63, 67"
+  },
+  {
+    "type": "species",
+    "scientificName": "Todirostrum maculatum",
+    "commonName": "Spotted Tody-Flycatcher",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Todirostrum poliocephalum",
+    "commonName": "Gray-headed Tody-Flycatcher",
+    "status": [],
+    "note": "69"
+  },
+  {
+    "type": "species",
+    "scientificName": "Todirostrum cinereum",
+    "commonName": "Common Tody-Flycatcher",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Todirostrum viridanum",
+    "commonName": "Maracaibo Tody-Flycatcher",
+    "status": [],
+    "note": "70"
+  },
+  {
+    "type": "species",
+    "scientificName": "Todirostrum nigriceps",
+    "commonName": "Black-headed Tody-Flycatcher",
+    "status": [],
+    "note": "71"
+  },
+  {
+    "type": "species",
+    "scientificName": "Todirostrum pictum",
+    "commonName": "Painted Tody-Flycatcher",
+    "status": [],
+    "note": "71"
+  },
+  {
+    "type": "species",
+    "scientificName": "Todirostrum chrysocrotaphum",
+    "commonName": "Yellow-browed Tody-Flycatcher",
+    "status": [],
+    "note": "71, 71a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiotriccus ornatus",
+    "commonName": "Ornate Flycatcher",
+    "status": [],
+    "note": "43a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nephelomyias pulcher",
+    "commonName": "Handsome Flycatcher",
+    "status": [],
+    "note": "43a, 80, 80aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nephelomyias lintoni",
+    "commonName": "Orange-banded Flycatcher",
+    "status": [],
+    "note": "80, 80b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nephelomyias ochraceiventris",
+    "commonName": "Ochraceous-breasted Flycatcher",
+    "status": [],
+    "note": "80, 80b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hirundinea ferruginea",
+    "commonName": "Cliff Flycatcher",
+    "status": [],
+    "note": "43a, 85"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrrhomyias cinnamomeus",
+    "commonName": "Cinnamon Flycatcher",
+    "status": [],
+    "note": "43a, 84, 84a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Zimmerius vilissimus",
+    "commonName": "Mistletoe Tyrannulet",
+    "status": [],
+    "note": "26, 27"
+  },
+  {
+    "type": "species",
+    "scientificName": "Zimmerius petersi",
+    "commonName": "Venezuelan Tyrannulet",
+    "status": [],
+    "note": "26, 27"
+  },
+  {
+    "type": "species",
+    "scientificName": "Zimmerius improbus",
+    "commonName": "Spectacled Tyrannulet",
+    "status": [],
+    "note": "26, 27"
+  },
+  {
+    "type": "species",
+    "scientificName": "Zimmerius albigularis",
+    "commonName": "Choco Tyrannulet",
+    "status": [],
+    "note": "26, 26a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Zimmerius bolivianus",
+    "commonName": "Bolivian Tyrannulet",
+    "status": [],
+    "note": "26"
+  },
+  {
+    "type": "species",
+    "scientificName": "Zimmerius cinereicapilla",
+    "commonName": "Red-billed Tyrannulet",
+    "status": [],
+    "note": "26, 28, 28a, 29a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Zimmerius villarejoi",
+    "commonName": "Mishana Tyrannulet",
+    "status": [],
+    "note": "29, 29a, 29b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Zimmerius chicomendesi",
+    "commonName": "Chico’s Tyrannulet",
+    "status": [],
+    "note": "29, 29a, 29b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Zimmerius gracilipes",
+    "commonName": "Slender-footed Tyrannulet",
+    "status": [],
+    "note": "26, 28a, 28b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Zimmerius acer",
+    "commonName": "Guianan Tyrannulet",
+    "status": [],
+    "note": "26, 28a, 28b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Zimmerius chrysops",
+    "commonName": "Golden-faced Tyrannulet",
+    "status": [],
+    "note": "26, 26a, 30"
+  },
+  {
+    "type": "species",
+    "scientificName": "Zimmerius viridiflavus",
+    "commonName": "Peruvian Tyrannulet",
+    "status": [],
+    "note": "26"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stigmatura napensis",
+    "commonName": "Lesser Wagtail-Tyrant",
+    "status": [],
+    "note": "25a, 25b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stigmatura budytoides",
+    "commonName": "Greater Wagtail-Tyrant",
+    "status": [],
+    "note": "25a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Inezia tenuirostris",
+    "commonName": "Slender-billed Tyrannulet",
+    "status": [],
+    "note": "42a, 42aa, 42b, 42c, 42e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Inezia inornata",
+    "commonName": "Plain Tyrannulet",
+    "status": [],
+    "note": "42a, 42d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Inezia subflava",
+    "commonName": "Amazonian Tyrannulet",
+    "status": [],
+    "note": "43"
+  },
+  {
+    "type": "species",
+    "scientificName": "Inezia caudata",
+    "commonName": "Pale-tipped Tyrannulet",
+    "status": [],
+    "note": "43"
+  },
+  {
+    "type": "species",
+    "scientificName": "Euscarthmus meloryphus",
+    "commonName": "Fulvous-crowned Scrub-Tyrant",
+    "status": [],
+    "note": "24a, 24b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Euscarthmus fulviceps",
+    "commonName": "Fulvous-faced Scrub-Tyrant",
+    "status": [],
+    "note": "24a, 24b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Euscarthmus rufomarginatus",
+    "commonName": "Rufous-sided Scrub-Tyrant",
+    "status": [],
+    "note": "24c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Elaenia flavogaster",
+    "commonName": "Yellow-bellied Elaenia",
+    "status": [],
+    "note": "8e, 8ee, 8f"
+  },
+  {
+    "type": "species",
+    "scientificName": "Elaenia martinica",
+    "commonName": "Caribbean Elaenia",
+    "status": [],
+    "note": "8d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Elaenia spectabilis",
+    "commonName": "Large Elaenia",
+    "status": [],
+    "note": "8e, 9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Elaenia ridleyana",
+    "commonName": "Noronha Elaenia",
+    "status": [],
+    "note": "9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Elaenia albiceps",
+    "commonName": "White-crested Elaenia",
+    "status": [],
+    "note": "10, 10c, 10d, 10g"
+  },
+  {
+    "type": "species",
+    "scientificName": "Elaenia parvirostris",
+    "commonName": "Small-billed Elaenia",
+    "status": [],
+    "note": "10c, 10ccc"
+  },
+  {
+    "type": "species",
+    "scientificName": "Elaenia mesoleuca",
+    "commonName": "Olivaceous Elaenia",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Elaenia strepera",
+    "commonName": "Slaty Elaenia",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Elaenia gigas",
+    "commonName": "Mottle-backed Elaenia",
+    "status": [],
+    "note": "8f"
+  },
+  {
+    "type": "species",
+    "scientificName": "Elaenia pelzelni",
+    "commonName": "Brownish Elaenia",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Elaenia cristata",
+    "commonName": "Plain-crested Elaenia",
+    "status": [],
+    "note": "10cc"
+  },
+  {
+    "type": "species",
+    "scientificName": "Elaenia chiriquensis",
+    "commonName": "Lesser Elaenia",
+    "status": [],
+    "note": "8d, 10b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Elaenia brachyptera",
+    "commonName": "Coopmans’s Elaenia",
+    "status": [],
+    "note": "10b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Elaenia ruficeps",
+    "commonName": "Rufous-crowned Elaenia",
+    "status": [],
+    "note": "10cc"
+  },
+  {
+    "type": "species",
+    "scientificName": "Elaenia frantzii",
+    "commonName": "Mountain Elaenia",
+    "status": [],
+    "note": "10a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Elaenia olivina",
+    "commonName": "Tepui Elaenia",
+    "status": [],
+    "note": "10f"
+  },
+  {
+    "type": "species",
+    "scientificName": "Elaenia obscura",
+    "commonName": "Highland Elaenia",
+    "status": [],
+    "note": "10a, 10aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Elaenia dayi",
+    "commonName": "Great Elaenia",
+    "status": [],
+    "note": "10a, 10aa, 10e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Elaenia sordida",
+    "commonName": "Small-headed Elaenia",
+    "status": [],
+    "note": "10a, 10aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Elaenia pallatangae",
+    "commonName": "Sierran Elaenia",
+    "status": [],
+    "note": "10, 10f, 10g"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tyrannulus elatus",
+    "commonName": "Yellow-crowned Tyrannulet",
+    "status": [],
+    "note": "7a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiopagis gaimardii",
+    "commonName": "Forest Elaenia",
+    "status": [],
+    "note": "7b, 7d, 7e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiopagis caniceps",
+    "commonName": "Gray Elaenia",
+    "status": [],
+    "note": "7c, 7cc, 7ccc"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiopagis olallai",
+    "commonName": "Foothill Elaenia",
+    "status": [],
+    "note": "7ccc, 8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiopagis subplacens",
+    "commonName": "Pacific Elaenia",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiopagis flavivertex",
+    "commonName": "Yellow-crowned Elaenia",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiopagis viridicata",
+    "commonName": "Greenish Elaenia",
+    "status": [],
+    "note": "8b, 8c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Suiriri suiriri",
+    "commonName": "Suiriri Flycatcher",
+    "status": [],
+    "note": "7b, 12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Capsiempis flaveola",
+    "commonName": "Yellow Tyrannulet",
+    "status": [],
+    "note": "21"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mecocerculus poecilocercus",
+    "commonName": "White-tailed Tyrannulet",
+    "status": [],
+    "note": "14a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mecocerculus hellmayri",
+    "commonName": "Buff-banded Tyrannulet",
+    "status": [],
+    "note": "14a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mecocerculus stictopterus",
+    "commonName": "White-banded Tyrannulet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Mecocerculus leucophrys",
+    "commonName": "White-throated Tyrannulet",
+    "status": [],
+    "note": "14, 14b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mecocerculus calopterus",
+    "commonName": "Rufous-winged Tyrannulet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Mecocerculus minor",
+    "commonName": "Sulphur-bellied Tyrannulet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Phyllomyias virescens",
+    "commonName": "Greenish Tyrannulet",
+    "status": [],
+    "note": "3, 3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phyllomyias reiseri",
+    "commonName": "Reiser's Tyrannulet",
+    "status": [],
+    "note": "3, 3a, 4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phyllomyias urichi",
+    "commonName": "Urich's Tyrannulet",
+    "status": [],
+    "note": "3, 4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phyllomyias sclateri",
+    "commonName": "Sclater's Tyrannulet",
+    "status": [],
+    "note": "3, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phyllomyias griseiceps",
+    "commonName": "Sooty-headed Tyrannulet",
+    "status": [],
+    "note": "3b, 5a, 5b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phyllomyias weedeni",
+    "commonName": "Yungas Tyrannulet",
+    "status": [],
+    "note": "3b, 5b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phyllomyias fasciatus",
+    "commonName": "Planalto Tyrannulet",
+    "status": [],
+    "note": "3b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phyllomyias plumbeiceps",
+    "commonName": "Plumbeous-crowned Tyrannulet",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phyllomyias griseocapilla",
+    "commonName": "Gray-capped Tyrannulet",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Acrochordopus zeledoni",
+    "commonName": "White-fronted Tyrannulet",
+    "status": [],
+    "note": "2, 2a, 2b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Acrochordopus burmeisteri",
+    "commonName": "Rough-legged Tyrannulet",
+    "status": [],
+    "note": "2, 2a, 2b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tyranniscus cinereiceps",
+    "commonName": "Ashy-headed Tyrannulet",
+    "status": [],
+    "note": "6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tyranniscus nigrocapillus",
+    "commonName": "Black-capped Tyrannulet",
+    "status": [],
+    "note": "6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tyranniscus uropygialis",
+    "commonName": "Tawny-rumped Tyrannulet",
+    "status": [],
+    "note": "6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Camptostoma sclateri",
+    "commonName": "Pacific Beardless-Tyrannulet",
+    "status": [],
+    "note": "11d, 11e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Camptostoma pusillum",
+    "commonName": "Venezuelan Beardless-Tyrannulet",
+    "status": [],
+    "note": "11d, 11e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Camptostoma caucae",
+    "commonName": "Cauca Beardless-Tyrannulet",
+    "status": [],
+    "note": "11d, 11e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Camptostoma napaeum",
+    "commonName": "Amazonian Beardless-Tyrannulet",
+    "status": [],
+    "note": "11d, 11e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Camptostoma obsoletum",
+    "commonName": "Southeastern Beardless-Tyrannulet",
+    "status": [],
+    "note": "11d, 11e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ornithion brunneicapillus",
+    "commonName": "Brown-capped Tyrannulet",
+    "status": [],
+    "note": "11, 11b, 11c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ornithion inerme",
+    "commonName": "White-lored Tyrannulet",
+    "status": [],
+    "note": "11cc"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nesotriccus murinus",
+    "commonName": "Mouse-colored Tyrannulet",
+    "status": [],
+    "note": "20, 20a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nesotriccus tumbezanus",
+    "commonName": "Tumbesian Tyrannulet",
+    "status": [],
+    "note": "20, 20a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nesotriccus maranonicus",
+    "commonName": "Marañon Tyrannulet",
+    "status": [],
+    "note": "20, 20a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudelaenia leucospodia",
+    "commonName": "Gray-and-white Tyrannulet",
+    "status": [],
+    "note": "25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anairetes nigrocristatus",
+    "commonName": "Black-crested Tit-Tyrant",
+    "status": [],
+    "note": "15, 15a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anairetes reguloides",
+    "commonName": "Pied-crested Tit-Tyrant",
+    "status": [],
+    "note": "15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anairetes alpinus",
+    "commonName": "Ash-breasted Tit-Tyrant",
+    "status": [],
+    "note": "15c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anairetes flavirostris",
+    "commonName": "Yellow-billed Tit-Tyrant",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Anairetes parulus",
+    "commonName": "Tufted Tit-Tyrant",
+    "status": [],
+    "note": "15b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anairetes fernandezianus",
+    "commonName": "Juan Fernandez Tit-Tyrant",
+    "status": [],
+    "note": "15b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Polystictus pectoralis",
+    "commonName": "Bearded Tachuri",
+    "status": [],
+    "note": "21a, 21b, 21c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Polystictus superciliaris",
+    "commonName": "Gray-backed Tachuri",
+    "status": [],
+    "note": "21a, 21b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Culicivora caudacuta",
+    "commonName": "Sharp-tailed Tyrant",
+    "status": [],
+    "note": "44"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudocolopteryx sclateri",
+    "commonName": "Crested Doradito",
+    "status": [],
+    "note": "43b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudocolopteryx acutipennis",
+    "commonName": "Subtropical Doradito",
+    "status": [],
+    "note": "22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudocolopteryx dinelliana",
+    "commonName": "Dinelli's Doradito",
+    "status": [],
+    "note": "22, 22a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudocolopteryx flaviventris",
+    "commonName": "Warbling Doradito",
+    "status": [],
+    "note": "22aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudocolopteryx citreola",
+    "commonName": "Ticking Doradito",
+    "status": [],
+    "note": "22aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Serpophaga cinerea",
+    "commonName": "Torrent Tyrannulet",
+    "status": [],
+    "note": "17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Serpophaga hypoleuca",
+    "commonName": "River Tyrannulet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Serpophaga nigricans",
+    "commonName": "Sooty Tyrannulet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Serpophaga subcristata",
+    "commonName": "White-crested Tyrannulet",
+    "status": [],
+    "note": "18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Serpophaga griseicapilla",
+    "commonName": "Straneck’s Tyrannulet",
+    "status": [],
+    "note": "18, 19"
+  },
+  {
+    "type": "species",
+    "scientificName": "Uromyias agilis",
+    "commonName": "Agile Tit-Tyrant",
+    "status": [],
+    "note": "16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Uromyias agraphia",
+    "commonName": "Unstreaked Tit-Tyrant",
+    "status": [],
+    "note": "16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Muscigralla brevicauda",
+    "commonName": "Short-tailed Field Tyrant",
+    "status": [],
+    "note": "121c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Attila phoenicurus",
+    "commonName": "Rufous-tailed Attila",
+    "status": [],
+    "note": "143"
+  },
+  {
+    "type": "species",
+    "scientificName": "Attila cinnamomeus",
+    "commonName": "Cinnamon Attila",
+    "status": [],
+    "note": "143a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Attila torridus",
+    "commonName": "Ochraceous Attila",
+    "status": [],
+    "note": "143b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Attila citriniventris",
+    "commonName": "Citron-bellied Attila",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Attila bolivianus",
+    "commonName": "Dull-capped Attila",
+    "status": [],
+    "note": "144"
+  },
+  {
+    "type": "species",
+    "scientificName": "Attila rufus",
+    "commonName": "Gray-hooded Attila",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Attila spadiceus",
+    "commonName": "Bright-rumped Attila",
+    "status": [],
+    "note": "145"
+  },
+  {
+    "type": "species",
+    "scientificName": "Legatus leucophaius",
+    "commonName": "Piratic Flycatcher",
+    "status": [],
+    "note": "122b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ramphotrigon megacephalum",
+    "commonName": "Large-headed Flatbill",
+    "status": [],
+    "note": "141, 142, 142a, 142b, 142c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ramphotrigon ruficauda",
+    "commonName": "Rufous-tailed Flatbill",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Ramphotrigon fuscicauda",
+    "commonName": "Dusky-tailed Flatbill",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pitangus sulphuratus",
+    "commonName": "Great Kiskadee",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Philohydor lictor",
+    "commonName": "Lesser Kiskadee",
+    "status": [],
+    "note": "125"
+  },
+  {
+    "type": "species",
+    "scientificName": "Machetornis rixosa",
+    "commonName": "Cattle Tyrant",
+    "status": [],
+    "note": "122"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tyrannopsis sulphurea",
+    "commonName": "Sulphury Flycatcher",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Megarynchus pitangua",
+    "commonName": "Boat-billed Flycatcher",
+    "status": [],
+    "note": "129"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiodynastes hemichrysus",
+    "commonName": "Golden-bellied Flycatcher",
+    "status": [],
+    "note": "127b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiodynastes chrysocephalus",
+    "commonName": "Golden-crowned Flycatcher",
+    "status": [],
+    "note": "127b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiodynastes bairdii",
+    "commonName": "Baird's Flycatcher",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiodynastes luteiventris",
+    "commonName": "Sulphur-bellied Flycatcher",
+    "status": [
+      "NB"
+    ],
+    "note": "128a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiodynastes maculatus",
+    "commonName": "Streaked Flycatcher",
+    "status": [],
+    "note": "128, 128a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiozetetes cayanensis",
+    "commonName": "Rusty-margined Flycatcher",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiozetetes similis",
+    "commonName": "Social Flycatcher",
+    "status": [],
+    "note": "122a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiozetetes granadensis",
+    "commonName": "Gray-capped Flycatcher",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiozetetes luteiventris",
+    "commonName": "Dusky-chested Flycatcher",
+    "status": [],
+    "note": "123"
+  },
+  {
+    "type": "species",
+    "scientificName": "Conopias albovittatus",
+    "commonName": "White-ringed Flycatcher",
+    "status": [],
+    "note": "126, 126a, 127"
+  },
+  {
+    "type": "species",
+    "scientificName": "Conopias parvus",
+    "commonName": "Yellow-throated Flycatcher",
+    "status": [],
+    "note": "126, 126a, 127"
+  },
+  {
+    "type": "species",
+    "scientificName": "Conopias trivirgatus",
+    "commonName": "Three-striped Flycatcher",
+    "status": [],
+    "note": "127, 127a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Conopias cinchoneti",
+    "commonName": "Lemon-browed Flycatcher",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Phelpsia inornata",
+    "commonName": "White-bearded Flycatcher",
+    "status": [],
+    "note": "124"
+  },
+  {
+    "type": "species",
+    "scientificName": "Empidonomus varius",
+    "commonName": "Variegated Flycatcher",
+    "status": [],
+    "note": "129a, 130b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Empidonomus aurantioatrocristatus",
+    "commonName": "Crowned Slaty Flycatcher",
+    "status": [],
+    "note": "130"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tyrannus niveigularis",
+    "commonName": "Snowy-throated Kingbird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Tyrannus albogularis",
+    "commonName": "White-throated Kingbird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Tyrannus melancholicus",
+    "commonName": "Tropical Kingbird",
+    "status": [],
+    "note": "130b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tyrannus forficatus",
+    "commonName": "Scissor-tailed Flycatcher",
+    "status": [
+      "V"
+    ],
+    "note": "130bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tyrannus savana",
+    "commonName": "Fork-tailed Flycatcher",
+    "status": [],
+    "note": "131, 131a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tyrannus tyrannus",
+    "commonName": "Eastern Kingbird",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Tyrannus dominicensis",
+    "commonName": "Gray Kingbird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhytipterna holerythra",
+    "commonName": "Rufous Mourner",
+    "status": [],
+    "note": "131aa, 131b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhytipterna simplex",
+    "commonName": "Grayish Mourner",
+    "status": [],
+    "note": "131aa, 131b, 132"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rhytipterna immunda",
+    "commonName": "Pale-bellied Mourner",
+    "status": [],
+    "note": "131b, 133c, 133d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Casiornis rufus",
+    "commonName": "Rufous Casiornis",
+    "status": [],
+    "note": "133, 133a, 133b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Casiornis fuscus",
+    "commonName": "Ash-throated Casiornis",
+    "status": [],
+    "note": "133, 133a, 133b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sirystes albogriseus",
+    "commonName": "Choco Sirystes",
+    "status": [],
+    "note": "132a, 132b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sirystes albocinereus",
+    "commonName": "White-rumped Sirystes",
+    "status": [],
+    "note": "132b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sirystes subcanescens",
+    "commonName": "Todd’s Sirystes",
+    "status": [],
+    "note": "132b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sirystes sibilator",
+    "commonName": "Sibilant Sirystes",
+    "status": [],
+    "note": "132b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiarchus semirufus",
+    "commonName": "Rufous Flycatcher",
+    "status": [],
+    "note": "133c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiarchus tuberculifer",
+    "commonName": "Dusky-capped Flycatcher",
+    "status": [],
+    "note": "134, 135"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiarchus swainsoni",
+    "commonName": "Swainson's Flycatcher",
+    "status": [],
+    "note": "136"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiarchus venezuelensis",
+    "commonName": "Venezuelan Flycatcher",
+    "status": [],
+    "note": "137"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiarchus panamensis",
+    "commonName": "Panama Flycatcher",
+    "status": [],
+    "note": "137, 138"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiarchus ferox",
+    "commonName": "Short-crested Flycatcher",
+    "status": [],
+    "note": "137, 138"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiarchus apicalis",
+    "commonName": "Apical Flycatcher",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiarchus phaeocephalus",
+    "commonName": "Sooty-crowned Flycatcher",
+    "status": [],
+    "note": "137, 138a, 138b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiarchus cephalotes",
+    "commonName": "Pale-edged Flycatcher",
+    "status": [],
+    "note": "138a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiarchus crinitus",
+    "commonName": "Great Crested Flycatcher",
+    "status": [
+      "NB"
+    ],
+    "note": "139"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiarchus tyrannulus",
+    "commonName": "Brown-crested Flycatcher",
+    "status": [],
+    "note": "140, 140a, 140aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiarchus magnirostris",
+    "commonName": "Galapagos Flycatcher",
+    "status": [],
+    "note": "140b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Colonia colonus",
+    "commonName": "Long-tailed Tyrant",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiophobus flavicans",
+    "commonName": "Flavescent Flycatcher",
+    "status": [],
+    "note": "43a, 80"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiophobus phoenicomitra",
+    "commonName": "Orange-crested Flycatcher",
+    "status": [],
+    "note": "80"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiophobus inornatus",
+    "commonName": "Unadorned Flycatcher",
+    "status": [],
+    "note": "80"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiophobus roraimae",
+    "commonName": "Roraiman Flycatcher",
+    "status": [],
+    "note": "80, 80a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiophobus cryptoxanthus",
+    "commonName": "Olive-chested Flycatcher",
+    "status": [],
+    "note": "80, 81"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiophobus fasciatus",
+    "commonName": "Bran-colored Flycatcher",
+    "status": [],
+    "note": "80, 81, 82"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiophobus crypterythrus",
+    "commonName": "Mouse-gray Flycatcher",
+    "status": [],
+    "note": "80, 81, 82"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiophobus rufescens",
+    "commonName": "Rufescent Flycatcher",
+    "status": [],
+    "note": "80, 81, 82"
+  },
+  {
+    "type": "species",
+    "scientificName": "Colorhamphus parvirostris",
+    "commonName": "Patagonian Tyrant",
+    "status": [],
+    "note": "121b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Silvicultrix frontalis",
+    "commonName": "Crowned Chat-Tyrant",
+    "status": [],
+    "note": "119, 119c, 120"
+  },
+  {
+    "type": "species",
+    "scientificName": "Silvicultrix diadema",
+    "commonName": "Yellow-bellied Chat-Tyrant",
+    "status": [],
+    "note": "119, 120a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Silvicultrix jelskii",
+    "commonName": "Jelski's Chat-Tyrant",
+    "status": [],
+    "note": "119, 119a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Silvicultrix pulchella",
+    "commonName": "Golden-browed Chat-Tyrant",
+    "status": [],
+    "note": "119, 119b, 120a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ochthoeca cinnamomeiventris",
+    "commonName": "Slaty-backed Chat-Tyrant",
+    "status": [],
+    "note": "121"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ochthoeca rufipectoralis",
+    "commonName": "Rufous-breasted Chat-Tyrant",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Ochthoeca fumicolor",
+    "commonName": "Brown-backed Chat-Tyrant",
+    "status": [],
+    "note": "121a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ochthoeca oenanthoides",
+    "commonName": "d'Orbigny's Chat-Tyrant",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Ochthoeca piurae",
+    "commonName": "Piura Chat-Tyrant",
+    "status": [],
+    "note": "120b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ochthoeca leucophrys",
+    "commonName": "White-browed Chat-Tyrant",
+    "status": [],
+    "note": "120b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tumbezia salvini",
+    "commonName": "Tumbes Tyrant",
+    "status": [],
+    "note": "118"
+  },
+  {
+    "type": "species",
+    "scientificName": "Guyramemua affine",
+    "commonName": "Chapada Flycatcher",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sublegatus arenarum",
+    "commonName": "Northern Scrub-Flycatcher",
+    "status": [],
+    "note": "41c, 41e, 42"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sublegatus obscurior",
+    "commonName": "Amazonian Scrub-Flycatcher",
+    "status": [],
+    "note": "41f, 42"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sublegatus modestus",
+    "commonName": "Southern Scrub-Flycatcher",
+    "status": [],
+    "note": "41f, 42"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrocephalus rubinus",
+    "commonName": "Vermilion Flycatcher",
+    "status": [],
+    "note": "94c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrocephalus nanus",
+    "commonName": "Brujo Flycatcher",
+    "status": [],
+    "note": "94c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Fluvicola pica",
+    "commonName": "Pied Water Tyrant",
+    "status": [],
+    "note": "100b, 115"
+  },
+  {
+    "type": "species",
+    "scientificName": "Fluvicola albiventer",
+    "commonName": "Black-backed Water Tyrant",
+    "status": [],
+    "note": "115"
+  },
+  {
+    "type": "species",
+    "scientificName": "Fluvicola nengeta",
+    "commonName": "Masked Water Tyrant",
+    "status": [],
+    "note": "115a, 115b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Arundinicola leucocephala",
+    "commonName": "White-headed Marsh Tyrant",
+    "status": [],
+    "note": "116"
+  },
+  {
+    "type": "species",
+    "scientificName": "Gubernetes yetapa",
+    "commonName": "Streamer-tailed Tyrant",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Heteroxolmis dominicana",
+    "commonName": "Black-and-white Monjita",
+    "status": [],
+    "note": "108, 111"
+  },
+  {
+    "type": "species",
+    "scientificName": "Alectrurus tricolor",
+    "commonName": "Cock-tailed Tyrant",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Alectrurus risora",
+    "commonName": "Strange-tailed Tyrant",
+    "status": [],
+    "note": "117"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lessonia rufa",
+    "commonName": "Austral Negrito",
+    "status": [],
+    "note": "95"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lessonia oreas",
+    "commonName": "Andean Negrito",
+    "status": [],
+    "note": "95"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hymenops perspicillatus",
+    "commonName": "Spectacled Tyrant",
+    "status": [],
+    "note": "100"
+  },
+  {
+    "type": "species",
+    "scientificName": "Knipolegus orenocensis",
+    "commonName": "Riverside Tyrant",
+    "status": [],
+    "note": "98d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Knipolegus poecilurus",
+    "commonName": "Rufous-tailed Tyrant",
+    "status": [],
+    "note": "98c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Knipolegus poecilocercus",
+    "commonName": "Amazonian Black-Tyrant",
+    "status": [],
+    "note": "97"
+  },
+  {
+    "type": "species",
+    "scientificName": "Knipolegus franciscanus",
+    "commonName": "Caatinga Black-Tyrant",
+    "status": [],
+    "note": "99"
+  },
+  {
+    "type": "species",
+    "scientificName": "Knipolegus lophotes",
+    "commonName": "Crested Black-Tyrant",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Knipolegus nigerrimus",
+    "commonName": "Velvety Black-Tyrant",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Knipolegus signatus",
+    "commonName": "Jelski’s Black-Tyrant",
+    "status": [],
+    "note": "98, 98a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Knipolegus cabanisi",
+    "commonName": "Plumbeous Black-Tyrant",
+    "status": [],
+    "note": "98, 98a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Knipolegus cyanirostris",
+    "commonName": "Blue-billed Black-Tyrant",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Knipolegus striaticeps",
+    "commonName": "Cinereous Tyrant",
+    "status": [],
+    "note": "96"
+  },
+  {
+    "type": "species",
+    "scientificName": "Knipolegus aterrimus",
+    "commonName": "White-winged Black-Tyrant",
+    "status": [],
+    "note": "99"
+  },
+  {
+    "type": "species",
+    "scientificName": "Knipolegus hudsoni",
+    "commonName": "Hudson's Black-Tyrant",
+    "status": [],
+    "note": "97"
+  },
+  {
+    "type": "species",
+    "scientificName": "Satrapa icterophrys",
+    "commonName": "Yellow-browed Tyrant",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Syrtidicola fluviatilis",
+    "commonName": "Little Ground-Tyrant",
+    "status": [],
+    "note": "101a, 101b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Muscisaxicola maculirostris",
+    "commonName": "Spot-billed Ground-Tyrant",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Muscisaxicola griseus",
+    "commonName": "Taczanowski's Ground-Tyrant",
+    "status": [],
+    "note": "101b, 102, 102a, 103"
+  },
+  {
+    "type": "species",
+    "scientificName": "Muscisaxicola juninensis",
+    "commonName": "Puna Ground-Tyrant",
+    "status": [],
+    "note": "103a, 103aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Muscisaxicola cinereus",
+    "commonName": "Cinereous Ground-Tyrant",
+    "status": [],
+    "note": "103, 103b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Muscisaxicola albifrons",
+    "commonName": "White-fronted Ground-Tyrant",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Muscisaxicola flavinucha",
+    "commonName": "Ochre-naped Ground-Tyrant",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Muscisaxicola rufivertex",
+    "commonName": "Rufous-naped Ground-Tyrant",
+    "status": [],
+    "note": "103c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Muscisaxicola maclovianus",
+    "commonName": "Dark-faced Ground-Tyrant",
+    "status": [],
+    "note": "103"
+  },
+  {
+    "type": "species",
+    "scientificName": "Muscisaxicola albilora",
+    "commonName": "White-browed Ground-Tyrant",
+    "status": [],
+    "note": "103a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Muscisaxicola alpinus",
+    "commonName": "Plain-capped Ground-Tyrant",
+    "status": [],
+    "note": "102a, 103"
+  },
+  {
+    "type": "species",
+    "scientificName": "Muscisaxicola capistratus",
+    "commonName": "Cinnamon-bellied Ground-Tyrant",
+    "status": [],
+    "note": "103, 103d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Muscisaxicola frontalis",
+    "commonName": "Black-fronted Ground-Tyrant",
+    "status": [],
+    "note": "103d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cnemarchus erythropygius",
+    "commonName": "Red-rumped Bush-Tyrant",
+    "status": [],
+    "note": "113"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cnemarchus rufipennis",
+    "commonName": "Rufous-webbed Bush-Tyrant",
+    "status": [],
+    "note": "114"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pyrope pyrope",
+    "commonName": "Fire-eyed Diucon",
+    "status": [],
+    "note": "107"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xolmis velatus",
+    "commonName": "White-rumped Monjita",
+    "status": [],
+    "note": "108"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xolmis irupero",
+    "commonName": "White Monjita",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Nengetus cinereus",
+    "commonName": "Gray Monjita",
+    "status": [],
+    "note": "108, 108a, 108b, 111a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Neoxolmis coronatus",
+    "commonName": "Black-crowned Monjita",
+    "status": [],
+    "note": "108, 108a, 108c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Neoxolmis salinarum",
+    "commonName": "Salinas Monjita",
+    "status": [],
+    "note": "109, 110"
+  },
+  {
+    "type": "species",
+    "scientificName": "Neoxolmis rubetra",
+    "commonName": "Rusty-backed Monjita",
+    "status": [],
+    "note": "108, 110, 110a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Neoxolmis rufiventris",
+    "commonName": "Chocolate-vented Tyrant",
+    "status": [],
+    "note": "110a, 111a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Agriornis montanus",
+    "commonName": "Black-billed Shrike-Tyrant",
+    "status": [],
+    "note": "104"
+  },
+  {
+    "type": "species",
+    "scientificName": "Agriornis albicauda",
+    "commonName": "White-tailed Shrike-Tyrant",
+    "status": [],
+    "note": "105"
+  },
+  {
+    "type": "species",
+    "scientificName": "Agriornis lividus",
+    "commonName": "Great Shrike-Tyrant",
+    "status": [],
+    "note": "104"
+  },
+  {
+    "type": "species",
+    "scientificName": "Agriornis micropterus",
+    "commonName": "Gray-bellied Shrike-Tyrant",
+    "status": [],
+    "note": "104"
+  },
+  {
+    "type": "species",
+    "scientificName": "Agriornis murinus",
+    "commonName": "Lesser Shrike-Tyrant",
+    "status": [],
+    "note": "104, 106"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiotheretes striaticollis",
+    "commonName": "Streak-throated Bush-Tyrant",
+    "status": [],
+    "note": "112"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiotheretes pernix",
+    "commonName": "Santa Marta Bush-Tyrant",
+    "status": [],
+    "note": "112, 112b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiotheretes fumigatus",
+    "commonName": "Smoky Bush-Tyrant",
+    "status": [],
+    "note": "112a, 112b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Myiotheretes fuscorufus",
+    "commonName": "Rufous-bellied Bush-Tyrant",
+    "status": [],
+    "note": "112a, 112b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ochthornis littoralis",
+    "commonName": "Drab Water Tyrant",
+    "status": [],
+    "note": "101"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cnemotriccus fuscatus",
+    "commonName": "Fuscous Flycatcher",
+    "status": [],
+    "note": "87b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aphanotriccus audax",
+    "commonName": "Black-billed Flycatcher",
+    "status": [],
+    "note": "87, 87a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lathrotriccus euleri",
+    "commonName": "Euler's Flycatcher",
+    "status": [],
+    "note": "86, 86a, 87"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lathrotriccus griseipectus",
+    "commonName": "Gray-breasted Flycatcher",
+    "status": [],
+    "note": "86"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mitrephanes phaeocercus",
+    "commonName": "Tufted Flycatcher",
+    "status": [],
+    "note": "94, 94a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mitrephanes olivaceus",
+    "commonName": "Olive Flycatcher",
+    "status": [],
+    "note": "94, 94a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sayornis nigricans",
+    "commonName": "Black Phoebe",
+    "status": [],
+    "note": "94b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Empidonax virescens",
+    "commonName": "Acadian Flycatcher",
+    "status": [
+      "NB"
+    ],
+    "note": "88"
+  },
+  {
+    "type": "species",
+    "scientificName": "Empidonax alnorum",
+    "commonName": "Alder Flycatcher",
+    "status": [
+      "NB"
+    ],
+    "note": "89"
+  },
+  {
+    "type": "species",
+    "scientificName": "Empidonax traillii",
+    "commonName": "Willow Flycatcher",
+    "status": [
+      "NB"
+    ],
+    "note": "89"
+  },
+  {
+    "type": "species",
+    "scientificName": "Contopus cooperi",
+    "commonName": "Olive-sided Flycatcher",
+    "status": [
+      "NB"
+    ],
+    "note": "90, 91"
+  },
+  {
+    "type": "species",
+    "scientificName": "Contopus fumigatus",
+    "commonName": "Smoke-colored Pewee",
+    "status": [],
+    "note": "92, 92a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Contopus sordidulus",
+    "commonName": "Western Wood-Pewee",
+    "status": [
+      "NB"
+    ],
+    "note": "93, 93b, 93c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Contopus virens",
+    "commonName": "Eastern Wood-Pewee",
+    "status": [
+      "NB"
+    ],
+    "note": "93, 93b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Contopus cinereus",
+    "commonName": "Tropical Pewee",
+    "status": [],
+    "note": "93a, 93b, 93bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Contopus albogularis",
+    "commonName": "White-throated Pewee",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Contopus nigrescens",
+    "commonName": "Blackish Pewee",
+    "status": [],
+    "note": "93c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Muscipipra vetula",
+    "commonName": "Shear-tailed Gray Tyrant",
+    "status": [],
+    "note": "147"
+  },
+  {
+    "type": "subfamily",
+    "label": "Incertae sedis",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Tachuris rubrigastra",
+    "commonName": "Many-colored Rush Tyrant",
+    "status": [],
+    "note": "43b"
+  }
+]

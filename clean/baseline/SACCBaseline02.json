@@ -1,0 +1,923 @@
+[
+  {
+    "type": "order",
+    "label": "COLUMBIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "COLUMBIDAE (PIGEONS)",
+    "note": ""
+  },
+  {
+    "type": "subfamily",
+    "label": "Columbinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Columba livia",
+    "commonName": "Rock Pigeon",
+    "status": [
+      "IN"
+    ],
+    "note": "23, 24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Patagioenas leucocephala",
+    "commonName": "White-crowned Pigeon",
+    "status": [],
+    "note": "25, 26, 27"
+  },
+  {
+    "type": "species",
+    "scientificName": "Patagioenas speciosa",
+    "commonName": "Scaled Pigeon",
+    "status": [],
+    "note": "27"
+  },
+  {
+    "type": "species",
+    "scientificName": "Patagioenas squamosa",
+    "commonName": "Scaly-naped Pigeon",
+    "status": [],
+    "note": "27, 28"
+  },
+  {
+    "type": "species",
+    "scientificName": "Patagioenas picazuro",
+    "commonName": "Picazuro Pigeon",
+    "status": [],
+    "note": "27"
+  },
+  {
+    "type": "species",
+    "scientificName": "Patagioenas corensis",
+    "commonName": "Bare-eyed Pigeon",
+    "status": [],
+    "note": "27"
+  },
+  {
+    "type": "species",
+    "scientificName": "Patagioenas maculosa",
+    "commonName": "Spot-winged Pigeon",
+    "status": [],
+    "note": "27, 29"
+  },
+  {
+    "type": "species",
+    "scientificName": "Patagioenas fasciata",
+    "commonName": "Band-tailed Pigeon",
+    "status": [],
+    "note": "30, 31"
+  },
+  {
+    "type": "species",
+    "scientificName": "Patagioenas araucana",
+    "commonName": "Chilean Pigeon",
+    "status": [],
+    "note": "30"
+  },
+  {
+    "type": "species",
+    "scientificName": "Patagioenas cayennensis",
+    "commonName": "Pale-vented Pigeon",
+    "status": [],
+    "note": "32, 33"
+  },
+  {
+    "type": "species",
+    "scientificName": "Patagioenas oenops",
+    "commonName": "Peruvian Pigeon",
+    "status": [],
+    "note": "34, 35"
+  },
+  {
+    "type": "species",
+    "scientificName": "Patagioenas plumbea",
+    "commonName": "Plumbeous Pigeon",
+    "status": [],
+    "note": "36, 36a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Patagioenas subvinacea",
+    "commonName": "Ruddy Pigeon",
+    "status": [],
+    "note": "36, 37, 38"
+  },
+  {
+    "type": "species",
+    "scientificName": "Patagioenas nigrirostris",
+    "commonName": "Short-billed Pigeon",
+    "status": [],
+    "note": "36"
+  },
+  {
+    "type": "species",
+    "scientificName": "Patagioenas goodsoni",
+    "commonName": "Dusky Pigeon",
+    "status": [],
+    "note": "36, 39"
+  },
+  {
+    "type": "species",
+    "scientificName": "Streptopelia decaocto",
+    "commonName": "Eurasian Collared-Dove",
+    "status": [
+      "IN"
+    ],
+    "note": "39a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Geotrygon purpurata",
+    "commonName": "Purple Quail-Dove",
+    "status": [],
+    "note": "59, 61, 62, 63, 72"
+  },
+  {
+    "type": "species",
+    "scientificName": "Geotrygon saphirina",
+    "commonName": "Sapphire Quail-Dove",
+    "status": [],
+    "note": "59, 61, 62, 63"
+  },
+  {
+    "type": "species",
+    "scientificName": "Geotrygon montana",
+    "commonName": "Ruddy Quail-Dove",
+    "status": [],
+    "note": "71"
+  },
+  {
+    "type": "species",
+    "scientificName": "Geotrygon violacea",
+    "commonName": "Violaceous Quail-Dove",
+    "status": [],
+    "note": "71"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leptotrygon veraguensis",
+    "commonName": "Olive-backed Quail-Dove",
+    "status": [],
+    "note": "64, 65, 72"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leptotila verreauxi",
+    "commonName": "White-tipped Dove",
+    "status": [],
+    "note": "49, 50, 51"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leptotila cassinii",
+    "commonName": "Gray-chested Dove",
+    "status": [],
+    "note": "54, 54a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leptotila conoveri",
+    "commonName": "Tolima Dove",
+    "status": [],
+    "note": "54, 55"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leptotila ochraceiventris",
+    "commonName": "Ochre-bellied Dove",
+    "status": [],
+    "note": "54, 56"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leptotila plumbeiceps",
+    "commonName": "Gray-headed Dove",
+    "status": [],
+    "note": "53"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leptotila rufaxilla",
+    "commonName": "Gray-fronted Dove",
+    "status": [],
+    "note": "53"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leptotila pallida",
+    "commonName": "Pallid Dove",
+    "status": [],
+    "note": "53"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leptotila megalura",
+    "commonName": "Large-tailed Dove",
+    "status": [],
+    "note": "49, 52"
+  },
+  {
+    "type": "species",
+    "scientificName": "Zentrygon frenata",
+    "commonName": "White-throated Quail-Dove",
+    "status": [],
+    "note": "68, 69, 70, 71, 72"
+  },
+  {
+    "type": "species",
+    "scientificName": "Zentrygon linearis",
+    "commonName": "Lined Quail-Dove",
+    "status": [],
+    "note": "66, 66a, 67"
+  },
+  {
+    "type": "species",
+    "scientificName": "Zentrygon goldmani",
+    "commonName": "Russet-crowned Quail-Dove",
+    "status": [],
+    "note": "57, 59, 60"
+  },
+  {
+    "type": "species",
+    "scientificName": "Zenaida asiatica",
+    "commonName": "White-winged Dove",
+    "status": [
+      "V"
+    ],
+    "note": "43a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Zenaida meloda",
+    "commonName": "West Peruvian Dove",
+    "status": [],
+    "note": "40, 41, 42, 43, 57"
+  },
+  {
+    "type": "species",
+    "scientificName": "Zenaida galapagoensis",
+    "commonName": "Galapagos Dove",
+    "status": [],
+    "note": "44"
+  },
+  {
+    "type": "species",
+    "scientificName": "Zenaida auriculata",
+    "commonName": "Eared Dove",
+    "status": [],
+    "note": "45, 46"
+  },
+  {
+    "type": "species",
+    "scientificName": "Zenaida macroura",
+    "commonName": "Mourning Dove",
+    "status": [
+      "V"
+    ],
+    "note": "45, 47, 48"
+  },
+  {
+    "type": "subfamily",
+    "label": "Claravinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Claravis pretiosa",
+    "commonName": "Blue Ground Dove",
+    "status": [],
+    "note": "14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Uropelia campestris",
+    "commonName": "Long-tailed Ground Dove",
+    "status": [],
+    "note": "21, 22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Paraclaravis mondetoura",
+    "commonName": "Maroon-chested Ground Dove",
+    "status": [],
+    "note": "14a, 15, 16b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Paraclaravis geoffroyi",
+    "commonName": "Purple-winged Ground Dove",
+    "status": [],
+    "note": "14a, 16, 16a, 16b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Metriopelia ceciliae",
+    "commonName": "Bare-faced Ground Dove",
+    "status": [],
+    "note": "17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Metriopelia morenoi",
+    "commonName": "Bare-eyed Ground Dove",
+    "status": [],
+    "note": "17, 18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Metriopelia melanoptera",
+    "commonName": "Black-winged Ground Dove",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Metriopelia aymara",
+    "commonName": "Golden-spotted Ground Dove",
+    "status": [],
+    "note": "19, 20"
+  },
+  {
+    "type": "species",
+    "scientificName": "Columbina passerina",
+    "commonName": "Common Ground Dove",
+    "status": [],
+    "note": "2, 3, 4, 4a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Columbina minuta",
+    "commonName": "Plain-breasted Ground Dove",
+    "status": [],
+    "note": "2, 3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Columbina talpacoti",
+    "commonName": "Ruddy Ground Dove",
+    "status": [],
+    "note": "2, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Columbina buckleyi",
+    "commonName": "Ecuadorian Ground Dove",
+    "status": [],
+    "note": "2, 5, 6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Columbina squammata",
+    "commonName": "Scaled Dove",
+    "status": [],
+    "note": "7, 8, 9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Columbina picui",
+    "commonName": "Picui Ground Dove",
+    "status": [],
+    "note": "10, 11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Columbina cruziana",
+    "commonName": "Croaking Ground Dove",
+    "status": [],
+    "note": "10, 12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Columbina cyanopis",
+    "commonName": "Blue-eyed Ground Dove",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "order",
+    "label": "CUCULIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "CUCULIDAE (CUCKOOS)",
+    "note": ""
+  },
+  {
+    "type": "subfamily",
+    "label": "Crotophaginae",
+    "note": "7b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Guira guira",
+    "commonName": "Guira Cuckoo",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Crotophaga major",
+    "commonName": "Greater Ani",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Crotophaga ani",
+    "commonName": "Smooth-billed Ani",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Crotophaga sulcirostris",
+    "commonName": "Groove-billed Ani",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "subfamily",
+    "label": "Neomorphinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Tapera naevia",
+    "commonName": "Striped Cuckoo",
+    "status": [],
+    "note": "8, 8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dromococcyx phasianellus",
+    "commonName": "Pheasant Cuckoo",
+    "status": [],
+    "note": "8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Dromococcyx pavoninus",
+    "commonName": "Pavonine Cuckoo",
+    "status": [],
+    "note": "8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Neomorphus geoffroyi",
+    "commonName": "Rufous-vented Ground-Cuckoo",
+    "status": [],
+    "note": "9, 10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Neomorphus squamiger",
+    "commonName": "Scaled Ground-Cuckoo",
+    "status": [],
+    "note": "11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Neomorphus radiolosus",
+    "commonName": "Banded Ground-Cuckoo",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Neomorphus rufipennis",
+    "commonName": "Rufous-winged Ground-Cuckoo",
+    "status": [],
+    "note": "12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Neomorphus pucheranii",
+    "commonName": "Red-billed Ground-Cuckoo",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "subfamily",
+    "label": "Cuculinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Coccycua minuta",
+    "commonName": "Little Cuckoo",
+    "status": [],
+    "note": "2, 6, 7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Coccycua pumila",
+    "commonName": "Dwarf Cuckoo",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Coccycua cinerea",
+    "commonName": "Ash-colored Cuckoo",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Piaya cayana",
+    "commonName": "Squirrel Cuckoo",
+    "status": [],
+    "note": "6, 6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Piaya melanogaster",
+    "commonName": "Black-bellied Cuckoo",
+    "status": [],
+    "note": "6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Coccyzus melacoryphus",
+    "commonName": "Dark-billed Cuckoo",
+    "status": [],
+    "note": "2a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Coccyzus americanus",
+    "commonName": "Yellow-billed Cuckoo",
+    "status": [
+      "NB"
+    ],
+    "note": "2a, 3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Coccyzus euleri",
+    "commonName": "Pearly-breasted Cuckoo",
+    "status": [],
+    "note": "2a, 3, 4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Coccyzus minor",
+    "commonName": "Mangrove Cuckoo",
+    "status": [],
+    "note": "2a, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Coccyzus erythropthalmus",
+    "commonName": "Black-billed Cuckoo",
+    "status": [
+      "NB"
+    ],
+    "note": "2a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Coccyzus lansbergi",
+    "commonName": "Gray-capped Cuckoo",
+    "status": [],
+    "note": "2a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cuculus canorus",
+    "commonName": "Common Cuckoo",
+    "status": [
+      "V"
+    ],
+    "note": "7a"
+  },
+  {
+    "type": "order",
+    "label": "STEATORNITHIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "STEATORNITHIDAE (OILBIRD)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Steatornis caripensis",
+    "commonName": "Oilbird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "order",
+    "label": "NYCTIBIIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "NYCTIBIIDAE (POTOOS)",
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phyllaemulor bracteatus",
+    "commonName": "Rufous Potoo",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nyctibius grandis",
+    "commonName": "Great Potoo",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Nyctibius aethereus",
+    "commonName": "Long-tailed Potoo",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nyctibius griseus",
+    "commonName": "Common Potoo",
+    "status": [],
+    "note": "4, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nyctibius maculosus",
+    "commonName": "Andean Potoo",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nyctibius leucopterus",
+    "commonName": "White-winged Potoo",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "order",
+    "label": "CAPRIMULGIFORMES",
+    "note": ""
+  },
+  {
+    "type": "family",
+    "label": "CAPRIMULGIDAE (NIGHTJARS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chordeiles nacunda",
+    "commonName": "Nacunda Nighthawk",
+    "status": [],
+    "note": "3e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chordeiles pusillus",
+    "commonName": "Least Nighthawk",
+    "status": [],
+    "note": "2a, 2b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chordeiles rupestris",
+    "commonName": "Sand-colored Nighthawk",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Chordeiles acutipennis",
+    "commonName": "Lesser Nighthawk",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Chordeiles minor",
+    "commonName": "Common Nighthawk",
+    "status": [
+      "NB"
+    ],
+    "note": "3b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chordeiles gundlachii",
+    "commonName": "Antillean Nighthawk",
+    "status": [
+      "V"
+    ],
+    "note": "3c, 3d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nyctiprogne leucopyga",
+    "commonName": "Band-tailed Nighthawk",
+    "status": [],
+    "note": "3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nyctiprogne vielliardi",
+    "commonName": "Bahian Nighthawk",
+    "status": [],
+    "note": "3, 3aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lurocalis semitorquatus",
+    "commonName": "Short-tailed Nighthawk",
+    "status": [],
+    "note": "1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lurocalis rufiventris",
+    "commonName": "Rufous-bellied Nighthawk",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nyctipolus nigrescens",
+    "commonName": "Blackish Nightjar",
+    "status": [],
+    "note": "14, 14a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nyctipolus hirundinaceus",
+    "commonName": "Pygmy Nightjar",
+    "status": [],
+    "note": "14a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nyctidromus albicollis",
+    "commonName": "Common Pauraque",
+    "status": [],
+    "note": "4, 4a, 4b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nyctidromus anthonyi",
+    "commonName": "Scrub Nightjar",
+    "status": [],
+    "note": "12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tepuiornis whitelyi",
+    "commonName": "Roraiman Nightjar",
+    "status": [],
+    "note": "14, 14a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Uropsalis segmentata",
+    "commonName": "Swallow-tailed Nightjar",
+    "status": [],
+    "note": "16, 17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Uropsalis lyra",
+    "commonName": "Lyre-tailed Nightjar",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Quechuavis decussata",
+    "commonName": "Tschudi’s Nightjar",
+    "status": [],
+    "note": "9a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Setopagis heterura",
+    "commonName": "Todd's Nightjar",
+    "status": [],
+    "note": "11, 11a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Setopagis parvula",
+    "commonName": "Little Nightjar",
+    "status": [],
+    "note": "11, 12, 12a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Setopagis maculosa",
+    "commonName": "Cayenne Nightjar",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hydropsalis maculicaudus",
+    "commonName": "Spot-tailed Nightjar",
+    "status": [],
+    "note": "10a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hydropsalis forcipata",
+    "commonName": "Long-trained Nightjar",
+    "status": [],
+    "note": "17, 18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hydropsalis cayennensis",
+    "commonName": "White-tailed Nightjar",
+    "status": [],
+    "note": "9b, 9c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hydropsalis climacocerca",
+    "commonName": "Ladder-tailed Nightjar",
+    "status": [],
+    "note": "14b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hydropsalis torquata",
+    "commonName": "Scissor-tailed Nightjar",
+    "status": [],
+    "note": "14c, 15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Systellura longirostris",
+    "commonName": "Band-winged Nightjar",
+    "status": [],
+    "note": "9a, 9b,"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eleothreptus candicans",
+    "commonName": "White-winged Nightjar",
+    "status": [],
+    "note": "10, 9b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eleothreptus anomalus",
+    "commonName": "Sickle-winged Nightjar",
+    "status": [],
+    "note": "10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nyctiphrynus rosenbergi",
+    "commonName": "Choco Poorwill",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nyctiphrynus ocellatus",
+    "commonName": "Ocellated Poorwill",
+    "status": [],
+    "note": "5b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Antrostomus sericocaudatus",
+    "commonName": "Silky-tailed Nightjar",
+    "status": [],
+    "note": "6b, 8, 9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Antrostomus carolinensis",
+    "commonName": "Chuck-will's-widow",
+    "status": [
+      "NB"
+    ],
+    "note": "6, 6a, 6b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Antrostomus rufus",
+    "commonName": "Rufous Nightjar",
+    "status": [],
+    "note": "6, 6b, 7"
+  }
+]

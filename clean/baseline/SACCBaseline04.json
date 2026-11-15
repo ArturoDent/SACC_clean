@@ -1,0 +1,4028 @@
+[
+  {
+    "type": "order",
+    "label": "OPISTHOCOMIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "OPISTHOCOMIDAE (HOATZIN)",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Opisthocomus hoazin",
+    "commonName": "Hoatzin",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "order",
+    "label": "GRUIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "ARAMIDAE (LIMPKIN)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aramus guarauna",
+    "commonName": "Limpkin",
+    "status": [],
+    "note": "1a"
+  },
+  {
+    "type": "family",
+    "label": "PSOPHIIDAE (TRUMPETERS)",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Psophia crepitans",
+    "commonName": "Gray-winged Trumpeter",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Psophia leucoptera",
+    "commonName": "Pale-winged Trumpeter",
+    "status": [],
+    "note": "2, 3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Psophia viridis",
+    "commonName": "Dark-winged Trumpeter",
+    "status": [],
+    "note": "2, 4"
+  },
+  {
+    "type": "family",
+    "label": "RALLIDAE (RAILS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Crex crex",
+    "commonName": "Corn Crake",
+    "status": [
+      "V"
+    ],
+    "note": "14b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rallus longirostris",
+    "commonName": "Mangrove Rail",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rallus wetmorei",
+    "commonName": "Plain-flanked Rail",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rallus limicola",
+    "commonName": "Virginia Rail",
+    "status": [],
+    "note": "4, 4a, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rallus semiplumbeus",
+    "commonName": "Bogota Rail",
+    "status": [],
+    "note": "5, 6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rallus antarcticus",
+    "commonName": "Austral Rail",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Porphyrio martinica",
+    "commonName": "Purple Gallinule",
+    "status": [],
+    "note": "24, 25, 26, 27, 27a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Porphyrio flavirostris",
+    "commonName": "Azure Gallinule",
+    "status": [],
+    "note": "24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anurolimnas castaneiceps",
+    "commonName": "Chestnut-headed Crake",
+    "status": [],
+    "note": "8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anurolimnas viridis",
+    "commonName": "Russet-crowned Crake",
+    "status": [],
+    "note": "8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anurolimnas fasciatus",
+    "commonName": "Black-banded Crake",
+    "status": [],
+    "note": "8, 9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Laterallus levraudi",
+    "commonName": "Rusty-flanked Crake",
+    "status": [],
+    "note": "10, 10a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Laterallus melanophaius",
+    "commonName": "Rufous-sided Crake",
+    "status": [],
+    "note": "10, 10a, 11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Laterallus albigularis",
+    "commonName": "White-throated Crake",
+    "status": [],
+    "note": "11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Laterallus exilis",
+    "commonName": "Gray-breasted Crake",
+    "status": [],
+    "note": "11a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Laterallus spilonota",
+    "commonName": "Galapagos Rail",
+    "status": [],
+    "note": "12, 12a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Laterallus jamaicensis",
+    "commonName": "Black Rail",
+    "status": [],
+    "note": "12, 13, 13a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Laterallus leucopyrrhus",
+    "commonName": "Red-and-white Crake",
+    "status": [],
+    "note": "14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Laterallus xenopterus",
+    "commonName": "Rufous-faced Crake",
+    "status": [],
+    "note": "14,14a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Coturnicops notatus",
+    "commonName": "Speckled Rail",
+    "status": [],
+    "note": "1a, 1b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Micropygia schomburgkii",
+    "commonName": "Ocellated Crake",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mustelirallus albicollis",
+    "commonName": "Ash-throated Crake",
+    "status": [],
+    "note": "19a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mustelirallus colombianus",
+    "commonName": "Colombian Crake",
+    "status": [],
+    "note": "18, 19, 19a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Mustelirallus erythrops",
+    "commonName": "Paint-billed Crake",
+    "status": [],
+    "note": "18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pardirallus maculatus",
+    "commonName": "Spotted Rail",
+    "status": [],
+    "note": "20"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pardirallus nigricans",
+    "commonName": "Blackish Rail",
+    "status": [],
+    "note": "20, 21"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pardirallus sanguinolentus",
+    "commonName": "Plumbeous Rail",
+    "status": [],
+    "note": "20, 21"
+  },
+  {
+    "type": "species",
+    "scientificName": "Amaurolimnas concolor",
+    "commonName": "Uniform Crake",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aramides ypecaha",
+    "commonName": "Giant Wood-Rail",
+    "status": [],
+    "note": "5a, 5aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aramides wolfi",
+    "commonName": "Brown Wood-Rail",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Aramides mangle",
+    "commonName": "Little Wood-Rail",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Aramides cajaneus",
+    "commonName": "Gray-cowled Wood-Rail",
+    "status": [],
+    "note": "5b, 5c, 5d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aramides axillaris",
+    "commonName": "Rufous-necked Wood-Rail",
+    "status": [],
+    "note": "6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aramides calopterus",
+    "commonName": "Red-winged Wood-Rail",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Aramides saracura",
+    "commonName": "Slaty-breasted Wood-Rail",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Porphyriops melanops",
+    "commonName": "Spot-flanked Gallinule",
+    "status": [],
+    "note": "23"
+  },
+  {
+    "type": "species",
+    "scientificName": "Porzana flaviventer",
+    "commonName": "Yellow-breasted Crake",
+    "status": [],
+    "note": "15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Porzana spiloptera",
+    "commonName": "Dot-winged Crake",
+    "status": [],
+    "note": "16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Porzana carolina",
+    "commonName": "Sora",
+    "status": [
+      "NB"
+    ],
+    "note": "17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Gallinula galeata",
+    "commonName": "Common Gallinule",
+    "status": [],
+    "note": "22, 22a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Gallinula angulata",
+    "commonName": "Lesser Moorhen",
+    "status": [
+      "V"
+    ],
+    "note": "22b, 22c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Fulica rufifrons",
+    "commonName": "Red-fronted Coot",
+    "status": [],
+    "note": "24a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Fulica cornuta",
+    "commonName": "Horned Coot",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Fulica gigantea",
+    "commonName": "Giant Coot",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Fulica armillata",
+    "commonName": "Red-gartered Coot",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Fulica americana",
+    "commonName": "American Coot",
+    "status": [],
+    "note": "28, 29"
+  },
+  {
+    "type": "species",
+    "scientificName": "Fulica ardesiaca",
+    "commonName": "Slate-colored Coot",
+    "status": [],
+    "note": "29, 30, 31"
+  },
+  {
+    "type": "species",
+    "scientificName": "Fulica leucoptera",
+    "commonName": "White-winged Coot",
+    "status": [],
+    "note": "29"
+  },
+  {
+    "type": "family",
+    "label": "HELIORNITHIDAE (FINFOOTS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Heliornis fulica",
+    "commonName": "Sungrebe",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "order",
+    "label": "CHARADRIIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "suborder",
+    "label": "Charadrii",
+    "note": ""
+  },
+  {
+    "type": "family",
+    "label": "CHARADRIIDAE (PLOVERS)",
+    "note": "1"
+  },
+  {
+    "type": "subfamily",
+    "label": "Pluvialinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pluvialis squatarola",
+    "commonName": "Black-bellied Plover",
+    "status": [
+      "NB"
+    ],
+    "note": "5b, 6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pluvialis dominica",
+    "commonName": "American Golden-Plover",
+    "status": [
+      "NB"
+    ],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pluvialis fulva",
+    "commonName": "Pacific Golden-Plover",
+    "status": [
+      "V"
+    ],
+    "note": "5a"
+  },
+  {
+    "type": "subfamily",
+    "label": "Charadriinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Oreopholus ruficollis",
+    "commonName": "Tawny-throated Dotterel",
+    "status": [],
+    "note": "17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hoploxypterus cayanus",
+    "commonName": "Pied Lapwing",
+    "status": [],
+    "note": "1a, 1b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phegornis mitchellii",
+    "commonName": "Diademed Sandpiper-Plover",
+    "status": [],
+    "note": "15, 16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Zonibyx modestus",
+    "commonName": "Rufous-chested Dotterel",
+    "status": [],
+    "note": "14, 14a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Charadrius vociferus",
+    "commonName": "Killdeer",
+    "status": [],
+    "note": "9b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Charadrius semipalmatus",
+    "commonName": "Semipalmated Plover",
+    "status": [
+      "NB"
+    ],
+    "note": "7, 7a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Charadrius melodus",
+    "commonName": "Piping Plover",
+    "status": [
+      "V"
+    ],
+    "note": "8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Vanellus chilensis",
+    "commonName": "Southern Lapwing",
+    "status": [],
+    "note": "2, 3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Vanellus resplendens",
+    "commonName": "Andean Lapwing",
+    "status": [],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anarhynchus mongolus",
+    "commonName": "Lesser Sand-Plover",
+    "status": [
+      "V"
+    ],
+    "note": "7a, 13a, 13b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anarhynchus wilsonia",
+    "commonName": "Wilson's Plover",
+    "status": [],
+    "note": "9, 9a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anarhynchus collaris",
+    "commonName": "Collared Plover",
+    "status": [],
+    "note": "12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anarhynchus alticola",
+    "commonName": "Puna Plover",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anarhynchus falklandicus",
+    "commonName": "Two-banded Plover",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anarhynchus nivosus",
+    "commonName": "Snowy Plover",
+    "status": [],
+    "note": "10, 11"
+  },
+  {
+    "type": "family",
+    "label": "HAEMATOPODIDAE (OYSTERCATCHERS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Haematopus palliatus",
+    "commonName": "American Oystercatcher",
+    "status": [],
+    "note": "2, 3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Haematopus ater",
+    "commonName": "Blackish Oystercatcher",
+    "status": [],
+    "note": "3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Haematopus leucopodus",
+    "commonName": "Magellanic Oystercatcher",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "family",
+    "label": "RECURVIROSTRIDAE (AVOCETS and STILTS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Himantopus mexicanus",
+    "commonName": "Black-necked Stilt",
+    "status": [],
+    "note": "4, 4a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Recurvirostra americana",
+    "commonName": "American Avocet",
+    "status": [
+      "V"
+    ],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Recurvirostra andina",
+    "commonName": "Andean Avocet",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "family",
+    "label": "BURHINIDAE (THICK-KNEES)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hesperoburhinus bistriatus",
+    "commonName": "Double-striped Thick-knee",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hesperoburhinus superciliaris",
+    "commonName": "Peruvian Thick-knee",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "family",
+    "label": "CHIONIDAE (SHEATHBILLS)",
+    "note": "1, 2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chionis albus",
+    "commonName": "Snowy Sheathbill",
+    "status": [
+      "NB"
+    ],
+    "note": "3, 4"
+  },
+  {
+    "type": "family",
+    "label": "PLUVIANELLIDAE (MAGELLANIC PLOVER)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pluvianellus socialis",
+    "commonName": "Magellanic Plover",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "suborder",
+    "label": "Scolopaci",
+    "note": ""
+  },
+  {
+    "type": "family",
+    "label": "SCOLOPACIDAE (SANDPIPERS)",
+    "note": "1"
+  },
+  {
+    "type": "subfamily",
+    "label": "Numeniinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Bartramia longicauda",
+    "commonName": "Upland Sandpiper",
+    "status": [
+      "NB"
+    ],
+    "note": "12d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Numenius borealis",
+    "commonName": "Eskimo Curlew",
+    "status": [
+      "NB",
+      "EX?"
+    ],
+    "note": "11a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Numenius phaeopus",
+    "commonName": "Whimbrel",
+    "status": [
+      "NB"
+    ],
+    "note": "12, 12a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Numenius americanus",
+    "commonName": "Long-billed Curlew",
+    "status": [
+      "V"
+    ],
+    "note": "12b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Numenius arquata",
+    "commonName": "Eurasian Curlew",
+    "status": [
+      "V"
+    ],
+    "note": "12c"
+  },
+  {
+    "type": "subfamily",
+    "label": "Limosinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Limosa lapponica",
+    "commonName": "Bar-tailed Godwit",
+    "status": [
+      "V"
+    ],
+    "note": "10a, 11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Limosa limosa",
+    "commonName": "Black-tailed Godwit",
+    "status": [
+      "V"
+    ],
+    "note": "10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Limosa haemastica",
+    "commonName": "Hudsonian Godwit",
+    "status": [
+      "NB"
+    ],
+    "note": "10a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Limosa fedoa",
+    "commonName": "Marbled Godwit",
+    "status": [
+      "NB"
+    ],
+    "note": "10a"
+  },
+  {
+    "type": "subfamily",
+    "label": "Arenariinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Arenaria interpres",
+    "commonName": "Ruddy Turnstone",
+    "status": [
+      "NB"
+    ],
+    "note": "19"
+  },
+  {
+    "type": "species",
+    "scientificName": "Calidris canutus",
+    "commonName": "Red Knot",
+    "status": [
+      "NB"
+    ],
+    "note": "21a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Calidris virgata",
+    "commonName": "Surfbird",
+    "status": [
+      "NB"
+    ],
+    "note": "21"
+  },
+  {
+    "type": "species",
+    "scientificName": "Calidris pugnax",
+    "commonName": "Ruff",
+    "status": [
+      "V"
+    ],
+    "note": "27b, 28"
+  },
+  {
+    "type": "species",
+    "scientificName": "Calidris acuminata",
+    "commonName": "Sharp-tailed Sandpiper",
+    "status": [
+      "V"
+    ],
+    "note": "24b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Calidris himantopus",
+    "commonName": "Stilt Sandpiper",
+    "status": [
+      "NB"
+    ],
+    "note": "27"
+  },
+  {
+    "type": "species",
+    "scientificName": "Calidris ferruginea",
+    "commonName": "Curlew Sandpiper",
+    "status": [
+      "V"
+    ],
+    "note": "24, 26"
+  },
+  {
+    "type": "species",
+    "scientificName": "Calidris alba",
+    "commonName": "Sanderling",
+    "status": [
+      "NB"
+    ],
+    "note": "22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Calidris alpina",
+    "commonName": "Dunlin",
+    "status": [
+      "V"
+    ],
+    "note": "24, 25, 25a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Calidris bairdii",
+    "commonName": "Baird's Sandpiper",
+    "status": [
+      "NB"
+    ],
+    "note": "24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Calidris minuta",
+    "commonName": "Little Stint",
+    "status": [
+      "V"
+    ],
+    "note": "24c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Calidris minutilla",
+    "commonName": "Least Sandpiper",
+    "status": [
+      "NB"
+    ],
+    "note": "24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Calidris fuscicollis",
+    "commonName": "White-rumped Sandpiper",
+    "status": [
+      "NB"
+    ],
+    "note": "24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Calidris subruficollis",
+    "commonName": "Buff-breasted Sandpiper",
+    "status": [
+      "NB"
+    ],
+    "note": "27a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Calidris melanotos",
+    "commonName": "Pectoral Sandpiper",
+    "status": [
+      "NB"
+    ],
+    "note": "24, 24a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Calidris pusilla",
+    "commonName": "Semipalmated Sandpiper",
+    "status": [
+      "NB"
+    ],
+    "note": "23"
+  },
+  {
+    "type": "species",
+    "scientificName": "Calidris mauri",
+    "commonName": "Western Sandpiper",
+    "status": [
+      "NB"
+    ],
+    "note": "23"
+  },
+  {
+    "type": "subfamily",
+    "label": "Scolopacinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Limnodromus griseus",
+    "commonName": "Short-billed Dowitcher",
+    "status": [
+      "NB"
+    ],
+    "note": "9a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Limnodromus scolopaceus",
+    "commonName": "Long-billed Dowitcher",
+    "status": [
+      "V"
+    ],
+    "note": "9b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Gallinago imperialis",
+    "commonName": "Imperial Snipe",
+    "status": [],
+    "note": "5, 8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Gallinago jamesoni",
+    "commonName": "Jameson’s Snipe",
+    "status": [],
+    "note": "5, 6, 7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Gallinago stricklandii",
+    "commonName": "Fuegian Snipe",
+    "status": [],
+    "note": "5, 6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Gallinago nobilis",
+    "commonName": "Noble Snipe",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Gallinago undulata",
+    "commonName": "Giant Snipe",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Gallinago delicata",
+    "commonName": "Wilson's Snipe",
+    "status": [
+      "NB"
+    ],
+    "note": "1a, 2, 3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Gallinago paraguaiae",
+    "commonName": "Pantanal Snipe",
+    "status": [],
+    "note": "3, 4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Gallinago magellanica",
+    "commonName": "Magellanic Snipe",
+    "status": [],
+    "note": "3, 4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Gallinago andina",
+    "commonName": "Puna Snipe",
+    "status": [],
+    "note": "3, 4"
+  },
+  {
+    "type": "subfamily",
+    "label": "Tringinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Phalaropus tricolor",
+    "commonName": "Wilson's Phalarope",
+    "status": [
+      "NB"
+    ],
+    "note": "29, 30"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phalaropus lobatus",
+    "commonName": "Red-necked Phalarope",
+    "status": [
+      "NB"
+    ],
+    "note": "29, 31, 32"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phalaropus fulicarius",
+    "commonName": "Red Phalarope",
+    "status": [
+      "NB"
+    ],
+    "note": "29, 33"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xenus cinereus",
+    "commonName": "Terek Sandpiper",
+    "status": [
+      "V"
+    ],
+    "note": "17, 18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Actitis macularius",
+    "commonName": "Spotted Sandpiper",
+    "status": [
+      "NB"
+    ],
+    "note": "15, 16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tringa solitaria",
+    "commonName": "Solitary Sandpiper",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Tringa incana",
+    "commonName": "Wandering Tattler",
+    "status": [
+      "NB"
+    ],
+    "note": "14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tringa nebularia",
+    "commonName": "Common Greenshank",
+    "status": [
+      "V"
+    ],
+    "note": "13a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tringa melanoleuca",
+    "commonName": "Greater Yellowlegs",
+    "status": [
+      "NB"
+    ],
+    "note": "13b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tringa semipalmata",
+    "commonName": "Willet",
+    "status": [],
+    "note": "13c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tringa flavipes",
+    "commonName": "Lesser Yellowlegs",
+    "status": [
+      "NB"
+    ],
+    "note": "13b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tringa erythropus",
+    "commonName": "Spotted Redshank",
+    "status": [
+      "V"
+    ],
+    "note": "13d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tringa totanus",
+    "commonName": "Common Redshank",
+    "status": [
+      "V"
+    ],
+    "note": "13e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tringa glareola",
+    "commonName": "Wood Sandpiper",
+    "status": [
+      "V"
+    ],
+    "note": "13f"
+  },
+  {
+    "type": "family",
+    "label": "THINOCORIDAE (SEEDSNIPES)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Attagis gayi",
+    "commonName": "Rufous-bellied Seedsnipe",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Attagis malouinus",
+    "commonName": "White-bellied Seedsnipe",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Thinocorus orbignyianus",
+    "commonName": "Gray-breasted Seedsnipe",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Thinocorus rumicivorus",
+    "commonName": "Least Seedsnipe",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "family",
+    "label": "JACANIDAE (JACANAS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Jacana jacana",
+    "commonName": "Wattled Jacana",
+    "status": [],
+    "note": "2, 3"
+  },
+  {
+    "type": "family",
+    "label": "ROSTRATULIDAE (PAINTED-SNIPES)",
+    "note": "1, 1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nycticryphes semicollaris",
+    "commonName": "South American Painted-snipe",
+    "status": [],
+    "note": "4, 5"
+  },
+  {
+    "type": "suborder",
+    "label": "Lari",
+    "note": ""
+  },
+  {
+    "type": "family",
+    "label": "GLAREOLIDAE (PRATINCOLES)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Glareola pratincola",
+    "commonName": "Collared Pratincole",
+    "status": [
+      "V"
+    ],
+    "note": "2"
+  },
+  {
+    "type": "family",
+    "label": "STERCORARIIDAE (SKUAS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stercorarius skua",
+    "commonName": "Great Skua",
+    "status": [
+      "V"
+    ],
+    "note": "2, 2a, 3, 4, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stercorarius chilensis",
+    "commonName": "Chilean Skua",
+    "status": [],
+    "note": "2, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stercorarius maccormicki",
+    "commonName": "South Polar Skua",
+    "status": [
+      "NB"
+    ],
+    "note": "2, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stercorarius antarcticus",
+    "commonName": "Brown Skua",
+    "status": [],
+    "note": "2, 5, 6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stercorarius pomarinus",
+    "commonName": "Pomarine Jaeger",
+    "status": [
+      "NB"
+    ],
+    "note": "7, 8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stercorarius parasiticus",
+    "commonName": "Parasitic Jaeger",
+    "status": [
+      "NB"
+    ],
+    "note": "9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Stercorarius longicaudus",
+    "commonName": "Long-tailed Jaeger",
+    "status": [
+      "NB"
+    ],
+    "note": "10"
+  },
+  {
+    "type": "family",
+    "label": "LARIDAE (GULLS AND TERNS)",
+    "note": "1"
+  },
+  {
+    "type": "subfamily",
+    "label": "Anoinae",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anous stolidus",
+    "commonName": "Brown Noddy",
+    "status": [],
+    "note": "10a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anous minutus",
+    "commonName": "Black Noddy",
+    "status": [],
+    "note": "18, 19, 19a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Anous albivitta",
+    "commonName": "Gray Noddy",
+    "status": [],
+    "note": "20, 20a"
+  },
+  {
+    "type": "subfamily",
+    "label": "Gyginae",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Gygis alba",
+    "commonName": "Atlantic White-Tern",
+    "status": [],
+    "note": "10a, 21, 22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Gygis candida",
+    "commonName": "Blue-billed White-Tern",
+    "status": [],
+    "note": "10a, 21, 22"
+  },
+  {
+    "type": "subfamily",
+    "label": "Rynchopinae",
+    "note": "1, 1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rynchops niger",
+    "commonName": "Black Skimmer",
+    "status": [],
+    "note": "2a, 3a, 4d"
+  },
+  {
+    "type": "subfamily",
+    "label": "Larinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Creagrus furcatus",
+    "commonName": "Swallow-tailed Gull",
+    "status": [],
+    "note": "9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rissa tridactyla",
+    "commonName": "Black-legged Kittiwake",
+    "status": [
+      "V"
+    ],
+    "note": "8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xema sabini",
+    "commonName": "Sabine's Gull",
+    "status": [
+      "NB"
+    ],
+    "note": "8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chroicocephalus philadelphia",
+    "commonName": "Bonaparte's Gull",
+    "status": [
+      "V"
+    ],
+    "note": "8b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chroicocephalus serranus",
+    "commonName": "Andean Gull",
+    "status": [],
+    "note": "6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chroicocephalus maculipennis",
+    "commonName": "Brown-hooded Gull",
+    "status": [],
+    "note": "6a, 6b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chroicocephalus cirrocephalus",
+    "commonName": "Gray-hooded Gull",
+    "status": [],
+    "note": "6, 6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chroicocephalus ridibundus",
+    "commonName": "Black-headed Gull",
+    "status": [
+      "V"
+    ],
+    "note": "6aa, 6aaa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hydrocoloeus minutus",
+    "commonName": "Little Gull",
+    "status": [
+      "V"
+    ],
+    "note": "7, 7a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leucophaeus scoresbii",
+    "commonName": "Dolphin Gull",
+    "status": [],
+    "note": "1b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leucophaeus modestus",
+    "commonName": "Gray Gull",
+    "status": [],
+    "note": "1c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leucophaeus atricilla",
+    "commonName": "Laughing Gull",
+    "status": [],
+    "note": "6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leucophaeus pipixcan",
+    "commonName": "Franklin's Gull",
+    "status": [
+      "NB"
+    ],
+    "note": "6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leucophaeus fuliginosus",
+    "commonName": "Lava Gull",
+    "status": [],
+    "note": "6c, 6d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ichthyaetus audouinii",
+    "commonName": "Audouin's Gull",
+    "status": [
+      "V"
+    ],
+    "note": "6e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Larus belcheri",
+    "commonName": "Belcher's Gull",
+    "status": [],
+    "note": "2, 3, 6c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Larus atlanticus",
+    "commonName": "Olrog's Gull",
+    "status": [],
+    "note": "2, 6c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Larus delawarensis",
+    "commonName": "Ring-billed Gull",
+    "status": [
+      "V"
+    ],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Larus californicus",
+    "commonName": "California Gull",
+    "status": [
+      "V"
+    ],
+    "note": "4a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Larus marinus",
+    "commonName": "Great Black-backed Gull",
+    "status": [
+      "V"
+    ],
+    "note": "4b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Larus dominicanus",
+    "commonName": "Kelp Gull",
+    "status": [],
+    "note": "4c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Larus fuscus",
+    "commonName": "Lesser Black-backed Gull",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Larus argentatus",
+    "commonName": "Herring Gull",
+    "status": [
+      "NB"
+    ],
+    "note": "5"
+  },
+  {
+    "type": "subfamily",
+    "label": "Sterninae",
+    "note": "10a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Onychoprion fuscatus",
+    "commonName": "Sooty Tern",
+    "status": [],
+    "note": "16b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Onychoprion anaethetus",
+    "commonName": "Bridled Tern",
+    "status": [],
+    "note": "16b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sternula antillarum",
+    "commonName": "Least Tern",
+    "status": [],
+    "note": "16, 16a, 16aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sternula superciliaris",
+    "commonName": "Yellow-billed Tern",
+    "status": [],
+    "note": "16a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sternula lorata",
+    "commonName": "Peruvian Tern",
+    "status": [],
+    "note": "16a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaetusa simplex",
+    "commonName": "Large-billed Tern",
+    "status": [],
+    "note": "17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Gelochelidon nilotica",
+    "commonName": "Gull-billed Tern",
+    "status": [],
+    "note": "10b, 10c, 10d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hydroprogne caspia",
+    "commonName": "Caspian Tern",
+    "status": [
+      "NB"
+    ],
+    "note": "11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Larosterna inca",
+    "commonName": "Inca Tern",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlidonias hybrida",
+    "commonName": "Whiskered Tern",
+    "status": [
+      "V"
+    ],
+    "note": "16f"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlidonias niger",
+    "commonName": "Black Tern",
+    "status": [
+      "NB"
+    ],
+    "note": "16c, 16d, 16g"
+  },
+  {
+    "type": "species",
+    "scientificName": "Chlidonias leucopterus",
+    "commonName": "White-winged Tern",
+    "status": [
+      "V"
+    ],
+    "note": "16e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sterna hirundo",
+    "commonName": "Common Tern",
+    "status": [],
+    "note": "13a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sterna dougallii",
+    "commonName": "Roseate Tern",
+    "status": [],
+    "note": "13a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sterna paradisaea",
+    "commonName": "Arctic Tern",
+    "status": [
+      "NB"
+    ],
+    "note": "13a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sterna hirundinacea",
+    "commonName": "South American Tern",
+    "status": [],
+    "note": "13a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sterna vittata",
+    "commonName": "Antarctic Tern",
+    "status": [
+      "NB"
+    ],
+    "note": "13a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sterna forsteri",
+    "commonName": "Forster's Tern",
+    "status": [
+      "V"
+    ],
+    "note": "13a, 14, 14a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sterna trudeaui",
+    "commonName": "Snowy-crowned Tern",
+    "status": [],
+    "note": "13a, 14a, 15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thalasseus elegans",
+    "commonName": "Elegant Tern",
+    "status": [
+      "NB"
+    ],
+    "note": "12, 12a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thalasseus sandvicensis",
+    "commonName": "Sandwich Tern",
+    "status": [],
+    "note": "12, 12a, 13, 13b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thalasseus maximus",
+    "commonName": "Royal Tern",
+    "status": [],
+    "note": "12, 12a"
+  },
+  {
+    "type": "order",
+    "label": "EURYPYGIFORMES",
+    "note": ""
+  },
+  {
+    "type": "family",
+    "label": "EURYPYGIDAE (SUNBITTERN)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eurypyga helias",
+    "commonName": "Sunbittern",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "order",
+    "label": "PHAETHONTIFORMES",
+    "note": ""
+  },
+  {
+    "type": "family",
+    "label": "PHAETHONTIDAE (TROPICBIRDS)",
+    "note": "1, 2, 3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethon aethereus",
+    "commonName": "Red-billed Tropicbird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethon rubricauda",
+    "commonName": "Red-tailed Tropicbird",
+    "status": [],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phaethon lepturus",
+    "commonName": "White-tailed Tropicbird",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "order",
+    "label": "SPHENISCIFORMES",
+    "note": ""
+  },
+  {
+    "type": "family",
+    "label": "SPHENISCIDAE (PENGUINS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aptenodytes patagonicus",
+    "commonName": "King Penguin",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Aptenodytes forsteri",
+    "commonName": "Emperor Penguin",
+    "status": [
+      "V"
+    ],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pygoscelis papua",
+    "commonName": "Gentoo Penguin",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pygoscelis adeliae",
+    "commonName": "Adelie Penguin",
+    "status": [
+      "V"
+    ],
+    "note": "3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pygoscelis antarcticus",
+    "commonName": "Chinstrap Penguin",
+    "status": [
+      "NB"
+    ],
+    "note": "3, 3b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eudyptula minor",
+    "commonName": "Little Penguin",
+    "status": [
+      "V"
+    ],
+    "note": "11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Spheniscus humboldti",
+    "commonName": "Humboldt Penguin",
+    "status": [],
+    "note": "12 12a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Spheniscus mendiculus",
+    "commonName": "Galapagos Penguin",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Spheniscus magellanicus",
+    "commonName": "Magellanic Penguin",
+    "status": [],
+    "note": "12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eudyptes sclateri",
+    "commonName": "Erect-crested Penguin",
+    "status": [
+      "V"
+    ],
+    "note": "6, 7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eudyptes chrysolophus",
+    "commonName": "Macaroni Penguin",
+    "status": [],
+    "note": "10, 10a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eudyptes moseleyi",
+    "commonName": "Tristan Penguin",
+    "status": [
+      "V"
+    ],
+    "note": "8, 8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eudyptes chrysocome",
+    "commonName": "Rockhopper Penguin",
+    "status": [],
+    "note": "8, 9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eudyptes robustus",
+    "commonName": "Snares Penguin",
+    "status": [
+      "V"
+    ],
+    "note": "4, 5"
+  },
+  {
+    "type": "order",
+    "label": "PROCELLARIIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "DIOMEDEIDAE (ALBATROSSES)",
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phoebastria irrorata",
+    "commonName": "Waved Albatross",
+    "status": [],
+    "note": "3, 4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Diomedea epomophora",
+    "commonName": "Royal Albatross",
+    "status": [
+      "NB"
+    ],
+    "note": "3, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Diomedea exulans",
+    "commonName": "Wandering Albatross",
+    "status": [
+      "NB"
+    ],
+    "note": "6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phoebetria fusca",
+    "commonName": "Sooty Albatross",
+    "status": [
+      "V"
+    ],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phoebetria palpebrata",
+    "commonName": "Light-mantled Albatross",
+    "status": [
+      "NB"
+    ],
+    "note": "8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thalassarche chlororhynchos",
+    "commonName": "Yellow-nosed Albatross",
+    "status": [
+      "NB"
+    ],
+    "note": "3, 9, 9a, 9b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thalassarche melanophris",
+    "commonName": "Black-browed Albatross",
+    "status": [],
+    "note": "10, 11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thalassarche chrysostoma",
+    "commonName": "Gray-headed Albatross",
+    "status": [],
+    "note": "11a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thalassarche bulleri",
+    "commonName": "Buller's Albatross",
+    "status": [
+      "NB"
+    ],
+    "note": "12, 12a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thalassarche cauta",
+    "commonName": "White-capped Albatross",
+    "status": [
+      "NB"
+    ],
+    "note": "13,14, 14a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thalassarche salvini",
+    "commonName": "Salvin's Albatross",
+    "status": [
+      "NB"
+    ],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thalassarche eremita",
+    "commonName": "Chatham Albatross",
+    "status": [
+      "NB"
+    ],
+    "note": "13"
+  },
+  {
+    "type": "family",
+    "label": "OCEANITIDAE (SOUTHERN STORM-PETRELS)",
+    "note": "1, 1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Fregetta grallaria",
+    "commonName": "White-bellied Storm-Petrel",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Fregetta tropica",
+    "commonName": "Black-bellied Storm-Petrel",
+    "status": [
+      "NB"
+    ],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oceanites oceanicus",
+    "commonName": "Wilson's Storm-Petrel",
+    "status": [],
+    "note": "2a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oceanites pincoyae",
+    "commonName": "Pincoya Storm-Petrel",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Oceanites gracilis",
+    "commonName": "Elliot's Storm-Petrel",
+    "status": [],
+    "note": "3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Garrodia nereis",
+    "commonName": "Gray-backed Storm-Petrel",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pelagodroma marina",
+    "commonName": "White-faced Storm-Petrel",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "family",
+    "label": "HYDROBATIDAE (NORTHERN STORM-PETRELS)",
+    "note": "1, 1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hydrobates microsoma",
+    "commonName": "Least Storm-Petrel",
+    "status": [
+      "NB"
+    ],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hydrobates tethys",
+    "commonName": "Wedge-rumped Storm-Petrel",
+    "status": [],
+    "note": "4, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hydrobates castro",
+    "commonName": "Band-rumped Storm-Petrel",
+    "status": [],
+    "note": "5a, 5b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hydrobates leucorhous",
+    "commonName": "Leach's Storm-Petrel",
+    "status": [
+      "NB"
+    ],
+    "note": "6, 6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hydrobates markhami",
+    "commonName": "Markham's Storm-Petrel",
+    "status": [],
+    "note": "6a, 7, 7a, 8, 9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hydrobates hornbyi",
+    "commonName": "Hornby’s Storm-Petrel",
+    "status": [],
+    "note": "10, 10a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Hydrobates melania",
+    "commonName": "Black Storm-Petrel",
+    "status": [
+      "NB"
+    ],
+    "note": "4, 11, 12"
+  },
+  {
+    "type": "family",
+    "label": "PROCELLARIIDAE (SHEARWATERS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Macronectes giganteus",
+    "commonName": "Southern Giant-Petrel",
+    "status": [],
+    "note": "2, 3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Macronectes halli",
+    "commonName": "Northern Giant-Petrel",
+    "status": [
+      "NB"
+    ],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Fulmarus glacialis",
+    "commonName": "Northern Fulmar",
+    "status": [
+      "V"
+    ],
+    "note": "2a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Fulmarus glacialoides",
+    "commonName": "Southern Fulmar",
+    "status": [
+      "NB"
+    ],
+    "note": "2b, 2bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Thalassoica antarctica",
+    "commonName": "Antarctic Petrel",
+    "status": [
+      "V"
+    ],
+    "note": "2c, 2d, 2e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Daption capense",
+    "commonName": "Pintado Petrel",
+    "status": [
+      "NB"
+    ],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pagodroma nivea",
+    "commonName": "Snow Petrel",
+    "status": [
+      "V"
+    ],
+    "note": "4a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aphrodroma brevirostris",
+    "commonName": "Kerguelen Petrel",
+    "status": [
+      "NB"
+    ],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pterodroma leucoptera",
+    "commonName": "Gould's Petrel",
+    "status": [
+      "V"
+    ],
+    "note": "5a, 6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pterodroma macroptera",
+    "commonName": "Great-winged Petrel",
+    "status": [
+      "V"
+    ],
+    "note": "5b, 5c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pterodroma mollis",
+    "commonName": "Soft-plumaged Petrel",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pterodroma hasitata",
+    "commonName": "Black-capped Petrel",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pterodroma incerta",
+    "commonName": "Atlantic Petrel",
+    "status": [
+      "NB"
+    ],
+    "note": "6a, 6b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pterodroma lessonii",
+    "commonName": "White-headed Petrel",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pterodroma cookii",
+    "commonName": "Cook's Petrel",
+    "status": [
+      "NB"
+    ],
+    "note": "7, 10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pterodroma nigripennis",
+    "commonName": "Black-winged Petrel",
+    "status": [
+      "V"
+    ],
+    "note": "7a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pterodroma axillaris",
+    "commonName": "Chatham Petrel",
+    "status": [
+      "V"
+    ],
+    "note": "7b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pterodroma defilippiana",
+    "commonName": "Masatierra Petrel",
+    "status": [],
+    "note": "8, 9, 10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pterodroma longirostris",
+    "commonName": "Stejneger's Petrel",
+    "status": [],
+    "note": "10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pterodroma ultima",
+    "commonName": "Murphy’s Petrel",
+    "status": [
+      "V"
+    ],
+    "note": "10b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pterodroma neglecta",
+    "commonName": "Kermadec Petrel",
+    "status": [],
+    "note": "10a, 10c9."
+  },
+  {
+    "type": "species",
+    "scientificName": "Pterodroma arminjoniana",
+    "commonName": "Trindade Petrel",
+    "status": [],
+    "note": "10a, 12, 12a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pterodroma inexpectata",
+    "commonName": "Mottled Petrel",
+    "status": [
+      "V"
+    ],
+    "note": "11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pterodroma phaeopygia",
+    "commonName": "Galapagos Petrel",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pterodroma externa",
+    "commonName": "Juan Fernandez Petrel",
+    "status": [],
+    "note": "14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pterodroma feae",
+    "commonName": "Fea's Petrel",
+    "status": [],
+    "note": "14a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Halobaena caerulea",
+    "commonName": "Blue Petrel",
+    "status": [],
+    "note": "14b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pachyptila turtur",
+    "commonName": "Fairy Prion",
+    "status": [],
+    "note": "15, 15aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pachyptila vittata",
+    "commonName": "Broad-billed Prion",
+    "status": [
+      "V"
+    ],
+    "note": "15a, 15b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pachyptila desolata",
+    "commonName": "Antarctic Prion",
+    "status": [
+      "NB"
+    ],
+    "note": "15, 16, 16a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pachyptila belcheri",
+    "commonName": "Slender-billed Prion",
+    "status": [],
+    "note": "17, 17a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Bulweria bulwerii",
+    "commonName": "Bulwer's Petrel",
+    "status": [
+      "V"
+    ],
+    "note": "18, 18a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Procellaria cinerea",
+    "commonName": "Gray Petrel",
+    "status": [
+      "V"
+    ],
+    "note": "18a, 19a, 19b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Procellaria aequinoctialis",
+    "commonName": "White-chinned Petrel",
+    "status": [],
+    "note": "20, 20a, 21"
+  },
+  {
+    "type": "species",
+    "scientificName": "Procellaria conspicillata",
+    "commonName": "Spectacled Petrel",
+    "status": [
+      "NB"
+    ],
+    "note": "20, 21, 21a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Procellaria parkinsoni",
+    "commonName": "Parkinson's Petrel",
+    "status": [
+      "NB"
+    ],
+    "note": "21, 22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Procellaria westlandica",
+    "commonName": "Westland Petrel",
+    "status": [
+      "NB"
+    ],
+    "note": "21"
+  },
+  {
+    "type": "species",
+    "scientificName": "Calonectris diomedea",
+    "commonName": "Cory's Shearwater",
+    "status": [
+      "NB"
+    ],
+    "note": "23, 24, 24a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Calonectris edwardsii",
+    "commonName": "Cape Verde Shearwater",
+    "status": [
+      "V"
+    ],
+    "note": "23, 24"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ardenna pacifica",
+    "commonName": "Wedge-tailed Shearwater",
+    "status": [
+      "V"
+    ],
+    "note": "23a, 23b, 23c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ardenna bulleri",
+    "commonName": "Buller's Shearwater",
+    "status": [
+      "NB"
+    ],
+    "note": "25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ardenna tenuirostris",
+    "commonName": "Short-tailed Shearwater",
+    "status": [
+      "V"
+    ],
+    "note": "25b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ardenna grisea",
+    "commonName": "Sooty Shearwater",
+    "status": [],
+    "note": "25a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ardenna gravis",
+    "commonName": "Great Shearwater",
+    "status": [],
+    "note": "26"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ardenna creatopus",
+    "commonName": "Pink-footed Shearwater",
+    "status": [],
+    "note": "27"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ardenna carneipes",
+    "commonName": "Flesh-footed Shearwater",
+    "status": [
+      "NB"
+    ],
+    "note": "27, 27a, 27b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Puffinus nativitatis",
+    "commonName": "Christmas Shearwater",
+    "status": [
+      "V"
+    ],
+    "note": "28b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Puffinus puffinus",
+    "commonName": "Manx Shearwater",
+    "status": [
+      "NB"
+    ],
+    "note": "28, 28a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Puffinus subalaris",
+    "commonName": "Galapagos Shearwater",
+    "status": [],
+    "note": "31"
+  },
+  {
+    "type": "species",
+    "scientificName": "Puffinus assimilis",
+    "commonName": "Little Shearwater",
+    "status": [
+      "NB"
+    ],
+    "note": "29, 28a, 31a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Puffinus lherminieri",
+    "commonName": "Audubon's Shearwater",
+    "status": [],
+    "note": "28a, 29, 30, 31, 31a, 31b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pelecanoides garnotii",
+    "commonName": "Peruvian Diving-Petrel",
+    "status": [],
+    "note": "32, 33"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pelecanoides urinatrix",
+    "commonName": "Common Diving-Petrel",
+    "status": [],
+    "note": "34, 35, 36"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pelecanoides georgicus",
+    "commonName": "South Georgia Diving-Petrel",
+    "status": [
+      "V"
+    ],
+    "note": "33, 37"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pelecanoides magellani",
+    "commonName": "Magellanic Diving-Petrel",
+    "status": [],
+    "note": "33"
+  },
+  {
+    "type": "order",
+    "label": "CICONIIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "CICONIIDAE (STORKS)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ciconia maguari",
+    "commonName": "Maguari Stork",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Jabiru mycteria",
+    "commonName": "Jabiru",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Mycteria americana",
+    "commonName": "Wood Stork",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "order",
+    "label": "SULIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "FREGATIDAE (FRIGATEBIRDS)",
+    "note": "16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Fregata ariel",
+    "commonName": "Lesser Frigatebird",
+    "status": [],
+    "note": "16a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Fregata magnificens",
+    "commonName": "Magnificent Frigatebird",
+    "status": [],
+    "note": "17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Fregata minor",
+    "commonName": "Great Frigatebird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Fregata aquila",
+    "commonName": "Ascension Frigatebird",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "family",
+    "label": "SULIDAE (BOOBIES)",
+    "note": "3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Morus capensis",
+    "commonName": "Cape Gannet",
+    "status": [
+      "V"
+    ],
+    "note": "4, 5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Morus serrator",
+    "commonName": "Australasian Gannet",
+    "status": [
+      "V"
+    ],
+    "note": "4, 6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sula nebouxii",
+    "commonName": "Blue-footed Booby",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Sula variegata",
+    "commonName": "Peruvian Booby",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Sula dactylatra",
+    "commonName": "Masked Booby",
+    "status": [],
+    "note": "7, 7a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sula granti",
+    "commonName": "Nazca Booby",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sula sula",
+    "commonName": "Red-footed Booby",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Sula leucogaster",
+    "commonName": "Brown Booby",
+    "status": [],
+    "note": "7b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sula brewsteri",
+    "commonName": "Brewster’s Booby",
+    "status": [],
+    "note": "7b"
+  },
+  {
+    "type": "family",
+    "label": "ANHINGIDAE (ANHINGAS)",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Anhinga anhinga",
+    "commonName": "Anhinga",
+    "status": [],
+    "note": "15"
+  },
+  {
+    "type": "family",
+    "label": "PHALACROCORACIDAE (CORMORANTS)",
+    "note": "8"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phalacrocorax gaimardi",
+    "commonName": "Red-legged Cormorant",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Phalacrocorax harrisi",
+    "commonName": "Flightless Cormorant",
+    "status": [],
+    "note": "9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phalacrocorax brasilianus",
+    "commonName": "Neotropic Cormorant",
+    "status": [],
+    "note": "9, 10, 10a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phalacrocorax magellanicus",
+    "commonName": "Magellanic Cormorant",
+    "status": [],
+    "note": "11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phalacrocorax bougainvillii",
+    "commonName": "Guanay Cormorant",
+    "status": [],
+    "note": "12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phalacrocorax atriceps",
+    "commonName": "Imperial Cormorant",
+    "status": [],
+    "note": "13, 13a, 14"
+  },
+  {
+    "type": "order",
+    "label": "PELECANIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "PELECANIDAE (PELICANS)",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pelecanus occidentalis",
+    "commonName": "Brown Pelican",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pelecanus thagus",
+    "commonName": "Peruvian Pelican",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "family",
+    "label": "ARDEIDAE (HERONS)",
+    "note": "1"
+  },
+  {
+    "type": "subfamily",
+    "label": "Tigriornithinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Tigrisoma lineatum",
+    "commonName": "Rufescent Tiger-Heron",
+    "status": [],
+    "note": "2a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tigrisoma mexicanum",
+    "commonName": "Bare-throated Tiger-Heron",
+    "status": [],
+    "note": "2b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tigrisoma fasciatum",
+    "commonName": "Fasciated Tiger-Heron",
+    "status": [],
+    "note": "2a"
+  },
+  {
+    "type": "subfamily",
+    "label": "Cochleariinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Cochlearius cochlearius",
+    "commonName": "Boat-billed Heron",
+    "status": [],
+    "note": "4, 4a"
+  },
+  {
+    "type": "subfamily",
+    "label": "Agamiinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Agamia agami",
+    "commonName": "Agami Heron",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "subfamily",
+    "label": "Botaurinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Zebrilus undulatus",
+    "commonName": "Zigzag Heron",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ixobrychus involucris",
+    "commonName": "Stripe-backed Bittern",
+    "status": [],
+    "note": "8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ixobrychus exilis",
+    "commonName": "Least Bittern",
+    "status": [],
+    "note": "9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Botaurus pinnatus",
+    "commonName": "Pinnated Bittern",
+    "status": [],
+    "note": "8, 8a"
+  },
+  {
+    "type": "subfamily",
+    "label": "Ardeinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pilherodius pileatus",
+    "commonName": "Capped Heron",
+    "status": [],
+    "note": "20"
+  },
+  {
+    "type": "species",
+    "scientificName": "Syrigma sibilatrix",
+    "commonName": "Whistling Heron",
+    "status": [],
+    "note": "19"
+  },
+  {
+    "type": "species",
+    "scientificName": "Egretta caerulea",
+    "commonName": "Little Blue Heron",
+    "status": [],
+    "note": "21, 26"
+  },
+  {
+    "type": "species",
+    "scientificName": "Egretta tricolor",
+    "commonName": "Tricolored Heron",
+    "status": [],
+    "note": "21, 21a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Egretta rufescens",
+    "commonName": "Reddish Egret",
+    "status": [],
+    "note": "21, 22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Egretta thula",
+    "commonName": "Snowy Egret",
+    "status": [],
+    "note": "25, 25a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Egretta garzetta",
+    "commonName": "Little Egret",
+    "status": [
+      "V"
+    ],
+    "note": "24, 25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Egretta gularis",
+    "commonName": "Western Reef-Heron",
+    "status": [
+      "V"
+    ],
+    "note": "23, 25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nyctanassa violacea",
+    "commonName": "Yellow-crowned Night Heron",
+    "status": [],
+    "note": "6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Nycticorax nycticorax",
+    "commonName": "Black-crowned Night Heron",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Butorides striata",
+    "commonName": "Striated Heron",
+    "status": [],
+    "note": "10, 12, 13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Butorides virescens",
+    "commonName": "Green Heron",
+    "status": [],
+    "note": "10, 11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ardeola ralloides",
+    "commonName": "Squacco Heron",
+    "status": [
+      "V"
+    ],
+    "note": "13a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ardea ibis",
+    "commonName": "Cattle Egret",
+    "status": [],
+    "note": "14, 14a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ardea alba",
+    "commonName": "Great Egret",
+    "status": [],
+    "note": "18, 18a, 18b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ardea cinerea",
+    "commonName": "Gray Heron",
+    "status": [
+      "V"
+    ],
+    "note": "15, 16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ardea herodias",
+    "commonName": "Great Blue Heron",
+    "status": [],
+    "note": "16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ardea cocoi",
+    "commonName": "Cocoi Heron",
+    "status": [],
+    "note": "16, 17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ardea purpurea",
+    "commonName": "Purple Heron",
+    "status": [
+      "V"
+    ],
+    "note": "17a"
+  },
+  {
+    "type": "family",
+    "label": "THRESKIORNITHIDAE (IBISES)",
+    "note": "1, 1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eudocimus albus",
+    "commonName": "White Ibis",
+    "status": [],
+    "note": "2, 3, 3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Eudocimus ruber",
+    "commonName": "Scarlet Ibis",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Plegadis falcinellus",
+    "commonName": "Glossy Ibis",
+    "status": [],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Plegadis chihi",
+    "commonName": "White-faced Ibis",
+    "status": [],
+    "note": "4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Plegadis ridgwayi",
+    "commonName": "Puna Ibis",
+    "status": [],
+    "note": "5"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cercibis oxycerca",
+    "commonName": "Sharp-tailed Ibis",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Mesembrinibis cayennensis",
+    "commonName": "Green Ibis",
+    "status": [],
+    "note": "6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Phimosus infuscatus",
+    "commonName": "Bare-faced Ibis",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Theristicus caerulescens",
+    "commonName": "Plumbeous Ibis",
+    "status": [],
+    "note": "8, 8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Theristicus caudatus",
+    "commonName": "Buff-necked Ibis",
+    "status": [],
+    "note": "9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Theristicus branickii",
+    "commonName": "Andean Ibis",
+    "status": [],
+    "note": "9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Theristicus melanopis",
+    "commonName": "Black-faced Ibis",
+    "status": [],
+    "note": "9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Platalea leucorodia",
+    "commonName": "Eurasian Spoonbill",
+    "status": [
+      "V"
+    ],
+    "note": "10"
+  },
+  {
+    "type": "species",
+    "scientificName": "Platalea ajaja",
+    "commonName": "Roseate Spoonbill",
+    "status": [],
+    "note": "11"
+  },
+  {
+    "type": "order",
+    "label": "CATHARTIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "CATHARTIDAE (NEW WORLD VULTURES)",
+    "note": "1"
+  },
+  {
+    "type": "species",
+    "scientificName": "Sarcoramphus papa",
+    "commonName": "King Vulture",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Vultur gryphus",
+    "commonName": "Andean Condor",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Coragyps atratus",
+    "commonName": "Black Vulture",
+    "status": [],
+    "note": "6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cathartes aura",
+    "commonName": "Turkey Vulture",
+    "status": [],
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cathartes burrovianus",
+    "commonName": "Lesser Yellow-headed Vulture",
+    "status": [],
+    "note": "3, 4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cathartes melambrotus",
+    "commonName": "Greater Yellow-headed Vulture",
+    "status": [],
+    "note": "3, 5"
+  },
+  {
+    "type": "order",
+    "label": "ACCIPITRIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "PANDIONIDAE (OSPREY)",
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pandion haliaetus",
+    "commonName": "Osprey",
+    "status": [
+      "NB"
+    ],
+    "note": "2a"
+  },
+  {
+    "type": "family",
+    "label": "ACCIPITRIDAE (HAWKS)",
+    "note": "3"
+  },
+  {
+    "type": "subfamily",
+    "label": "Elaninae",
+    "note": "3a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Gampsonyx swainsonii",
+    "commonName": "Pearl Kite",
+    "status": [],
+    "note": "5a, 5c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Elanus leucurus",
+    "commonName": "White-tailed Kite",
+    "status": [],
+    "note": "5b, 5c"
+  },
+  {
+    "type": "subfamily",
+    "label": "Gypaetinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Chondrohierax uncinatus",
+    "commonName": "Hook-billed Kite",
+    "status": [],
+    "note": "4b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leptodon cayanensis",
+    "commonName": "Gray-headed Kite",
+    "status": [],
+    "note": "3b, 3c, 3d, 4"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leptodon forbesi",
+    "commonName": "White-collared Kite",
+    "status": [],
+    "note": "3d, 4, 4a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Elanoides forficatus",
+    "commonName": "Swallow-tailed Kite",
+    "status": [],
+    "note": "3d, 5"
+  },
+  {
+    "type": "subfamily",
+    "label": "Accipitrinae",
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Morphnus guianensis",
+    "commonName": "Crested Eagle",
+    "status": [],
+    "note": "27, 27a, 27b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Harpia harpyja",
+    "commonName": "Harpy Eagle",
+    "status": [],
+    "note": "27a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Spizaetus tyrannus",
+    "commonName": "Black Hawk-Eagle",
+    "status": [],
+    "note": "30"
+  },
+  {
+    "type": "species",
+    "scientificName": "Spizaetus melanoleucus",
+    "commonName": "Black-and-white Hawk-Eagle",
+    "status": [],
+    "note": "30"
+  },
+  {
+    "type": "species",
+    "scientificName": "Spizaetus ornatus",
+    "commonName": "Ornate Hawk-Eagle",
+    "status": [],
+    "note": "28, 30"
+  },
+  {
+    "type": "species",
+    "scientificName": "Spizaetus isidori",
+    "commonName": "Black-and-chestnut Eagle",
+    "status": [],
+    "note": "29, 30, 30a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Busarellus nigricollis",
+    "commonName": "Black-collared Hawk",
+    "status": [],
+    "note": "17a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rostrhamus sociabilis",
+    "commonName": "Snail Kite",
+    "status": [],
+    "note": "6, 6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Helicolestes hamatus",
+    "commonName": "Slender-billed Kite",
+    "status": [],
+    "note": "7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Harpagus bidentatus",
+    "commonName": "Double-toothed Kite",
+    "status": [],
+    "note": "6a, 7c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Harpagus diodon",
+    "commonName": "Rufous-thighed Kite",
+    "status": [],
+    "note": "6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ictinia mississippiensis",
+    "commonName": "Mississippi Kite",
+    "status": [
+      "NB"
+    ],
+    "note": "6a, 7a, 7b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Ictinia plumbea",
+    "commonName": "Plumbeous Kite",
+    "status": [],
+    "note": "6a, 7a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Accipiter poliogaster",
+    "commonName": "Gray-bellied Hawk",
+    "status": [],
+    "note": "9, 9a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Accipiter striatus",
+    "commonName": "Sharp-shinned Hawk",
+    "status": [],
+    "note": "10, 10a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Astur cooperii",
+    "commonName": "Cooper's Hawk",
+    "status": [
+      "V"
+    ],
+    "note": "11, 11a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Astur bicolor",
+    "commonName": "Bicolored Hawk",
+    "status": [],
+    "note": "11a, 12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Circus hudsonius",
+    "commonName": "Northern Harrier",
+    "status": [
+      "NB"
+    ],
+    "note": "8a, 8aa, 8b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Circus cinereus",
+    "commonName": "Cinereous Harrier",
+    "status": [],
+    "note": "8b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Circus buffoni",
+    "commonName": "Long-winged Harrier",
+    "status": [],
+    "note": "8c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Microspizias superciliosus",
+    "commonName": "Tiny Hawk",
+    "status": [],
+    "note": "9aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Microspizias collaris",
+    "commonName": "Semicollared Hawk",
+    "status": [],
+    "note": "9aa"
+  },
+  {
+    "type": "species",
+    "scientificName": "Milvus migrans",
+    "commonName": "Black Kite",
+    "status": [
+      "V"
+    ],
+    "note": "11f"
+  },
+  {
+    "type": "species",
+    "scientificName": "Geranospiza caerulescens",
+    "commonName": "Crane Hawk",
+    "status": [],
+    "note": "11b, 11c, 11d, 11e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Cryptoleucopteryx plumbea",
+    "commonName": "Plumbeous Hawk",
+    "status": [],
+    "note": "12b, 12c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Buteogallus schistaceus",
+    "commonName": "Slate-colored Hawk",
+    "status": [],
+    "note": "12b, 12c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Buteogallus anthracinus",
+    "commonName": "Common Black Hawk",
+    "status": [],
+    "note": "14, 14a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Buteogallus aequinoctialis",
+    "commonName": "Rufous Crab Hawk",
+    "status": [],
+    "note": "14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Buteogallus meridionalis",
+    "commonName": "Savanna Hawk",
+    "status": [],
+    "note": "15"
+  },
+  {
+    "type": "species",
+    "scientificName": "Buteogallus lacernulatus",
+    "commonName": "White-necked Hawk",
+    "status": [],
+    "note": "12b, 12d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Buteogallus urubitinga",
+    "commonName": "Great Black Hawk",
+    "status": [],
+    "note": "14b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Buteogallus solitarius",
+    "commonName": "Solitary Eagle",
+    "status": [],
+    "note": "16, 16b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Buteogallus coronatus",
+    "commonName": "Chaco Eagle",
+    "status": [],
+    "note": "16, 17"
+  },
+  {
+    "type": "species",
+    "scientificName": "Morphnarchus princeps",
+    "commonName": "Barred Hawk",
+    "status": [],
+    "note": "12bb"
+  },
+  {
+    "type": "species",
+    "scientificName": "Rupornis magnirostris",
+    "commonName": "Roadside Hawk",
+    "status": [],
+    "note": "20, 20a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Parabuteo unicinctus",
+    "commonName": "Harris's Hawk",
+    "status": [],
+    "note": "19, 19a, 19b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Parabuteo leucorrhous",
+    "commonName": "White-rumped Hawk",
+    "status": [],
+    "note": "21"
+  },
+  {
+    "type": "species",
+    "scientificName": "Geranoaetus albicaudatus",
+    "commonName": "White-tailed Hawk",
+    "status": [],
+    "note": "23, 23a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Geranoaetus polyosoma",
+    "commonName": "Variable Hawk",
+    "status": [],
+    "note": "23a, 24, 25"
+  },
+  {
+    "type": "species",
+    "scientificName": "Geranoaetus melanoleucus",
+    "commonName": "Black-chested Buzzard-Eagle",
+    "status": [],
+    "note": "18, 18a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudastur polionotus",
+    "commonName": "Mantled Hawk",
+    "status": [],
+    "note": "12b, 12e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudastur albicollis",
+    "commonName": "White Hawk",
+    "status": [],
+    "note": "12e, 12f"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pseudastur occidentalis",
+    "commonName": "Gray-backed Hawk",
+    "status": [],
+    "note": "12e, 12f"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leucopternis semiplumbeus",
+    "commonName": "Semiplumbeous Hawk",
+    "status": [],
+    "note": "12b, 12d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leucopternis melanops",
+    "commonName": "Black-faced Hawk",
+    "status": [],
+    "note": "12d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Leucopternis kuhli",
+    "commonName": "White-browed Hawk",
+    "status": [],
+    "note": "12d"
+  },
+  {
+    "type": "species",
+    "scientificName": "Buteo nitidus",
+    "commonName": "Gray-lined Hawk",
+    "status": [],
+    "note": "13, 13a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Buteo platypterus",
+    "commonName": "Broad-winged Hawk",
+    "status": [
+      "NB"
+    ],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Buteo albigula",
+    "commonName": "White-throated Hawk",
+    "status": [],
+    "note": "22"
+  },
+  {
+    "type": "species",
+    "scientificName": "Buteo brachyurus",
+    "commonName": "Short-tailed Hawk",
+    "status": [],
+    "note": "22, 22a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Buteo swainsoni",
+    "commonName": "Swainson's Hawk",
+    "status": [
+      "NB"
+    ],
+    "note": "23"
+  },
+  {
+    "type": "species",
+    "scientificName": "Buteo galapagoensis",
+    "commonName": "Galapagos Hawk",
+    "status": [],
+    "note": "23"
+  },
+  {
+    "type": "species",
+    "scientificName": "Buteo albonotatus",
+    "commonName": "Zone-tailed Hawk",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Buteo jamaicensis",
+    "commonName": "Red-tailed Hawk",
+    "status": [
+      "V"
+    ],
+    "note": "31"
+  },
+  {
+    "type": "species",
+    "scientificName": "Buteo ventralis",
+    "commonName": "Rufous-tailed Hawk",
+    "status": [],
+    "note": "26"
+  },
+  {
+    "type": "order",
+    "label": "STRIGIFORMES",
+    "note": "1"
+  },
+  {
+    "type": "family",
+    "label": "TYTONIDAE (BARN OWLS)",
+    "note": "1a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Tyto furcata",
+    "commonName": "American Barn Owl",
+    "status": [],
+    "note": "1b, 1c, 1d, 1e"
+  },
+  {
+    "type": "family",
+    "label": "STRIGIDAE (OWLS)",
+    "note": "2"
+  },
+  {
+    "type": "species",
+    "scientificName": "Megascops clarkii",
+    "commonName": "Bare-shanked Screech-Owl",
+    "status": [],
+    "note": "2a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Megascops albogularis",
+    "commonName": "White-throated Screech-Owl",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Megascops choliba",
+    "commonName": "Tropical Screech-Owl",
+    "status": [],
+    "note": "2b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Megascops koepckeae",
+    "commonName": "Koepcke's Screech-Owl",
+    "status": [],
+    "note": "3"
+  },
+  {
+    "type": "species",
+    "scientificName": "Megascops ingens",
+    "commonName": "Rufescent Screech-Owl",
+    "status": [],
+    "note": "4, 4a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Megascops petersoni",
+    "commonName": "Cinnamon Screech-Owl",
+    "status": [],
+    "note": "5, 6"
+  },
+  {
+    "type": "species",
+    "scientificName": "Megascops marshalli",
+    "commonName": "Cloud-forest Screech-Owl",
+    "status": [],
+    "note": "5a, 6, 6a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Megascops hoyi",
+    "commonName": "Montane Forest Screech-Owl",
+    "status": [],
+    "note": "6, 8, 10,11"
+  },
+  {
+    "type": "species",
+    "scientificName": "Megascops centralis",
+    "commonName": "Choco Screech-Owl",
+    "status": [],
+    "note": "8, 8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Megascops roraimae",
+    "commonName": "Foothill Screech-Owl",
+    "status": [],
+    "note": "8, 8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Megascops sanctaecatarinae",
+    "commonName": "Long-tufted Screech-Owl",
+    "status": [],
+    "note": "8a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Megascops gilesi",
+    "commonName": "Santa Marta Screech-Owl",
+    "status": [],
+    "note": "2e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Megascops roboratus",
+    "commonName": "Peruvian Screech-Owl",
+    "status": [],
+    "note": "2b, 2c, 2d, 2e"
+  },
+  {
+    "type": "species",
+    "scientificName": "Megascops watsonii",
+    "commonName": "Tawny-bellied Screech-Owl",
+    "status": [],
+    "note": "2e, 7"
+  },
+  {
+    "type": "species",
+    "scientificName": "Megascops atricapilla",
+    "commonName": "Black-capped Screech-Owl",
+    "status": [],
+    "note": "2e, 8a, 7, 9"
+  },
+  {
+    "type": "species",
+    "scientificName": "Lophostrix cristata",
+    "commonName": "Crested Owl",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Pulsatrix perspicillata",
+    "commonName": "Spectacled Owl",
+    "status": [],
+    "note": "12"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pulsatrix koeniswaldiana",
+    "commonName": "Tawny-browed Owl",
+    "status": [],
+    "note": "12a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Pulsatrix melanota",
+    "commonName": "Band-bellied Owl",
+    "status": [],
+    "note": "12a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Bubo nigrescens",
+    "commonName": "Paramo Horned Owl",
+    "status": [],
+    "note": "13, 13a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Bubo nacurutu",
+    "commonName": "Tropical Horned Owl",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Bubo magellanicus",
+    "commonName": "Magellanic Horned Owl",
+    "status": [],
+    "note": "13"
+  },
+  {
+    "type": "species",
+    "scientificName": "Strix hylophila",
+    "commonName": "Rusty-barred Owl",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Strix chacoensis",
+    "commonName": "Chaco Owl",
+    "status": [],
+    "note": "14"
+  },
+  {
+    "type": "species",
+    "scientificName": "Strix rufipes",
+    "commonName": "Rufous-legged Owl",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Strix virgata",
+    "commonName": "Mottled Owl",
+    "status": [],
+    "note": "15, 15a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Strix nigrolineata",
+    "commonName": "Black-and-white Owl",
+    "status": [],
+    "note": "15b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Strix huhula",
+    "commonName": "Black-banded Owl",
+    "status": [],
+    "note": "15b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Strix albitarsis",
+    "commonName": "Rufous-banded Owl",
+    "status": [],
+    "note": "16"
+  },
+  {
+    "type": "species",
+    "scientificName": "Glaucidium nubicola",
+    "commonName": "Cloud-forest Pygmy-Owl",
+    "status": [],
+    "note": "17, 17a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Glaucidium jardinii",
+    "commonName": "Andean Pygmy-Owl",
+    "status": [],
+    "note": "18"
+  },
+  {
+    "type": "species",
+    "scientificName": "Glaucidium bolivianum",
+    "commonName": "Yungas Pygmy-Owl",
+    "status": [],
+    "note": "19"
+  },
+  {
+    "type": "species",
+    "scientificName": "Glaucidium parkeri",
+    "commonName": "Subtropical Pygmy-Owl",
+    "status": [],
+    "note": "20"
+  },
+  {
+    "type": "species",
+    "scientificName": "Glaucidium griseiceps",
+    "commonName": "Central American Pygmy-Owl",
+    "status": [],
+    "note": "22, 22a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Glaucidium hardyi",
+    "commonName": "Amazonian Pygmy-Owl",
+    "status": [],
+    "note": "21, 22, 22a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Glaucidium mooreorum",
+    "commonName": "Pernambuco Pygmy-Owl",
+    "status": [],
+    "note": "22b"
+  },
+  {
+    "type": "species",
+    "scientificName": "Glaucidium minutissimum",
+    "commonName": "Least Pygmy-Owl",
+    "status": [],
+    "note": "22, 22c"
+  },
+  {
+    "type": "species",
+    "scientificName": "Glaucidium brasilianum",
+    "commonName": "Ferruginous Pygmy-Owl",
+    "status": [],
+    "note": "18, 23"
+  },
+  {
+    "type": "species",
+    "scientificName": "Glaucidium peruanum",
+    "commonName": "Peruvian Pygmy-Owl",
+    "status": [],
+    "note": "24, 24a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Glaucidium nana",
+    "commonName": "Austral Pygmy-Owl",
+    "status": [],
+    "note": "25, 25a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Xenoglaux loweryi",
+    "commonName": "Long-whiskered Owlet",
+    "status": [],
+    "note": "26"
+  },
+  {
+    "type": "species",
+    "scientificName": "Athene cunicularia",
+    "commonName": "Burrowing Owl",
+    "status": [],
+    "note": "27"
+  },
+  {
+    "type": "species",
+    "scientificName": "Aegolius harrisii",
+    "commonName": "Buff-fronted Owl",
+    "status": [],
+    "note": "27a"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asio clamator",
+    "commonName": "Striped Owl",
+    "status": [],
+    "note": "28, 29"
+  },
+  {
+    "type": "species",
+    "scientificName": "Asio stygius",
+    "commonName": "Stygian Owl",
+    "status": [],
+    "note": ""
+  },
+  {
+    "type": "species",
+    "scientificName": "Asio flammeus",
+    "commonName": "Short-eared Owl",
+    "status": [],
+    "note": "30"
+  }
+]

@@ -30,6 +30,57 @@ node src/index.js SACC6 SACC7    — processes named files in sequence
 
 node src/index.js SACCCountryLists (falls back to dirty/SACCCountryLists.htm)
 
+Each baseline part also writes clean/baseline/SACCBaselineNN.json - the parsed
+taxonomy rows (order/family/species...) the familySpeciesList markup was built
+from. Tracked in git, so after re-downloading a part, "git diff" on the .json
+shows what actually changed in the list without the markup noise.
+Species rows carry status codes in their own "status" field (e.g. ["V"],
+["NB", "EX?"]) rather than as a "(V)" suffix on the common name.
+
+node scripts/diffSpeciesList.js            - after downloading new dirty/baseline parts and BEFORE
+node scripts/diffSpeciesList.js SACC4      - re-running the pipeline: regenerates from dirty into a
+npm run diff-species-list                    temp dir and compares against the current sidecars.
+                                             Names each change: species added / removed / renamed /
+                                             reordered / moved between families or parts, status
+                                             or footnote changes, order/family header changes.
+                                             clean/ is not touched. Writes species-list-changes.md.
+node scripts/diffSpeciesList.js --git      - same comparison, but HEAD sidecars vs working tree
+                                             (for after the pipeline has already been re-run).
+
+----------------------------------------------------------------------------------------------------
+
+-------------------------  Spreadsheet vs baseline  -----------------------------------------------
+
+npm run verify-species-order                       - uses the newest .xlsx in spreadsheets/
+node spreadsheets/scripts/verifySpeciesOrder.js    - same
+node spreadsheets/scripts/verifySpeciesOrder.js spreadsheets/SomeOther.xlsx [--strict]
+
+Compares the SACCListByCountry spreadsheet (columns E/F = scientific/English name,
+G..Y = per-country status codes) against the clean/baseline/*.json sidecars.
+Does not read dirty/ - run diffSpeciesList.js first if the question is about
+freshly downloaded parts. Prints a summary (first 20 per section) and writes
+the full findings to spreadsheets/species-order-report.md, which has:
+
+  - Species out of order       minimal set of displaced species (LIS alignment, so a
+                               swap counts once), each shown with a row of context
+  - English name mismatches    same scientific name, different common name
+                               (typographic apostrophes/dashes are folded first)
+  - Scientific name spelling   paired by common name or near spelling, so a typo is
+    differences                not reported as one missing + one extra species
+  - Only in spreadsheet /      genuinely unmatched species
+    Only in baseline
+  - Status inconsistencies     the baseline tags a species once for the whole region
+                               ("(V)" = vagrant to South America); the sheet tags it
+                               per country. Flags species whose regional tag does not
+                               follow from the country codes: (V) should be V wherever
+                               it occurs, (NB) only NB/V, (IN) only IN/V, (EX) only EX,
+                               untagged should be resident (X) somewhere; U is ignored.
+                               Some will be deliberate judgments - the country codes
+                               are listed so each can be assessed.
+
+Locations link to the species' line in clean/baseline/*.htm. --strict exits 1
+when anything is found (for CI); otherwise the exit code is always 0.
+
 ----------------------------------------------------------------------------------------------------
 
 
@@ -72,8 +123,6 @@ node scripts/setStylesheetLink.js "../css/styles.css"          # clean/ root (SA
 node scripts/populateKnownDifferences.js
 node scripts/populateKnownDifferences.js SACC8 SACC9
 npm run populate-known-differences (after added to package.json)
-
-<span class="pendingProposal">[\s\n\S]*?</span>
 
 https://cleaned.potoococha.net
 
